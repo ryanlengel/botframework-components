@@ -1,0 +1,604 @@
+{
+  "intents": [
+    {
+      "name": "_Interruption"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ExpectedResponse_AddItem"
+    }
+  ],
+  "entities": [
+    {
+      "name": "itemTitle",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "listType",
+      "subLists": [
+        {
+          "canonicalForm": "todo",
+          "list": [
+            "to do",
+            "todos",
+            "laundry"
+          ]
+        },
+        {
+          "canonicalForm": "grocery",
+          "list": [
+            "groceries",
+            "fruits",
+            "vegetables",
+            "household items",
+            "house hold items"
+          ]
+        },
+        {
+          "canonicalForm": "shopping",
+          "list": [
+            "shop",
+            "shoppers"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "regex_entities": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "delete to do that go hiking tomorrow",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "can you please show my todos?",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove the to do physical examination",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove task go shopping",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "do i have anything left on my todo list?",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete to do buy milk",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "please show the list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove todo",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove another one",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "view my todos",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete task go to cinema tonight",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove the item paris from my list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "i'm done with the first todo",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete shampoo from shopping list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove asprin from shopping list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete off pancake mix on the shopping list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "clear my todo named get a new car",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "what can you do?",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete task go fishing",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove to do go to the gym",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove task that lawn mowing",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "show all my lists",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "erase bananas from shopping list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "hit me up with more items",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "can you show my todo",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove black shoes from shopping list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete the task that hit the gym every morning",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove the to do that pick tom up at six p.m.",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "flag first one as done",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "erase peanuts on the shopping list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove finish this demo from the todo list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "show my todo",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "what is on my list?",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete the to do that meet john when he come here the next friday",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "can you delete todo1",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "purge the todo list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "can you show me the list?",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "i need to see my todo list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete the to do that daily practice piano",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete todo",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete the item buy socks from my todo list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove task that go hiking this weekend",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete all my todos",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "what do i have on my list?",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "get started",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete shirts from list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "profile",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove class from todo list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "todo list please",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove task buy dog food",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "do i have any tasks left?",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove the task that go to library after work",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "please show my todo list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "can you delete xxx item",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "mark buy milk as complete",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "remove all my todo",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete the task house cleanup this weekend",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "i would like to see my todos list",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "delete the to do meet my friends tomorrow",
+      "intent": "_Interruption",
+      "entities": []
+    },
+    {
+      "text": "i need you to remember that my wife's birthday is jan 9th",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 28,
+          "endPos": 56
+        }
+      ]
+    },
+    {
+      "text": "put hikes on my to do list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "add call my mother to my todo list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "please remind me to buy milk",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 20,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "add an task of chores to do around the house",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 15,
+          "endPos": 43
+        }
+      ]
+    },
+    {
+      "text": "add a to do that purchase a nice sweater",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 17,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "create to do to go running in the park",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 16,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "add to my to do list print papers for 10 copies this afternoon",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 21,
+          "endPos": 61
+        }
+      ]
+    },
+    {
+      "text": "can i add shirts on the todos list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 10,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "add to my todos list mail the insurance forms out by saturday",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 21,
+          "endPos": 60
+        }
+      ]
+    },
+    {
+      "text": "add due date august to peanut butter jelly bread milk on todos list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 52
+        }
+      ]
+    },
+    {
+      "text": "add write a spec to the list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "add a todo item vacuuming by october 3rd",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 16,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "add finish this demo to my todo list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "add go running to my todos",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "add to my to do list pick up clothes",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 21,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "add get a new car to the todo list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "could i add medicine to the todos list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 12,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "add go to whole foods in my to do list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "please remember that i need to buy milk",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 31,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "add reading to my to do list",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 4,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "add a todo named send report over this weekend",
+      "intent": "ExpectedResponse_AddItem",
+      "entities": [
+        {
+          "entity": "itemTitle",
+          "startPos": 17,
+          "endPos": 45
+        }
+      ]
+    }
+  ],
+  "patterns": [],
+  "patternAnyEntities": [],
+  "prebuiltEntities": [],
+  "luis_schema_version": "7.0.0",
+  "versionId": "0.1",
+  "name": "ToDoBotSample(composer)-additem.en-us.lu",
+  "desc": "Model for ToDoBotSample app, targetting composer",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "phraselists": []
+}

@@ -383,3 +383,9 @@ experimental/generator-dotnet-yeoman/node_modules
 
 /skills/declarative/calendarSkill/generated/luis.settings.composer.westus.json
 /skills/declarative/calendarSkill/runtime/tests/testsettings.development.json
+
+report*
+*.blu
+train*.lu
+test*.lu
+models*
