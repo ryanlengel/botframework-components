@@ -1,0 +1,109 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- delete to do that go hiking tomorrow
+- can you please show my todos?
+- remove the to do physical examination
+- remove task go shopping
+- do i have anything left on my todo list?
+- delete to do buy milk
+- please show the list
+- remove todo
+- remove another one
+- view my todos
+- delete task go to cinema tonight
+- remove the item paris from my list
+- i'm done with the first todo
+- delete shampoo from shopping list
+- remove asprin from shopping list
+- delete off pancake mix on the shopping list
+- clear my todo named get a new car
+- what can you do?
+- delete task go fishing
+- remove to do go to the gym
+- remove task that lawn mowing
+- show all my lists
+- erase bananas from shopping list
+- hit me up with more items
+- can you show my todo
+- remove black shoes from shopping list
+- delete the task that hit the gym every morning
+- remove the to do that pick tom up at six p.m.
+- flag first one as done
+- erase peanuts on the shopping list
+- remove finish this demo from the todo list
+- show my todo
+- what is on my list?
+- delete the to do that meet john when he come here the next friday
+- can you delete todo1
+- purge the todo list
+- can you show me the list?
+- i need to see my todo list
+- delete the to do that daily practice piano
+- delete todo
+- delete the item buy socks from my todo list
+- remove task that go hiking this weekend
+- delete all my todos
+- what do i have on my list?
+- get started
+- delete shirts from list
+- profile
+- remove class from todo list
+- todo list please
+- remove task buy dog food
+- do i have any tasks left?
+- remove the task that go to library after work
+- please show my todo list
+- can you delete xxx item
+
+# None
+
+# ExpectedResponse_AddItem
+- i need you to remember that {@itemTitle=my wife's birthday is jan 9th}
+- put {@itemTitle=hikes} on my to do list
+- add {@itemTitle=call my mother} to my todo list
+- please remind me to {@itemTitle=buy milk}
+- add an task of {@itemTitle=chores to do around the house}
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+

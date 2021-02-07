@@ -1,0 +1,105 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- what's on today
+- who is included in the invite in the next meeting
+- tell me when my next break is
+- who else is included during the sync on progress
+- when am i done today?
+- tell me about my first appointment
+- how long till my next break?
+- when does my day end?
+- accept the event with anna
+- i want to accept this event
+- what's on monday
+- yes please accept the meeting at 9 am
+- what does my day look like
+- list all events for august 20th
+- am i busy wednesday at 1pm?
+- calendar overview
+- create an event at 9pm
+- cancel the event at 4
+- what time does my last meeting end?
+- is there a meeting named review tomorrow?
+- what time does my day end?
+- just cancel the one with mary
+- what is going on today
+- what is on my calendar tomorrow
+- how long is my last meeting?
+- what time is my team meeting today?
+- find meetings with tom
+- set up focus time at 9 am
+- add a meeting to my calendar
+- new event with teams link
+- my events for today
+- accept the upcoming meeting
+- show my meeting tomorrow night
+- set up a meeting called sync with lauren
+- am i free at 4:30 pm
+- who am i meeting at 11 today?
+- do i have an event at 1pm on friday?
+- is my 11 o'clock meeting in building 35?
+- when do i have time for myself today
+- can you tell me what conference room my next meeting is in?
+- accept the meeting at 9
+- tell me when i can take a break
+- when can i go and prepare dinner
+- how long until i need to join the next event
+- accept that event tentatively for now
+- set up a new invite
+- who will be there at noon
+- what's on my calendar
+- who else is in my 2pm meeting?
+- what is the location of the all hands meeting?
+- what is going on next week
+- where is tomorrow 's event
+
+
+# Cancel
+- no no cancel it
+- never mind cancel
+- cancel
+- no cancel cancel
+- forget about it
+- do nothing
+
+
+# ConfirmYes
+- this is good
+- ya
+- it's fine
+- sure is
+- yes
+- that right
+- yeah go ahead
+- sounds perfect
+- sure
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

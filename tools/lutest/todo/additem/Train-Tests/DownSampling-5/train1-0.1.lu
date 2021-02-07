@@ -1,0 +1,61 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- hit me up with more items
+- do i have any tasks left?
+- what do i have on my list?
+- remove the task that go to library after work
+- do i have anything left on my todo list?
+- delete task go to cinema tonight
+
+# None
+
+# ExpectedResponse_AddItem
+- add {@itemTitle=write a spec} to the list
+- add to my to do list {@itemTitle=pick up clothes}
+- add {@itemTitle=call my mother} to my todo list
+- add {@itemTitle=get a new car} to the todo list
+- put {@itemTitle=hikes} on my to do list
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+

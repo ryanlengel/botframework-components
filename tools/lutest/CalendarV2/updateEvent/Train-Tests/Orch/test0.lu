@@ -1,0 +1,105 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- read me my calendar
+- what time does my day start?
+- how long until my next meeting
+- decline the one at 9
+- when am i meeting henry
+- just cancel the one with mary
+- what meetings do i have today
+- new meeting
+- schedule a meeting with stephanie tomorrow afternoon
+- who is attending the meeting on wednesday
+- when am i free this week
+- how much time until i have to be present in a meeting again
+- decline the meeting at 9
+- tentatively accept the 1:1 with susan
+- who all is attending the 4pm meeting?
+- show what is on my calendar today
+- what location is there for the sync with lauren
+- i need a break, when can i?
+- who will be there at noon
+- cancel my meeting with lydia
+- who else is going to the 2pm meeting tomorrow
+- whats on next
+- where am i going for team meeting?
+- tell me about my meetings on friday
+- when can i take a break?
+- what's on today
+- what is on my calendar
+- decline my meeting with lydia
+- what do i have with john
+- when will i be released today
+- where is the performance review meeting
+- give me an overview of my calendar
+- what appointments do i have
+- when am i done today?
+- what is the location of the all hands meeting?
+- what is on for today?
+- just make me tentative
+- make the 1:1 meeting with susan tentative
+- decline my meeting with title daily meeting
+- what is my first meeting today?
+- where's my next meeting
+- tell me about today
+- add an event called brthday party
+- what do i have planned for tomorrow?
+- make me tentative for that meeting
+- who else will be in banking meeting
+- accept that yes
+- just tell me my calendar today
+- when do i have time between meetings
+- list all events for august 20th
+- what do i have with elaine this week
+- is there a gap in my calendar
+
+
+# Cancel
+- never mind cancel that
+- forget about it
+- cancelled
+- don't do that
+- cancel that
+- never mind
+
+
+# ConfirmYes
+- right
+- sure
+- yeah go ahead
+- yeah good
+- of course
+- sounds good
+- yeah bro
+- very good
+- oh yeah
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

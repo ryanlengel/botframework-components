@@ -1,0 +1,430 @@
+> LUIS application information
+> !# @app.name = calendarSkillV2(composer)-calendarskill.en-us.lu
+> !# @app.desc = Model for calendarSkillV2 app, targetting composer
+> !# @app.versionId = 0.7
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 4.0.0
+> !# @app.tokenizerVersion = 1.0.0
+> # Intent definitions
+
+## AcceptEventEntry
+- accept all meetings for {Subject=christmas party} {FromDate=next week}.
+- accept this appointment with jane and mary on {FromDate=next tuesday}.
+- accept the appointment on {FromDate=january 18th} in {MeetingRoom=palace meeting room}.
+- accept the appointment from {FromTime=3pm} to {ToTime=5pm}.
+- accept my meeting at {FromDate=tomorrow} {FromTime=10am}
+- accept {FromDate=today}'s meeting
+- accept {FromDate=today}'s event at {FromTime=3pm}.
+- accept this {Subject=lunch meeting}.
+
+
+## AddCalendarEntryAttribute
+- add {ContactName=jackie}
+- invite {ContactName=sophia} to the meeting
+- please can i invite {ContactName=khaleesi} to the meeting
+- please can i add {ContactName=johnathon kelly} to the meeting
+- add {ContactName=enrique}
+- ask {ContactName=robert} to attend tonight's meeting at 6
+- add {ContactName=hazem}
+- add {ContactName=john}
+
+
+## CancelCalendar
+- stop changing it
+- i don't want to find it anymore
+- cancel it, i don't want to create the meeting
+- never mind, cancel the changing
+- never mind, forget about the creating
+- stop connecting it
+- stop finding it
+- don't create it
+
+
+## ChangeCalendarEntry
+- change {Subject=dentist appointment}
+- make the meeting ending at {FromTime=10} go until {ToTime=11}
+- change this appointment's {SlotAttribute=location}
+- change {Subject=big event} to {ToDate=tomorrow}
+- make the appointment ending at {FromTime=2} go until {ToTime=4 pm}
+- extend meeting from {FromTime=9 am} to {ToTime=12 am}
+- reschedule my {FromTime=3:30} {Subject=dentist appointment} to {ToTime=4}
+- this meeting should be changed to {ToDate=tomorrow}
+
+## CheckAvailability
+- can you tell me if the meeting room {MeetingRoom=no 20} is available at {FromTime=noon}?
+- is {MeetingRoom=tatooine} available in the {FromTime=evening}?
+- am i free {FromDate=tuesday} at {FromTime=7 am}
+- is there a room available on {FloorNumber=floor 6} {FromTime=now}?
+- am i free on {FromDate=saturday}
+- am i free {FromTime=tonight}
+- hello, am i able to reserve {MeetingRoom=hoth} {FromTime=right now}?
+- am i available {FromDate=tomorrow} at {FromTime=5 30 pm}
+
+
+## ConnectToMeeting
+- add me to conference call
+- connect me to conference call with debra
+- join my meeting
+- connect me to conference call
+- i need to join conference call
+- call into conference call
+- connect me to the conference call
+- connect me to the {Subject=budget meeting} conference call
+
+
+## ContactMeetingAttendees
+- please advise {Message=i am late} for {ToDate=3 pm} meeting
+- alert {Subject=quality control meeting} participants that {Message=the meeting will be 30 minutes later}
+- provide {Message=the time change for the meeting} to all participants
+- alert attendees of {Subject=dinner meeting} that {Message=i will be late}
+- send a message out to {Message=cancel my 3 pm meeting}
+- notify kimberly that {Message=i will be late for our 3 pm meeting}
+- {Message=running late for meeting} - notify others
+- please let them know {Message=i'm late}
+
+
+## CreateCalendarEntry
+- add {Subject=kane s dr appt} to calendar for {FromTime=3} {FromDate=friday}
+- add {Subject=go shopping with} john meng on the calendar
+- create appointment for {Duration=30 minutes}
+- set up an event in my calendar
+- schedule a meeting with andy
+- schedule a {Subject=doctors appointment} at {FromTime=15 30}
+- schedule a {Subject=dentist appointment} for {FromDate=tomorrow} {FromTime=night at 7 pm}
+- schedule a meeting for {FromDate=tomorrow} at {FromTime=5 pm}
+
+## DeleteCalendarEntry
+- cancel my {Subject=singing appointment} on {FromDate=monday}
+- cancel my event
+- i want to delete an appointment
+- clear my schedule for {FromDate=tomorrow}
+- clear my calendar for {FromDate=january 29th}
+- cancel my {OrderReference=next} appointment
+- cancel my appointment
+- i need to delete this appointment from my calendar
+
+## FindCalendarDetail
+- can you tell me something about {Subject=shakespeare}
+- tell me about my {Subject=planned trip}
+- what did the sister say about meeting on {FromDate=sunday}
+- what are the plans for the {Subject=dinner date} with stacey
+- details about the meeting with karen and tom
+- tell me about my {OrderReference=next} meeting
+- tell me about my schedule with {FromTime=afternoon}
+- what are the particulars for the {Subject=picnic} {FromDate=next week}
+
+## FindCalendarEntry
+- show me my calendar
+- what ' s on my schedule
+- tell me the events scheduled at calendar {Location=constitution hall}
+- what is my {PositionReference=1st} meeting {FromDate=today}
+- what i am doing {FromDate=next week}
+- what ' s going on {FromDate=this weekend}
+- locate the {OrderReference=next} appointment
+- do i have anything on {FromDate=wednesday}
+
+## FindCalendarWhen
+- when ' s my {PositionReference=1st} meeting {FromDate=tomorrow}
+- what time is my {Subject=team meeting}
+- when ' s my {OrderReference=next} appointment
+- when is my {PositionReference=fifth} {Subject=kick-off}
+- what time is my {Subject=cooking class} {FromTime=tonight}
+- when is my appointment with willie
+- what time is my {PositionReference=last} meeting
+- when do i {Subject=work} {FromDate=tomorrow}
+
+## FindCalendarWhere
+- location of {FromTime=11 am} meeting
+- where am i {FromDate=tomorrow}
+- where ' s my {OrderReference=next} appointment
+- where are my meetings {FromDate=today}
+- where ' s my {OrderReference=next} meeting
+- where is {Subject=margot lunch}
+- where is my {OrderReference=next} appointment with miss doris
+- location of the {OrderReference=next} appointment
+
+
+## FindCalendarWho
+- will paul be going to the meeting on {FromDate=friday}
+- is charles wong going to be at the meeting
+- list the attendees of the {OrderReference=next} meeting
+- did martin come to {FromDate=today}'s meeting
+- will roy be at our {Subject=weekly team meeting}
+- who is going to the meeting at {FromTime=2 pm} {FromDate=tomorrow}
+- who is attending {FromTime=2 pm} meeting {FromDate=tomorrow}
+- attendees who will join the {FromTime=5 pm} meeting
+
+## FindDuration
+- how long is my {Subject=facial time}
+- how long is my {FromTime=4 o'clock} meeting
+- how much time for {Subject=lunch} {FromDate=today}
+- how much time does my meeting take up
+- minutes in {Subject=lunch break}
+- how long is my meeting at {FromTime=4}
+- how much time do i have for a {Subject=lunch break} {FromDate=today}
+- duration of {Subject=machine learning talk}
+
+
+## FindMeetingRoom
+- book {MeetingRoom=great room} for tow days
+- book the {MeetingRoom=conf/r1} room now
+- boor the {MeetingRoom=room 78} for me.
+- book room number fifty six of {MeetingRoom=avilon} hotel please
+- book room next to {MeetingRoom=adam's room} for my friend james.
+- {MeetingRoom=read}
+- book the room redmond town {MeetingRoom=b3/124}
+- book room {MeetingRoom=flower} {MeetingRoom=1267} for tomorrow.
+
+
+## None
+- i want them all
+- 1
+- all of them
+- i want to all of them
+
+
+## RejectCalendar
+- no way
+- not this room
+- none
+- not now
+- no thanks
+- maybe another time
+- not right, schedule it as {Subject=1x1 meeting} with yolanda
+- i'm supposed to meet daisy, not katy
+
+## TimeRemaining
+- do i have any spare time before {OrderReference=next} appointment
+- how many days until {FromDate=march twenty six}
+- how many days left until the {Subject=opening ceremony}
+- how much time is there before {Subject=office meeting}
+- how long until my {OrderReference=next} appointment
+- can you show me the time remaining before my {OrderReference=next} appointment
+- how long till my {OrderReference=next} appointment
+- how many days until my {Subject=doctor ' s appointment}
+
+
+> # Entity definitions
+
+$Building:simple
+
+$ContactName:simple
+
+$DestinationCalendar:simple
+
+$Duration:simple
+
+$FloorNumber:simple
+
+$ToDate:simple
+
+$ToTime:simple
+
+$Location:simple
+
+$MeetingRoom:simple
+
+$Message:simple
+
+$MoveEarlierTimeSpan:simple
+
+$MoveLaterTimeSpan:simple
+
+$OrderReference:simple
+
+$PositionReference:simple
+
+$SlotAttribute:simple
+
+$FromDate:simple
+
+$FromTime:simple
+
+$Subject:simple
+
+
+> # PREBUILT Entity definitions
+
+$PREBUILT:datetimeV2
+
+$PREBUILT:personName
+
+$PREBUILT:ordinal
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+$PossessivePronoun:FirstPerson=
+- my
+- our
+- my own
+- our own
+
+$PossessivePronoun:SecondPerson=
+- your
+- your own
+
+$PossessivePronoun:ThirdPerson=
+- his
+- her
+- their
+- his own
+- her own
+- their own
+
+$RelationshipName:aunt=
+
+$RelationshipName:aunts=
+
+$RelationshipName:boss=
+
+$RelationshipName:brother=
+
+$RelationshipName:brother in law=
+
+$RelationshipName:brother-in-law=
+
+$RelationshipName:brothers=
+
+$RelationshipName:child=
+
+$RelationshipName:children=
+
+$RelationshipName:colleague=
+
+$RelationshipName:colleagues=
+
+$RelationshipName:cousin=
+
+$RelationshipName:cousins=
+
+$RelationshipName:dad=
+
+$RelationshipName:daughter=
+
+$RelationshipName:daughter in law=
+
+$RelationshipName:daughter-in-law=
+
+$RelationshipName:daughters=
+
+$RelationshipName:families=
+
+$RelationshipName:family=
+
+$RelationshipName:father=
+
+$RelationshipName:father in law=
+
+$RelationshipName:father-in-law=
+
+$RelationshipName:friend=
+
+$RelationshipName:friends=
+
+$RelationshipName:grandchild=
+
+$RelationshipName:grandchildren=
+
+$RelationshipName:granddaughter=
+
+$RelationshipName:grandfather=
+
+$RelationshipName:grandma=
+
+$RelationshipName:grandmother=
+
+$RelationshipName:grandparent=
+
+$RelationshipName:grandparents=
+
+$RelationshipName:grandson=
+
+$RelationshipName:grandsons=
+
+$RelationshipName:husband=
+
+$RelationshipName:in-laws=
+
+$RelationshipName:kids=
+
+$RelationshipName:mom=
+
+$RelationshipName:mother=
+
+$RelationshipName:mother in law=
+
+$RelationshipName:mother-in-law=
+
+$RelationshipName:neighbor=
+
+$RelationshipName:neighbors=
+
+$RelationshipName:nephew=
+
+$RelationshipName:niece=
+
+$RelationshipName:parent=
+
+$RelationshipName:parents=
+
+$RelationshipName:partner=
+
+$RelationshipName:siblings=
+
+$RelationshipName:sister=
+
+$RelationshipName:sister in law=
+
+$RelationshipName:sister-in-law=
+
+$RelationshipName:sisters=
+
+$RelationshipName:son=
+
+$RelationshipName:son in law=
+
+$RelationshipName:son-in-law=
+
+$RelationshipName:step daughter=
+
+$RelationshipName:step-daughter=
+
+$RelationshipName:stepfather=
+
+$RelationshipName:stepmother=
+
+$RelationshipName:stepsister=
+
+$RelationshipName:stepson=
+
+$RelationshipName:students=
+
+$RelationshipName:teachers=
+
+$RelationshipName:uncle=
+
+$RelationshipName:uncles=
+
+$RelationshipName:wife=
+
+$RelationshipName:manager=
+
+
+$SlotAttributeName:room=
+- meeting room
+- conference room
+- confroom
+
+$SlotAttributeName:time=
+
+$SlotAttributeName:building=
+
+$SlotAttributeName:floor=
+
+
+> # RegEx entities
+$MeetingRoomKeywordsDesc:/((conf|conference|meeting)\s+)?(room|rm|office)/

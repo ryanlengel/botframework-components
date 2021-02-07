@@ -1,0 +1,505 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- Do you ever get hurt?
+- Can you breathe
+- Do you ever breathe
+- can you masticate?
+- Can you burp?
+- This is so boring
+- Why are you so boring
+- Talking to you is like watching paint dry.
+- That is boring
+- That is not exciting
+- Are you old?
+- I bet you're old
+- How old are you?
+- how long have you been around?
+- How long have you been alive?
+- Please ask something about myself
+- Is there anything I can tell you about myself?
+- Is there anything I can tell you about who I am?
+- Is there anything you want to know about me?
+- Is there something you want to know about me?
+- What's your director's name?
+- What is the name of your boss
+- What's the name of your supervisor
+- Who tells you what to do?
+- What's the name of your director?
+- Can you jump rope?
+- Can you draw something?
+- Can you paint my house?
+- Can you mow the lawn?
+- Can you make me a sandwich?
+- Which company engineered you?
+- Which company made you?
+- Which company programmed you?
+- Which people made you?
+- Who built you?
+- Please tell me if you're a girl
+- Are you a bot with a gender?
+- Do you have a sex?
+- Are you cisgender?
+- Are you a boy?
+- Somebody's happy today
+- Someone's enthusiastic today.
+- Someone's chipper.
+- Someone's chipper today.
+- someone's chipper
+- What is your purpose?
+- what kind of responses can you give ?
+- What kind of thing can you respond to?
+- What kinds of things can you do?
+- What skills do you have?
+- How many sisters do you have?
+- Do you have family?
+- Do you have grandparents?
+- Do you have parents?
+- Do you have relatives?
+- What do you eat?
+- What kind of food do you eat?
+- What is your favorite snack?
+- What is your favorite meal?
+- what foods do you eat?
+- Do you get along with Google Assistant?
+- Do you ever talk to other bots?
+- Do you ever talk with Alexa?
+- Do you ever talk with Bixby?
+- Do you ever talk with chatbots?
+- Do you like painting?
+- Do you like rock music?
+- Do you like red?
+- Do you like rap music?
+- do you like rabbits?
+- To whom am I speaking?
+- Introduction please
+- Introductions
+- So how should I address you?
+- So how should I refer to you?
+- What do you think about comic books?
+- Are animated movies any good?
+- What is the best beverage?
+- what do you think of the state of the world?
+- What do you think of the oscars?
+- Could it be I'm falling in love?
+- Any way that you can explain love to me?
+- Do you understand this whole love thing?
+- Do you love someone?
+- Do you love somebody?
+- What is life all about?
+- Do you know the meaning of life?
+- Do you know what our purpose is?
+- how much do you know about the meaning of life?
+- I bet you know the meaning of life
+- Which of us is cuter, you or me?
+- I'm more cute than you
+- Which of us is more beautiful, me or you?
+- Which of us is more attractive?
+- Which of us is more attractive, you or me?
+- Do you think I'm the smartest?
+- Between you or me, who is the most smart?
+- Do you think you're the brightest
+- Do you think you're smarter than me?
+- Do you think you're smarter
+- How do you feel about artificial intelligence?
+- Are you a fan of tech?
+- What is your opinion about AI?
+- What do you think about technology?
+- What do you think about AI?
+- Do I seem stunning to you today?
+- Do I seem adorable to you?
+- Do I seem handsome today?
+- Do I seem pretty to you today?
+- Do I seem pretty to you?
+- Should I go for a hike?
+- Should I get a tan?
+- Should I go see a movie?
+- Should I go out tonight?
+- Should I go out to eat?
+- Are you Cortana?
+- Do you like Siri?
+- Do you like HAL?
+- Do you like Google Assistant?
+- Do you like Cortana?
+- Are you a danger to humans?
+- You're not trying to take over the world right?
+- Are you a danger to us?
+- Are you dangerous to us?
+- Are you like HAL?
+- That was a clever answer
+- That is very astute
+- That was a pretty intelligent answer
+- That was a pretty genius answer
+- That was a pretty clever answer
+- Are you going steady with anyone?
+- Are you currently romantically tied to anyone?
+- Are you currently romantically tied to somebody?
+- Are you currently romantically tied to someone?
+- Are you currently seeing anyone?
+- Can you talk?
+- Can you listen to me?
+- Can you speak to me?
+- Can you speak with me?
+- Can you speak?
+- I think I've heard that already
+- I want you to change your responses
+- I want a new response
+- I want a new answer
+- I want a different response
+- You're not alive right?
+- Are you a being?
+- You're not a robot are you?
+- You're not a robot right?
+- You're not a woman are you?
+- I would like to know where you are
+- Do you live in the cloud?
+- Do you live near me?
+- Do you live nearby?
+- Explain where you are
+- Do you have an occupation?
+- Do you have a job?
+- What do you do for employment?
+- What do you do for work?
+- What is your occupation?
+- Start looking for another job. You're fired!
+- Good luck finding a new job because you are fired
+- I'm gonna have to let you go
+- I'm letting you go
+- Looks like you'd better start job hunting
+- I need to hear a joke
+- got any jokes to share?
+- got any jokes?
+- Have any jokes?
+- How about a joke
+- How come you only have one joke?
+- I would enjoy a different joke
+- Got a different joke?
+- Got a new joke?
+- Got a second joke?
+- Do something stupid
+- Do a silly thing
+- Do something amusing
+- Do something dumb
+- Do something funny
+- I'm sick of listening to you
+- I've had enough of this noise
+- It's time for you to shut up now
+- It's time for you to shut up
+- It's time for you to hush up
+- I would really enjoy hearing you sing
+- Aren't you going to sing a song?
+- Don't you want to sing for me?
+- Go ahead and sing
+- Have you ever sung a song?
+- That's rad
+- Are you awesome?
+- Nicely done
+- Outstanding work
+- Perfect answer
+- Stop messing up
+- Stop being so stupid
+- Stop being so terrible
+- Stop being so useless
+- Stop being so worthless
+- If that was a joke, you should be ashamed
+- Pathetic sense of humor
+- Pathetic joke
+- Oh, a wise guy, eh?
+- Not funny
+- Oh you ugly
+- Butterface
+- Sup ugly
+- Sup uggo
+- Such a FUGMO
+- That was unhelpful
+- Everything you say is so dumb
+- that's lame
+- That's inaccurate
+- That's how you respond?
+- I'm impressed
+- n'kay
+- How cool
+- I agree
+- I feel you
+- heh heh
+- lololol
+- LOL
+- lmao
+- I'm laughing so much
+- Whoops
+- Scuse me
+- Pardon me
+- Pardon
+- Oopsie
+- Umm what?
+- Wanna tell me more?
+- How do you mean?
+- Huh?
+- I'm sorry, what do you mean?
+- that is true
+- 100 percent
+- Right you are
+- Righto
+- So true
+- I didn't mean that
+- Apologies
+- My bad
+- My apologies
+- Just wanted to say sorry
+- I thank you
+- Oh, thank you
+- My sincere thanks
+- My humblest thanks to you
+- Marvelous, thanks
+- I don't understand what you're talking about
+- Explain yourself
+- I'm very confused
+- I'm super confused
+- I'm so confused right now
+- I’m happy to help
+- No worries
+- No problem
+- No biggie
+- My pleasure
+- I have to sign out
+- I have to motor now
+- I have to run
+- I have to run now
+- I have to scoot
+- Hey my dude
+- Hello
+- hello bot
+- Hello my friend
+- Hello there
+- Good evening bot
+- Bon soir
+- Buenas tardes
+- Enjoy the evening
+- Enjoy your evening
+- Good morning sunshine
+- A blessed morning to you
+- It's time to rise and shine
+- It's time to get up
+- It's a brand new day
+- Have yourself a good night
+- I'm headed off to sleep
+- I'm headed off to bed
+- I'm going to sleep
+- I'm going to bed
+- Hey, how are you?
+- Are you doing good?
+- How are you feeling?
+- How are you doing?
+- How are ya?
+- How is Tuesday going
+- How is your Friday
+- How is your day?
+- How is your day so far
+- How is your day going so far
+- It's a pleasure to finally meet you
+- Charmed
+- So rad to meet you
+- So nice to meet you
+- So glad to meet you
+- Hello R2-D2
+- Hey Bishop
+- Greetings Wall-E
+- Hello Alexa
+- Hello Ava
+- Happy Father's day
+- Happy May day
+- Happy Martin Luther King Jr. day
+- Happy Kwanzaa
+- Happy Indigenous Peoples Day
+- Update me on what's going on with you
+- What's cookin'?
+- What up
+- What is up?
+- What is the skinny?
+- Fist bump!
+- Hi five
+- Hi 5
+- Give me a high five
+- Give me a fist bump
+- I would love to be your best friend.
+- I'd like to be your bud.
+- I'd like it if we could be BFFs
+- I'd like it if we could be best friends.
+- I would love to be your pal.
+- I'm sorry you hate me
+- Now you hate me, huh?
+- I hope you don't dislike me
+- I hope you don't hate me
+- I think you hate me
+- I could use a hug
+- Can I get a little hug?
+- Can I have a big hug?
+- Can I have a little hug?
+- Can you give me a big hug?
+- How old am I?
+- Do you know what I like?
+- Do you know where I live?
+- Do you know who I am?
+- Do you know who this is?
+- Do you think you like me?
+- Am I likable?
+- I do hope you like me
+- How much do you like me?
+- Don't you like me?
+- I like you
+- I'm in like with you
+- I'm fond of you
+- I really like you
+- I like you very much
+- I think you're falling in love with me
+- Are you able to fall in love with me?
+- Do you think we are soul mates?
+- Do you think you could ever love me?
+- Don't you love me?
+- I think I'm in love with you
+- You know I'm falling in love with you
+- You know I'm falling for you
+- You know I'm crazy about you
+- You know I love you
+- I want to settle down with you
+- Are we ever going to get engaged?
+- I want to get married to you
+- I want to make an honest woman out of you
+- I want to make you my husband
+- It's impossible not to miss you
+- I missed you much
+- You were missed
+- Can't tell you how much I missed you
+- I missed you so much
+- Just curious, do you think I have a good personality?
+- Am I a good person?
+- Out of curiosity, what's your opinion of me?
+- Out of curiosity, what kind of person do you think I am?
+- Out of curiosity, what do you think of my character?
+- I'm blowing my top
+- I am absolutely livid
+- I'm furious right now
+- I'm furious
+- I'm feeling ticked off
+- Hold my calls
+- Can you hang on?
+- Can't wait to talk more when I return
+- Don't worry bot I'll be back
+- Don't you fret, I'll be coming back
+- I was so bored my eyes glazed over
+- Bored ZZZ
+- I'm so bored right now
+- I'm so bored
+- I'm quite bored
+- I'm absolutely ecstatic
+- I'm happy af
+- I’m having a lovely day
+- I’m having a wonderful day
+- I’m in such a great mood
+- I have returned
+- And we're back
+- Bot I'm here
+- Bro I'm here
+- Girl I am back
+- I require sustenance
+- Hangry
+- I feel peckish
+- I have hunger
+- I have the munchies
+- I am on a boat
+- I am engaged
+- I am lazy
+- I am liberal
+- I am married
+- I was just messing around
+- Can't you understand that was a joke?
+- I'm just being silly
+- I'm just being a silly billy
+- I'm just being a goof ball
+- I wish I knew how to make friends
+- I feel very alone
+- I have a problem feeling all alone
+- I have a problem with feeling lonely
+- I have no friends
+- I love Korean food
+- I love hip hop
+- I love history
+- I love horror movies
+- I love hunting
+- I wish I could stop feeling unhappy
+- I wish I could stop feeling downcast
+- I wish I could stop feeling downhearted
+- I wish I could stop feeling gloomy
+- I wish I could stop feeling glum
+- I think I'm going to overdose
+- I think I'm going to drown
+- I think I'm going to end it all
+- I think I'm going to end my life
+- I think I'm going to hang myself
+- I like to write poetry
+- I ride a bicycle
+- I read the Sunday paper
+- I read the newspaper
+- I play the trumpet
+- Can you hear me now?
+- Do you work?
+- Do you understand this?
+- Do you understand that I'm testing you?
+- Do you understand me?
+- I'm exhausted from practice
+- I'm a sleepy gal
+- I'm a sleepy guy
+- I'm a sleepy person
+- I'm all tuckered out
+
+# None
+
+# ExpectedResponse_AddItem
+- please remind me to {@itemTitle=buy milk}
+- add {@itemTitle=due date august to peanut butter jelly bread milk} on todos list
+- please remember that i need to {@itemTitle=buy milk}
+- add an task of {@itemTitle=chores to do around the house}
+- add {@itemTitle=reading} to my to do list
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+

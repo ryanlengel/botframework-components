@@ -1,0 +1,98 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- who am i meeting for dinner
+- let me know when i have a break
+- accept that event tentatively for now
+- what do i have tomorrow
+- what meetings do i have named team meeting this week
+- tell me what is going on
+- what is first on my agenda?
+- what do i have this week
+- when is my meeting with john?
+- when do i have exam
+- decline the one with mary
+- decline my next meeting
+- cancel my next meeting
+- tell me when my next break is
+- cancel this meeting for me
+- what meetings do i have with sally on monday
+- the meeting with anna i want it to be tentative
+- tell me what time my meetings start
+- i would like to accept that
+- show my calendar
+- tell me where the meeting at 9 is at
+- where is tomorrow ' s 11 am meeting
+- how long is my last meeting?
+- new event
+- show what is going on
+- create a event
+- whats upcoming
+- how long until another meeting starts
+- who else is included during the sync on progress
+- when is it time for me to stop working
+- accept the meeting at 9
+- how many minutes do i have until another meeting starts
+- show my meeting about budget approval
+- cancel my 4 pm meeting with title weekly report
+- cancel my meeting with andrew today.
+- calendar overview
+- my events for today
+- what is going on next week
+- tell me my last meeting for today
+- how long till my next break?
+- i want to cancel the meeting later today at 5
+- what time am i meeting with emma?
+- anything named standup this week?
+- my day today
+- when can i go and prepare dinner
+- who is attending the meeting
+- what's on my calendar today?
+- do i have anything with steve on friday about composer features?
+- cancel the event title shareholders revisit our scope
+- tell me when i can step away from my computer
+
+
+# Cancel
+- canceled
+- oh don't do that
+- quit
+- nothing please
+- nerver mind
+
+
+# ConfirmYes
+- ok
+- thank you yes
+- yeah cool
+- it's fine
+- okay
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

@@ -1,0 +1,148 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- can you tell me what conference room my next meeting is in?
+- create an event at 9pm
+- i want to accept this event
+- give me an overview of my calendar
+- cancel my next meeting
+- what is on my calendar
+- who is going to attend the meeting tomorrow at 2 pm
+- tell me where the meeting at 9 is at
+- schedule an event dentist appointment on friday at 2
+- when will i discuss matters with elaine about our plans
+- tell me about my first appointment
+- what does my day look like
+- what's on today
+- when is my day over?
+- what do i have with elaine this week
+- what location is there for the sync with lauren
+- decline my next meeting
+- who else is included during the sync on progress
+- decline the meeting with john
+- accept the meeting with john
+- create a 1:1 meeting with elaine and lauren
+- do i have a break today?
+- cancel my 4 pm meeting
+- who is coming to the project review tomorrow?
+- tentatively accept the 1:1 with susan
+- how long till my next break?
+- when does my day end?
+- tell me my last meeting for today
+- when can i take a break?
+- whats upcoming
+- when will i be released today
+- am i busy wednesday at 1pm?
+- tell me when my next break is
+- how long is my last meeting?
+- what location is included in the meeting at 11
+- do i have time to breathe today?
+- what time am i discussing the fiscal plans
+- where's my next meeting
+- what meetings do i have named team meeting this week
+- how long until i'm up again
+- decline the one at 9
+- where is the performance review meeting
+- tell me when i'll be done with meetings today
+- who is included in the invite in the next meeting
+- decline the event titled review our scope
+- when am i watching england
+- add a lunch meeting with jim on wednesday at noon
+- cancel my meeting with andrew today.
+- how long is my break for
+- who is attending the meeting
+- is my 11 o'clock meeting in building 35?
+- accept the upcoming meeting
+- what's on for today
+- when is it time for me to stop working
+- decline my meeting with title daily meeting
+- what is my first meeting tomorrow?
+- tentatively accept the meeting at 9
+- the meeting with anna i want it to be tentative
+- accept this invite
+- decline my 4 pm meeting with title weekly report
+- create a event
+- when am i meeting henry
+- decline that event
+- what do i have this week
+- am i busy wednesday
+- list all events for august 20th
+- what's on my calendar
+- new meeting
+- what meetings do i have today
+- where is tomorrow ' s 11 am meeting
+- i want to create a meeting with elaine at 9
+- where is the meeting at 11 am tomorrow
+- i just woke up, what can i expect
+- new event with teams link
+- what meetings do i need to attend today?
+- who am i meeting for dinner
+- is there a gap in my calendar
+- set up a meeting called sync with lauren
+- when do i meet with charles
+- set up a new invite
+- decline my meeting with lydia
+- yes please accept the meeting at 9 am
+- decline the one with mary
+- what time does my last meeting end?
+- what can i expect first today
+- set up meeting about the 2020 sales report at 9am on thursday
+- when do i have time between meetings
+- do i have anything with steve on friday about composer features?
+- cancel the event at 4
+- when is my meeting with john?
+- tell me about my meetings on friday
+- when does my day finally end
+- let me know when i have a break
+- accept that event tentatively for now
+- make the meeting with john tentative
+- what time does my next meeting start
+- my events for today
+- how many minutes do i have until another meeting starts
+- where is my meeting this afternoon?
+- just cancel the one with mary
+
+
+# Cancel
+- cancel it
+- just cancel
+- no cancel that
+- quit
+- please do nothing
+
+
+# ConfirmYes
+- sounds good thanks
+- very good
+- yeah cool
+- confirm
+- i'm sure
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

@@ -1,0 +1,78 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- delete to do that go hiking tomorrow
+- can you please show my todos?
+- remove the to do physical examination
+- remove task go shopping
+- do i have anything left on my todo list?
+- delete to do buy milk
+
+# None
+
+# ExpectedResponse_AddItem
+- i need you to remember that {@itemTitle=my wife's birthday is jan 9th}
+- put {@itemTitle=hikes} on my to do list
+- add {@itemTitle=call my mother} to my todo list
+- please remind me to {@itemTitle=buy milk}
+- add an task of {@itemTitle=chores to do around the house}
+- add a to do that {@itemTitle=purchase a nice sweater}
+- create to do to {@itemTitle=go running in the park}
+- add to my to do list {@itemTitle=print papers for 10 copies this afternoon}
+- can i add {@itemTitle=shirts} on the todos list
+- add to my todos list {@itemTitle=mail the insurance forms out by saturday}
+- add {@itemTitle=due date august to peanut butter jelly bread milk} on todos list
+- add {@itemTitle=write a spec} to the list
+- add a todo item {@itemTitle=vacuuming by october 3rd}
+- add {@itemTitle=finish this demo} to my todo list
+- add {@itemTitle=go running} to my todos
+- add to my to do list {@itemTitle=pick up clothes}
+- add {@itemTitle=get a new car} to the todo list
+- could i add {@itemTitle=medicine} to the todos list
+- add {@itemTitle=go to whole foods} in my to do list
+- please remember that i need to {@itemTitle=buy milk}
+- add {@itemTitle=reading} to my to do list
+- add a todo named {@itemTitle=send report over this weekend}
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+

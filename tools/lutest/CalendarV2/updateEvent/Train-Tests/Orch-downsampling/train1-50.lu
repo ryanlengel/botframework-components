@@ -1,0 +1,259 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- accept the 1:1 with susan
+- what is going on today
+- when is my break?
+- how long till my next break?
+- set up time for myself
+- anything named standup this week?
+- i want to create a meeting with elaine at 9
+- show my meeting tomorrow night
+- my day today
+- when do i meet with charles
+- set up a new invite
+- who is attending 2 pm meeting tomorrow
+- whats upcoming
+- how long until i'm up again
+- where is the meeting at 11 am tomorrow
+- yes please accept the meeting at 9 am
+- do i have a break today?
+- decline the event titled review our scope
+- i will not attend
+- overview of today
+- what is first on my agenda?
+- what location is there for the sync with lauren
+- who will attend the sync about roles
+- what time is the sync planned for
+- how many minutes do i have until another meeting starts
+- am i busy tomorrow afternoon?
+- tell me where the meeting at 9 is at
+- what time am i available again
+- what's on my calendar
+- set up meeting about the 2020 sales report at 9am on thursday
+- when can i go and prepare dinner
+- where is the meeting with anna
+- how long until my next meeting
+- find meetings about dev sync
+- i want to create a new event
+- new event
+- tell me when i can step away from my computer
+- schedule a meeting with stephanie tomorrow afternoon
+- show schedule
+- find meetings with tom tomorrow named pm sync
+- how much time do i have until my next meeting
+- i want to cancel the meeting later today at 5
+- give me an overview of my calendar
+- when am i free this week
+- accept the event with anna
+- do i have anything with steve on friday?
+- create new
+- what is on for today?
+- set a private event for 4pm
+- who will be present at 3
+- find meetings with susan tomorrow
+- decline my next meeting
+- book a meeting with megan at 10 am about sync meeting
+- whats on next
+- is there a gap in my calendar
+- kick off my day will you
+- what time is my team meeting today?
+- do i have a dentist appointment this week
+- when is it time for me to stop working
+- accept that yes
+- what is my first meeting today?
+- decline
+- make the 1:1 meeting with susan tentative
+- accept that meeting
+- what meetings do i have on thursday?
+- read me my calendar
+- what is going on next week
+- who else is in my 2pm meeting?
+- new meeting
+- what's happening first
+- what do i have with john
+- add a lunch meeting with jim on wednesday at noon
+- where am i going for daily sync up?
+- do i have time to breathe today?
+- what is my agenda for this weekend?
+- when am i meeting henry
+- who am i meeting at 11 today?
+- when do i meet with stephanie next?
+- find meetings with tom
+- my appointments of the day
+- tentatively accept the meeting at 9
+- how does my day start
+- tell me my last meeting for today
+- cancel my 4 pm meeting
+- decline the one at 9
+- show my calendar
+- create a event
+- is my 11 o'clock meeting in building 35?
+- schedule an event dentist appointment on friday at 2
+- tell me when i can take a break
+- who am i meeting for dinner
+- how much time until i have to be present in a meeting again
+- accept the meeting at 2 pm
+- when am i free
+- tell me about my meetings on friday
+- what meetings do i need to attend today?
+- am i busy wednesday
+- what is my first meeting tomorrow?
+- when can i have a drink
+- add an event called brthday party
+- make me tentative for that meeting
+- make the meeting with john tentative
+- tentatively accept the meeting with john
+- decline that event
+- accept
+- the meeting with anna i want it to be tentative
+- what's on my calendar today?
+- what meetings do i have with robert
+- accept the meeting with john
+- show what is going on
+- do i have an event at 1pm on friday?
+- tell me what time my meetings start
+- can you tell me what conference room my next meeting is in?
+- show my meeting about budget approval
+- when is my next gap in meetings?
+- cancel my 4 pm meeting with title weekly report
+- when am i finished for today?
+- what's on today
+- where will the next event take place
+- when am i done
+- accept the meeting at 2
+- who is attending the meeting on wednesday
+- decline my 4 pm meeting with title weekly report
+- where is tomorrow ' s 11 am meeting
+- how long is my last meeting?
+- when am i done for the day?
+- what do i have planned for tomorrow?
+- am i busy wednesday at 1pm?
+- create a meeting
+- where's my next meeting
+- when is my next break?
+- accept that event tentatively for now
+- when am i meeting elaine today
+- set-up an event
+- tell me how long i can rest for
+- just make me tentative
+- when do i have a break?
+- cancel my meeting with title daily meeting
+- when will i be released today
+- what location is included in the meeting at 11
+- cancel this meeting for me
+- accept it
+- how does my day look so far
+- who all is attending the 4pm meeting?
+- accept my 10 pm
+- when can i quit work and go home
+- who am i meeting at 10 am tomorrow
+- tell me what my next month is like
+- is there a meeting named review tomorrow?
+- what is the location of the sync at noon
+- how long until i need to join the next event
+- decline the meeting at 9
+- when is my day over?
+- when am i watching england
+- what do i have planned for today at noon
+- my events for today
+- set up focus time at 9 am
+- who else is going to the 2pm meeting tomorrow
+- what can i expect first today
+- when do i have time between meetings
+- tell me when my next break is
+- who will be there at noon
+- what do i have with elaine this week
+- what meetings do i have this weekend?
+- when is my first meeting?
+- who is attending the meeting
+- when does my day finally end
+- who else is joining the event at 1 pm
+- set up a meeting called sync with lauren
+- am i free at 4:30 pm
+- accept this invite
+- add a meeting to my calendar with anna
+- what time am i discussing the fiscal plans
+- what is up next month?
+- what is the location of the all hands meeting?
+- can i take a break today?
+- what is on my calendar tomorrow
+- new event with teams link
+- where is tomorrow 's event
+- tell me when i'll be done with meetings today
+- what meetings do i have today
+- when can i take a break?
+- just tell me my calendar today
+- where is the performance review meeting
+- calendar overview
+- what time does my day start?
+- when am i free on tuesday
+- book some time tomorrow
+- do i have anything about the project review today
+- cancel my meeting with andrew today.
+- when will i discuss matters with elaine about our plans
+- what is on my calendar
+- my calendar for tomorrow
+- show what is on my calendar today
+- i want to accept this meeting
+- when will i chat to lauren
+- what does my day look like
+- add a meeting to my calendar
+- when do i have time for myself today
+- list all events for august 20th
+- accept the teams sync
+- who is coming to the project review tomorrow?
+- decline the one with mary
+- make the meeting at 9 tentative
+- tell me about my first appointment
+- i need a break, when can i?
+- when is my first meeting tomorrow?
+- what time does my day end?
+- cancel my next meeting
+- cancel the event at 4
+- what meetings do i have named team meeting this week
+
+
+# Cancel
+- go away
+- nothing please
+- just cancel
+- cancel
+- never mind cancel that
+
+
+# ConfirmYes
+- ok
+- it's fine
+- perfect
+- that is correct
+- thank you very much
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

@@ -1,0 +1,96 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> Total passed: 17/19
+
+> # Intent definitions
+
+> Utterance passed in this intent: 14/14
+# _Interruption
+> PASS. Predicted intent: _Interruption(0.9691029), ExpectedResponse_AddItem(0.0305859223)
+- delete the to do that meet john when he come here the next friday
+> PASS. Predicted intent: _Interruption(0.9996337), None(0.000199190777)
+- delete the task that hit the gym every morning
+> PASS. Predicted intent: _Interruption(0.9996374), ExpectedResponse_AddItem(0.000195207)
+- delete all my todos
+> PASS. Predicted intent: _Interruption(0.999639034), ExpectedResponse_AddItem(0.000196327353)
+- show all my lists
+> PASS. Predicted intent: _Interruption(0.999542), ExpectedResponse_AddItem(0.000256737374)
+- todo list please
+> PASS. Predicted intent: _Interruption(0.9993878), ExpectedResponse_AddItem(0.0003466816)
+- what do i have on my list?
+> PASS. Predicted intent: _Interruption(0.9996249), None(0.000188014339)
+- clear my todos
+> PASS. Predicted intent: _Interruption(0.999659), None(0.0001800816)
+- remove the first todo
+> PASS. Predicted intent: _Interruption(0.9995927), ExpectedResponse_AddItem(0.00020737102)
+- view my todos
+> PASS. Predicted intent: _Interruption(0.9996521), ExpectedResponse_AddItem(0.000208543614)
+- remove the to do physical examination
+> PASS. Predicted intent: _Interruption(0.9996051), ExpectedResponse_AddItem(0.000274553022)
+- remove asprin from shopping list
+> PASS. Predicted intent: _Interruption(0.9863229), ExpectedResponse_AddItem(0.0134404944)
+- remove the to do that pick tom up at six p.m.
+> PASS. Predicted intent: _Interruption(0.9751122), None(0.0137296394)
+- profile
+> PASS. Predicted intent: _Interruption(0.9995614), ExpectedResponse_AddItem(0.0002549951)
+- show my todo
+
+
+> Utterance passed in this intent: 0/0
+# None
+
+
+> Utterance passed in this intent: 3/5
+# ExpectedResponse_AddItem
+> PASS. Predicted intent: ExpectedResponse_AddItem(0.987196), _Interruption(0.0122539261)
+- add an task of {@itemTitle=chores to do around the house}
+> FAIL. Predicted intent: _Interruption(0.5356884), ExpectedResponse_AddItem(0.4628929)
+- would you add {@itemTitle=heavy cream} to the todos list
+> PASS. Predicted intent: ExpectedResponse_AddItem(0.9990494), None(0.000647406443)
+- add {@itemTitle=due date august to peanut butter jelly bread milk} on todos list
+> PASS. Predicted intent: ExpectedResponse_AddItem(0.9990781), None(0.000480991643)
+- add {@itemTitle=call my mother} to my todo list
+> FAIL. Predicted intent: _Interruption(0.999038041), ExpectedResponse_AddItem(0.0007063694)
+- create to do to {@itemTitle=go running in the park}
+
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+

@@ -1,0 +1,103 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+
+
+# Cancel
+- canceled
+- oh don't do that
+- quit
+- nothing please
+- nerver mind
+- please do nothing
+- no cancel that
+- just cancel
+- no no cancel it
+- cancel app
+- no never mind
+- oh cancel
+- no cancel
+- do nothing
+- cancel it
+- just cancel it
+- cancel never mind
+- cancel cancel
+- nothing never mind
+- cancel
+- sorry, don't do it
+- don't do that anymore
+- no cancel cancel
+- no cancel it
+- go away
+- never mind cancel
+- no no cancel
+
+
+# ConfirmYes
+- ok
+- thank you yes
+- yeah cool
+- it's fine
+- okay
+- thank you very much
+- sounds good to me
+- no doubt
+- yeah go for it
+- yeah
+- sure yes
+- sure does
+- yeah baby
+- that's fine
+- confirm
+- great
+- ya
+- i'm sure
+- sure thing
+- perfect
+- that sounds good
+- oh yes
+- perfect thank you
+- this is good
+- sounds good thank you
+- that right
+- sounds perfect
+- yes
+- that is right
+- ok for now
+- go for it
+- that is correct
+- do it
+- sure is
+- sounds good thanks
+- right yes
+- sounds great
+- fine
+- yeah buddy
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

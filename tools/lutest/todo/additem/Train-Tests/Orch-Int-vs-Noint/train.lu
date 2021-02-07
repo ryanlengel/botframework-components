@@ -1,0 +1,131 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- can you show me the list?
+- delete the item buy socks from my todo list
+- forget the list
+- hit me up with more items
+- what do i have on my todo?
+- purge the todo list
+- delete the second task in my shopping list
+- can you delete xxx item
+- remove task go shopping
+- remove to do go to the gym
+- remove finish this demo from the todo list
+- what is on my list?
+- delete task go fishing
+- see todo
+- can you please show my todos?
+- delete the to do that daily practice piano
+- i need to see my todo list
+- clear my todo named get a new car
+- can you delete todo1
+- i finished the las todo
+- remove salad vegetables from grocery list
+- erase bananas from shopping list
+- please show the list
+- i would like to see my todos list
+- remove the task that go to library after work
+- delete eggs from list
+- delete to do buy milk
+- delete shirts from list
+- delete the to do meet my friends tomorrow
+- can you show my todo
+- delete to do that go hiking tomorrow
+- delete the task house cleanup this weekend
+- remove to do that go to the dentist tomorrow morning
+- remove task that go hiking this weekend
+- remove the item paris from my list
+- remove
+- mark buy milk as complete
+- delete off pancake mix on the shopping list
+- flag first one as done
+- remove task buy dog food
+- delete todo
+- remove another one
+- remove all my todo
+- remove black shoes from shopping list
+- i'm done with the first todo
+- erase peanuts on the shopping list
+- please show my todo list
+- remove class from todo list
+- what can you do?
+- remove task that lawn mowing
+- delete task go to cinema tonight
+- i hope i do not have any todo left
+- get started
+- delete to do go shopping
+- delete shampoo from shopping list
+- do i have anything left on my todo list?
+- show my lists
+- do i have any tasks left?
+- remove todo
+
+# None
+
+# ExpectedResponse_AddItem
+- add to my to do list {@itemTitle=print papers for 10 copies this afternoon}
+- can i add {@itemTitle=shirts} on the todos list
+- create to do that {@itemTitle=read a book tonight}
+- add {@itemTitle=go to whole foods} in my to do list
+- add {@itemTitle=finish this demo} to my todo list
+- add {@itemTitle=write a spec} to the list
+- add {@itemTitle=reading} to my to do list
+- add a to do that {@itemTitle=purchase a nice sweater}
+- add {@itemTitle=go running} to my todos
+- please remind me to {@itemTitle=buy milk}
+- i need you to remember that {@itemTitle=my wife's birthday is jan 9th}
+- could i add {@itemTitle=medicine} to the todos list
+- add a todo named {@itemTitle=send report over this weekend}
+- add this thing in to do list
+- add {@itemTitle=get a new car} to the todo list
+- add to my to do list {@itemTitle=pick up clothes}
+- add a todo item {@itemTitle=vacuuming by october 3rd}
+- remind me to {@itemTitle=pick up dry cleaning}
+- please remember that i need to {@itemTitle=buy milk}
+- add a to do to {@itemTitle=buy shoes}
+- put {@itemTitle=hikes} on my to do list
+- add to my todos list {@itemTitle=mail the insurance forms out by saturday}
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+

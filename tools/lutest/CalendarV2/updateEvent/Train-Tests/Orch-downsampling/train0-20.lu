@@ -1,0 +1,148 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- who am i meeting for dinner
+- let me know when i have a break
+- accept that event tentatively for now
+- what do i have tomorrow
+- what meetings do i have named team meeting this week
+- tell me what is going on
+- what is first on my agenda?
+- what do i have this week
+- when is my meeting with john?
+- when do i have exam
+- decline the one with mary
+- decline my next meeting
+- cancel my next meeting
+- tell me when my next break is
+- cancel this meeting for me
+- what meetings do i have with sally on monday
+- the meeting with anna i want it to be tentative
+- tell me what time my meetings start
+- i would like to accept that
+- show my calendar
+- tell me where the meeting at 9 is at
+- where is tomorrow ' s 11 am meeting
+- how long is my last meeting?
+- new event
+- show what is going on
+- create a event
+- whats upcoming
+- how long until another meeting starts
+- who else is included during the sync on progress
+- when is it time for me to stop working
+- accept the meeting at 9
+- how many minutes do i have until another meeting starts
+- show my meeting about budget approval
+- cancel my 4 pm meeting with title weekly report
+- cancel my meeting with andrew today.
+- calendar overview
+- my events for today
+- what is going on next week
+- tell me my last meeting for today
+- how long till my next break?
+- i want to cancel the meeting later today at 5
+- what time am i meeting with emma?
+- anything named standup this week?
+- my day today
+- when can i go and prepare dinner
+- who is attending the meeting
+- what's on my calendar today?
+- do i have anything with steve on friday about composer features?
+- cancel the event title shareholders revisit our scope
+- tell me when i can step away from my computer
+- new meeting at 9
+- who am i meeting at 11 today?
+- i will not attend
+- cancel my 4 pm meeting
+- who else is in my 2pm meeting?
+- what time does my last meeting end?
+- when do i have a break?
+- how much time do i have until my next meeting
+- when will i be available today
+- schedule an event dentist appointment on friday at 2
+- tell me when i'll be done with meetings today
+- when is my next break?
+- is there a meeting named review tomorrow?
+- accept the upcoming meeting
+- tentatively accept the meeting with john
+- what's on my calendar
+- tell me what my next month is like
+- when is my next gap in meetings?
+- what is going on today
+- tell me what my first meeting is
+- add a lunch meeting with jim on wednesday at noon
+- can you tell me what conference room my next meeting is in?
+- what meetings do i have on thursday?
+- when do i meet with charles
+- when do i have time for myself today
+- when am i watching england
+- set up focus time at 9 am
+- when is my first meeting?
+- tentatively accept the meeting at 9
+- when will we meet with the design team today
+- when am i free
+- i want to create a meeting with elaine at 9
+- what's happening first
+- overview of today
+- create a 1:1 meeting with elaine and lauren
+- tell me when i can take a break
+- add a meeting to my calendar with anna
+- show my meeting with chris on wednesday
+- what time is my team meeting today?
+- what's on for today
+- i just woke up, what can i expect
+- what does my day look like
+- create new
+- when is my break?
+- i want to accept this meeting
+- who is going to attend the meeting tomorrow at 2 pm
+- do i have an event at 1pm on friday?
+- when is my day over?
+- what is the location of the sync at noon
+- who is coming to the project review tomorrow?
+
+
+# Cancel
+- canceled
+- oh don't do that
+- quit
+- nothing please
+- nerver mind
+
+
+# ConfirmYes
+- ok
+- thank you yes
+- yeah cool
+- it's fine
+- okay
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

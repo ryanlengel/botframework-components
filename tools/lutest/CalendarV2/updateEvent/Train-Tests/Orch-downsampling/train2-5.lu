@@ -1,0 +1,73 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- can you tell me what conference room my next meeting is in?
+- create an event at 9pm
+- i want to accept this event
+- give me an overview of my calendar
+- cancel my next meeting
+- what is on my calendar
+- who is going to attend the meeting tomorrow at 2 pm
+- tell me where the meeting at 9 is at
+- schedule an event dentist appointment on friday at 2
+- when will i discuss matters with elaine about our plans
+- tell me about my first appointment
+- what does my day look like
+- what's on today
+- when is my day over?
+- what do i have with elaine this week
+- what location is there for the sync with lauren
+- decline my next meeting
+- who else is included during the sync on progress
+- decline the meeting with john
+- accept the meeting with john
+- create a 1:1 meeting with elaine and lauren
+- do i have a break today?
+- cancel my 4 pm meeting
+- who is coming to the project review tomorrow?
+- tentatively accept the 1:1 with susan
+
+
+# Cancel
+- cancel it
+- just cancel
+- no cancel that
+- quit
+- please do nothing
+
+
+# ConfirmYes
+- sounds good thanks
+- very good
+- yeah cool
+- confirm
+- i'm sure
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

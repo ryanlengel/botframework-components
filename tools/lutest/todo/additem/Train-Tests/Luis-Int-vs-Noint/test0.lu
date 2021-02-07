@@ -1,0 +1,69 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- i finished the las todo
+- delete to do go shopping
+- remove the first todo
+- i hope i do not have any todo left
+- delete eggs from list
+- show my lists
+- remove to do that go to the dentist tomorrow morning
+- delete the second task in my shopping list
+- remove
+- what do i have on my todo?
+- see todo
+- remove salad vegetables from grocery list
+- forget the list
+- clear my todos
+
+# None
+
+# ExpectedResponse_AddItem
+- add a to do to {@itemTitle=buy shoes}
+- create to do that {@itemTitle=read a book tonight}
+- add this thing in to do list
+- remind me to {@itemTitle=pick up dry cleaning}
+- would you add {@itemTitle=heavy cream} to the todos list
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+

@@ -1,0 +1,619 @@
+> LUIS application information
+> !# @app.name = calendarSkillV2(composer)-calendarskill.en-us.lu
+> !# @app.desc = Model for calendarSkillV2 app, targetting composer
+> !# @app.versionId = 0.7
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 4.0.0
+> !# @app.tokenizerVersion = 1.0.0
+> # Intent definitions
+
+## AcceptEventEntry
+- accept my meeting at {FromTime=7pm} {FromDate=today}
+- attend the {Subject=lunch meeting} at {FromTime=10:30 am}.
+- accept the appointment sent by lucas
+- accept the event
+
+
+## AddCalendarEntryAttribute
+- add {ContactName=mohamed} to the meeting
+- please add {ContactName=eileen} to the meeting invite.
+- can you ask {ContactName=jane} to attend the meeting?
+- {ContactName=patrick}, i wish to invite you to the next meeting.
+- invite {ContactName=john malkovich} to the meeting.
+- add {ContactName=lisa}
+
+
+## CancelCalendar
+- stop checking it
+- i don't want to join it
+- quit the changing
+
+
+## ChangeCalendarEntry
+- change an appointment
+- change {SlotAttribute=time}
+- change {FromTime=4pm} {Subject=lunch appointment}
+- change {Subject=developmental agenda for lunch} {FromDate=tomorrow}
+- change {Subject=lunch appt} to {ToTime=2}
+- change {Subject=recital} to start {MoveEarlierTimeSpan=half an hour} earlier
+- change my {FromTime=3pm} event to {ToTime=4pm}
+- change {Subject=marathon training} from {FromTime=8:00am} to {ToTime=1:00pm}
+- move my {FromTime=10pm} meeting to {ToTime=9pm}
+- move my {FromTime=9pm} meeting to {ToTime=8pm}
+- change my {Subject=vacation} from ending on {FromDate=friday} to {ToDate=monday}
+- change meeting from {FromTime=2}-{FromTime=3pm} to {ToTime=4}-{FromTime=5pm} {ToDate=today}
+- move my meeting to {ToTime=6pm} from {FromTime=7pm}
+- update my {OrderReference=next} appointment
+- change my schedule
+- reschedule my {Subject=interview} on {ToDate=monday} to {ToTime=1 pm}
+- change my {FromTime=8} till {FromTime=9} appointment to {ToTime=11} till {ToTime=12}
+- change the {SlotAttribute=title} of my {FromTime=11am} appointment to {Subject=soccer practice}
+- change meeting from {FromTime=2pm}-{FromTime=3pm} to {ToTime=4pm}-{ToTime=5pm} {ToDate=today}
+- delay the {OrderReference=next} meeting by {MoveLaterTimeSpan=30 minutes}
+- change the {SlotAttribute=time}
+- make {OrderReference=next} meeting to start {MoveLaterTimeSpan=1 hour} later
+- update my calendar from {FromTime=2 pm} to {ToTime=4 pm} {ToDate=today}
+
+## CheckAvailability
+- is {MeetingRoom=room 63} available {FromDate=tomorrow} {FromTime=4pm}
+- can i reserve the meeting room that's free on the {FloorNumber=21st floor}?
+- is rebecca busy {FromDate=thursday} at {FromTime=4}
+- is madison busy
+- is russell free on {FromDate=friday} at {FromTime=4pm}
+- see if meeting room {MeetingRoom=3} available tuesday at 11:30 for the meeting.
+- when does ellen have time to attend the meeting for business review
+- i was wondering if you have a meeting room available in your {Building=atlantic} building for the {FromDate=4th of december}?
+- tell me if {MeetingRoom=kamino} is open at {FromTime=11:00am}.
+- am i free on {FromDate=monday} at {FromTime=9 pm}
+- please check and see if meeting room {MeetingRoom=2} is available at {FromTime=12} tomorrow.
+- is there a meeting room on the {FloorNumber=5th floor} currently available to reserve?
+- when am i free
+- can i reserve a room in building {Building=5} for a meeting?
+- is {FromDate=saturday} free
+- am i free
+- is gerald busy {FromDate=this weekend}
+- is debra available on {FromDate=saturday}
+- is raymond free on {FromDate=monday} {FromTime=evening}
+- i would like to reserve a {FloorNumber=ground floor} {MeetingRoom=conference room} in the {Building=delta building}, is there one available?
+
+
+## ConnectToMeeting
+- connect me to {Subject=marketing meeting}
+- call into meeting
+- join {OrderReference=next} meeting on link
+- join {FromTime=current} {Subject=budget} conf call
+- call the {Subject=morning breifing} conference number
+- join the {Subject=budget meeting} conference call
+- join {Subject=budget} conference call
+- get me on the conference call
+- call conference call
+- call the {Subject=weekly marketing meeting}
+
+
+## ContactMeetingAttendees
+- please remind the attendee that {Message=i am running late}
+- please alert those attending the meeting that {Message=i am running a few minutes late}
+- remind all attendees of {ToDate=tomorrow} ' s {Subject=lunch} that {Message=we have changed the venue}
+- please notify george that {Message=i will be late for the meeting}
+- notify people of meeting on {ToDate=tue} that {Message=it will begin 15-30 min later}
+- please inform joshua that {Message=i will be late for our meeting today}
+- please alert {ToTime=3 o ' clock} meeting attendees
+- notify {ToDate=friday}'s {ToTime=2 pm} that we are cancelling the meeting
+- new location for meeting {ToTime=this afternoon} let others attendees know {Message=meeting is now in room 100}
+
+
+## CreateCalendarEntry
+- book a meeting between {FromTime=2} and {ToTime=3} {FromDate=tomorrow}
+- add {Subject=office party} on {FromDate=march 8th} from {FromTime=6 p} to {ToTime=9 p}
+- new calendar event
+- add {Subject=chicago bulls versus washington wizards} to my calendar {FromDate=tomorrow} at {FromTime=seven pm}
+- schedule an appointment with mom
+- add {Subject=dinner} to {DestinationCalendar=personal} calendar
+- schedule a {Subject=buisness lunch for my department} at {Location=campus restaurant} on {FromDate=wednesday} at {FromTime=11 30 am}
+- add {Subject=pay pearl fees} on my calendar {FromDate=tomorrow}
+- schedule an event on the calendar
+- i would like to book a meeting in the {Building=hitchcock} building on the {FloorNumber=23rd floor}.
+- please create a meeting from {FromTime=2} to {ToTime=3}
+- put {Subject=dance} on my calendar from {FromTime=6} to {ToTime=7}
+- schedule an appointment for my mom
+- create a meeting with tom34@outlook.com
+- schedule a {Subject=lunch date} with mom {FromDate=every tuesday} at {FromTime=noon} for the {FromDate=next 5 weeks}
+- put {Subject=swimming} {FromDate=tomorrow}
+- schedule a {Subject=doctor s office appointment} for {FromDate=march 12th}
+- schedule an appointment on {FromDate=october 31st}
+- book a meeting in {Location=guangzhou} at 6am on {FromDate=march 5th}
+- add {Subject=choreography} to my {DestinationCalendar=family} calendar
+- schedule a meeting for {FromDate=this friday} {FromTime=11 am}
+- schedule an appointment on my calendar
+- schedule an appointment from {FromDate=june 18th} to {ToDate=june 20th}
+- schedule a meeting {FromDate=tomorrow}
+- schedule appointment {Subject=yearly check up} {FromDate=friday march one} {FromTime=10 am} {Duration=one hour}
+- make me an appointment for {FromDate=next weekend}
+- add {Subject=doctors appointment} on {FromDate=march 13} at {FromTime=2 pm} at the {Location=original health clinic}
+- add {Subject=doctors appointment} on {FromDate=march 13} at {FromTime=2 pm} at the {Location=tiptop virginia beach clinic}
+- schedule {Subject=holiday} for the {FromDate=thirty first of july}
+- put {Subject=captains} in my calendar for {FromDate=saturday} {FromTime=evening}
+- schedule a {Subject=dental appointment} {FromDate=tomorrow} {FromTime=afternoon at five thirty pm}
+- schedule {Subject=mechanics exam} at {FromTime=12 pm} on {FromDate=friday}
+- schedule a {Subject=dinner} for {FromTime=tonight} at {FromTime=8 pm}
+- new appointment {FromDate=tomorrow} at {FromTime=3 pm} at {Location=sunken}
+- add {Subject=vacation} to my calendar from {FromDate=july 4th} until {ToDate=july 29th}
+- schedule {Subject=wanda s graduation} for {FromDate=saturday} at {FromTime=11 o clock}
+- put {Subject=doctor s appointment} in my calendar for {FromTime=5 forty} {FromDate=next thursday}
+- schedule a meeting
+- create a meeting for {FromDate=tomorrow} {FromTime=6pm} with lucy chen
+- on {FromDate=saturday} at {FromTime=7 thirty p m}
+- new appointment for {FromDate=tomorrow}
+- add {Subject=work} to calendar {FromDate=thursday} {FromTime=8 30 am}
+- book a meeting between {FromTime=2:30pm} and {ToTime=4:45pm} {FromDate=tomorrow}
+- meeting with morrison sun at {FromTime=2 pm} {FromDate=saturday}
+- schedule an appointment for me {FromDate=tomorrow} at {FromTime=3 am}
+- put {Subject=work} on my calendar {FromDate=tomorrow} from {FromTime=8 30} to {ToTime=5 30}
+- set up an appointment with tom
+- schedule a {Subject=soccer game} for {FromDate=next friday}
+
+## DeleteCalendarEntry
+- delete my schedule
+- delete the appointment with jeffrey
+- cancel all events
+- cancel appointment
+- clear all the appointments from my calendar for {FromDate=today}
+- cancel event
+- cancel meeting with bob marlon {FromTime=3pm} {FromDate=today}
+- cancel appointment {FromDate=today}
+- clear my schedule {FromDate=today}
+- cancel {FromDate=today} ' s appointment
+- cancel the event
+- cancel that appointment
+- clear all my appointments
+- cancel appointments
+
+## FindCalendarDetail
+- tell me about my {FromDate=sunday} schedule
+- detail about {FromDate=tomorrow}'s meeting
+- i need you to provide me the details of the meeting i have scheduled with my colleague amanda
+- give me details of the {OrderReference=next} appointment
+
+## FindCalendarEntry
+- calendar for {FromDate=today}
+- what is the schedule before that
+- find the meeting around {FromTime=2} to {FromTime=6pm}
+- what ' s my {PositionReference=1st} meeting {FromDate=tomorrow}
+- find the meeting around {FromTime=5} to {FromTime=8 pm}
+- show me the meeting with paul
+- what ' s my {OrderReference=next} appointment
+- find a meeting with title {Subject=sharing} from steven
+- show me the calendar at {FromTime=night}
+- what have i got on {FromDate=tomorrow}
+- what ' s on my schedule {FromDate=today}
+- what ' s {OrderReference=next} on my calendar
+- find a meeting from donna
+- show me the meeting about {Subject=online session}
+- what do i have from {FromTime=2} to {ToTime=4} on {ToDate=saturday}
+- what are my meetings at {FromTime=night}
+- check my mom's schedule
+- search the meeting with title {Subject=employee orientation}
+- what is {OrderReference=next} in calendar
+- what are my appointments for {FromDate=this week}
+- find me the meetings at {FromTime=6}
+
+## FindCalendarWhen
+- what time is my {Subject=mobile devices exam} {FromDate=tomorrow}
+- when ' s my {PositionReference=1st} appointment {FromDate=tomorrow}
+- when is {Subject=sports day for the girls}
+- when is my {OrderReference=next} trip to {Location=new york}
+- when is my {PositionReference=1st} meeting {FromDate=tomorrow}
+- when is my {Subject=physio}
+- when do i meet with charles
+- when am i {Subject=watching england}
+- what time is my meeting {FromDate=today}
+- what time is my {PositionReference=first} meeting {FromDate=tomorrow}
+
+## FindCalendarWhere
+- what the place of the {Subject=weekly meeting}
+- where is my {OrderReference=next} appointment
+- where am i going {FromTime=tonight}
+- what is the location of {OrderReference=next} meeting
+- where is my {Subject=dentist appointment}
+- show me the place of the {Subject=work smart training}
+- where is meeting with shirley
+- where does my meeting take place
+- where is my {FromTime=eleven o'clock} meeting
+- where ' s my meeting
+
+
+## FindCalendarWho
+- who will attend the meeting at {FromTime=4}
+- will nicholas be attending the {Subject=management meeting}
+- who is participating {FromDate=tomorrow} at {FromTime=2 pm} meeting
+- who do i have {OrderReference=next}
+- is victoria participating {OrderReference=next} meeting
+- {FromTime=2 pm} meeting {FromDate=tomorrow} - who else is going
+- who is going to {FromDate=tomorrow} ' s meeting
+- who all will be present at the {OrderReference=next 5} meetings
+- will nancy be at the {FromTime=morning} {Subject=briefing meeting}
+- will george be in the {Subject=hr meeting} at {FromTime=1} o' clock
+- is joe going to be at the {OrderReference=next} meeting
+- who is my {FromTime=morning} meeting with
+
+## FindDuration
+- how long is the {Subject=movie jurassic world}
+- how long is the event
+- how much time will i have to {Subject=pick up groceries}
+- how much time between schedule {FromDate=thursday} meetings {FromDate=next week}
+- is it going to last long
+- how much time do i have to {Subject=take back the movie}
+
+
+## FindMeetingRoom
+- i want book a room at the {MeetingRoom=second floor}
+- booking all room on {MeetingRoom=forth} floor for annual meeting
+- reserve {MeetingRoom=enterprise} for a meeting
+- book the {MeetingRoom=comfort room 569}
+- try {FloorNumber=the floor 23}
+- reserve the room {MeetingRoom=tattooine} between 3 and 5
+- i need to reserve the room {MeetingRoom=2-a} at pensilvania hotel
+- the room book {MeetingRoom=21}
+- book {MeetingRoom=room 210} at the southern ocean lodge
+- book a room hotel sun sai {MeetingRoom=103} for me
+- reserve the {MeetingRoom=tatooine} meeting room on the {FloorNumber=2nd floor}.
+- book the room waldorf {MeetingRoom=ha/b5}
+- can i send to reserve the {MeetingRoom=big room 4}?
+- organize a meeting in the {MeetingRoom=gandhi} room in the {FloorNumber=3rd floor} on the {Building=greenpark hotel}
+- we want to reserve the {FloorNumber=second floor} in the {Building=main building} for our meeting room
+- book senior room {MeetingRoom=juldertu town} for tonight
+- book the {MeetingRoom=auditorium #2042} for tomorrow morning
+- book the room redmond town {MeetingRoom=f4/432} this morning
+- book the {MeetingRoom=valencia town}, {MeetingRoom=p8/8566}
+- please validate reservation of the {MeetingRoom=double cabin} and {MeetingRoom=individual cabin} for friday
+- try buillding {Building=bjw2}
+- book the room redmond town {MeetingRoom=b2/2240}
+- a new meeting location find one
+- book the {MeetingRoom=room ocean breeze 2/222} at san felice hotel, please.
+- i wish to book a {SlotAttribute=meeting room} at the {Building=london building} for {FromDate=january the 9th} at {FromTime=1pm}
+- book the room {MeetingRoom=hellena b7/2234} this afternoon
+- please book room {MeetingRoom=2345} on the top floor of the hotel.
+- try {MeetingRoom=room jupyter}
+- book the room {MeetingRoom=turne f20}
+- book for me for tomorrow the {MeetingRoom=room number 25}
+- i want to book {MeetingRoom=conference room 2}.
+- book {MeetingRoom=presidential} room
+- book the conf {MeetingRoom=room bs8} this afternoon
+- i wish to reserve a room at the second floor, preferable {MeetingRoom=12} or {MeetingRoom=13 room} since they have a view towards the jp bank
+- i want to book a room {MeetingRoom=with a view}
+- book the confirm {MeetingRoom=bjw 3/65} for me
+- reserve {MeetingRoom=room 258} now
+- {MeetingRoom=book} room this
+- {MeetingRoom=book} this room
+- book the room {MeetingRoom=florida town} {MeetingRoom=b5/1388}
+- book the confirm room in hotal mayuri {MeetingRoom=2nd floor} for me
+- what meet rooms do i have
+- i need to book a meeting room on the {FloorNumber=2nd floor} with a projector in it
+- book the room {MeetingRoom=6b} with two beds
+- please book room {MeetingRoom=gemini} at 2 pm
+- book room number sixty one of {MeetingRoom=rearches} hotel please
+- we require a room on the fifth floor in {MeetingRoom=the men hotel}.
+- book the {MeetingRoom=conf room city madrid g67} for me
+- how about {MeetingRoom=room 2213}
+- i want to book a room in hotel {MeetingRoom=pacific 102} for {MeetingRoom=1 hour}.
+- book the room {MeetingRoom=2164} for me
+- book the conf room suzhou {MeetingRoom=a28} please
+- book {MeetingRoom=room 3}, {MeetingRoom=red suite} for tomorrow
+- the {MeetingRoom=room}
+- book the conf rm {MeetingRoom=mariner/233}
+- please book {MeetingRoom=lotus} room {MeetingRoom=101} for tonight.
+- is {MeetingRoom=this room} busy at {FromTime=5 pm}
+- i want to book {MeetingRoom=room 3}
+- is there a room available on {Building=building 1}
+- book conf room city center/2228 (6) for {MeetingRoom=claudio reinosa}
+- book the room in the mastranto place {MeetingRoom=21} in the morning
+- book the room redmond town {MeetingRoom=a2/1223}
+- please reserve {SlotAttribute=meeting room} {MeetingRoom=hoth} on {FloorNumber=floor 10} of the {Building=london building} for {FromDate=friday afternoon}.
+- i need to reserve the room number {MeetingRoom=243} at the ritz hotel
+- i have a meeting. please book a room in the {MeetingRoom=aladdin hotel}
+- i'd like to book {MeetingRoom=room 45}, instead of {MeetingRoom=room 66}.
+- i want to book {MeetingRoom=room 2}
+- help me to book meeting room at {FloorNumber=3rd floor}
+- book the conf rm {MeetingRoom=cjp 3-9} will you
+- book {MeetingRoom=room 3}
+- book one {MeetingRoom=family room} for monday next week
+- i would like to reserve meeting room {MeetingRoom=excalibur} on the {FloorNumber=first floor} of the {Building=alfred building}
+- try {FloorNumber=floor 2}
+- book {MeetingRoom=room 88} for honeymoon
+- book {MeetingRoom=kamino} tomorrow
+- i'm looking for a conference room
+- book {MeetingRoom=presidential room} this night
+- please book {MeetingRoom=pars} room {MeetingRoom=178} for me.
+- i hope will go back to {MeetingRoom=steve} first floor room
+- book the conference room {MeetingRoom=city star}t 123 this noon
+- book a room for all the next week in the {MeetingRoom=zeus hotel}
+- the bed was durty, i will never take a room on {MeetingRoom=ben}
+- book the conf rm bjw 2/{MeetingRoom=88} for me
+- book {MeetingRoom=room 2} for this afternoon
+- book conf room {MeetingRoom=sunzing p33} now
+- good morning, could you reserve the {MeetingRoom=conf rm zoshou f84} room for three days?
+- book the {MeetingRoom=lecta(12)} room for this monday
+- book to the write room {MeetingRoom=43}
+- book {MeetingRoom=room 2}
+- please reserve a meeting room on the {FloorNumber=3rd floor} of {Building=terman tower}.
+- my booking was made for {MeetingRoom=imperial} room on top floor
+- book the conf rm {MeetingRoom=chels x3233}
+- book for me {MeetingRoom=suit room} for 4 persons
+- do you have a {SlotAttribute=room} available at {FromTime=3pm} in {Building=city center}
+- book the confirm room royal centre {MeetingRoom=8/421} for us
+- book the conf rm {MeetingRoom=tom 4} for my yak
+- book the {MeetingRoom=presidential room 789} for today
+- book room {MeetingRoom=14b} in first flooor
+- book the {MeetingRoom=room 17} now
+- i need {MeetingRoom=room 1001} booked for one week.
+- book the room {MeetingRoom=g4/445}
+- i need a double {MeetingRoom=room number 44 or 46} in radisson on the 3d floor.
+- i'd like to reserve a {MeetingRoom=hotel room 677} as i've booked already.
+- am goin to work tomorrow on another state, i need to book a room in {MeetingRoom=johan} street
+- book the room {MeetingRoom=luna a1/04}
+- i need to reserve the room {MeetingRoom=345} at the tamanaco hotel
+- book {MeetingRoom=room b10} at le bristol
+- book a room in the {MeetingRoom=building 8 b23}
+- i want to reserve {MeetingRoom=gandhi} at {FromTime=6pm}
+- {MeetingRoom=book} this book room room
+- i need to book a room in the {MeetingRoom=euro building} {MeetingRoom=c3} at night
+- book {MeetingRoom=excalibur} please
+- i need to reserve the {Building=bespin} meeting room.
+- {MeetingRoom=must be part of the sentence}
+- locate another meeting location
+- book the {MeetingRoom=mting rm/mt1} for me
+- book {MeetingRoom=conference hall} for board meeting
+- book the {MeetingRoom=wedding room 125} now
+- book the room {MeetingRoom=plaza 789} next weak.
+- book the room {MeetingRoom=2456} for me
+
+
+## None
+- 2
+
+
+## RejectCalendar
+- not this {MeetingRoom=conference room}, please change
+- i'm not available {FromDate=next monday} afternoon
+- not him
+- nope
+- not this time
+- no
+
+## TimeRemaining
+- how much longer do i have before {Subject=pick up mary from school}
+- show time before {OrderReference=next} appointment
+- how much time before my {OrderReference=next} appointment
+- how many hours left till the {Subject=closing ceremony}
+- how many days till {FromDate=april}
+- how much time do i have before my {OrderReference=next} meeting
+- how much longer until my {OrderReference=next} appointment
+- how much longer do i have until {Subject=pick up john from school}
+- how much longer until my {OrderReference=next} meeting
+- how much time do i have before my {OrderReference=next} appointment
+
+
+> # Entity definitions
+
+$Building:simple
+
+$ContactName:simple
+
+$DestinationCalendar:simple
+
+$Duration:simple
+
+$FloorNumber:simple
+
+$ToDate:simple
+
+$ToTime:simple
+
+$Location:simple
+
+$MeetingRoom:simple
+
+$Message:simple
+
+$MoveEarlierTimeSpan:simple
+
+$MoveLaterTimeSpan:simple
+
+$OrderReference:simple
+
+$PositionReference:simple
+
+$SlotAttribute:simple
+
+$FromDate:simple
+
+$FromTime:simple
+
+$Subject:simple
+
+
+> # PREBUILT Entity definitions
+
+$PREBUILT:datetimeV2
+
+$PREBUILT:personName
+
+$PREBUILT:ordinal
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+$PossessivePronoun:FirstPerson=
+- my
+- our
+- my own
+- our own
+
+$PossessivePronoun:SecondPerson=
+- your
+- your own
+
+$PossessivePronoun:ThirdPerson=
+- his
+- her
+- their
+- his own
+- her own
+- their own
+
+$RelationshipName:aunt=
+
+$RelationshipName:aunts=
+
+$RelationshipName:boss=
+
+$RelationshipName:brother=
+
+$RelationshipName:brother in law=
+
+$RelationshipName:brother-in-law=
+
+$RelationshipName:brothers=
+
+$RelationshipName:child=
+
+$RelationshipName:children=
+
+$RelationshipName:colleague=
+
+$RelationshipName:colleagues=
+
+$RelationshipName:cousin=
+
+$RelationshipName:cousins=
+
+$RelationshipName:dad=
+
+$RelationshipName:daughter=
+
+$RelationshipName:daughter in law=
+
+$RelationshipName:daughter-in-law=
+
+$RelationshipName:daughters=
+
+$RelationshipName:families=
+
+$RelationshipName:family=
+
+$RelationshipName:father=
+
+$RelationshipName:father in law=
+
+$RelationshipName:father-in-law=
+
+$RelationshipName:friend=
+
+$RelationshipName:friends=
+
+$RelationshipName:grandchild=
+
+$RelationshipName:grandchildren=
+
+$RelationshipName:granddaughter=
+
+$RelationshipName:grandfather=
+
+$RelationshipName:grandma=
+
+$RelationshipName:grandmother=
+
+$RelationshipName:grandparent=
+
+$RelationshipName:grandparents=
+
+$RelationshipName:grandson=
+
+$RelationshipName:grandsons=
+
+$RelationshipName:husband=
+
+$RelationshipName:in-laws=
+
+$RelationshipName:kids=
+
+$RelationshipName:mom=
+
+$RelationshipName:mother=
+
+$RelationshipName:mother in law=
+
+$RelationshipName:mother-in-law=
+
+$RelationshipName:neighbor=
+
+$RelationshipName:neighbors=
+
+$RelationshipName:nephew=
+
+$RelationshipName:niece=
+
+$RelationshipName:parent=
+
+$RelationshipName:parents=
+
+$RelationshipName:partner=
+
+$RelationshipName:siblings=
+
+$RelationshipName:sister=
+
+$RelationshipName:sister in law=
+
+$RelationshipName:sister-in-law=
+
+$RelationshipName:sisters=
+
+$RelationshipName:son=
+
+$RelationshipName:son in law=
+
+$RelationshipName:son-in-law=
+
+$RelationshipName:step daughter=
+
+$RelationshipName:step-daughter=
+
+$RelationshipName:stepfather=
+
+$RelationshipName:stepmother=
+
+$RelationshipName:stepsister=
+
+$RelationshipName:stepson=
+
+$RelationshipName:students=
+
+$RelationshipName:teachers=
+
+$RelationshipName:uncle=
+
+$RelationshipName:uncles=
+
+$RelationshipName:wife=
+
+$RelationshipName:manager=
+
+
+$SlotAttributeName:room=
+- meeting room
+- conference room
+- confroom
+
+$SlotAttributeName:time=
+
+$SlotAttributeName:building=
+
+$SlotAttributeName:floor=
+
+
+> # RegEx entities
+$MeetingRoomKeywordsDesc:/((conf|conference|meeting)\s+)?(room|rm|office)/

@@ -1,0 +1,545 @@
+
+> LUIS application information
+> !# @app.name = calendarSkillV2(composer)-calendarskill.en-us.lu
+> !# @app.desc = Model for calendarSkillV2 app, targetting composer
+> !# @app.versionId = 0.7
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 4.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> Total passed: 110/149
+
+> # Intent definitions
+
+> Utterance passed in this intent: 1/4
+# AcceptEventEntry
+> PASS. Predicted intent: AcceptEventEntry(0.9987952), AddCalendarEntryAttribute(0.000125365244)
+- accept {@FromDate=today}'s meeting
+> FAIL. Predicted intent: AddCalendarEntryAttribute(0.6898905), CreateCalendarEntry(0.0800990239)
+- attend the fy19 celebration party sent by daisy lu.
+> FAIL. Predicted intent: FindCalendarEntry(0.435683936), CreateCalendarEntry(0.232208028)
+- attend the {@Subject=lunch meeting} at {@FromTime=10:30 am}.
+> FAIL. Predicted intent: ConnectToMeeting(0.252139121), FindCalendarEntry(0.2393614)
+- attend the meeting held at {@FromTime=3pm} {@FromDate=next tuesday} at the {@MeetingRoom=conference center}.
+
+
+> Utterance passed in this intent: 6/6
+# AddCalendarEntryAttribute
+> PASS. Predicted intent: AddCalendarEntryAttribute(0.9909204), ConnectToMeeting(0.004101101)
+- send an invitation to {@ContactName=jerry seinfeld}
+> PASS. Predicted intent: AddCalendarEntryAttribute(0.9978475), FindCalendarDetail(0.00040780846)
+- please can i add {@ContactName=johnathon kelly} to the meeting
+> PASS. Predicted intent: AddCalendarEntryAttribute(0.998869359), ContactMeetingAttendees(0.000153137968)
+- please invite {@ContactName=kathy rood} to the meeting today.
+> PASS. Predicted intent: AddCalendarEntryAttribute(0.9782348), ConnectToMeeting(0.0110902861)
+- send an invitation to {@ContactName=jane}
+> PASS. Predicted intent: AddCalendarEntryAttribute(0.9987248), None(0.000149234533)
+- please can i invite {@ContactName=khaleesi} to the meeting
+> PASS. Predicted intent: AddCalendarEntryAttribute(0.998003364), ContactMeetingAttendees(0.000482915551)
+- please add {@ContactName=eileen} to the meeting invite.
+
+
+> Utterance passed in this intent: 3/3
+# CancelCalendar
+> PASS. Predicted intent: CancelCalendar(0.9957547), DeleteCalendarEntry(0.0008420704)
+- stop connecting it
+> PASS. Predicted intent: CancelCalendar(0.9957505), RejectCalendar(0.00078131404)
+- stop finding it
+> PASS. Predicted intent: CancelCalendar(0.9962225), RejectCalendar(0.000702274265)
+- stop checking it
+
+
+> Utterance passed in this intent: 5/10
+# ChangeCalendarEntry
+> PASS. Predicted intent: ChangeCalendarEntry(0.997591734), ContactMeetingAttendees(0.000391223468)
+- this meeting should be changed to {@ToDate=tomorrow}
+> FAIL. Predicted intent: FindCalendarEntry(0.5370125), ChangeCalendarEntry(0.227335751)
+- update my {@Subject=calendar}
+> FAIL. Predicted intent: CreateCalendarEntry(0.733817935), ChangeCalendarEntry(0.2093572)
+- update my calendar from {@FromTime=6pm} to {@ToTime=7pm}
+> PASS. Predicted intent: ChangeCalendarEntry(0.99798), FindMeetingRoom(0.0006870014)
+- change the {@SlotAttribute=meeting room} to {@MeetingRoom=london confroom excalibur}
+> PASS. Predicted intent: ChangeCalendarEntry(0.9669191), DeleteCalendarEntry(0.0266447254)
+- reschedule my {@FromTime=3:30} {@Subject=dentist appointment} to {@ToTime=4}
+> PASS. Predicted intent: ChangeCalendarEntry(0.9735836), DeleteCalendarEntry(0.0200132672)
+- reschedule my {@FromTime=3:30} {@Subject=dentist appointment} {@FromDate=today} for {@ToTime=4pm} {@ToDate=tomorrow}
+> FAIL. Predicted intent: ContactMeetingAttendees(0.694624662), FindCalendarEntry(0.163742825)
+- update my {@OrderReference=next} appointment
+> FAIL. Predicted intent: ContactMeetingAttendees(0.377401918), FindCalendarEntry(0.3165457)
+- update my {@Subject=camping appointment}
+> FAIL. Predicted intent: ContactMeetingAttendees(0.9712221), ChangeCalendarEntry(0.008471387)
+- update {@Subject=lunch appointment}
+> PASS. Predicted intent: ChangeCalendarEntry(0.894883037), DeleteCalendarEntry(0.0909559)
+- reschedule appointment with jennifer to {@ToDate=next week}
+
+
+> Utterance passed in this intent: 3/10
+# CheckAvailability
+> FAIL. Predicted intent: FindCalendarEntry(0.9983446), FindCalendarDetail(0.000699142343)
+- search jesse 's calendar for availability
+> PASS. Predicted intent: CheckAvailability(0.998532951), FindMeetingRoom(0.000350862654)
+- is russell free on {@FromDate=friday} at {@FromTime=4pm}
+> FAIL. Predicted intent: FindCalendarWhen(0.9991172), CheckAvailability(0.00013883783)
+- when does marry have time to join the appointment
+> PASS. Predicted intent: CheckAvailability(0.998098969), FindMeetingRoom(0.000458256283)
+- is {@MeetingRoom=room 235} free on 3pm?
+> FAIL. Predicted intent: TimeRemaining(0.307123631), FindDuration(0.155740529)
+- what else is available
+> FAIL. Predicted intent: FindCalendarWhen(0.9990993), CheckAvailability(0.000187485362)
+- when does ellen have time to attend the meeting for business review
+> FAIL. Predicted intent: FindCalendarWhen(0.9992073), CheckAvailability(0.000155355039)
+- when does ellen have time to attend the meeting
+> FAIL. Predicted intent: FindCalendarWhen(0.6744253), FindCalendarWhere(0.220266059)
+- what is anna 's availability {@FromDate=next tuesday}
+> FAIL. Predicted intent: FindCalendarWhen(0.9990223), CheckAvailability(0.000310288771)
+- when am i free
+> PASS. Predicted intent: CheckAvailability(0.997932136), FindCalendarWhen(0.0006874934)
+- is {@MeetingRoom=room alpha} open on 3pm?
+
+
+> Utterance passed in this intent: 10/10
+# ConnectToMeeting
+> PASS. Predicted intent: ConnectToMeeting(0.9993262), FindCalendarEntry(0.0000723819248)
+- join the {@Subject=budget meeting} conference call
+> PASS. Predicted intent: ConnectToMeeting(0.9983738), AddCalendarEntryAttribute(0.0004095726)
+- lync join {@OrderReference=next} meeting
+> PASS. Predicted intent: ConnectToMeeting(0.9989306), FindCalendarEntry(0.000233931758)
+- join {@OrderReference=next} meeting on link
+> PASS. Predicted intent: ConnectToMeeting(0.998740435), FindMeetingRoom(0.000201642033)
+- {@MeetingRoom=nokia conference room} join
+> PASS. Predicted intent: ConnectToMeeting(0.999045968), FindCalendarEntry(0.000152987486)
+- join the meeting
+> PASS. Predicted intent: ConnectToMeeting(0.997749567), FindCalendarEntry(0.000792554638)
+- link join my {@OrderReference=next} meeting
+> PASS. Predicted intent: ConnectToMeeting(0.999063), FindCalendarEntry(0.0001969236)
+- join {@OrderReference=next} meeting
+> PASS. Predicted intent: ConnectToMeeting(0.996042848), FindCalendarEntry(0.00181608321)
+- link join {@OrderReference=next} meeting
+> PASS. Predicted intent: ConnectToMeeting(0.9992319), FindCalendarEntry(0.00009540916)
+- join the conference
+> PASS. Predicted intent: ConnectToMeeting(0.998953164), FindCalendarEntry(0.000215781984)
+- join the {@OrderReference=next} {@Subject=lync meeting}
+
+
+> Utterance passed in this intent: 9/9
+# ContactMeetingAttendees
+> PASS. Predicted intent: ContactMeetingAttendees(0.9986124), AddCalendarEntryAttribute(0.000264785456)
+- running late for the {@Subject=board meeting} alert catherine dennis and all the other attendees
+> PASS. Predicted intent: ContactMeetingAttendees(0.9988958), CancelCalendar(0.000115671355)
+- please remind the attendee that {@Message=i am running late}
+> PASS. Predicted intent: ContactMeetingAttendees(0.997099936), FindCalendarDetail(0.0009028161)
+- {@Message=room 100 is location} for {@ToTime=this afternoon} ' s meeting please notify others
+> PASS. Predicted intent: ContactMeetingAttendees(0.998098254), ChangeCalendarEntry(0.000374524941)
+- {@Message=running late for meeting} - notify others
+> PASS. Predicted intent: ContactMeetingAttendees(0.998637557), AddCalendarEntryAttribute(0.000154135341)
+- remind all attendees of {@ToDate=tomorrow} ' s {@Subject=lunch} that {@Message=we have changed the venue}
+> PASS. Predicted intent: ContactMeetingAttendees(0.9983009), FindCalendarDetail(0.000340202)
+- {@Message=running late} to my meeting please let jennifer know
+> PASS. Predicted intent: ContactMeetingAttendees(0.822948933), DeleteCalendarEntry(0.156378239)
+- send a message out to {@Message=cancel my 3 pm meeting}
+> PASS. Predicted intent: ContactMeetingAttendees(0.9901113), FindCalendarDetail(0.00547067262)
+- provide {@Message=the time change for the meeting} to all participants
+> PASS. Predicted intent: ContactMeetingAttendees(0.996893942), AddCalendarEntryAttribute(0.00138531311)
+- send a message to johnny and jessie that {@Message=our meeting today will be later by 30 minutes}
+
+
+> Utterance passed in this intent: 1/10
+# CreateCalendarEntry
+> FAIL. Predicted intent: FindCalendarEntry(0.8990767), FindMeetingRoom(0.0606776327)
+- set up an event in my calendar
+> FAIL. Predicted intent: FindCalendarEntry(0.7918144), FindMeetingRoom(0.113805167)
+- schedule {@Subject=yoga class} from {@FromTime=2 pm} to {@ToTime=3 pm}
+> FAIL. Predicted intent: FindCalendarEntry(0.9860652), FindMeetingRoom(0.00564876059)
+- schedule {@Subject=camping} for {@FromDate=friday} to {@ToDate=sunday}
+> FAIL. Predicted intent: FindCalendarEntry(0.997805059), FindMeetingRoom(0.000418213865)
+- schedule an event on the calendar
+> FAIL. Predicted intent: FindCalendarEntry(0.955474854), ChangeCalendarEntry(0.020984605)
+- schedule {@Subject=work} for {@FromTime=7 am} {@FromDate=tomorrow}
+> FAIL. Predicted intent: FindCalendarEntry(0.9655035), ChangeCalendarEntry(0.0131268771)
+- schedule {@Subject=holiday} on the {@FromDate=31st july}
+> PASS. Predicted intent: CreateCalendarEntry(0.974474669), FindCalendarEntry(0.01045883)
+- schedule {@Subject=dinner} with madden {@FromDate=every friday} at {@FromTime=5 pm}
+> FAIL. Predicted intent: FindCalendarEntry(0.9949441), FindMeetingRoom(0.00122983125)
+- schedule an appointment to {@Subject=see cj} on {@FromDate=thursday}
+> FAIL. Predicted intent: FindCalendarEntry(0.890945256), FindMeetingRoom(0.0416990668)
+- schedule an appointment with madden {@FromDate=today} at {@FromTime=2 o clock}
+> FAIL. Predicted intent: FindCalendarEntry(0.883529961), CreateCalendarEntry(0.0559791476)
+- schedule {@Subject=lunch} with madden on {@FromDate=tuesday}
+
+
+> Utterance passed in this intent: 9/10
+# DeleteCalendarEntry
+> FAIL. Predicted intent: CancelCalendar(0.7823768), DeleteCalendarEntry(0.0937656239)
+- i want to delete an appointment
+> PASS. Predicted intent: DeleteCalendarEntry(0.892797053), CancelCalendar(0.0478856079)
+- i need to delete this appointment from my calendar
+> PASS. Predicted intent: DeleteCalendarEntry(0.973581), AddCalendarEntryAttribute(0.00616494333)
+- delete the appointment with jeffrey
+> PASS. Predicted intent: DeleteCalendarEntry(0.9518173), CancelCalendar(0.026275998)
+- delete this appointment
+> PASS. Predicted intent: DeleteCalendarEntry(0.979674459), CancelCalendar(0.008066425)
+- delete the appointment with mom
+> PASS. Predicted intent: DeleteCalendarEntry(0.9765982), ChangeCalendarEntry(0.0114704585)
+- remove {@Subject=dentist appointment}
+> PASS. Predicted intent: DeleteCalendarEntry(0.887881339), CancelCalendar(0.08547054)
+- delete that appointment
+> PASS. Predicted intent: DeleteCalendarEntry(0.9852052), CancelCalendar(0.00334167946)
+- delete the scheduled meeting with zachary
+> PASS. Predicted intent: DeleteCalendarEntry(0.724711657), CreateCalendarEntry(0.223430723)
+- delete the {@PositionReference=1st} one from my calendar
+> PASS. Predicted intent: DeleteCalendarEntry(0.99924767), FindMeetingRoom(0.00008488278)
+- cancel the {@SlotAttribute=meeting room}
+
+
+> Utterance passed in this intent: 2/4
+# FindCalendarDetail
+> FAIL. Predicted intent: FindCalendarWhere(0.4449777), FindCalendarWhen(0.441129953)
+- what are the plans for the {@Subject=dinner date} with stacey
+> PASS. Predicted intent: FindCalendarDetail(0.99845), FindCalendarEntry(0.0002871802)
+- tell me all about {@Subject=dinner date} with stephanie
+> FAIL. Predicted intent: FindCalendarWhere(0.5976795), FindCalendarDetail(0.143290609)
+- what are the particulars for the {@Subject=picnic} {@FromDate=next week}
+> PASS. Predicted intent: FindCalendarDetail(0.9541854), FindDuration(0.0093475)
+- what did the sister say about meeting on {@FromDate=sunday}
+
+
+> Utterance passed in this intent: 1/10
+# FindCalendarEntry
+> FAIL. Predicted intent: FindCalendarWhere(0.458823025), FindCalendarWhen(0.3712561)
+- what's happening {@FromDate=tomorrow}
+> PASS. Predicted intent: FindCalendarEntry(0.5103503), FindCalendarWhere(0.234298557)
+- what meetings do i have {@FromDate=next week}
+> FAIL. Predicted intent: FindCalendarWhere(0.827415645), FindCalendarWhen(0.06617156)
+- what is henry doing on {@FromDate=monday} at {@FromTime=noon}
+> FAIL. Predicted intent: TimeRemaining(0.7865327), FindCalendarWhen(0.184397757)
+- what is the schedule before that
+> FAIL. Predicted intent: FindCalendarWhere(0.3336013), FindDuration(0.266229749)
+- what i'm doing {@FromDate=this weekend}
+> FAIL. Predicted intent: FindCalendarWhere(0.8456806), FindDuration(0.0424989834)
+- what is timothy doing {@FromDate=today}
+> FAIL. Predicted intent: FindCalendarWhere(0.5876094), FindCalendarWhen(0.16801016)
+- what's going on {@FromDate=this week}
+> FAIL. Predicted intent: FindCalendarWhen(0.777113557), FindCalendarWhere(0.193665728)
+- what is my {@PositionReference=1st} meeting {@FromDate=today}
+> FAIL. Predicted intent: FindCalendarWhere(0.68468374), FindCalendarEntry(0.2292577)
+- what do i have to do {@FromTime=this afternoon}
+> FAIL. Predicted intent: FindCalendarWhen(0.6415001), FindCalendarWhere(0.288668573)
+- what is logan 's schedule {@FromDate=this week}
+
+
+> Utterance passed in this intent: 10/10
+# FindCalendarWhen
+> PASS. Predicted intent: FindCalendarWhen(0.9993455), CheckAvailability(0.000115064686)
+- when is my {@OrderReference=next} meeting with ms lawrence
+> PASS. Predicted intent: FindCalendarWhen(0.9993706), CheckAvailability(0.00009646972)
+- when is the {@OrderReference=next} {@Subject=dentist appointment}
+> PASS. Predicted intent: FindCalendarWhen(0.9993536), CheckAvailability(0.000100299578)
+- when is my {@OrderReference=next} meeting with miss kathleen
+> PASS. Predicted intent: FindCalendarWhen(0.999361), FindCalendarWhere(0.000096692)
+- when is the {@Subject=wedding} {@FromDate=tomorrow}
+> PASS. Predicted intent: FindCalendarWhen(0.9993441), CheckAvailability(0.000104003964)
+- when is {@Subject=sports day for the girls}
+> PASS. Predicted intent: FindCalendarWhen(0.999361157), FindCalendarWhere(0.0000898851)
+- when is my {@Subject=picnic lunch} {@FromDate=today}
+> PASS. Predicted intent: FindCalendarWhen(0.999349952), CheckAvailability(0.000104812156)
+- when is my {@Subject=physio}
+> PASS. Predicted intent: FindCalendarWhen(0.9993187), FindCalendarWhere(0.00009249007)
+- when is the {@Subject=social}
+> PASS. Predicted intent: FindCalendarWhen(0.999341965), CheckAvailability(0.00011496865)
+- when is {@Subject=ncaa basketball} {@FromDate=today}
+> PASS. Predicted intent: FindCalendarWhen(0.9993429), CheckAvailability(0.000102822312)
+- when is my {@OrderReference=next} trip to {@Location=new york}
+
+
+> Utterance passed in this intent: 10/10
+# FindCalendarWhere
+> PASS. Predicted intent: FindCalendarWhere(0.9992807), FindCalendarWhen(0.000111323723)
+- where is my {@OrderReference=next} meeting
+> PASS. Predicted intent: FindCalendarWhere(0.999173), FindMeetingRoom(0.000133808149)
+- where is my {@PositionReference=third} {@Subject=shiproom} with tiffany
+> PASS. Predicted intent: FindCalendarWhere(0.9992922), FindCalendarWhen(0.00009899866)
+- where is my {@OrderReference=next} {@Subject=dentist appointment}
+> PASS. Predicted intent: FindCalendarWhere(0.999294341), FindCalendarWhen(0.000114339062)
+- where is the meeting at {@FromTime=11 am} {@FromDate=tomorrow}
+> PASS. Predicted intent: FindCalendarWhere(0.999275148), FindCalendarWhen(0.000104509556)
+- where is the {@Subject=performance review meeting}
+> PASS. Predicted intent: FindCalendarWhere(0.99928236), FindCalendarWhen(0.000108672808)
+- where is my {@OrderReference=next} appointment with olivia
+> PASS. Predicted intent: FindCalendarWhere(0.999280751), FindCalendarWhen(0.000109323555)
+- where is my {@OrderReference=next} event
+> PASS. Predicted intent: FindCalendarWhere(0.999287248), FindCalendarWhen(0.000105837811)
+- where is that meeting
+> PASS. Predicted intent: FindCalendarWhere(0.999283), FindCalendarWhen(0.000119337739)
+- where is my {@OrderReference=next} meeting with ms natalie
+> PASS. Predicted intent: FindCalendarWhere(0.9992804), FindCalendarWhen(0.000103125494)
+- where is the meeting
+
+
+> Utterance passed in this intent: 10/10
+# FindCalendarWho
+> PASS. Predicted intent: FindCalendarWho(0.99844), FindCalendarDetail(0.000337687554)
+- will nancy be at the {@FromTime=morning} {@Subject=briefing meeting}
+> PASS. Predicted intent: FindCalendarWho(0.9973042), AddCalendarEntryAttribute(0.0007356531)
+- will johnny be at {@Subject=office meeting} {@FromDate=today}
+> PASS. Predicted intent: FindCalendarWho(0.998724043), AddCalendarEntryAttribute(0.000282739958)
+- will nicholas be attending the {@Subject=management meeting}
+> PASS. Predicted intent: FindCalendarWho(0.9973602), AddCalendarEntryAttribute(0.000681761943)
+- will john be at {@Subject=marketing meeting}
+> PASS. Predicted intent: FindCalendarWho(0.9981241), AddCalendarEntryAttribute(0.00039120717)
+- will paul be going to the meeting on {@FromDate=friday}
+> PASS. Predicted intent: FindCalendarWho(0.997158766), FindCalendarEntry(0.000547104166)
+- will george be in the {@Subject=hr meeting} at {@FromTime=1} o' clock
+> PASS. Predicted intent: FindCalendarWho(0.998486042), AddCalendarEntryAttribute(0.000474914676)
+- will jimmy parker be attending the meeting
+> PASS. Predicted intent: FindCalendarWho(0.998636067), AddCalendarEntryAttribute(0.000213608873)
+- will jane be at the {@FromTime=3 pm} meeting
+> PASS. Predicted intent: FindCalendarWho(0.9989838), FindCalendarEntry(0.0001626885)
+- will ed be in the {@Subject=finance meeting}
+> PASS. Predicted intent: FindCalendarWho(0.512045443), AddCalendarEntryAttribute(0.414205223)
+- will ethan, yutian and k.j. be at the {@Subject=picnic}
+
+
+> Utterance passed in this intent: 5/6
+# FindDuration
+> PASS. Predicted intent: FindDuration(0.998232067), FindCalendarDetail(0.0002571906)
+- tell me how long is {@FromDate=today} ' s {@Subject=lunch break}
+> PASS. Predicted intent: FindDuration(0.865632832), FindCalendarDetail(0.061191462)
+- please tell me how long i have for {@Subject=lunch}
+> FAIL. Predicted intent: FindCalendarDetail(0.642212868), FindDuration(0.2574939)
+- tell me the duration of the {@Subject=product introducation}
+> PASS. Predicted intent: FindDuration(0.995298266), TimeRemaining(0.00132195267)
+- show me the duration of the {@Subject=weekly sharing}
+> PASS. Predicted intent: FindDuration(0.9970158), TimeRemaining(0.000689048)
+- tell me how long is my {@FromTime=4 oclock} meeting
+> PASS. Predicted intent: FindDuration(0.9971953), TimeRemaining(0.0007313731)
+- please show me how much time i have to {@Subject=run errands}
+
+
+> Utterance passed in this intent: 9/10
+# FindMeetingRoom
+> PASS. Predicted intent: FindMeetingRoom(0.9794211), CheckAvailability(0.009349135)
+- reserve the {@MeetingRoom=mond valle 3/45} for me
+> PASS. Predicted intent: FindMeetingRoom(0.99780035), CheckAvailability(0.0008265676)
+- reserve the {@MeetingRoom=mustafar} room in the {@Building=school} {@FloorNumber=fourth floor} for the meeting
+> PASS. Predicted intent: FindMeetingRoom(0.999111354), CheckAvailability(0.000168919913)
+- please book the room {@MeetingRoom=sandlewood} town {@MeetingRoom=189} for me.
+> FAIL. Predicted intent: FindCalendarDetail(0.253914267), FindDuration(0.135236114)
+- {@MeetingRoom=the room name/number must be part of the sentence} 23
+> PASS. Predicted intent: FindMeetingRoom(0.995360851), CheckAvailability(0.00246795127)
+- please reserve a room {@MeetingRoom=4}
+> PASS. Predicted intent: FindMeetingRoom(0.998539567), CheckAvailability(0.000204076088)
+- want to book the {@MeetingRoom=lodge room 4} at castle hotel.
+> PASS. Predicted intent: FindMeetingRoom(0.994475663), CheckAvailability(0.00218969677)
+- reserve the room {@MeetingRoom=abc-3d} later tonight
+> PASS. Predicted intent: FindMeetingRoom(0.998410165), CheckAvailability(0.000233820247)
+- want to book room {@MeetingRoom=g5} for full day on 15th january
+> PASS. Predicted intent: FindMeetingRoom(0.9974945), CheckAvailability(0.0009208665)
+- reserve the {@MeetingRoom=alejandra room} for tonight
+> PASS. Predicted intent: FindMeetingRoom(0.989378631), RejectCalendar(0.00332361436)
+- the bed was durty, i will never take a room on {@MeetingRoom=ben}
+
+
+> Utterance passed in this intent: 1/1
+# None
+> PASS. Predicted intent: None(0.9941859), RejectCalendar(0.0006693187)
+- 2
+
+
+> Utterance passed in this intent: 5/6
+# RejectCalendar
+> PASS. Predicted intent: RejectCalendar(0.9990332), CancelCalendar(0.000117704294)
+- not this room
+> PASS. Predicted intent: RejectCalendar(0.99902004), None(0.000110767782)
+- not this location
+> PASS. Predicted intent: RejectCalendar(0.999059737), CancelCalendar(0.000125980456)
+- not {@FromTime=this saturday}
+> PASS. Predicted intent: RejectCalendar(0.9990408), CancelCalendar(0.0001243658)
+- not this time
+> FAIL. Predicted intent: FindCalendarEntry(0.819134831), FindMeetingRoom(0.167442575)
+- please find another {@MeetingRoom=meeting room}
+> PASS. Predicted intent: RejectCalendar(0.9990388), CancelCalendar(0.000125629216)
+- not this man
+
+
+> Utterance passed in this intent: 10/10
+# TimeRemaining
+> PASS. Predicted intent: TimeRemaining(0.998731136), FindDuration(0.00037600458)
+- how much time is there before {@Subject=office meeting}
+> PASS. Predicted intent: TimeRemaining(0.999139), CheckAvailability(0.0000945147258)
+- how much time do i have until my {@OrderReference=next} appointment
+> PASS. Predicted intent: TimeRemaining(0.999152839), FindDuration(0.0001024481)
+- how much time until {@FromTime=noon}
+> PASS. Predicted intent: TimeRemaining(0.999166131), FindDuration(0.0000871733646)
+- how much time until my meeting with lori
+> PASS. Predicted intent: TimeRemaining(0.9983579), ContactMeetingAttendees(0.000208822923)
+- show time before {@OrderReference=next} appointment
+> PASS. Predicted intent: TimeRemaining(0.999134243), CheckAvailability(0.0000903822656)
+- how much time do i have until my meeting with larry
+> PASS. Predicted intent: TimeRemaining(0.999143064), CheckAvailability(0.00009401017)
+- how much time do i have until my {@Subject=doc appt}
+> PASS. Predicted intent: TimeRemaining(0.9991753), FindDuration(0.000103918392)
+- how much time remaining till {@OrderReference=next} meeting
+> PASS. Predicted intent: TimeRemaining(0.97860086), FindDuration(0.0094142)
+- i want to know the time left for my {@OrderReference=next} appointment
+> PASS. Predicted intent: TimeRemaining(0.9991744), FindDuration(0.00009105694)
+- how much time until {@OrderReference=next} scheduled appointment
+
+
+> # Entity definitions
+
+@ ml Building
+
+@ ml ContactName
+
+@ ml DestinationCalendar
+
+@ ml Duration
+
+@ ml FloorNumber
+
+@ ml ToDate
+
+@ ml ToTime
+
+@ ml Location
+
+@ ml MeetingRoom
+
+@ ml Message
+
+@ ml MoveEarlierTimeSpan
+
+@ ml MoveLaterTimeSpan
+
+@ ml OrderReference
+
+@ ml PositionReference
+
+@ ml SlotAttribute
+
+@ ml FromDate
+
+@ ml FromTime
+
+@ ml Subject
+
+
+> # PREBUILT Entity definitions
+
+@ prebuilt datetimeV2
+
+@ prebuilt personName
+
+@ prebuilt ordinal
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list PossessivePronoun = 
+	- FirstPerson :
+		- my
+		- our
+		- my own
+		- our own
+	- SecondPerson :
+		- your
+		- your own
+	- ThirdPerson :
+		- his
+		- her
+		- their
+		- his own
+		- her own
+		- their own
+
+
+@ list RelationshipName = 
+	- aunt :
+	- aunts :
+	- boss :
+	- brother :
+	- brother in law :
+	- brother-in-law :
+	- brothers :
+	- child :
+	- children :
+	- colleague :
+	- colleagues :
+	- cousin :
+	- cousins :
+	- dad :
+	- daughter :
+	- daughter in law :
+	- daughter-in-law :
+	- daughters :
+	- families :
+	- family :
+	- father :
+	- father in law :
+	- father-in-law :
+	- friend :
+	- friends :
+	- grandchild :
+	- grandchildren :
+	- granddaughter :
+	- grandfather :
+	- grandma :
+	- grandmother :
+	- grandparent :
+	- grandparents :
+	- grandson :
+	- grandsons :
+	- husband :
+	- in-laws :
+	- kids :
+	- mom :
+	- mother :
+	- mother in law :
+	- mother-in-law :
+	- neighbor :
+	- neighbors :
+	- nephew :
+	- niece :
+	- parent :
+	- parents :
+	- partner :
+	- siblings :
+	- sister :
+	- sister in law :
+	- sister-in-law :
+	- sisters :
+	- son :
+	- son in law :
+	- son-in-law :
+	- step daughter :
+	- step-daughter :
+	- stepfather :
+	- stepmother :
+	- stepsister :
+	- stepson :
+	- students :
+	- teachers :
+	- uncle :
+	- uncles :
+	- wife :
+	- manager :
+
+
+@ list SlotAttributeName = 
+	- room :
+		- meeting room
+		- conference room
+		- confroom
+	- time :
+	- building :
+	- floor :
+
+
+> # RegEx entities
+
+@ regex MeetingRoomKeywordsDesc = /((conf|conference|meeting)\s+)?(room|rm|office)/
+

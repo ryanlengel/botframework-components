@@ -1,0 +1,53 @@
+
+> LUIS application information
+> !# @app.name = calendarV2-test(composer)-UpdateEventDialog.en-us.lu
+> !# @app.desc = Model for calendarV2-test app, targetting composer
+> !# @app.versionId = 0.2
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- what does my day look like
+- add a lunch meeting with jim on wednesday at noon
+- what location is there for the sync with lauren
+- when am i meeting henry
+- when will i be available today
+
+
+# Cancel
+- cancel cancel
+- no cancel
+- never mind
+- cancelled
+- nothing please
+
+
+# ConfirmYes
+- sounds good thanks
+- yeah
+- fine
+- yeah cool
+- it's fine
+
+
+# None
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

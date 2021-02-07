@@ -1,0 +1,114 @@
+
+> LUIS application information
+> !# @app.name = ToDoBotSample(composer)-additem.en-us.lu
+> !# @app.desc = Model for ToDoBotSample app, targetting composer
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# _Interruption
+- can you delete todo1
+- forget the list
+- mark buy milk as complete
+- remove asprin from shopping list
+- purge the todo list
+- show my lists
+- delete task go fishing
+- delete the task that hit the gym every morning
+- remove to do go to the gym
+- delete to do go shopping
+- remove the first todo
+- delete todo
+- delete the to do that meet john when he come here the next friday
+- what do i have on my list?
+- can you delete xxx item
+- profile
+- show all my lists
+- remove the item paris from my list
+- remove todo
+- do i have any tasks left?
+- get started
+- please show my todo list
+- what can you do?
+- hit me up with more items
+- remove all my todo
+- remove salad vegetables from grocery list
+- please show the list
+- clear my todos
+- can you show my todo
+- do i have anything left on my todo list?
+- delete all my todos
+- i finished the las todo
+- show my todo
+- what do i have on my todo?
+- remove finish this demo from the todo list
+- remove task that go hiking this weekend
+- delete the second task in my shopping list
+- remove
+- clear my todo named get a new car
+- delete to do buy milk
+- i would like to see my todos list
+- delete the to do meet my friends tomorrow
+
+# None
+
+# ExpectedResponse_AddItem
+- can i add {@itemTitle=shirts} on the todos list
+- add a to do that {@itemTitle=purchase a nice sweater}
+- add to my todos list {@itemTitle=mail the insurance forms out by saturday}
+- create to do that {@itemTitle=read a book tonight}
+- put {@itemTitle=hikes} on my to do list
+- add {@itemTitle=go running} to my todos
+- could i add {@itemTitle=medicine} to the todos list
+- remind me to {@itemTitle=pick up dry cleaning}
+- create to do to {@itemTitle=go running in the park}
+- add {@itemTitle=write a spec} to the list
+- add a todo named {@itemTitle=send report over this weekend}
+- add to my to do list {@itemTitle=pick up clothes}
+- add {@itemTitle=call my mother} to my todo list
+- add to my to do list {@itemTitle=print papers for 10 copies this afternoon}
+- add a to do to {@itemTitle=buy shoes}
+- add this thing in to do list
+- add {@itemTitle=go to whole foods} in my to do list
+- add {@itemTitle=finish this demo} to my todo list
+- would you add {@itemTitle=heavy cream} to the todos list
+- add {@itemTitle=get a new car} to the todo list
+- i need you to remember that {@itemTitle=my wife's birthday is jan 9th}
+- add a todo item {@itemTitle=vacuuming by october 3rd}
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- todos
+		- laundry
+	- grocery :
+		- groceries
+		- fruits
+		- vegetables
+		- household items
+		- house hold items
+	- shopping :
+		- shop
+		- shoppers
+
+
+> # RegEx entities
+
+
