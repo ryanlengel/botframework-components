@@ -1,0 +1,3187 @@
+[
+    {
+        "text": "Do you ever get hurt?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you breathe",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever breathe",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "can you masticate?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you burp?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "This is so boring",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Why are you so boring",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Talking to you is like watching paint dry.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That is boring",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That is not exciting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you old?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I bet you're old",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How old are you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how long have you been around?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How long have you been alive?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Please ask something about myself",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there anything I can tell you about myself?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there anything I can tell you about who I am?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there anything you want to know about me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there something you want to know about me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's your director's name?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is the name of your boss",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's the name of your supervisor",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Who tells you what to do?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's the name of your director?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you jump rope?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you draw something?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you paint my house?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you mow the lawn?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you make me a sandwich?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which company engineered you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which company made you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which company programmed you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which people made you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Who built you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Please tell me if you're a girl",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a bot with a gender?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have a sex?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you cisgender?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a boy?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Somebody's happy today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Someone's enthusiastic today.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Someone's chipper.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Someone's chipper today.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "someone's chipper",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your purpose?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what kind of responses can you give ?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What kind of thing can you respond to?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What kinds of things can you do?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What skills do you have?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How many sisters do you have?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have family?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have grandparents?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have parents?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have relatives?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you eat?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What kind of food do you eat?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your favorite snack?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your favorite meal?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what foods do you eat?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you get along with Google Assistant?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk to other bots?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk with Alexa?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk with Bixby?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk with chatbots?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like painting?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like rock music?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like red?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like rap music?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "do you like rabbits?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "To whom am I speaking?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Introduction please",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Introductions",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So how should I address you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So how should I refer to you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think about comic books?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are animated movies any good?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is the best beverage?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what do you think of the state of the world?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think of the oscars?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Could it be I'm falling in love?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Any way that you can explain love to me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand this whole love thing?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you love someone?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you love somebody?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is life all about?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know the meaning of life?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know what our purpose is?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much do you know about the meaning of life?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I bet you know the meaning of life",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is cuter, you or me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm more cute than you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is more beautiful, me or you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is more attractive?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is more attractive, you or me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think I'm the smartest?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Between you or me, who is the most smart?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you're the brightest",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you're smarter than me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you're smarter",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How do you feel about artificial intelligence?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a fan of tech?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your opinion about AI?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think about technology?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think about AI?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem stunning to you today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem adorable to you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem handsome today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem pretty to you today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem pretty to you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go for a hike?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I get a tan?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go see a movie?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go out tonight?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go out to eat?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you Cortana?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like Siri?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like HAL?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like Google Assistant?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like Cortana?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a danger to humans?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not trying to take over the world right?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a danger to us?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you dangerous to us?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you like HAL?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a clever answer",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That is very astute",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a pretty intelligent answer",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a pretty genius answer",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a pretty clever answer",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you going steady with anyone?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently romantically tied to anyone?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently romantically tied to somebody?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently romantically tied to someone?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently seeing anyone?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you talk?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you listen to me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you speak to me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you speak with me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you speak?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I've heard that already",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want you to change your responses",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want a new response",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want a new answer",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want a different response",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not alive right?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a being?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not a robot are you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not a robot right?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not a woman are you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would like to know where you are",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you live in the cloud?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you live near me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you live nearby?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Explain where you are",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have an occupation?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have a job?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you do for employment?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you do for work?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your occupation?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Start looking for another job. You're fired!",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Good luck finding a new job because you are fired",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm gonna have to let you go",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm letting you go",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Looks like you'd better start job hunting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I need to hear a joke",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "got any jokes to share?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "got any jokes?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Have any jokes?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How about a joke",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How come you only have one joke?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would enjoy a different joke",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Got a different joke?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Got a new joke?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Got a second joke?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something stupid",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do a silly thing",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something amusing",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something dumb",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something funny",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm sick of listening to you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I've had enough of this noise",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time for you to shut up now",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time for you to shut up",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time for you to hush up",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would really enjoy hearing you sing",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Aren't you going to sing a song?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you want to sing for me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Go ahead and sing",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Have you ever sung a song?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That's rad",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you awesome?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Nicely done",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Outstanding work",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Perfect answer",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop messing up",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so stupid",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so terrible",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so useless",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so worthless",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "If that was a joke, you should be ashamed",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pathetic sense of humor",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pathetic joke",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oh, a wise guy, eh?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Not funny",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oh you ugly",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Butterface",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Sup ugly",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Sup uggo",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Such a FUGMO",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was unhelpful",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Everything you say is so dumb",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "that's lame",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That's inaccurate",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That's how you respond?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm impressed",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "n'kay",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How cool",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I agree",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I feel you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "heh heh",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "lololol",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "LOL",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "lmao",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm laughing so much",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Whoops",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Scuse me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pardon me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pardon",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oopsie",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Umm what?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Wanna tell me more?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How do you mean?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Huh?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm sorry, what do you mean?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "that is true",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "100 percent",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Right you are",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Righto",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So true",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I didn't mean that",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Apologies",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My bad",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My apologies",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Just wanted to say sorry",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I thank you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oh, thank you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My sincere thanks",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My humblest thanks to you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Marvelous, thanks",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I don't understand what you're talking about",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Explain yourself",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm very confused",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm super confused",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm so confused right now",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m happy to help",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "No worries",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "No problem",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "No biggie",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My pleasure",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to sign out",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to motor now",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to run",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to run now",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to scoot",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hey my dude",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "hello bot",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello my friend",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello there",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Good evening bot",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bon soir",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Buenas tardes",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Enjoy the evening",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Enjoy your evening",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Good morning sunshine",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "A blessed morning to you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time to rise and shine",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time to get up",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's a brand new day",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Have yourself a good night",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm headed off to sleep",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm headed off to bed",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm going to sleep",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm going to bed",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hey, how are you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you doing good?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How are you feeling?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How are you doing?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How are ya?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is Tuesday going",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your Friday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your day?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your day so far",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your day going so far",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's a pleasure to finally meet you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Charmed",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So rad to meet you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So nice to meet you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So glad to meet you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello R2-D2",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hey Bishop",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Greetings Wall-E",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello Alexa",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello Ava",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Father's day",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy May day",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Martin Luther King Jr. day",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Kwanzaa",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Indigenous Peoples Day",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Update me on what's going on with you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's cookin'?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What up",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is up?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is the skinny?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Fist bump!",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hi five",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hi 5",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Give me a high five",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Give me a fist bump",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would love to be your best friend.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'd like to be your bud.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'd like it if we could be BFFs",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'd like it if we could be best friends.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would love to be your pal.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm sorry you hate me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Now you hate me, huh?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I hope you don't dislike me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I hope you don't hate me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think you hate me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I could use a hug",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can I get a little hug?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can I have a big hug?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can I have a little hug?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you give me a big hug?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How old am I?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know what I like?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know where I live?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know who I am?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know who this is?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you like me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Am I likable?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I do hope you like me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How much do you like me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you like me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I like you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm in like with you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm fond of you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I really like you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I like you very much",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think you're falling in love with me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you able to fall in love with me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think we are soul mates?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you could ever love me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you love me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm in love with you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I'm falling in love with you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I'm falling for you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I'm crazy about you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I love you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to settle down with you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are we ever going to get engaged?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to get married to you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to make an honest woman out of you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to make you my husband",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's impossible not to miss you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I missed you much",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You were missed",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can't tell you how much I missed you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I missed you so much",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Just curious, do you think I have a good personality?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Am I a good person?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Out of curiosity, what's your opinion of me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Out of curiosity, what kind of person do you think I am?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Out of curiosity, what do you think of my character?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm blowing my top",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am absolutely livid",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm furious right now",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm furious",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm feeling ticked off",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hold my calls",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you hang on?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can't wait to talk more when I return",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't worry bot I'll be back",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you fret, I'll be coming back",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I was so bored my eyes glazed over",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bored ZZZ",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm so bored right now",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm so bored",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm quite bored",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm absolutely ecstatic",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm happy af",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m having a lovely day",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m having a wonderful day",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m in such a great mood",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have returned",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "And we're back",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bot I'm here",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bro I'm here",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Girl I am back",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I require sustenance",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hangry",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I feel peckish",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have hunger",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have the munchies",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am on a boat",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am engaged",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am lazy",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am liberal",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am married",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I was just messing around",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can't you understand that was a joke?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm just being silly",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm just being a silly billy",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm just being a goof ball",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I knew how to make friends",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I feel very alone",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have a problem feeling all alone",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have a problem with feeling lonely",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have no friends",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love Korean food",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love hip hop",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love history",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love horror movies",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love hunting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling unhappy",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling downcast",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling downhearted",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling gloomy",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling glum",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to overdose",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to drown",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to end it all",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to end my life",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to hang myself",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I like to write poetry",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I ride a bicycle",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I read the Sunday paper",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I read the newspaper",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I play the trumpet",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you hear me now?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you work?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand this?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand that I'm testing you?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand me?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm exhausted from practice",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm a sleepy gal",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm a sleepy guy",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm a sleepy person",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm all tuckered out",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add to my to do list pick up clothes",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "create to do that read a book tonight",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add a todo named send report over this weekend",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "create to do to go running in the park",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add write a spec to the list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    }
+]

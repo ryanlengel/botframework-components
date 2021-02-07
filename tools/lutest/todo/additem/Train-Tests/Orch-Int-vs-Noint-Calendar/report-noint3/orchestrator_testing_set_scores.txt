@@ -1,0 +1,205 @@
+accept	UNKNOWN	UNKNOWN	0.2287
+accept it	UNKNOWN	ExpectedResponse_AddItem	0.3165
+accept my 10 pm	UNKNOWN	ExpectedResponse_AddItem	0.4243
+accept that yes	UNKNOWN	ExpectedResponse_AddItem	0.3121
+accept the 1:1 with susan	UNKNOWN	ExpectedResponse_AddItem	0.35
+accept the event with anna	UNKNOWN	UNKNOWN	0.2715
+accept the meeting at 2	UNKNOWN	UNKNOWN	0.2991
+accept the meeting at 2 pm	UNKNOWN	UNKNOWN	0.25
+accept the meeting with john	UNKNOWN	UNKNOWN	0.2039
+accept the teams sync	UNKNOWN	UNKNOWN	0.1304
+accept the upcoming meeting	UNKNOWN	UNKNOWN	0.2653
+accept this invite	UNKNOWN	UNKNOWN	0.2565
+am i busy tomorrow afternoon?	UNKNOWN	ExpectedResponse_AddItem	0.4373
+am i busy wednesday	UNKNOWN	ExpectedResponse_AddItem	0.4147
+am i busy wednesday at 1pm?	UNKNOWN	ExpectedResponse_AddItem	0.3717
+am i free at 4:30 pm	UNKNOWN	UNKNOWN	0.2797
+anything named standup this week?	UNKNOWN	ExpectedResponse_AddItem	0.4518
+calendar overview	UNKNOWN	UNKNOWN	0.2758
+can i take a break today?	UNKNOWN	UNKNOWN	0.2711
+can you tell me what conference room my next meeting is in?	UNKNOWN	UNKNOWN	0.1588
+cancel my meeting with andrew today.	UNKNOWN	UNKNOWN	0.1279
+cancel my meeting with lydia	UNKNOWN	UNKNOWN	0.1327
+cancel my meeting with title daily meeting	UNKNOWN	UNKNOWN	0.1533
+cancel my next meeting	UNKNOWN	UNKNOWN	0.136
+cancel the event at 4	UNKNOWN	UNKNOWN	0.1479
+cancel the event title shareholders revisit our scope	UNKNOWN	UNKNOWN	0.1813
+cancel this event	UNKNOWN	UNKNOWN	0.1503
+cancel this meeting for me	UNKNOWN	UNKNOWN	0.1222
+change my meeting tomorrow morning	UNKNOWN	UNKNOWN	0.2529
+change the sync with mary to start at 12	UNKNOWN	ExpectedResponse_AddItem	0.3004
+decline	UNKNOWN	UNKNOWN	0.1999
+decline my 4 pm meeting with title weekly report	UNKNOWN	UNKNOWN	0.2449
+decline my meeting with lydia	UNKNOWN	UNKNOWN	0.1602
+decline my next meeting	UNKNOWN	UNKNOWN	0.1732
+decline that event	UNKNOWN	UNKNOWN	0.2523
+decline the 1:1 with susan	UNKNOWN	UNKNOWN	0.2903
+decline the meeting at 9	UNKNOWN	UNKNOWN	0.1883
+decline the meeting with john	UNKNOWN	UNKNOWN	0.1568
+decline the one at 9	UNKNOWN	ExpectedResponse_AddItem	0.3374
+do i have a break today?	UNKNOWN	ExpectedResponse_AddItem	0.3781
+do i have a dentist appointment this week	UNKNOWN	UNKNOWN	0.2372
+do i have anything with steve on friday about composer features?	UNKNOWN	ExpectedResponse_AddItem	0.371
+do i have anything with steve on friday?	UNKNOWN	ExpectedResponse_AddItem	0.3659
+edit my event tomorrow afternoon with thomas	UNKNOWN	ExpectedResponse_AddItem	0.3807
+find meetings about dev sync	UNKNOWN	UNKNOWN	0.2404
+find meetings with tom	UNKNOWN	UNKNOWN	0.2344
+find meetings with tom tomorrow named pm sync	UNKNOWN	UNKNOWN	0.2898
+give me an overview of my calendar	UNKNOWN	ExpectedResponse_AddItem	0.3315
+how does my day look so far	UNKNOWN	UNKNOWN	0.1257
+how does my day start	UNKNOWN	UNKNOWN	0.2592
+how long is my break for	UNKNOWN	UNKNOWN	0.1574
+how long is my last meeting?	UNKNOWN	UNKNOWN	0.2231
+how long till my next break?	UNKNOWN	UNKNOWN	0.1835
+how long until another meeting starts	UNKNOWN	UNKNOWN	0.2005
+how long until i need to join the next event	UNKNOWN	UNKNOWN	0.1914
+how long until i'm up again	UNKNOWN	UNKNOWN	0.2155
+how long until my next meeting	UNKNOWN	UNKNOWN	0.1885
+how many minutes do i have until another meeting starts	UNKNOWN	UNKNOWN	0.2208
+how much time do i have until my next meeting	UNKNOWN	UNKNOWN	0.2006
+how much time until i have to be present in a meeting again	UNKNOWN	UNKNOWN	0.273
+i just woke up, what can i expect	UNKNOWN	ExpectedResponse_AddItem	0.4459
+i need a break, when can i?	UNKNOWN	UNKNOWN	0.2455
+i want to accept this event	UNKNOWN	ExpectedResponse_AddItem	0.3993
+i want to accept this meeting	UNKNOWN	UNKNOWN	0.2827
+i want to cancel the meeting later today at 5	UNKNOWN	UNKNOWN	0.1735
+i will not attend	UNKNOWN	UNKNOWN	0.2725
+i would like to accept that	UNKNOWN	UNKNOWN	0.2516
+is there a gap in my calendar	UNKNOWN	UNKNOWN	0.1907
+is there a meeting named review tomorrow?	UNKNOWN	UNKNOWN	0.2288
+just cancel the one with mary	UNKNOWN	UNKNOWN	0.2655
+just tell me my calendar today	UNKNOWN	UNKNOWN	0.2972
+kick off my day will you	UNKNOWN	ExpectedResponse_AddItem	0.4819
+let me know when i have a break	UNKNOWN	UNKNOWN	0.2905
+list all events for august 20th	UNKNOWN	ExpectedResponse_AddItem	0.4179
+make me tentative for that meeting	UNKNOWN	ExpectedResponse_AddItem	0.4403
+make the 1:1 meeting with susan tentative	UNKNOWN	ExpectedResponse_AddItem	0.4107
+make the meeting with john tentative	UNKNOWN	ExpectedResponse_AddItem	0.378
+move this event to 9	UNKNOWN	ExpectedResponse_AddItem	0.3889
+move this event to tomorrow	UNKNOWN	ExpectedResponse_AddItem	0.4128
+move this to start tomorrow at 4	UNKNOWN	ExpectedResponse_AddItem	0.4876
+my calendar for tomorrow	UNKNOWN	UNKNOWN	0.2674
+my day today	UNKNOWN	UNKNOWN	0.2972
+overview of today	UNKNOWN	UNKNOWN	0.2696
+show my calendar	UNKNOWN	ExpectedResponse_AddItem	0.3133
+show my meeting about budget approval	UNKNOWN	ExpectedResponse_AddItem	0.3135
+show my meeting with chris on wednesday	UNKNOWN	ExpectedResponse_AddItem	0.3251
+show schedule	UNKNOWN	ExpectedResponse_AddItem	0.3265
+show what is going on	UNKNOWN	UNKNOWN	0.2311
+show what is on my calendar today	UNKNOWN	ExpectedResponse_AddItem	0.3079
+tell me about my first appointment	UNKNOWN	ExpectedResponse_AddItem	0.3143
+tell me about my meetings on friday	UNKNOWN	UNKNOWN	0.2658
+tell me about today	UNKNOWN	ExpectedResponse_AddItem	0.3334
+tell me how long i can rest for	UNKNOWN	UNKNOWN	0.1596
+tell me my last meeting for today	UNKNOWN	UNKNOWN	0.2984
+tell me what is going on	UNKNOWN	UNKNOWN	0.2242
+tell me what my first meeting is	UNKNOWN	UNKNOWN	0.2799
+tell me what my next month is like	UNKNOWN	ExpectedResponse_AddItem	0.308
+tell me when i can step away from my computer	UNKNOWN	UNKNOWN	0.1937
+tell me when i can take a break	UNKNOWN	UNKNOWN	0.2625
+tell me when my next break is	UNKNOWN	UNKNOWN	0.2734
+tell me where the meeting at 9 is at	UNKNOWN	UNKNOWN	0.171
+tentatively accept the 1:1 with susan	UNKNOWN	ExpectedResponse_AddItem	0.3336
+tentatively accept the meeting with john	UNKNOWN	UNKNOWN	0.2632
+the meeting with anna i want it to be tentative	UNKNOWN	ExpectedResponse_AddItem	0.384
+update meeting	UNKNOWN	UNKNOWN	0.2969
+update my meeting with elaine	UNKNOWN	ExpectedResponse_AddItem	0.3392
+update the sync on planning for release to start at 9	UNKNOWN	ExpectedResponse_AddItem	0.3186
+what appointments do i have	UNKNOWN	UNKNOWN	0.2487
+what can i expect first today	UNKNOWN	ExpectedResponse_AddItem	0.4435
+what do i have this week	UNKNOWN	UNKNOWN	0.2784
+what do i have tomorrow	UNKNOWN	UNKNOWN	0.2955
+what do i have wednesday	UNKNOWN	ExpectedResponse_AddItem	0.3272
+what do i have with elaine this week	UNKNOWN	ExpectedResponse_AddItem	0.3451
+what do i have with john	UNKNOWN	UNKNOWN	0.236
+what does my day look like	UNKNOWN	UNKNOWN	0.2952
+what is first on my agenda?	UNKNOWN	UNKNOWN	0.2341
+what is going on next week	UNKNOWN	UNKNOWN	0.2678
+what is going on today	UNKNOWN	UNKNOWN	0.2321
+what is my agenda for this weekend?	UNKNOWN	ExpectedResponse_AddItem	0.345
+what is my first meeting today?	UNKNOWN	ExpectedResponse_AddItem	0.3017
+what is my first meeting tomorrow?	UNKNOWN	UNKNOWN	0.2893
+what is on for today?	UNKNOWN	UNKNOWN	0.217
+what is on my calendar tomorrow	UNKNOWN	UNKNOWN	0.2536
+what is the location of the all hands meeting?	UNKNOWN	UNKNOWN	0.2167
+what is the location of the sync at noon	UNKNOWN	UNKNOWN	0.1748
+what is up next month?	UNKNOWN	UNKNOWN	0.2404
+what location is included in the meeting at 11	UNKNOWN	UNKNOWN	0.2648
+what location is there for the sync with lauren	UNKNOWN	UNKNOWN	0.1917
+what meetings do i have about skills this week	UNKNOWN	UNKNOWN	0.2146
+what meetings do i have named team meeting this week	UNKNOWN	UNKNOWN	0.2171
+what meetings do i have on thursday?	UNKNOWN	UNKNOWN	0.2762
+what meetings do i have this weekend?	UNKNOWN	UNKNOWN	0.2708
+what meetings do i have today	UNKNOWN	UNKNOWN	0.223
+what meetings do i have with robert	UNKNOWN	UNKNOWN	0.244
+what time am i available again	UNKNOWN	UNKNOWN	0.1927
+what time am i discussing the fiscal plans	UNKNOWN	UNKNOWN	0.134
+what time am i meeting with emma?	UNKNOWN	UNKNOWN	0.1587
+what time does my day end?	UNKNOWN	UNKNOWN	0.1981
+what time does my day start?	UNKNOWN	UNKNOWN	0.2004
+what time does my last meeting end?	UNKNOWN	UNKNOWN	0.235
+what time does my next meeting start	UNKNOWN	UNKNOWN	0.1785
+what time is my team meeting today?	UNKNOWN	UNKNOWN	0.1918
+what time is the sync planned for	UNKNOWN	UNKNOWN	0.1659
+what's happening first	UNKNOWN	UNKNOWN	0.2246
+what's on for today	UNKNOWN	UNKNOWN	0.2631
+what's on monday	UNKNOWN	ExpectedResponse_AddItem	0.3322
+what's on my calendar	UNKNOWN	UNKNOWN	0.2495
+what's on my calendar today?	UNKNOWN	UNKNOWN	0.2366
+whats on next	UNKNOWN	UNKNOWN	0.2638
+whats upcoming	UNKNOWN	UNKNOWN	0.2452
+when am i done	UNKNOWN	UNKNOWN	0.2914
+when am i done today?	UNKNOWN	UNKNOWN	0.2605
+when am i finished for today?	UNKNOWN	UNKNOWN	0.2648
+when am i free	UNKNOWN	UNKNOWN	0.2576
+when am i free on tuesday	UNKNOWN	UNKNOWN	0.2533
+when am i free this week	UNKNOWN	UNKNOWN	0.2774
+when am i meeting henry	UNKNOWN	UNKNOWN	0.2306
+when am i watching england	UNKNOWN	UNKNOWN	0.1699
+when can i go and prepare dinner	UNKNOWN	UNKNOWN	0.2226
+when can i have a drink	UNKNOWN	UNKNOWN	0.2659
+when can i quit work and go home	UNKNOWN	UNKNOWN	0.1726
+when can i take a break?	UNKNOWN	UNKNOWN	0.1909
+when do i have a break?	UNKNOWN	UNKNOWN	0.1979
+when do i have exam	UNKNOWN	UNKNOWN	0.1944
+when do i have time between meetings	UNKNOWN	UNKNOWN	0.2148
+when do i have time for myself today	UNKNOWN	UNKNOWN	0.2879
+when do i meet with charles	UNKNOWN	UNKNOWN	0.2012
+when does my day finally end	UNKNOWN	UNKNOWN	0.2428
+when is it time for me to stop working	UNKNOWN	UNKNOWN	0.1936
+when is my break?	UNKNOWN	UNKNOWN	0.2267
+when is my day over?	UNKNOWN	UNKNOWN	0.2357
+when is my first meeting tomorrow?	UNKNOWN	UNKNOWN	0.2462
+when is my first meeting?	UNKNOWN	UNKNOWN	0.2607
+when is my meeting with john?	UNKNOWN	UNKNOWN	0.2494
+when is my next gap in meetings?	UNKNOWN	UNKNOWN	0.2097
+when will i be available today	UNKNOWN	UNKNOWN	0.1611
+when will i be released today	UNKNOWN	UNKNOWN	0.2055
+when will i chat to lauren	UNKNOWN	UNKNOWN	0.2102
+when will i discuss matters with elaine about our plans	UNKNOWN	UNKNOWN	0.2341
+when will we meet with the design team today	UNKNOWN	UNKNOWN	0.1952
+where am i going for daily sync up?	UNKNOWN	UNKNOWN	0.2664
+where am i going for team meeting?	UNKNOWN	UNKNOWN	0.171
+where is the meeting with anna	UNKNOWN	UNKNOWN	0.1122
+where is tomorrow ' s 11 am meeting	UNKNOWN	UNKNOWN	0.1543
+where is tomorrow meeting at 11 am	UNKNOWN	UNKNOWN	0.1387
+where is tomorrow 's event	UNKNOWN	UNKNOWN	0.1579
+where will the next event take place	UNKNOWN	UNKNOWN	0.1762
+where's my next meeting	UNKNOWN	UNKNOWN	0.1843
+who am i meeting at 10 am tomorrow	UNKNOWN	UNKNOWN	0.1725
+who else is going to the 2pm meeting tomorrow	UNKNOWN	UNKNOWN	0.2054
+who else is joining the event at 1 pm	UNKNOWN	UNKNOWN	0.1771
+who else will be in banking meeting	UNKNOWN	UNKNOWN	0.1796
+who is attending 2 pm meeting tomorrow	UNKNOWN	UNKNOWN	0.2011
+who is attending the meeting on wednesday	UNKNOWN	UNKNOWN	0.2029
+who is coming to the project review tomorrow?	UNKNOWN	UNKNOWN	0.1648
+who is going to attend the meeting tomorrow at 2 pm	UNKNOWN	UNKNOWN	0.2092
+who is included in the invite in the next meeting	UNKNOWN	UNKNOWN	0.2296
+who will attend the sync about roles	UNKNOWN	UNKNOWN	0.2179
+who will be present at 3	UNKNOWN	UNKNOWN	0.1938
+who will be there at noon	UNKNOWN	UNKNOWN	0.1598
+add to my to do list pick up clothes	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.9097
+create to do that read a book tonight	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6374
+add a todo named send report over this weekend	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.7121
+create to do to go running in the park	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6911
+add write a spec to the list	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.8025

@@ -1,0 +1,19 @@
+remove	_Interruption	_Interruption	0.0965	0.7808
+remove to do go to the gym	_Interruption	_Interruption	0.2107	0.8609
+remove class from todo list	_Interruption	_Interruption	0.2671	0.9298
+what can you do?	_Interruption	_Interruption	0.3468	0.6212
+what do i have on my todo?	_Interruption	_Interruption	0.2102	0.9256
+remove the first todo	_Interruption	_Interruption	0.2201	0.9156
+remove task buy dog food	_Interruption	_Interruption	0.2569	0.937
+remove the to do physical examination	_Interruption	_Interruption	0.1519	0.8103
+i need to see my todo list	_Interruption	_Interruption	0.2649	0.993
+do i have any tasks left?	_Interruption	_Interruption	0.2966	0.8107
+forget the list	_Interruption	_Interruption	0.2125	0.6644
+delete shampoo from shopping list	_Interruption	_Interruption	0.1744	0.9515
+delete the second task in my shopping list	_Interruption	_Interruption	0.2846	0.9052
+delete todo	_Interruption	_Interruption	0.1404	0.971
+put hikes on my to do list	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6735	0.6064
+add call my mother to my todo list	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.4633	0.3202
+add to my to do list print papers for 10 copies this afternoon	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6371	0.2782
+add a todo named send report over this weekend	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.4701	0.2626
+add a todo item vacuuming by october 3rd	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6972	0.6324

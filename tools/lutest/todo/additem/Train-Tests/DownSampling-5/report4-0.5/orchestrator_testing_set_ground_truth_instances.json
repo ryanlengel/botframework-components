@@ -1,0 +1,135 @@
+[
+    {
+        "text": "view my todos",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete off pancake mix on the shopping list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete task go to cinema tonight",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need to see my todo list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete to do that go hiking tomorrow",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "can you please show my todos?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete shampoo from shopping list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete the item buy socks from my todo list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "remove another one",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "erase bananas from shopping list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "remove class from todo list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "remove black shoes from shopping list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "flag first one as done",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "erase peanuts on the shopping list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please remind me to buy milk",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add due date august to peanut butter jelly bread milk on todos list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please remember that i need to buy milk",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add an task of chores to do around the house",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add reading to my to do list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    }
+]

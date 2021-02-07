@@ -1,0 +1,3257 @@
+[
+    {
+        "text": "Do you ever get hurt?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you breathe",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever breathe",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "can you masticate?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you burp?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "This is so boring",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Why are you so boring",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Talking to you is like watching paint dry.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That is boring",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That is not exciting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you old?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I bet you're old",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How old are you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how long have you been around?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How long have you been alive?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Please ask something about myself",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there anything I can tell you about myself?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there anything I can tell you about who I am?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there anything you want to know about me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Is there something you want to know about me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's your director's name?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is the name of your boss",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's the name of your supervisor",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Who tells you what to do?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's the name of your director?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you jump rope?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you draw something?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you paint my house?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you mow the lawn?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you make me a sandwich?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which company engineered you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which company made you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which company programmed you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which people made you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Who built you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Please tell me if you're a girl",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a bot with a gender?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have a sex?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you cisgender?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a boy?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Somebody's happy today",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Someone's enthusiastic today.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Someone's chipper.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Someone's chipper today.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "someone's chipper",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your purpose?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what kind of responses can you give ?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What kind of thing can you respond to?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What kinds of things can you do?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What skills do you have?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How many sisters do you have?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have family?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have grandparents?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have parents?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have relatives?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you eat?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What kind of food do you eat?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your favorite snack?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your favorite meal?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what foods do you eat?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you get along with Google Assistant?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk to other bots?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk with Alexa?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk with Bixby?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you ever talk with chatbots?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like painting?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like rock music?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like red?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like rap music?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "do you like rabbits?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "To whom am I speaking?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Introduction please",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Introductions",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So how should I address you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So how should I refer to you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think about comic books?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are animated movies any good?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is the best beverage?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what do you think of the state of the world?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think of the oscars?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Could it be I'm falling in love?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Any way that you can explain love to me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand this whole love thing?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you love someone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you love somebody?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is life all about?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know the meaning of life?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know what our purpose is?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much do you know about the meaning of life?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I bet you know the meaning of life",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is cuter, you or me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm more cute than you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is more beautiful, me or you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is more attractive?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Which of us is more attractive, you or me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think I'm the smartest?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Between you or me, who is the most smart?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you're the brightest",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you're smarter than me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you're smarter",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How do you feel about artificial intelligence?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a fan of tech?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your opinion about AI?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think about technology?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you think about AI?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem stunning to you today?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem adorable to you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem handsome today?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem pretty to you today?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do I seem pretty to you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go for a hike?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I get a tan?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go see a movie?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go out tonight?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Should I go out to eat?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you Cortana?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like Siri?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like HAL?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like Google Assistant?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you like Cortana?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a danger to humans?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not trying to take over the world right?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a danger to us?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you dangerous to us?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you like HAL?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a clever answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That is very astute",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a pretty intelligent answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a pretty genius answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was a pretty clever answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you going steady with anyone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently romantically tied to anyone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently romantically tied to somebody?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently romantically tied to someone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you currently seeing anyone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you talk?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you listen to me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you speak to me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you speak with me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you speak?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I've heard that already",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want you to change your responses",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want a new response",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want a new answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want a different response",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not alive right?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you a being?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not a robot are you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not a robot right?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You're not a woman are you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would like to know where you are",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you live in the cloud?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you live near me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you live nearby?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Explain where you are",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have an occupation?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you have a job?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you do for employment?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What do you do for work?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is your occupation?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Start looking for another job. You're fired!",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Good luck finding a new job because you are fired",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm gonna have to let you go",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm letting you go",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Looks like you'd better start job hunting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I need to hear a joke",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "got any jokes to share?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "got any jokes?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Have any jokes?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How about a joke",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How come you only have one joke?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would enjoy a different joke",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Got a different joke?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Got a new joke?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Got a second joke?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something stupid",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do a silly thing",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something amusing",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something dumb",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do something funny",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm sick of listening to you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I've had enough of this noise",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time for you to shut up now",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time for you to shut up",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time for you to hush up",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would really enjoy hearing you sing",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Aren't you going to sing a song?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you want to sing for me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Go ahead and sing",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Have you ever sung a song?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That's rad",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you awesome?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Nicely done",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Outstanding work",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Perfect answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop messing up",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so stupid",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so terrible",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so useless",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Stop being so worthless",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "If that was a joke, you should be ashamed",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pathetic sense of humor",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pathetic joke",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oh, a wise guy, eh?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Not funny",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oh you ugly",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Butterface",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Sup ugly",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Sup uggo",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Such a FUGMO",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That was unhelpful",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Everything you say is so dumb",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "that's lame",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That's inaccurate",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "That's how you respond?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm impressed",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "n'kay",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How cool",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I agree",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I feel you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "heh heh",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "lololol",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "LOL",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "lmao",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm laughing so much",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Whoops",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Scuse me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pardon me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Pardon",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oopsie",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Umm what?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Wanna tell me more?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How do you mean?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Huh?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm sorry, what do you mean?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "that is true",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "100 percent",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Right you are",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Righto",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So true",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I didn't mean that",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Apologies",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My bad",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My apologies",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Just wanted to say sorry",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I thank you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Oh, thank you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My sincere thanks",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My humblest thanks to you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Marvelous, thanks",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I don't understand what you're talking about",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Explain yourself",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm very confused",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm super confused",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm so confused right now",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m happy to help",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "No worries",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "No problem",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "No biggie",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "My pleasure",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to sign out",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to motor now",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to run",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to run now",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have to scoot",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hey my dude",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "hello bot",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello my friend",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello there",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Good evening bot",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bon soir",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Buenas tardes",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Enjoy the evening",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Enjoy your evening",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Good morning sunshine",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "A blessed morning to you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time to rise and shine",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's time to get up",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's a brand new day",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Have yourself a good night",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm headed off to sleep",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm headed off to bed",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm going to sleep",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm going to bed",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hey, how are you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you doing good?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How are you feeling?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How are you doing?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How are ya?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is Tuesday going",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your Friday",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your day?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your day so far",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How is your day going so far",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's a pleasure to finally meet you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Charmed",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So rad to meet you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So nice to meet you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "So glad to meet you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello R2-D2",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hey Bishop",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Greetings Wall-E",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello Alexa",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hello Ava",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Father's day",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy May day",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Martin Luther King Jr. day",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Kwanzaa",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Happy Indigenous Peoples Day",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Update me on what's going on with you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What's cookin'?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What up",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is up?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "What is the skinny?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Fist bump!",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hi five",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hi 5",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Give me a high five",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Give me a fist bump",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would love to be your best friend.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'd like to be your bud.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'd like it if we could be BFFs",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'd like it if we could be best friends.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I would love to be your pal.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm sorry you hate me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Now you hate me, huh?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I hope you don't dislike me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I hope you don't hate me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think you hate me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I could use a hug",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can I get a little hug?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can I have a big hug?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can I have a little hug?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you give me a big hug?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How old am I?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know what I like?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know where I live?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know who I am?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you know who this is?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you like me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Am I likable?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I do hope you like me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "How much do you like me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you like me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I like you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm in like with you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm fond of you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I really like you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I like you very much",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think you're falling in love with me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are you able to fall in love with me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think we are soul mates?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you think you could ever love me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you love me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm in love with you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I'm falling in love with you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I'm falling for you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I'm crazy about you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You know I love you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to settle down with you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Are we ever going to get engaged?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to get married to you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to make an honest woman out of you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I want to make you my husband",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "It's impossible not to miss you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I missed you much",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "You were missed",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can't tell you how much I missed you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I missed you so much",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Just curious, do you think I have a good personality?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Am I a good person?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Out of curiosity, what's your opinion of me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Out of curiosity, what kind of person do you think I am?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Out of curiosity, what do you think of my character?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm blowing my top",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am absolutely livid",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm furious right now",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm furious",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm feeling ticked off",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hold my calls",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you hang on?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can't wait to talk more when I return",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't worry bot I'll be back",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Don't you fret, I'll be coming back",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I was so bored my eyes glazed over",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bored ZZZ",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm so bored right now",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm so bored",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm quite bored",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm absolutely ecstatic",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm happy af",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m having a lovely day",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m having a wonderful day",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Iâ€™m in such a great mood",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have returned",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "And we're back",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bot I'm here",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Bro I'm here",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Girl I am back",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I require sustenance",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Hangry",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I feel peckish",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have hunger",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have the munchies",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am on a boat",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am engaged",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am lazy",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am liberal",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I am married",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I was just messing around",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can't you understand that was a joke?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm just being silly",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm just being a silly billy",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm just being a goof ball",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I knew how to make friends",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I feel very alone",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have a problem feeling all alone",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have a problem with feeling lonely",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I have no friends",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love Korean food",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love hip hop",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love history",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love horror movies",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I love hunting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling unhappy",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling downcast",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling downhearted",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling gloomy",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I wish I could stop feeling glum",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to overdose",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to drown",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to end it all",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to end my life",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I think I'm going to hang myself",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I like to write poetry",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I ride a bicycle",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I read the Sunday paper",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I read the newspaper",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I play the trumpet",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Can you hear me now?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you work?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand this?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand that I'm testing you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "Do you understand me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm exhausted from practice",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm a sleepy gal",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm a sleepy guy",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm a sleepy person",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "I'm all tuckered out",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "never mind cancel that",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": []
+    },
+    {
+        "text": "forget about it",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancelled",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": []
+    },
+    {
+        "text": "don't do that",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel that",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": []
+    },
+    {
+        "text": "never mind",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": []
+    },
+    {
+        "text": "right",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "sure",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "yeah go ahead",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "yeah good",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "of course",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "sounds good",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "yeah bro",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "very good",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    },
+    {
+        "text": "oh yeah",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": []
+    }
+]

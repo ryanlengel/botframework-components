@@ -1,0 +1,135 @@
+[
+    {
+        "text": "i need to see my todo list",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete all my todos",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete to do that go hiking tomorrow",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete shampoo from shopping list",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete the to do meet my friends tomorrow",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete the to do that meet john when he come here the next friday",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "purge the todo list",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "show my todo",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "remove todo",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete the second task in my shopping list",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "erase bananas from shopping list",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what is on my list?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete todo",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "todo list please",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add go running to my todos",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add to my todos list mail the insurance forms out by saturday",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add finish this demo to my todo list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please remind me to buy milk",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add this thing in to do list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": []
+    }
+]

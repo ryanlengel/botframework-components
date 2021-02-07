@@ -1,0 +1,268 @@
+[
+    {
+        "text": "delete the to do that meet john when he come here the next friday",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3223
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "delete the task that hit the gym every morning",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2548
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "delete all my todos",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2949
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show all my lists",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5626
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "todo list please",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6105
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have on my list?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5452
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "clear my todos",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.373
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove the first todo",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4266
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "view my todos",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.427
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove the to do physical examination",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2018
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove asprin from shopping list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3706
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove the to do that pick tom up at six p.m.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3751
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "profile",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1849
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show my todo",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4801
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add an task of chores to do around the house",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.7125
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "would you add heavy cream to the todos list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8848
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add due date august to peanut butter jelly bread milk on todos list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5405
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add call my mother to my todo list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6148
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "create to do to go running in the park",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.7997
+            }
+        ],
+        "entity_scores": []
+    }
+]

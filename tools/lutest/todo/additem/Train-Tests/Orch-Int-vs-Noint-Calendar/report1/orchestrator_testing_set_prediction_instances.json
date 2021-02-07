@@ -1,0 +1,3692 @@
+[
+    {
+        "text": "accept",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2416
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1898
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept it",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3062
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1874
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept my 10 pm",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3762
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2752
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept that yes",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.295
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2459
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept the 1:1 with susan",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3215
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2736
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept the event with anna",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3102
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1684
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept the meeting at 2",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2919
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2003
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept the meeting at 2 pm",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.247
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1587
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept the meeting with john",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.226
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1663
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept the teams sync",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1625
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1467
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept the upcoming meeting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2508
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.155
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept this invite",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2334
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1687
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "am i busy tomorrow afternoon?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3775
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5175
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "am i busy wednesday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3856
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5202
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "am i busy wednesday at 1pm?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3289
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4607
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "am i free at 4:30 pm",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2507
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2945
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "anything named standup this week?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4711
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5856
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "calendar overview",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2525
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.571
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "can i take a break today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2611
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3547
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "can you tell me what conference room my next meeting is in?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1694
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4969
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel my meeting with andrew today.",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1092
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4328
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel my meeting with lydia",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1222
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.377
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel my meeting with title daily meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1313
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4907
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel my next meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1166
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3584
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel the event at 4",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.141
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4844
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel the event title shareholders revisit our scope",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1662
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4218
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel this event",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1546
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3507
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel this meeting for me",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1015
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4092
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "change my meeting tomorrow morning",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.264
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2324
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "change the sync with mary to start at 12",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2898
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2229
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1612
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2701
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline my 4 pm meeting with title weekly report",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2281
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4558
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline my meeting with lydia",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1231
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4269
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline my next meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1287
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4119
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline that event",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1939
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3968
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline the 1:1 with susan",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2343
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5207
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline the meeting at 9",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1394
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.516
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline the meeting with john",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.119
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4904
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline the one at 9",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2527
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5267
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "do i have a break today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3576
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5936
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "do i have a dentist appointment this week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2395
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4093
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "do i have anything with steve on friday about composer features?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3641
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6395
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "do i have anything with steve on friday?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3804
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.604
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "edit my event tomorrow afternoon with thomas",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4282
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2131
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "find meetings about dev sync",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2459
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5683
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "find meetings with tom",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2432
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6433
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "find meetings with tom tomorrow named pm sync",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2829
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6192
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "give me an overview of my calendar",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2761
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5362
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how does my day look so far",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1188
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4334
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how does my day start",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2491
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4547
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long is my break for",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1505
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1967
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long is my last meeting?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2162
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2299
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long till my next break?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1766
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1702
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long until another meeting starts",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1936
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1804
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long until i need to join the next event",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1822
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1951
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long until i'm up again",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2086
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2237
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long until my next meeting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1816
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1696
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how many minutes do i have until another meeting starts",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2139
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2232
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how much time do i have until my next meeting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1937
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1931
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how much time until i have to be present in a meeting again",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2662
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1375
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i just woke up, what can i expect",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.38
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5408
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i need a break, when can i?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2386
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2842
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i want to accept this event",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4978
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2489
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i want to accept this meeting",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3285
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.209
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i want to cancel the meeting later today at 5",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.137
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3992
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i will not attend",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1969
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3232
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i would like to accept that",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2447
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1989
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "is there a gap in my calendar",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1826
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3314
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "is there a meeting named review tomorrow?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3094
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4716
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "just cancel the one with mary",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2303
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4822
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "just tell me my calendar today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2903
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5253
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "kick off my day will you",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.374
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5156
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "let me know when i have a break",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2803
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4649
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "list all events for august 20th",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3922
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7218
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "make me tentative for that meeting",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5104
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2245
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "make the 1:1 meeting with susan tentative",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4982
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2045
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "make the meeting with john tentative",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4555
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2072
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "move this event to 9",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.382
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3053
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "move this event to tomorrow",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3841
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2908
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "move this to start tomorrow at 4",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3884
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3484
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "my calendar for tomorrow",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2606
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4774
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "my day today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2972
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4894
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "overview of today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2502
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6988
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show my calendar",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3064
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7922
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show my meeting about budget approval",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3061
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5999
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show my meeting with chris on wednesday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3182
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5677
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show schedule",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3518
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7267
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show what is going on",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2587
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6662
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show what is on my calendar today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.301
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8228
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me about my first appointment",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2841
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5902
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me about my meetings on friday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.281
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6083
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me about today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2916
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7629
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me how long i can rest for",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1527
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2172
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me my last meeting for today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2915
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5354
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me what is going on",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2452
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6966
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me what my first meeting is",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2655
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6849
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me what my next month is like",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2825
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.699
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me when i can step away from my computer",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1868
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4112
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me when i can take a break",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2556
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3614
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me when my next break is",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2635
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4486
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me where the meeting at 9 is at",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1726
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6248
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tentatively accept the 1:1 with susan",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3252
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2838
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tentatively accept the meeting with john",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2772
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1986
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "the meeting with anna i want it to be tentative",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3822
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.315
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "update meeting",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3014
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1935
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "update my meeting with elaine",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3563
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1783
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "update the sync on planning for release to start at 9",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3237
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1962
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what appointments do i have",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2418
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6898
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what can i expect first today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3985
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5491
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have this week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2866
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8006
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have tomorrow",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3148
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8662
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have wednesday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3203
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7712
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have with elaine this week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.344
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8005
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have with john",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2467
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8379
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what does my day look like",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2676
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7895
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is first on my agenda?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2242
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6653
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is going on next week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2702
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6465
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is going on today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2191
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.678
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is my agenda for this weekend?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.323
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6229
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is my first meeting today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2816
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6414
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is my first meeting tomorrow?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2791
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6178
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is on for today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2431
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8444
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is on my calendar tomorrow",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2408
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7212
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is the location of the all hands meeting?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2099
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4731
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is the location of the sync at noon",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1668
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4329
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is up next month?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2335
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6154
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what location is included in the meeting at 11",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2579
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4616
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what location is there for the sync with lauren",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1849
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5597
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what meetings do i have about skills this week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2344
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6451
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what meetings do i have named team meeting this week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2355
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6124
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what meetings do i have on thursday?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2693
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6571
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what meetings do i have this weekend?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2688
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5937
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what meetings do i have today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2292
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6329
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what meetings do i have with robert",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2745
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5425
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time am i available again",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.159
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2492
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time am i discussing the fiscal plans",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1148
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2638
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time am i meeting with emma?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1451
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2272
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time does my day end?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1912
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3055
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time does my day start?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1936
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2771
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time does my last meeting end?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2245
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2524
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time does my next meeting start",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1716
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2961
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time is my team meeting today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1849
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3032
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time is the sync planned for",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1657
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3129
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what's happening first",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2166
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6412
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what's on for today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2906
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7447
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what's on monday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3439
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6863
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what's on my calendar",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2426
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7616
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what's on my calendar today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2284
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6433
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "whats on next",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2349
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7253
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "whats upcoming",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2319
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6519
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i done",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2845
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4981
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i done today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2536
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.518
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i finished for today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2375
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5165
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i free",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2508
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2287
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i free on tuesday",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2435
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.217
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i free this week",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2705
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2287
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i meeting henry",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2237
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2618
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i watching england",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1631
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3106
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when can i go and prepare dinner",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2158
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2961
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when can i have a drink",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.259
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2102
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when can i quit work and go home",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1544
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.34
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when can i take a break?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.184
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2384
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when do i have a break?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1911
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2553
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when do i have exam",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1875
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2947
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when do i have time between meetings",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.208
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2851
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when do i have time for myself today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.281
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.351
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when do i meet with charles",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.192
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2046
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when does my day finally end",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2359
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2838
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when is it time for me to stop working",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.183
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2303
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when is my break?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2198
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2874
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when is my day over?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2288
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4262
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when is my first meeting tomorrow?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2393
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3051
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when is my first meeting?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2538
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.335
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when is my meeting with john?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2426
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.284
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when is my next gap in meetings?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2029
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2913
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when will i be available today",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1542
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2184
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when will i be released today",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1943
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2075
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when will i chat to lauren",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1917
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1911
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when will i discuss matters with elaine about our plans",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2213
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2506
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when will we meet with the design team today",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1883
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2634
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where am i going for daily sync up?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2532
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5957
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where am i going for team meeting?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2029
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4992
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where is the meeting with anna",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1158
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4669
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where is tomorrow ' s 11 am meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1632
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5772
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where is tomorrow meeting at 11 am",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1339
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5148
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where is tomorrow 's event",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1691
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6023
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where will the next event take place",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1953
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5251
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where's my next meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1899
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6495
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who am i meeting at 10 am tomorrow",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.17
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4095
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who else is going to the 2pm meeting tomorrow",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2054
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3826
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who else is joining the event at 1 pm",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1789
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3218
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who else will be in banking meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1681
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3039
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who is attending 2 pm meeting tomorrow",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1993
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2634
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who is attending the meeting on wednesday",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.196
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2586
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who is coming to the project review tomorrow?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1866
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.504
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who is going to attend the meeting tomorrow at 2 pm",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1973
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2158
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who is included in the invite in the next meeting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2479
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2184
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who will attend the sync about roles",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2461
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2894
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who will be present at 3",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1895
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3273
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who will be there at noon",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1529
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4457
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add go running to my todos",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8077
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4495
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add to my todos list mail the insurance forms out by saturday",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8103
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2961
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add finish this demo to my todo list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.762
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6734
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "please remind me to buy milk",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8314
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4848
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add this thing in to do list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8588
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.661
+            }
+        ],
+        "entity_scores": []
+    }
+]

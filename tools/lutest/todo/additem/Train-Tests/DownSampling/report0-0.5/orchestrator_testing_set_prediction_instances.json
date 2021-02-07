@@ -1,0 +1,344 @@
+[
+    {
+        "text": "i finished the las todo",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4295
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6531
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "delete to do go shopping",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3283
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.9221
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove the first todo",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4212
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8645
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i hope i do not have any todo left",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3726
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6808
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "delete eggs from list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.183
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8504
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show my lists",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5135
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.9789
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove to do that go to the dentist tomorrow morning",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2507
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.879
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "delete the second task in my shopping list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4165
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8876
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.143
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7848
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have on my todo?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.304
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8986
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "see todo",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4297
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.9508
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remove salad vegetables from grocery list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2966
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.9206
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "forget the list",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2412
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5984
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "clear my todos",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3676
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8382
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add a to do to buy shoes",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8985
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2489
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "create to do that read a book tonight",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.7623
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2681
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add this thing in to do list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8603
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5812
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remind me to pick up dry cleaning",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6565
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.366
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "would you add heavy cream to the todos list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8794
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4607
+            }
+        ],
+        "entity_scores": []
+    }
+]

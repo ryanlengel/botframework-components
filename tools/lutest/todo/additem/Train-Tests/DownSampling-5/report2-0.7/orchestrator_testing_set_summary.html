@@ -1,0 +1,1659 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css" />
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        td, th {
+            padding-bottom: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 15px !important;
+            margin: 0 !important;
+        }
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            border-top: none;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar {
+            border: none;
+            min-height: 48px;
+        }
+        .navbar-inverse {
+            background-color: #0078D7 !important;
+            color: #fff !important;
+        }
+        .navbar-header {
+            padding-top: 10px;
+        }
+        .navbar-header a {
+            color: #fff;
+        }
+        #orchestratorName {
+            margin-right: 150px;
+        }
+        .nav-pills > li > a {
+            border-radius: 0;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 15px;
+            color: #333;
+        }
+        .nav-pills > li.active > a,
+        .nav-pills > li.active > a:hover,
+        .nav-pills > li.active > a:focus {
+            color: #333;
+            background-color: #fff !important;
+            font-weight: 600 !important;
+            border-bottom-color: #0078D7;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+        }
+        .nav-pills > .active > a > .badge {
+            background-color: #fff !important;
+            font-weight: 600 !important;
+        }
+        .nav-pills > li:hover > a:hover {
+            background-color: #fff !important;
+        }
+    </style>
+</head>
+<body class="ms-Fabric ms-font-m">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header ms-fontSize-l">
+                <span id="orchestratorName"></span>
+                <span id="orchestratorName"></span>
+            </div>
+        </div>
+    </nav>
+    <div style="clear:both"></div>
+    <div class="container body-content" style="margin-top:60px">
+        <span class="ms-fontSize-xl ms-fontWeight-semibold">Orchestrator Evaluation Summary</span>
+        <!--
+        <div>
+            <p>{EVAL_SUMMARY}</p>
+        </div>
+        -->
+        <br />
+        <p>
+        Please reference the <a href="https://github.com/microsoft/botframework-sdk/blob/main/Orchestrator/docs/BFOrchestratorReport.md">Report Interpretation</a> document for details.
+        </p>
+        <br />
+        <ul class="nav nav-pills ms-fontSize-mPlus ms-fontWeight-semibold" id="modelAnalysis" role="tablist" style="padding-bottom:10px">
+            <li class="nav-item active">
+                <a class="nav-link active" id="intent-utterance-statistics-tab" data-toggle="tab" href="#intent-utterance-statistics" role="tab" aria-controls="intent-utterance-statistics" aria-selected="true"><strong>Intent/Utterancce Statistics</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" id="utterance-duplicates-tab" data-toggle="tab" href="#utterance-duplicates" role="tab" aria-controls="utterance-duplicates" aria-selected="true"><strong>Utterance Duplicates</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="ambiguous-tab" data-toggle="tab" href="#ambiguous" role="tab" aria-controls="ambiguous" aria-selected="false"><strong>Ambiguous</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="misclassified-tab" data-toggle="tab" href="#misclassified" role="tab" aria-controls="misclassified" aria-selected="false"><strong>Misclassified</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="lowconfidence-tab" data-toggle="tab" href="#lowconfidence" role="tab" aria-controls="lowconfidence" aria-selected="false"><strong>Low Confidence</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="model-evaluation-tab" data-toggle="tab" href="#model-evaluation" role="tab" aria-controls="model-evaluation" aria-selected="false"><strong>Metrics</strong></a>
+            </li>
+            <!--
+            <li class="nav-item">
+                <a class="nav-link" id="modelevaluationtopposition-tab" data-toggle="tab" href="#modelevaluationtopposition" role="tab" aria-controls="modelevaluationtopposition" aria-selected="false"><strong>Top @Position Metrics</strong></a>
+            </li>
+            -->
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="intent-utterance-statistics" role="tabpanel" aria-labelledby="intent-utterance-statistics-tab">
+                <p>Intent and utterance statistics</p>
+                <p>
+                      <p><strong>Label statistics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Label
+      </th>
+      <th>
+      Label Index
+      </th>
+      <th>
+      Utterance Count
+      </th>
+      <th>
+      Utterance Prevalence
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      0.2632
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      _Interruption
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0.7368
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Total
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+  </table>  <p><strong>Utterance statistics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      # Multi-Labels
+      </th>
+      <th>
+      Utterance Count
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      Total
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="utterance-duplicates" role="tabpanel" aria-labelledby="utterance-duplicates-tab">
+                <p>Multi-label utterances and duplicate utterance/intent pairs. The utterance/intent pairs in the second table below have been entered more than one times in the source file.
+                   It's not a serious problem as they will be de-duplicated.
+                </p>
+                <p>
+                      <p><strong>Multi-label utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+    <tr>
+  </table>  <p><strong>Duplicate utterance and label pairs</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Label
+      </th>
+    <tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="ambiguous" role="tabpanel" aria-labelledby="ambiguous-tab">
+                <p>Utterance(s) whose intents were correctly predicted (as a subset of the labeled intents), but there are also other intents predicted with high scores</p>
+                <p>
+                      <p><strong>Ambiguous utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+      <th>
+      Predictions
+      </th>
+      <th>
+      Close Predictions
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      put hikes on my to do list
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+      0.6738
+      </td>
+      <td>
+      add this thing in to do list
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      _Interruption
+      </td>
+      <td>
+      0.5702
+      </td>
+      <td>
+      please show my todo list
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      add a todo item vacuuming by october 3rd
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+      0.6974
+      </td>
+      <td>
+      add a to do that purchase a nice sweater
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      _Interruption
+      </td>
+      <td>
+      0.6321
+      </td>
+      <td>
+      delete the item buy socks from my todo list
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="misclassified" role="tabpanel" aria-labelledby="misclassified-tab">
+                <p>Utterance(s) yielding predicted intent that is not originally labeled with</p>
+                <p>
+                      <p><strong>Misclassified utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+      <th>
+      Predictions
+      </th>
+    <tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="lowconfidence" role="tabpanel" aria-labelledby="lowconfidence-tab">
+                <p>Utterance(s) whose intents were correctly predicted (as a subset of the labeled intents), but the prediction score is low</p>
+                <p>
+                      <p><strong>Low confidence utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+      <th>
+      Predictions
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      add call my mother to my todo list
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+      0.4635
+      </td>
+      <td>
+      add this thing in to do list
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      add a todo named send report over this weekend
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+      0.4703
+      </td>
+      <td>
+      add a to do that purchase a nice sweater
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+    </tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="model-evaluation" role="tabpanel" aria-labelledby="model-evaluation-tab">
+                <p> In this tab, overall model performance is shown in two sections.
+                    The first section is a series of per-label (intent or entity) binary confusion matrices and
+                    derived metrics, such as precision, recall, F1, and accuracy, etc.
+                    The second section below are a collection of metrics aggregated from the binart confusion matrices.
+                    Detailed descriptions of the aggregated matrics are listed further below.
+                    For building a per-label confusion matrix, the computing process iterates through
+                    each test instance's ground-truth label set and predicted label set.
+                    Bf-orchestrator-cli supports multi-labels and if a label is
+                    1) true-positive if it exists in both the instance's ground-truth and predicted set.
+                    2) false-positive if it exists only in the instance's predicted set.
+                    3) false-negative if it exists only in the instance's ground-truth set.
+                    4) true-negatve if it exists not in the instance's either sets.
+                </p>
+                <!--
+                <p>
+                    {MODEL_EVALUATION_OVERALL}
+                </p>
+                -->
+                <p>
+                      <p><strong>Confusion matrix metrics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Label
+      </th>
+      <th>
+      Precision
+      </th>
+      <th>
+      Recall
+      </th>
+      <th>
+      F1
+      </th>
+      <th>
+      Accuracy
+      </th>
+      <th>
+      #TruePositives
+      </th>
+      <th>
+      #FalsePositives
+      </th>
+      <th>
+      #TrueNegatives
+      </th>
+      <th>
+      #FalseNegatives
+      </th>
+      <th>
+      Support
+      </th>
+      <th>
+      Total
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      ExpectedResponse_AddItem
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      _Interruption
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      UNKNOWN
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+  </table>  <p><strong>Average confusion matrix metrics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Type
+      </th>
+      <th>
+      Precision
+      </th>
+      <th>
+      Recall
+      </th>
+      <th>
+      F1
+      </th>
+      <th>
+      Accuracy
+      </th>
+      <th>
+      #TruePositives
+      </th>
+      <th>
+      #FalsePositives
+      </th>
+      <th>
+      #TrueNegatives
+      </th>
+      <th>
+      #FalseNegatives
+      </th>
+      <th>
+      Support
+      </th>
+      <th>
+      Total
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      <b>Micro-Average</b>
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      <b>Micro-First-Quartile</b>
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      <b>Micro-Median</b>
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      Micro-Third-Quartile
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      <b>Macro-First-Quartile</b>
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      <b>Macro-Median</b>
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      Macro-Third-Quartile
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      <b>Summation Micro-Average</b>
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      38
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      <b>Macro-Average</b>
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      <b>0.6667</b>
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      Summation Macro-Average
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      6.3333
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      12.6667
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      6.3333
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      Positive-Support Macro-Average
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      Positive-Support Summation Macro-Average
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      9.5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      9.5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      9.5
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      Weighted Macro-Average
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      Weighted Summation Macro-Average
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      11.6316
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      7.3684
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      11.6316
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      <b>Multi-Label Exact Aggregate</b>
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      <b>Multi-Label Subset Aggregate</b>
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      <b>1</b>
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      19
+      </td>
+      <td>
+      19
+      </td>
+    </tr>
+  </table>  <p><strong>Average confusion matrix metric descriptions</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Type
+      </th>
+      <th>
+      Description
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      <b>Micro-Average</b>
+      </td>
+      <td>
+      
+  This metric follows the micro-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process iterates through the per-label binary confusion matrices and
+  calculates the sums of per-label "#TruePositives" and per-label "Support", respectively.
+  The "Support" sum is stored in this row's "Total" field and "#TruePositives" sum in the "#TruePositives" field.
+  This metric is then the ratio of the "#TruePositives" sum over "Total."
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      <b>Micro-First-Quartile</b>
+      </td>
+      <td>
+      
+  Average (or mean) is not a <a href="https://en.wikipedia.org/wiki/Robust_statistics">robust statistics</a> that
+  average can be easily influenced by outliers. Therefore, we also compute robust quantile-based metrics in this report.
+  For every metric in this row, e.g., precision, the computing process collects the per-label precision
+  metrics from the per-label binary confusion matrices, sorts them, and then expands each per-label precision by the
+  number of label supports. It then finds the first quartile of the metric from the series of metrics.
+  These first-quartiles are the metrics' lower bound
+  for the top 75% test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      <b>Micro-Median</b>
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on median, another robust statistic.
+  These medians are the metrics' lower bound
+  for the top 50% test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      Micro-Third-Quartile
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on the third quartile.
+  These third-quartiles are the metrics' lower bound
+  for the top 25% test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      <b>Macro-First-Quartile</b>
+      </td>
+      <td>
+      
+  Above three quantile metrics are micro, i.e., they are calcuated on the test instance level.
+  Macro quantile metrics are calculated per label.
+  The first quartiles are the metrics' lower bound
+  for the top 75% test labels.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      <b>Macro-Median</b>
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on median.
+  These medians are the metrics' lower bound
+  for the top 50% test labels.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      Macro-Third-Quartile
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on the third quartile.
+  These third-quartiles are the metrics' lower bound
+  for the top 25% test labels.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      <b>Summation Micro-Average</b>
+      </td>
+      <td>
+      
+  The metrics in this row are a little bit different from those of <b>Micro-Average</b>.
+  The computng process first sums up per-label "#TruePositives", "#FalsePositives", "#TrueNegatives", and "#FalseNegatives"
+  metrics, respectively, then constructs a binary confusion matrix, and calculates the other metrics, such as
+  Precision, Recall, F1, Accuracy, etc.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      <b>Macro-Average</b>
+      </td>
+      <td>
+      
+  This metric follows the macro-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process calcuates simple arithmetic means of the per-label Precision, Recall, F1, and Accuracy
+  metrics, repectively.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      Summation Macro-Average
+      </td>
+      <td>
+      
+  The calculating process for the metrics in this row is a little bit different from <b>Macro-Average</b>.
+  It first calculates the averages of per-label "#TruePositives", "#FalsePositives", "#TrueNegatives", and "#FalseNegatives"
+  metrics, respectively, then constructs a binary confusion matrix, and calculates the other metrics, such as
+  Precision, Recall, F1, Accuracy, etc.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      Positive-Support Macro-Average
+      </td>
+      <td>
+      
+  The metrics in this row are similar to those of <b>Macro-Average</b>.
+  However, instead of averaging over all train-set labels, metrics in this rows are the averages of test-set labels,
+  i.e., labels with a positive support in the test set.
+  Even though one might expect every label (in the train set) should have some test instances, but
+  sometimes a test set might not have test instances for some train set labels.
+  "Positive-support" metrics put an focus on test-set labels.
+  A test set might even contain instances whose labels are not in the train set. Those labels are renamed UNKNOWN for
+  evaluation purpose.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      Positive-Support Summation Macro-Average
+      </td>
+      <td>
+      
+  The metrics in this row are similar to those of Summation Macro-Average, but forcus on
+  labels with test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      Weighted Macro-Average
+      </td>
+      <td>
+      
+  This metric follows the weighted-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process calcuates support/prevalency-weighted means of the per-label Precision, Recall, F1, and Accuracy
+  metrics, repectively.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      Weighted Summation Macro-Average
+      </td>
+      <td>
+      
+  The calculating process for the metrics in this row is a little bit different from 
+  This metric follows the weighted-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process calcuates support/prevalency-weighted means of the per-label Precision, Recall, F1, and Accuracy
+  metrics, repectively.
+  .
+  It first calculates the weighted averages of per-label "#TruePositives", "#FalsePositives", "#TrueNegatives", and "#FalseNegatives"
+  metrics, respectively, then constructs a binary confusion matrix, and calculates the other metrics, such as
+  Precision, Recall, F1, Accuracy, etc.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      <b>Multi-Label Exact Aggregate</b>
+      </td>
+      <td>
+      
+  This evaluation package supports multi-label instances and predictions.
+  In another word, a test instance can be labeled and predicted with more than
+  one labels. The above metrics so far are calculated "per label," i.e., an instance can contribute to
+  multiple positive predictions on different labels, thus the above metrics can encourage a model to predict more than one labels per test instances
+  that may achieve better evaluation results.
+  To counter such a behavior, metrics in this row are "per instance," i.e., an instance can only contribute to one positive prediction. 
+  The calcuating process does not rely on the per-label binary confusion matrices, but
+  build just one binary confusion matrix in which a true positive prediction is an exact match between the prediction
+  and the ground-truth label sets, otherwise it's a false positive. By the way, there is no negative prediction, so false-nagative
+  and true-negative are both 0.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      <b>Multi-Label Subset Aggregate</b>
+      </td>
+      <td>
+      
+  Similar to the previous row, but the metric computing process is less strict. A prediction can be a true positive
+  as long as the predicted label set is a subset of the ground-truth set.
+  This subset rule makes sense as an action taking on a prediction can respond to one of the
+  correctly predicted labels and the action is still proper.
+  Of course, this subset rule can discourage a model from predicting more than one labels (one is the safest strategy),
+  even though a test instance might be labeled with a large ground-truth label set.
+  
+      </td>
+    </tr>
+  </table>
+                </p>
+                <!--
+                <p>
+                    {CROSS_ENTROPY}
+                </p>
+                -->
+            </div>
+            <!--
+            <div class="tab-pane" id="modelevaluationtopposition" role="tabpanel" aria-labelledby="modelevaluationtopposition-tab">
+                <p>Overall top-position multi-class confusion matrix evaluation metrics</p>
+                <p>
+                    {MODELEVALUATIONTopPositionMetrics}
+                </p>
+                <p>
+                    {MODELEVALUATIONTopPositionPerClassMetrics}
+                </p>
+            </div>
+            -->
+        </div>
+        <br /><br />
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+</body>
+</html>

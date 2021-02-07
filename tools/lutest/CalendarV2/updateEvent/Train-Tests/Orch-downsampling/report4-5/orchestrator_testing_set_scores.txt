@@ -1,0 +1,67 @@
+decline the 1:1 with susan	_Interruption	_Interruption	0.4322	0.2489	0.4694
+tell me what my next month is like	_Interruption	_Interruption	0.1456	0.3086	0.8638
+when can i have a drink	_Interruption	_Interruption	0.0492	0.0907	0.8624
+accept the meeting at 9	_Interruption	_Interruption	0.092	0.1421	0.6672
+how much time until i have to be present in a meeting again	_Interruption	_Interruption	0.0496	0.0501	0.6764
+what meetings do i have named team meeting this week	_Interruption	_Interruption	0.0645	0.0963	0.9337
+make me tentative for that meeting	_Interruption	_Interruption	0.1049	0.2464	0.7854
+when will i discuss matters with elaine about our plans	_Interruption	_Interruption	0.0666	0.0979	0.7752
+accept the 1:1 with susan	_Interruption	_Interruption	0.1996	0.3053	0.7967
+what is on my calendar	_Interruption	_Interruption	0.1048	0.2203	0.9758
+is there a gap in my calendar	_Interruption	_Interruption	0.1298	0.1718	0.7117
+who am i meeting at 11 today?	_Interruption	_Interruption	0.0494	0.1051	0.7073
+create new	_Interruption	_Interruption	0.1491	0.2181	0.4639
+is there a meeting named review tomorrow?	_Interruption	_Interruption	0.1131	0.2271	0.525
+how does my day look so far	_Interruption	_Interruption	0.0807	0.2517	0.7651
+cancel the event title shareholders revisit our scope	_Interruption	Cancel	0.3997	0.0878	0.2944
+how long is my last meeting?	_Interruption	_Interruption	0.0436	0.0787	0.8078
+who will attend the sync about roles	_Interruption	_Interruption	0.0885	0.2094	0.4335
+what is first on my agenda?	_Interruption	_Interruption	0.0821	0.1822	0.7981
+accept this invite	_Interruption	_Interruption	0.106	0.1766	0.4063
+what time does my day start?	_Interruption	_Interruption	0.0603	0.0965	0.8341
+accept that meeting	_Interruption	_Interruption	0.1404	0.1839	0.629
+what meetings do i have with robert	_Interruption	_Interruption	0.0733	0.1041	0.9174
+when am i done today?	_Interruption	_Interruption	0.1144	0.2433	0.8867
+accept that event tentatively for now	_Interruption	_Interruption	0.1809	0.2547	0.7014
+what do i have wednesday	_Interruption	_Interruption	0.1443	0.3367	0.8767
+when does my day finally end	_Interruption	_Interruption	0.0913	0.1464	0.883
+set up time for myself	_Interruption	_Interruption	0.086	0.1461	0.4902
+when am i watching england	_Interruption	_Interruption	0.0681	0.1687	0.9411
+new event with teams link	_Interruption	_Interruption	0.0834	0.1271	0.683
+what is on for today?	_Interruption	_Interruption	0.1843	0.3601	0.9564
+decline the one at 9	_Interruption	Cancel	0.4791	0.3061	0.2891
+cancel my 4 pm meeting with title weekly report	_Interruption	Cancel	0.5747	0.074	0.5492
+do i have a dentist appointment this week	_Interruption	_Interruption	0.0666	0.1668	0.8004
+how does my day start	_Interruption	_Interruption	0.1001	0.2253	0.6919
+what is my first meeting today?	_Interruption	_Interruption	0.0916	0.2268	0.9056
+cancel the event at 4	_Interruption	Cancel	0.6714	0.1082	0.5783
+accept the meeting at 2	_Interruption	_Interruption	0.1197	0.1583	0.7317
+i want to accept this meeting	_Interruption	_Interruption	0.1451	0.2262	0.5686
+i just woke up, what can i expect	_Interruption	_Interruption	0.2189	0.3418	0.5727
+accept the event with anna	_Interruption	_Interruption	0.1263	0.1887	0.67
+what meetings do i have with sally on monday	_Interruption	_Interruption	0.0733	0.164	0.9308
+where am i going for daily sync up?	_Interruption	_Interruption	0.0968	0.2246	0.6883
+accept the upcoming meeting	_Interruption	_Interruption	0.1273	0.1573	0.5792
+cancel my meeting with lydia	_Interruption	_Interruption	0.7011	0.102	0.7066
+where is tomorrow 's event	_Interruption	_Interruption	0.0999	0.1388	0.7437
+what do i have with john	_Interruption	_Interruption	0.1726	0.3372	0.7229
+what do i have planned for tomorrow?	_Interruption	_Interruption	0.1595	0.2889	0.7482
+make the meeting at 9 tentative	_Interruption	_Interruption	0.0662	0.1559	0.855
+where will the next event take place	_Interruption	_Interruption	0.0705	0.0919	0.6416
+when is my day over?	_Interruption	_Interruption	0.0763	0.1478	0.904
+read me my calendar	_Interruption	_Interruption	0.0845	0.1403	0.6399
+please do nothing	Cancel	Cancel	0.8874	0.4514	0.2829
+oh cancel	Cancel	Cancel	0.9011	0.2004	0.327
+oh don't do that	Cancel	Cancel	0.6196	0.437	0.2188
+do nothing	Cancel	Cancel	0.8814	0.5112	0.3262
+cancel	Cancel	Cancel	0.9649	0.1566	0.3178
+nerver mind	Cancel	ConfirmYes	0.4643	0.5598	0.3506
+yeah go for it	ConfirmYes	ConfirmYes	0.4522	0.9021	0.4229
+yeah buddy	ConfirmYes	ConfirmYes	0.3349	0.9068	0.3696
+sounds good	ConfirmYes	ConfirmYes	0.296	0.9716	0.4345
+sounds perfect	ConfirmYes	ConfirmYes	0.2432	0.9235	0.4115
+very good	ConfirmYes	ConfirmYes	0.2052	0.8737	0.475
+yeah go ahead	ConfirmYes	ConfirmYes	0.3635	0.9204	0.3673
+of course	ConfirmYes	ConfirmYes	0.3156	0.7916	0.4168
+ok for now	ConfirmYes	ConfirmYes	0.3506	0.7713	0.5001
+that's fine	ConfirmYes	ConfirmYes	0.483	0.9526	0.3828

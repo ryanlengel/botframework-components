@@ -1,0 +1,1476 @@
+[
+    {
+        "text": "read me my calendar",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.161
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1775
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2449
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what time does my day start?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0733
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1003
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3291
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long until my next meeting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0604
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.0683
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2979
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline the one at 9",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4062
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3096
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1595
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i meeting henry",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0694
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.0794
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6175
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "just cancel the one with mary",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.427
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1873
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1789
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what meetings do i have today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0739
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.169
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.9151
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "new meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1028
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2013
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3455
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "schedule a meeting with stephanie tomorrow afternoon",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0623
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1072
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3939
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who is attending the meeting on wednesday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0988
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1091
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8682
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i free this week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.097
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1544
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.459
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how much time until i have to be present in a meeting again",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0628
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.0453
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1827
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline the meeting at 9",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3527
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1193
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2085
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tentatively accept the 1:1 with susan",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2715
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3528
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4907
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who all is attending the 4pm meeting?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1198
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1387
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8151
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "show what is on my calendar today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0955
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1591
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7318
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what location is there for the sync with lauren",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1165
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2896
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3832
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "i need a break, when can i?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0902
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1803
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.63
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who will be there at noon",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1535
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2048
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7942
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel my meeting with lydia",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3911
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.0936
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.1624
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who else is going to the 2pm meeting tomorrow",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1199
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1402
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7883
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "whats on next",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2182
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4836
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6689
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where am i going for team meeting?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.069
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.0933
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6338
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me about my meetings on friday",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.122
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2088
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7319
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when can i take a break?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0823
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1432
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5934
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what's on today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2449
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3936
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7214
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is on my calendar",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1216
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2159
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7311
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline my meeting with lydia",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.388
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1401
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2071
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have with john",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2165
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3811
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7588
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when will i be released today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0916
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1044
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5176
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where is the performance review meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0774
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1054
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5299
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "give me an overview of my calendar",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1064
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1504
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5549
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what appointments do i have",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1118
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1162
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7915
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when am i done today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1305
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2463
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7513
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is the location of the all hands meeting?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0755
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1094
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5995
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is on for today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2031
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3742
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7708
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "just make me tentative",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2753
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4306
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4139
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "make the 1:1 meeting with susan tentative",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1288
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1906
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3428
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "decline my meeting with title daily meeting",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2871
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1361
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2064
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what is my first meeting today?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1056
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2294
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7835
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "where's my next meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0696
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1013
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.5367
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "tell me about today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1921
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4243
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6439
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add an event called brthday party",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0847
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1795
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3124
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have planned for tomorrow?",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1843
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2926
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8009
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "make me tentative for that meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1262
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2665
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4197
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "who else will be in banking meeting",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1228
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1197
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.7753
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "accept that yes",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3506
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4943
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2377
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "just tell me my calendar today",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1292
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1911
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6308
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "when do i have time between meetings",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0719
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.0973
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.6203
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "list all events for august 20th",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0663
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.0808
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3991
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do i have with elaine this week",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1366
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2664
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.8422
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "is there a gap in my calendar",
+        "intents": [
+            "_Interruption"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1269
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1926
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.4013
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "never mind cancel that",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7066
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3199
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.134
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "forget about it",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.506
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4386
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2621
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancelled",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.981
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1276
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.108
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "don't do that",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8751
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3342
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.11
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel that",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7042
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1755
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.0959
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "never mind",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.772
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2323
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "right",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3501
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6557
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3249
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "sure",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3303
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8297
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3076
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "yeah go ahead",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3147
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.908
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.251
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "yeah good",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2453
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9212
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2384
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "of course",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2971
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7691
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2737
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "sounds good",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2844
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8338
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.3277
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "yeah bro",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3189
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9023
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2561
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "very good",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2146
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6836
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2075
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "oh yeah",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3485
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.866
+            },
+            {
+                "intent": "_Interruption",
+                "score": 0.2382
+            }
+        ],
+        "entity_scores": []
+    }
+]

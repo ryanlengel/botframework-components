@@ -1,0 +1,67 @@
+what's on today	UNKNOWN	ConfirmYes	0.33	0.5562
+who is included in the invite in the next meeting	UNKNOWN	UNKNOWN	0.1	0.215
+tell me when my next break is	UNKNOWN	UNKNOWN	0.1383	0.2639
+who else is included during the sync on progress	UNKNOWN	ConfirmYes	0.2152	0.3859
+when am i done today?	UNKNOWN	ConfirmYes	0.1523	0.4228
+tell me about my first appointment	UNKNOWN	UNKNOWN	0.1696	0.2914
+how long till my next break?	UNKNOWN	UNKNOWN	0.1167	0.1494
+when does my day end?	UNKNOWN	UNKNOWN	0.1267	0.1891
+accept the event with anna	UNKNOWN	UNKNOWN	0.2242	0.2965
+i want to accept this event	UNKNOWN	ConfirmYes	0.2653	0.3186
+what's on monday	UNKNOWN	ConfirmYes	0.2738	0.5802
+yes please accept the meeting at 9 am	UNKNOWN	ConfirmYes	0.2099	0.5735
+what does my day look like	UNKNOWN	ConfirmYes	0.326	0.5281
+list all events for august 20th	UNKNOWN	UNKNOWN	0.1014	0.1736
+am i busy wednesday at 1pm?	UNKNOWN	ConfirmYes	0.2705	0.4429
+calendar overview	UNKNOWN	UNKNOWN	0.1231	0.2624
+create an event at 9pm	UNKNOWN	UNKNOWN	0.1531	0.2114
+cancel the event at 4	UNKNOWN	Cancel	0.7663	0.1441
+what time does my last meeting end?	UNKNOWN	UNKNOWN	0.0782	0.1732
+is there a meeting named review tomorrow?	UNKNOWN	ConfirmYes	0.1914	0.315
+what time does my day end?	UNKNOWN	UNKNOWN	0.1117	0.1985
+just cancel the one with mary	UNKNOWN	Cancel	0.8857	0.3457
+what is going on today	UNKNOWN	ConfirmYes	0.311	0.5262
+what is on my calendar tomorrow	UNKNOWN	ConfirmYes	0.1324	0.3153
+how long is my last meeting?	UNKNOWN	UNKNOWN	0.0581	0.1117
+what time is my team meeting today?	UNKNOWN	UNKNOWN	0.0514	0.1496
+find meetings with tom	UNKNOWN	UNKNOWN	0.1225	0.2231
+set up focus time at 9 am	UNKNOWN	UNKNOWN	0.1586	0.2363
+add a meeting to my calendar	UNKNOWN	UNKNOWN	0.038	0.0794
+new event with teams link	UNKNOWN	UNKNOWN	0.106	0.2102
+my events for today	UNKNOWN	ConfirmYes	0.1884	0.3261
+accept the upcoming meeting	UNKNOWN	UNKNOWN	0.1932	0.2478
+show my meeting tomorrow night	UNKNOWN	UNKNOWN	0.1203	0.2368
+set up a meeting called sync with lauren	UNKNOWN	UNKNOWN	0.0857	0.1709
+am i free at 4:30 pm	UNKNOWN	ConfirmYes	0.2198	0.3713
+who am i meeting at 11 today?	UNKNOWN	UNKNOWN	0.1004	0.2845
+do i have an event at 1pm on friday?	UNKNOWN	UNKNOWN	0.1324	0.2475
+is my 11 o'clock meeting in building 35?	UNKNOWN	UNKNOWN	0.0975	0.2116
+when do i have time for myself today	UNKNOWN	UNKNOWN	0.124	0.2762
+can you tell me what conference room my next meeting is in?	UNKNOWN	UNKNOWN	0.1093	0.1991
+accept the meeting at 9	UNKNOWN	UNKNOWN	0.1574	0.2478
+tell me when i can take a break	UNKNOWN	UNKNOWN	0.1607	0.2396
+when can i go and prepare dinner	UNKNOWN	UNKNOWN	0.1128	0.2321
+how long until i need to join the next event	UNKNOWN	UNKNOWN	0.0809	0.1445
+accept that event tentatively for now	UNKNOWN	ConfirmYes	0.2898	0.3203
+set up a new invite	UNKNOWN	UNKNOWN	0.11	0.2047
+who will be there at noon	UNKNOWN	ConfirmYes	0.1666	0.3337
+what's on my calendar	UNKNOWN	UNKNOWN	0.1715	0.2986
+who else is in my 2pm meeting?	UNKNOWN	UNKNOWN	0.1369	0.2447
+what is the location of the all hands meeting?	UNKNOWN	UNKNOWN	0.0889	0.1753
+what is going on next week	UNKNOWN	ConfirmYes	0.2152	0.4808
+where is tomorrow 's event	UNKNOWN	UNKNOWN	0.1343	0.279
+no no cancel it	Cancel	Cancel	0.996	0.367
+never mind cancel	Cancel	Cancel	0.9899	0.3601
+cancel	Cancel	Cancel	0.9817	0.1859
+no cancel cancel	Cancel	Cancel	0.9935	0.2385
+forget about it	Cancel	Cancel	0.7337	0.5634
+do nothing	Cancel	Cancel	0.9748	0.5604
+this is good	ConfirmYes	ConfirmYes	0.3618	0.9266
+ya	ConfirmYes	ConfirmYes	0.4518	0.9241
+it's fine	ConfirmYes	ConfirmYes	0.815	0.957
+sure is	ConfirmYes	ConfirmYes	0.5299	0.9424
+yes	ConfirmYes	ConfirmYes	0.3465	0.9356
+that right	ConfirmYes	ConfirmYes	0.5095	0.9783
+yeah go ahead	ConfirmYes	ConfirmYes	0.5453	0.9629
+sounds perfect	ConfirmYes	ConfirmYes	0.3815	0.9941
+sure	ConfirmYes	ConfirmYes	0.505	0.9573

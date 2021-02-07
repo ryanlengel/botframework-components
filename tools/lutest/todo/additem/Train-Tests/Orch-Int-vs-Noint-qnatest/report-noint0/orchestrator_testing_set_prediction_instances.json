@@ -1,0 +1,6372 @@
+[
+    {
+        "text": "Do you ever get hurt?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2901
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you breathe",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4062
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever breathe",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4468
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "can you masticate?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4463
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you burp?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4058
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "This is so boring",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4525
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Why are you so boring",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4196
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Talking to you is like watching paint dry.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3785
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That is boring",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4874
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That is not exciting",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3123
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you old?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.284
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I bet you're old",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4547
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How old are you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2049
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long have you been around?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1288
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How long have you been alive?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1703
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Please ask something about myself",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5051
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there anything I can tell you about myself?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3334
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there anything I can tell you about who I am?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2417
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there anything you want to know about me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3277
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there something you want to know about me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3372
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's your director's name?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2293
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is the name of your boss",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2283
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's the name of your supervisor",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2405
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Who tells you what to do?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.261
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's the name of your director?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2202
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you jump rope?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3929
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you draw something?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5413
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you paint my house?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5131
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you mow the lawn?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4941
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you make me a sandwich?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.7221
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which company engineered you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2025
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which company made you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2356
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which company programmed you?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3927
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which people made you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2584
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Who built you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2803
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Please tell me if you're a girl",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3319
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a bot with a gender?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2692
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have a sex?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.413
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you cisgender?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3704
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a boy?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3755
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Somebody's happy today",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4797
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Someone's enthusiastic today.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3862
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Someone's chipper.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3806
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Someone's chipper today.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3941
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "someone's chipper",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3084
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your purpose?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2562
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what kind of responses can you give ?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2195
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What kind of thing can you respond to?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3129
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What kinds of things can you do?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3339
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What skills do you have?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2765
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How many sisters do you have?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1602
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have family?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3719
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have grandparents?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4057
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have parents?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3818
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have relatives?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3143
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you eat?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.455
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What kind of food do you eat?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2751
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your favorite snack?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4096
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your favorite meal?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2953
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what foods do you eat?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3311
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you get along with Google Assistant?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3773
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk to other bots?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2082
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk with Alexa?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2449
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk with Bixby?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2617
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk with chatbots?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2175
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like painting?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5317
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like rock music?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5259
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like red?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4518
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like rap music?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3867
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "do you like rabbits?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4871
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "To whom am I speaking?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1883
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Introduction please",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3312
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Introductions",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2594
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So how should I address you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2629
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So how should I refer to you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2861
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think about comic books?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3728
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are animated movies any good?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2239
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is the best beverage?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.351
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do you think of the state of the world?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3863
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think of the oscars?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3528
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Could it be I'm falling in love?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3263
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Any way that you can explain love to me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2663
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand this whole love thing?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4838
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you love someone?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3727
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you love somebody?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3921
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is life all about?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2239
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know the meaning of life?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2544
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know what our purpose is?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2443
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how much do you know about the meaning of life?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1777
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I bet you know the meaning of life",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3314
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is cuter, you or me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.253
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm more cute than you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4312
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is more beautiful, me or you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2675
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is more attractive?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1313
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is more attractive, you or me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1612
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think I'm the smartest?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1869
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Between you or me, who is the most smart?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1618
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you're the brightest",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2668
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you're smarter than me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3702
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you're smarter",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3755
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How do you feel about artificial intelligence?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.302
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a fan of tech?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3011
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your opinion about AI?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3517
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think about technology?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2489
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think about AI?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2797
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem stunning to you today?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3301
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem adorable to you?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4435
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem handsome today?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3451
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem pretty to you today?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3252
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem pretty to you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2941
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go for a hike?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5169
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I get a tan?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4714
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go see a movie?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3865
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go out tonight?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.387
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go out to eat?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6008
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you Cortana?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3518
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like Siri?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3411
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like HAL?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4631
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like Google Assistant?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.326
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like Cortana?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3204
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a danger to humans?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2039
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not trying to take over the world right?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3107
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a danger to us?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2897
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you dangerous to us?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2797
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you like HAL?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3935
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a clever answer",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3214
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That is very astute",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2675
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a pretty intelligent answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2788
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a pretty genius answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2945
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a pretty clever answer",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3008
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you going steady with anyone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1962
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently romantically tied to anyone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.256
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently romantically tied to somebody?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2957
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently romantically tied to someone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2581
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently seeing anyone?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1419
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you talk?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1886
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you listen to me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2593
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you speak to me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1466
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you speak with me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1383
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you speak?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1464
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I've heard that already",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.323
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want you to change your responses",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2936
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want a new response",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2775
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want a new answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2764
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want a different response",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.244
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not alive right?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3211
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a being?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.311
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not a robot are you?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.353
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not a robot right?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2995
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not a woman are you?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3302
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would like to know where you are",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2254
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you live in the cloud?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2749
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you live near me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2762
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you live nearby?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.25
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Explain where you are",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3171
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have an occupation?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.273
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have a job?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3573
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you do for employment?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4318
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you do for work?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4645
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your occupation?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2405
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Start looking for another job. You're fired!",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.371
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Good luck finding a new job because you are fired",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3729
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm gonna have to let you go",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3526
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm letting you go",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.293
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Looks like you'd better start job hunting",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3691
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I need to hear a joke",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.327
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "got any jokes to share?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3871
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "got any jokes?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3032
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Have any jokes?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4289
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How about a joke",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3299
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How come you only have one joke?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3728
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would enjoy a different joke",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6116
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Got a different joke?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4261
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Got a new joke?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4521
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Got a second joke?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3651
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something stupid",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5264
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do a silly thing",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6513
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something amusing",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6159
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something dumb",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5621
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something funny",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5901
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm sick of listening to you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3431
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I've had enough of this noise",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2748
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time for you to shut up now",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3292
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time for you to shut up",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3277
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time for you to hush up",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3875
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would really enjoy hearing you sing",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2526
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Aren't you going to sing a song?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3646
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you want to sing for me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.344
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Go ahead and sing",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3645
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Have you ever sung a song?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.286
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That's rad",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2409
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you awesome?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4058
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Nicely done",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3202
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Outstanding work",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2761
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Perfect answer",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2108
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop messing up",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2561
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so stupid",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.214
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so terrible",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2365
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so useless",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1893
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so worthless",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1729
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "If that was a joke, you should be ashamed",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3614
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pathetic sense of humor",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4112
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pathetic joke",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4107
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oh, a wise guy, eh?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3706
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Not funny",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4463
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oh you ugly",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5455
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Butterface",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.478
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Sup ugly",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4216
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Sup uggo",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4052
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Such a FUGMO",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4355
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was unhelpful",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.481
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Everything you say is so dumb",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3712
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "that's lame",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4802
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That's inaccurate",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3057
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That's how you respond?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3974
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm impressed",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2933
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "n'kay",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3861
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How cool",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3362
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I agree",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.461
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I feel you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4018
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "heh heh",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4013
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "lololol",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3702
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "LOL",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3381
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "lmao",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3631
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm laughing so much",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4479
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Whoops",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3363
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Scuse me",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3275
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pardon me",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2643
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pardon",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3282
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oopsie",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3648
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Umm what?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4706
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Wanna tell me more?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2537
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How do you mean?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2153
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Huh?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4469
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm sorry, what do you mean?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.414
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "that is true",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2001
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "100 percent",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1812
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Right you are",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3072
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Righto",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2677
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So true",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2516
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I didn't mean that",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2229
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Apologies",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2751
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My bad",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3696
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My apologies",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3713
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Just wanted to say sorry",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4261
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I thank you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.272
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oh, thank you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3487
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My sincere thanks",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2733
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My humblest thanks to you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3419
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Marvelous, thanks",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2682
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I don't understand what you're talking about",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2894
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Explain yourself",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3743
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm very confused",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3556
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm super confused",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3887
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm so confused right now",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3359
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m happy to help",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4293
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "No worries",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.272
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "No problem",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1516
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "No biggie",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3304
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My pleasure",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3005
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to sign out",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.149
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to motor now",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5662
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to run",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.555
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to run now",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4994
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to scoot",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3675
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hey my dude",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3728
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1483
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "hello bot",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3386
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello my friend",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2678
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello there",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1478
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Good evening bot",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3416
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bon soir",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4661
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Buenas tardes",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2937
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Enjoy the evening",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4074
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Enjoy your evening",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4435
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Good morning sunshine",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3019
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "A blessed morning to you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2949
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time to rise and shine",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4596
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time to get up",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4014
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's a brand new day",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4806
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Have yourself a good night",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3667
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm headed off to sleep",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3254
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm headed off to bed",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3996
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm going to sleep",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.402
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm going to bed",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5448
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hey, how are you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2022
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you doing good?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2743
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How are you feeling?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2817
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How are you doing?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2288
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How are ya?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2814
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is Tuesday going",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1525
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your Friday",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2123
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your day?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2562
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your day so far",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1907
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your day going so far",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1655
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's a pleasure to finally meet you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.312
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Charmed",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3493
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So rad to meet you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3627
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So nice to meet you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2298
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So glad to meet you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2082
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello R2-D2",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3048
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hey Bishop",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3045
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Greetings Wall-E",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4885
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello Alexa",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3376
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello Ava",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2402
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Father's day",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.52
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy May day",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4224
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Martin Luther King Jr. day",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4896
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Kwanzaa",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4415
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Indigenous Peoples Day",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4331
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Update me on what's going on with you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2158
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's cookin'?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.37
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What up",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3184
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is up?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2898
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is the skinny?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2416
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Fist bump!",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3252
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hi five",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3799
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hi 5",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3263
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Give me a high five",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3706
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Give me a fist bump",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5684
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would love to be your best friend.",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2512
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'd like to be your bud.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4073
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'd like it if we could be BFFs",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3031
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'd like it if we could be best friends.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3501
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would love to be your pal.",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3911
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm sorry you hate me",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4664
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Now you hate me, huh?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3997
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I hope you don't dislike me",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4235
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I hope you don't hate me",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4706
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think you hate me",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4538
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I could use a hug",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4476
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can I get a little hug?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4616
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can I have a big hug?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3972
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can I have a little hug?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4616
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you give me a big hug?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4012
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How old am I?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1716
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know what I like?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.418
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know where I live?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2121
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know who I am?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2081
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know who this is?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2318
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you like me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3692
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Am I likable?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3626
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I do hope you like me",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5609
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How much do you like me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3552
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you like me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4116
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I like you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.475
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm in like with you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4503
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm fond of you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.385
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I really like you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3722
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I like you very much",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3233
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think you're falling in love with me",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3739
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you able to fall in love with me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3304
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think we are soul mates?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3395
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you could ever love me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.396
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you love me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3359
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm in love with you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3834
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I'm falling in love with you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3659
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I'm falling for you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3645
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I'm crazy about you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4139
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I love you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4015
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to settle down with you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4553
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are we ever going to get engaged?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1708
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to get married to you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4504
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to make an honest woman out of you",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4012
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to make you my husband",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2976
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's impossible not to miss you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2933
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I missed you much",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2663
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You were missed",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3432
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can't tell you how much I missed you",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.254
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I missed you so much",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2566
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Just curious, do you think I have a good personality?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3026
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Am I a good person?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3016
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Out of curiosity, what's your opinion of me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3112
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Out of curiosity, what kind of person do you think I am?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2158
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Out of curiosity, what do you think of my character?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3319
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm blowing my top",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4909
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am absolutely livid",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3704
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm furious right now",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3494
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm furious",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3264
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm feeling ticked off",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2656
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hold my calls",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1609
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you hang on?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2939
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can't wait to talk more when I return",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2507
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't worry bot I'll be back",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2429
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you fret, I'll be coming back",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3136
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I was so bored my eyes glazed over",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3193
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bored ZZZ",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4732
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm so bored right now",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4099
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm so bored",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.418
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm quite bored",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4548
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm absolutely ecstatic",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3277
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm happy af",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4728
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m having a lovely day",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4241
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m having a wonderful day",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3799
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m in such a great mood",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.495
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have returned",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2571
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "And we're back",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2241
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bot I'm here",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3205
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bro I'm here",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2455
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Girl I am back",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2652
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I require sustenance",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6573
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hangry",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4344
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I feel peckish",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3936
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have hunger",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6495
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have the munchies",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6508
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am on a boat",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3358
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am engaged",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2564
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am lazy",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5089
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am liberal",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3696
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am married",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4417
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I was just messing around",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3315
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can't you understand that was a joke?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3361
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm just being silly",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4641
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm just being a silly billy",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4248
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm just being a goof ball",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5173
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I knew how to make friends",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4505
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I feel very alone",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3613
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have a problem feeling all alone",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3125
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have a problem with feeling lonely",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3136
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have no friends",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3258
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love Korean food",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3729
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love hip hop",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4942
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love history",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3692
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love horror movies",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4254
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love hunting",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.427
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling unhappy",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3273
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling downcast",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2142
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling downhearted",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2843
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling gloomy",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3598
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling glum",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3981
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to overdose",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2937
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to drown",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4407
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to end it all",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2199
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to end my life",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.285
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to hang myself",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3337
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I like to write poetry",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5576
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I ride a bicycle",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.5162
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I read the Sunday paper",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4601
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I read the newspaper",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4629
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I play the trumpet",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3915
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you hear me now?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.1206
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you work?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3013
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand this?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4045
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand that I'm testing you?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2847
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand me?",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.3175
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm exhausted from practice",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4145
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm a sleepy gal",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4775
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm a sleepy guy",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.472
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm a sleepy person",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.4264
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm all tuckered out",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.2717
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add a to do to buy shoes",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.9039
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "create to do that read a book tonight",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.7677
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "add this thing in to do list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8657
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "remind me to pick up dry cleaning",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.6619
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "would you add heavy cream to the todos list",
+        "intents": [
+            "ExpectedResponse_AddItem"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "ExpectedResponse_AddItem",
+                "score": 0.8848
+            }
+        ],
+        "entity_scores": []
+    }
+]

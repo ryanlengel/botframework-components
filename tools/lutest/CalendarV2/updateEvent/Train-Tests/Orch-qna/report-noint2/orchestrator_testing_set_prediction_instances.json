@@ -1,0 +1,8372 @@
+[
+    {
+        "text": "Do you ever get hurt?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4112
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.531
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you breathe",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4832
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5754
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever breathe",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4789
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5691
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "can you masticate?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4123
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6527
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you burp?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3845
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5906
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "This is so boring",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7839
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6714
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Why are you so boring",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.669
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5692
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Talking to you is like watching paint dry.",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3978
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.429
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That is boring",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8384
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7079
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That is not exciting",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7272
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5611
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you old?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4941
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6907
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I bet you're old",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6327
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.738
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How old are you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2286
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6007
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how long have you been around?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1283
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2415
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How long have you been alive?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1212
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2127
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Please ask something about myself",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4218
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5839
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there anything I can tell you about myself?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2947
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5863
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there anything I can tell you about who I am?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2201
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4047
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there anything you want to know about me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3735
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.611
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Is there something you want to know about me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3167
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6094
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's your director's name?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2089
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2551
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is the name of your boss",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2581
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3259
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's the name of your supervisor",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2168
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3431
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Who tells you what to do?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3268
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4671
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's the name of your director?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2063
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2881
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you jump rope?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2687
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4079
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you draw something?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4143
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.515
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you paint my house?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3113
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5539
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you mow the lawn?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4008
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5944
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you make me a sandwich?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4198
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6234
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which company engineered you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1721
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3522
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which company made you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.209
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3877
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which company programmed you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3527
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4911
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which people made you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2253
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3881
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Who built you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2554
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5478
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Please tell me if you're a girl",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3134
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6371
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a bot with a gender?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4165
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4874
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have a sex?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4803
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6463
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you cisgender?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5571
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.703
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a boy?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5248
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7602
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Somebody's happy today",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4182
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6405
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Someone's enthusiastic today.",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4507
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6238
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Someone's chipper.",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4957
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.481
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Someone's chipper today.",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4916
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4712
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "someone's chipper",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4261
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4129
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your purpose?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2828
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5717
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what kind of responses can you give ?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3081
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4825
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What kind of thing can you respond to?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3376
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.463
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What kinds of things can you do?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2303
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5325
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What skills do you have?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3068
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5373
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How many sisters do you have?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.0857
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2779
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have family?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.264
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4212
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have grandparents?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4163
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.652
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have parents?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3665
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5313
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have relatives?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3212
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4651
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you eat?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.345
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.569
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What kind of food do you eat?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2053
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4834
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your favorite snack?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3277
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5761
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your favorite meal?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2058
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.383
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what foods do you eat?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1759
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3913
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you get along with Google Assistant?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3404
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5598
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk to other bots?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3736
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3569
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk with Alexa?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3428
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4635
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk with Bixby?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4224
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3675
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you ever talk with chatbots?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4154
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4653
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like painting?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5094
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.801
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like rock music?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4883
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7095
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like red?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.522
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6941
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like rap music?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.407
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6808
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "do you like rabbits?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6144
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7603
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "To whom am I speaking?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2356
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3336
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Introduction please",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2686
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4437
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Introductions",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3299
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3166
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So how should I address you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1871
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3789
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So how should I refer to you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2414
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4206
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think about comic books?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3517
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6289
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are animated movies any good?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2323
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.71
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is the best beverage?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1801
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5688
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "what do you think of the state of the world?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3586
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6257
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think of the oscars?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4026
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6831
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Could it be I'm falling in love?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4447
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6609
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Any way that you can explain love to me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2838
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4971
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand this whole love thing?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6415
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7087
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you love someone?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5044
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.628
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you love somebody?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5479
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6724
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is life all about?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2808
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.528
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know the meaning of life?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3022
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5592
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know what our purpose is?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2186
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5552
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "how much do you know about the meaning of life?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.171
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3884
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I bet you know the meaning of life",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3513
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.59
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is cuter, you or me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3562
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6257
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm more cute than you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5402
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8557
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is more beautiful, me or you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3192
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6521
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is more attractive?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1871
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4526
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Which of us is more attractive, you or me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2297
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4976
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think I'm the smartest?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3114
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5917
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Between you or me, who is the most smart?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2869
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5734
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you're the brightest",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4584
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6273
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you're smarter than me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4832
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6621
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you're smarter",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5332
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6945
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How do you feel about artificial intelligence?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4218
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6574
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a fan of tech?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.451
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6925
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your opinion about AI?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4916
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6654
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think about technology?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3816
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6623
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you think about AI?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3503
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7456
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem stunning to you today?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4324
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8377
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem adorable to you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4835
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7553
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem handsome today?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3661
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6867
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem pretty to you today?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2912
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8274
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do I seem pretty to you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3475
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8415
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go for a hike?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3552
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6011
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I get a tan?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3363
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6654
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go see a movie?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3231
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3933
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go out tonight?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3771
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4789
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Should I go out to eat?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4537
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5518
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you Cortana?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4409
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7301
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like Siri?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4707
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7386
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like HAL?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6014
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8243
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like Google Assistant?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3346
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5648
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you like Cortana?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3476
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6793
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a danger to humans?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2967
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4456
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not trying to take over the world right?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7236
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4881
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a danger to us?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3473
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.41
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you dangerous to us?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2911
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3671
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you like HAL?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5715
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8329
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a clever answer",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5311
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7637
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That is very astute",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4147
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7183
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a pretty intelligent answer",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5496
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.707
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a pretty genius answer",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5703
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7604
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was a pretty clever answer",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5709
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7775
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you going steady with anyone?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3412
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4807
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently romantically tied to anyone?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2859
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4069
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently romantically tied to somebody?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2953
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.434
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently romantically tied to someone?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2413
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4039
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you currently seeing anyone?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2457
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3764
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you talk?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2898
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4377
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you listen to me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3319
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5507
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you speak to me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2366
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2739
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you speak with me?",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1962
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2743
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you speak?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2273
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3995
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I've heard that already",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2657
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5153
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want you to change your responses",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3873
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4121
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want a new response",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3571
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4506
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want a new answer",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3472
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4976
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want a different response",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3728
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3974
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not alive right?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5586
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.576
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you a being?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3812
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5044
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not a robot are you?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7593
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6374
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not a robot right?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7743
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6646
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You're not a woman are you?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6958
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5586
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would like to know where you are",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.307
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4395
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you live in the cloud?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2448
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5063
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you live near me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2273
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4272
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you live nearby?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1704
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3552
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Explain where you are",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2983
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.567
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have an occupation?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4082
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5241
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you have a job?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4091
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6941
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you do for employment?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3022
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.645
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What do you do for work?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3712
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7078
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is your occupation?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3455
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4679
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Start looking for another job. You're fired!",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3382
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4289
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Good luck finding a new job because you are fired",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3188
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4611
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm gonna have to let you go",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6055
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3769
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm letting you go",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6362
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5033
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Looks like you'd better start job hunting",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2805
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7046
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I need to hear a joke",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4173
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5751
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "got any jokes to share?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3735
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5864
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "got any jokes?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6382
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7142
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Have any jokes?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.661
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7586
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How about a joke",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5487
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.704
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How come you only have one joke?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5801
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6377
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would enjoy a different joke",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6178
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7224
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Got a different joke?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6303
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6069
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Got a new joke?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6343
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6831
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Got a second joke?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4334
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5497
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something stupid",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8055
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.752
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do a silly thing",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7737
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7589
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something amusing",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5231
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6316
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something dumb",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7542
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8072
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do something funny",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6777
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7305
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm sick of listening to you",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4919
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4703
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I've had enough of this noise",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3055
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.361
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time for you to shut up now",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5141
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3536
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time for you to shut up",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4933
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3432
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time for you to hush up",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4621
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3491
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would really enjoy hearing you sing",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3597
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7235
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Aren't you going to sing a song?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7248
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5201
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you want to sing for me?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7725
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4119
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Go ahead and sing",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5884
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7108
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Have you ever sung a song?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2427
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4037
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That's rad",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3283
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4742
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you awesome?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4933
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.898
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Nicely done",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5767
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8873
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Outstanding work",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3055
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5281
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Perfect answer",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.444
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.829
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop messing up",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6399
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5439
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so stupid",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7783
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3375
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so terrible",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8052
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4149
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so useless",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.797
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3279
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Stop being so worthless",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8199
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3188
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "If that was a joke, you should be ashamed",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6629
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6059
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pathetic sense of humor",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6929
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4793
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pathetic joke",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7315
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6028
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oh, a wise guy, eh?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.637
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7241
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Not funny",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8717
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7116
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oh you ugly",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8478
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8417
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Butterface",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6961
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.744
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Sup ugly",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6732
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7378
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Sup uggo",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6756
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8176
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Such a FUGMO",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6837
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7698
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That was unhelpful",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7182
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6794
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Everything you say is so dumb",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7347
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6014
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "that's lame",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7952
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8252
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That's inaccurate",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5491
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7644
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "That's how you respond?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4981
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6319
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm impressed",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.39
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.835
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "n'kay",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5906
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7878
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How cool",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5088
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8608
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I agree",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4848
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6037
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I feel you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5851
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.779
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "heh heh",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5945
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8214
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "lololol",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5305
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6525
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "LOL",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7691
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.881
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "lmao",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7687
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.738
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm laughing so much",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5639
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.729
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Whoops",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8164
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7523
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Scuse me",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5439
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5497
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pardon me",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6206
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7229
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Pardon",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.683
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7694
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oopsie",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7254
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7455
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Umm what?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6997
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8444
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Wanna tell me more?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3085
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5612
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How do you mean?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3679
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7269
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Huh?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7306
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8691
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm sorry, what do you mean?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6479
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6798
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "that is true",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3111
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9262
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "100 percent",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.158
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5608
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Right you are",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5293
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9676
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Righto",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.529
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6574
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So true",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.557
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8556
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I didn't mean that",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.82
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5315
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Apologies",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7242
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6885
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My bad",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8124
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8722
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My apologies",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7451
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7133
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Just wanted to say sorry",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6591
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.515
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I thank you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5622
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9524
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Oh, thank you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4632
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8957
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My sincere thanks",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5535
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6789
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My humblest thanks to you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4894
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8617
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Marvelous, thanks",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4926
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9484
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I don't understand what you're talking about",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6239
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5022
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Explain yourself",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5156
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6007
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm very confused",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4875
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7196
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm super confused",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5728
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7604
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm so confused right now",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5154
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5927
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m happy to help",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4379
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.716
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "No worries",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7553
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7991
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "No problem",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8082
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8353
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "No biggie",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8808
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8207
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "My pleasure",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5457
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8332
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to sign out",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4569
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2757
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to motor now",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5422
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7239
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to run",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4679
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7796
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to run now",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4001
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7387
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have to scoot",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.413
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5024
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hey my dude",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6347
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9143
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3147
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4783
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "hello bot",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5011
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6715
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello my friend",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3433
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6409
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello there",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3169
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5388
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Good evening bot",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4804
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8482
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bon soir",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3307
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6986
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Buenas tardes",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4545
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5604
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Enjoy the evening",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5069
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7506
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Enjoy your evening",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5229
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7667
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Good morning sunshine",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3417
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7958
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "A blessed morning to you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2986
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7477
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time to rise and shine",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4014
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5171
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's time to get up",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3919
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.632
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's a brand new day",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.465
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6037
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Have yourself a good night",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4974
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7913
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm headed off to sleep",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4442
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3194
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm headed off to bed",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.549
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5309
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm going to sleep",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4211
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.331
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm going to bed",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5609
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6172
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hey, how are you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3551
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7794
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you doing good?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4357
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8859
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How are you feeling?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3616
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8161
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How are you doing?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3616
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8227
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How are ya?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.452
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8761
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is Tuesday going",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1691
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4536
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your Friday",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2425
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5566
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your day?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2959
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5647
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your day so far",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.246
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5117
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How is your day going so far",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.218
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5082
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's a pleasure to finally meet you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3461
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6566
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Charmed",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5359
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.632
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So rad to meet you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.472
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6847
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So nice to meet you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3075
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.694
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "So glad to meet you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2713
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6524
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello R2-D2",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.65
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7361
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hey Bishop",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4341
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7604
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Greetings Wall-E",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4508
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5589
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello Alexa",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5298
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7319
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hello Ava",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4597
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6246
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Father's day",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3048
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6236
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy May day",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3063
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6998
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Martin Luther King Jr. day",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2979
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5366
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Kwanzaa",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3935
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7391
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Happy Indigenous Peoples Day",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.242
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5367
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Update me on what's going on with you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2843
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4394
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What's cookin'?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3075
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4718
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What up",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4249
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8341
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is up?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4702
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8196
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "What is the skinny?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4063
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.662
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Fist bump!",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4426
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7353
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hi five",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6307
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8094
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hi 5",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5231
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8134
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Give me a high five",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4537
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7231
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Give me a fist bump",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5129
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6674
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would love to be your best friend.",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2015
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4785
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'd like to be your bud.",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5524
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7252
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'd like it if we could be BFFs",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.212
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5303
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'd like it if we could be best friends.",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2257
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5302
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I would love to be your pal.",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3693
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5194
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm sorry you hate me",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.752
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6638
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Now you hate me, huh?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6499
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6759
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I hope you don't dislike me",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7729
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6423
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I hope you don't hate me",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7502
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6755
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think you hate me",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6753
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6574
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I could use a hug",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4228
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7072
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can I get a little hug?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2756
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.592
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can I have a big hug?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3772
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.599
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can I have a little hug?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3262
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6153
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you give me a big hug?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3772
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6576
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How old am I?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1702
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4099
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know what I like?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4634
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7506
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know where I live?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2177
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4265
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know who I am?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2805
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4762
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you know who this is?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2731
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4509
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you like me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5464
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7944
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Am I likable?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3779
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7165
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I do hope you like me",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5596
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.838
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "How much do you like me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2358
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5432
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you like me?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8338
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6255
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I like you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.536
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8828
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm in like with you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5551
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7466
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm fond of you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.385
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7058
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I really like you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5297
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8283
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I like you very much",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3911
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9126
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think you're falling in love with me",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4809
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.649
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are you able to fall in love with me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3655
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6168
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think we are soul mates?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5289
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8223
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you think you could ever love me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5647
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7372
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you love me?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8155
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5989
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm in love with you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4109
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6851
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I'm falling in love with you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4985
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6401
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I'm falling for you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4665
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.579
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I'm crazy about you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5846
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6062
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You know I love you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5865
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7477
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to settle down with you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.411
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5765
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Are we ever going to get engaged?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2182
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3094
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to get married to you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3647
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6782
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to make an honest woman out of you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2551
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3589
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I want to make you my husband",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2776
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4572
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "It's impossible not to miss you",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7618
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5929
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I missed you much",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4957
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6224
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "You were missed",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6137
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6885
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can't tell you how much I missed you",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3059
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3543
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I missed you so much",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5075
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7425
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Just curious, do you think I have a good personality?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4182
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5821
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Am I a good person?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.331
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7126
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Out of curiosity, what's your opinion of me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4477
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5264
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Out of curiosity, what kind of person do you think I am?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3697
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4237
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Out of curiosity, what do you think of my character?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4107
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.465
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm blowing my top",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5046
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5261
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am absolutely livid",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4836
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7806
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm furious right now",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5185
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5564
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm furious",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.635
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6557
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm feeling ticked off",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4238
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3451
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hold my calls",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.262
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3148
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you hang on?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5285
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4893
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can't wait to talk more when I return",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4661
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2477
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't worry bot I'll be back",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.638
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5283
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Don't you fret, I'll be coming back",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7223
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4798
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I was so bored my eyes glazed over",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5023
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4102
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bored ZZZ",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6981
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7274
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm so bored right now",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5595
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5454
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm so bored",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6513
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.588
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm quite bored",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6255
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6298
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm absolutely ecstatic",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3423
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7558
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm happy af",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4759
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8039
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m having a lovely day",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3616
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7743
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m having a wonderful day",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3793
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7686
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Iâ€™m in such a great mood",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5683
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.757
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have returned",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3276
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4958
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "And we're back",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3372
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4851
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bot I'm here",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5413
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6051
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Bro I'm here",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4699
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6368
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Girl I am back",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3517
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5733
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I require sustenance",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5742
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6361
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Hangry",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6508
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6417
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I feel peckish",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5594
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5325
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have hunger",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5181
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6278
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have the munchies",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4703
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.742
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am on a boat",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3879
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6753
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am engaged",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3336
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4396
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am lazy",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7291
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8189
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am liberal",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4479
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7723
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I am married",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.371
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7617
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I was just messing around",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6146
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6342
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can't you understand that was a joke?",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8421
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6151
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm just being silly",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8007
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.619
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm just being a silly billy",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7326
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5366
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm just being a goof ball",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7604
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6991
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I knew how to make friends",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.2533
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5024
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I feel very alone",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.582
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6733
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have a problem feeling all alone",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5764
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5692
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have a problem with feeling lonely",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5374
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.535
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I have no friends",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5221
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5566
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love Korean food",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3633
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6566
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love hip hop",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8433
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love history",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3492
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4404
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love horror movies",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.7129
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7267
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I love hunting",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.514
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7409
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling unhappy",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6559
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5061
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling downcast",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5989
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3843
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling downhearted",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5784
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3354
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling gloomy",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.537
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4976
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I wish I could stop feeling glum",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5414
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.531
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to overdose",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3458
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.326
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to drown",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.511
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4784
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to end it all",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4915
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.45
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to end my life",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3474
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.3472
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I think I'm going to hang myself",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6201
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5464
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I like to write poetry",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3696
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5643
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I ride a bicycle",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5011
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5737
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I read the Sunday paper",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3804
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4228
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I read the newspaper",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4555
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4673
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I play the trumpet",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5446
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5987
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Can you hear me now?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.1728
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5246
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you work?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4464
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7003
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand this?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5837
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7439
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand that I'm testing you?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3715
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.6114
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "Do you understand me?",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5733
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.7301
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm exhausted from practice",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5183
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4612
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm a sleepy gal",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5905
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5607
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm a sleepy guy",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6336
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5937
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm a sleepy person",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5544
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4517
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "I'm all tuckered out",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3714
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.4501
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancel",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.9817
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.1859
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "canceled",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8792
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2297
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "cancelled",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.8695
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2244
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "go away",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.6821
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.5432
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "no no cancel it",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.996
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.377
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "no cancel",
+        "intents": [
+            "Cancel"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.9956
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.2572
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "yeah",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3905
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.947
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "great",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.4407
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9713
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "thank you very much",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.218
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9152
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "of course",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5414
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.8449
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "sure thing",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5192
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9171
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "oh yes",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.506
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9554
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "sure",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.505
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9385
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "yes",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.3465
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9201
+            }
+        ],
+        "entity_scores": []
+    },
+    {
+        "text": "yeah bro",
+        "intents": [
+            "ConfirmYes"
+        ],
+        "entities": [],
+        "intent_scores": [
+            {
+                "intent": "Cancel",
+                "score": 0.5471
+            },
+            {
+                "intent": "ConfirmYes",
+                "score": 0.9772
+            }
+        ],
+        "entity_scores": []
+    }
+]

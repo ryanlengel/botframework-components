@@ -1,0 +1,205 @@
+accept	_Interruption	UNKNOWN	0.2218	0.1573
+accept it	_Interruption	ExpectedResponse_AddItem	0.3097	0.1663
+accept my 10 pm	_Interruption	ExpectedResponse_AddItem	0.4175	0.2752
+accept that yes	_Interruption	ExpectedResponse_AddItem	0.3052	0.2016
+accept the 1:1 with susan	_Interruption	ExpectedResponse_AddItem	0.3431	0.2487
+accept the event with anna	_Interruption	UNKNOWN	0.2646	0.2017
+accept the meeting at 2	_Interruption	UNKNOWN	0.2922	0.2128
+accept the meeting at 2 pm	_Interruption	UNKNOWN	0.2431	0.1784
+accept the meeting with john	_Interruption	UNKNOWN	0.1971	0.2287
+accept the teams sync	_Interruption	UNKNOWN	0.1235	0.1606
+accept the upcoming meeting	_Interruption	UNKNOWN	0.2585	0.2015
+accept this invite	_Interruption	UNKNOWN	0.2496	0.1809
+am i busy tomorrow afternoon?	_Interruption	ExpectedResponse_AddItem	0.4304	0.3682
+am i busy wednesday	_Interruption	ExpectedResponse_AddItem	0.4078	0.3602
+am i busy wednesday at 1pm?	_Interruption	ExpectedResponse_AddItem	0.3648	0.3274
+am i free at 4:30 pm	_Interruption	UNKNOWN	0.2728	0.2229
+anything named standup this week?	_Interruption	_Interruption	0.445	0.5456
+calendar overview	_Interruption	_Interruption	0.2689	0.6092
+can i take a break today?	_Interruption	UNKNOWN	0.2643	0.2985
+can you tell me what conference room my next meeting is in?	_Interruption	_Interruption	0.1519	0.5013
+cancel my meeting with andrew today.	_Interruption	_Interruption	0.121	0.6238
+cancel my meeting with lydia	_Interruption	_Interruption	0.1258	0.5762
+cancel my meeting with title daily meeting	_Interruption	_Interruption	0.1465	0.5404
+cancel my next meeting	_Interruption	_Interruption	0.1291	0.4882
+cancel the event at 4	_Interruption	_Interruption	0.141	0.51
+cancel the event title shareholders revisit our scope	_Interruption	_Interruption	0.1745	0.4218
+cancel this event	_Interruption	_Interruption	0.1434	0.4273
+cancel this meeting for me	_Interruption	_Interruption	0.1153	0.6658
+change my meeting tomorrow morning	_Interruption	UNKNOWN	0.246	0.2353
+change the sync with mary to start at 12	_Interruption	UNKNOWN	0.2935	0.2129
+decline	_Interruption	UNKNOWN	0.193	0.2701
+decline my 4 pm meeting with title weekly report	_Interruption	_Interruption	0.2381	0.5292
+decline my meeting with lydia	_Interruption	_Interruption	0.1533	0.5547
+decline my next meeting	_Interruption	_Interruption	0.1663	0.531
+decline that event	_Interruption	_Interruption	0.2454	0.4446
+decline the 1:1 with susan	_Interruption	_Interruption	0.2834	0.536
+decline the meeting at 9	_Interruption	_Interruption	0.1814	0.5937
+decline the meeting with john	_Interruption	_Interruption	0.15	0.5825
+decline the one at 9	_Interruption	_Interruption	0.3306	0.5267
+do i have a break today?	_Interruption	_Interruption	0.3712	0.4497
+do i have a dentist appointment this week	_Interruption	_Interruption	0.2303	0.3787
+do i have anything with steve on friday about composer features?	_Interruption	_Interruption	0.3641	0.5864
+do i have anything with steve on friday?	_Interruption	_Interruption	0.359	0.551
+edit my event tomorrow afternoon with thomas	_Interruption	ExpectedResponse_AddItem	0.3738	0.2441
+find meetings about dev sync	_Interruption	_Interruption	0.2335	0.5683
+find meetings with tom	_Interruption	_Interruption	0.2275	0.6433
+find meetings with tom tomorrow named pm sync	_Interruption	_Interruption	0.2829	0.6192
+give me an overview of my calendar	_Interruption	_Interruption	0.3246	0.5555
+how does my day look so far	_Interruption	_Interruption	0.1188	0.4334
+how does my day start	_Interruption	_Interruption	0.2523	0.4754
+how long is my break for	_Interruption	UNKNOWN	0.1505	0.1243
+how long is my last meeting?	_Interruption	UNKNOWN	0.2162	0.1529
+how long till my next break?	_Interruption	UNKNOWN	0.1766	0.1289
+how long until another meeting starts	_Interruption	UNKNOWN	0.1936	0.1365
+how long until i need to join the next event	_Interruption	UNKNOWN	0.1846	0.109
+how long until i'm up again	_Interruption	UNKNOWN	0.2086	0.1335
+how long until my next meeting	_Interruption	UNKNOWN	0.1816	0.1234
+how many minutes do i have until another meeting starts	_Interruption	UNKNOWN	0.2139	0.1574
+how much time do i have until my next meeting	_Interruption	UNKNOWN	0.1937	0.1232
+how much time until i have to be present in a meeting again	_Interruption	UNKNOWN	0.2662	0.1243
+i just woke up, what can i expect	_Interruption	ExpectedResponse_AddItem	0.439	0.4033
+i need a break, when can i?	_Interruption	UNKNOWN	0.2386	0.2192
+i want to accept this event	_Interruption	ExpectedResponse_AddItem	0.3925	0.2381
+i want to accept this meeting	_Interruption	UNKNOWN	0.2758	0.213
+i want to cancel the meeting later today at 5	_Interruption	_Interruption	0.1666	0.5424
+i will not attend	_Interruption	UNKNOWN	0.2656	0.2479
+i would like to accept that	_Interruption	UNKNOWN	0.2447	0.1911
+is there a gap in my calendar	_Interruption	UNKNOWN	0.1838	0.2409
+is there a meeting named review tomorrow?	_Interruption	_Interruption	0.2219	0.4757
+just cancel the one with mary	_Interruption	_Interruption	0.2586	0.5841
+just tell me my calendar today	_Interruption	_Interruption	0.2903	0.5402
+kick off my day will you	_Interruption	_Interruption	0.475	0.532
+let me know when i have a break	_Interruption	_Interruption	0.2836	0.4349
+list all events for august 20th	_Interruption	_Interruption	0.411	0.7218
+make me tentative for that meeting	_Interruption	ExpectedResponse_AddItem	0.4334	0.1872
+make the 1:1 meeting with susan tentative	_Interruption	ExpectedResponse_AddItem	0.4038	0.1722
+make the meeting with john tentative	_Interruption	ExpectedResponse_AddItem	0.3711	0.176
+move this event to 9	_Interruption	ExpectedResponse_AddItem	0.382	0.2749
+move this event to tomorrow	_Interruption	ExpectedResponse_AddItem	0.4059	0.2753
+move this to start tomorrow at 4	_Interruption	ExpectedResponse_AddItem	0.4807	0.3388
+my calendar for tomorrow	_Interruption	_Interruption	0.2606	0.4925
+my day today	_Interruption	_Interruption	0.2904	0.51
+overview of today	_Interruption	_Interruption	0.2627	0.6971
+show my calendar	_Interruption	_Interruption	0.3064	0.798
+show my meeting about budget approval	_Interruption	_Interruption	0.3066	0.5999
+show my meeting with chris on wednesday	_Interruption	_Interruption	0.3182	0.5922
+show schedule	_Interruption	_Interruption	0.3196	0.7435
+show what is going on	_Interruption	_Interruption	0.2242	0.627
+show what is on my calendar today	_Interruption	_Interruption	0.301	0.8292
+tell me about my first appointment	_Interruption	_Interruption	0.3074	0.5902
+tell me about my meetings on friday	_Interruption	_Interruption	0.2589	0.6083
+tell me about today	_Interruption	_Interruption	0.3265	0.7671
+tell me how long i can rest for	_Interruption	UNKNOWN	0.1527	0.174
+tell me my last meeting for today	_Interruption	_Interruption	0.2915	0.5415
+tell me what is going on	_Interruption	_Interruption	0.2173	0.6474
+tell me what my first meeting is	_Interruption	_Interruption	0.2731	0.6754
+tell me what my next month is like	_Interruption	_Interruption	0.3011	0.684
+tell me when i can step away from my computer	_Interruption	_Interruption	0.1868	0.3989
+tell me when i can take a break	_Interruption	_Interruption	0.2556	0.3255
+tell me when my next break is	_Interruption	_Interruption	0.2665	0.4692
+tell me where the meeting at 9 is at	_Interruption	_Interruption	0.1641	0.6492
+tentatively accept the 1:1 with susan	_Interruption	ExpectedResponse_AddItem	0.3267	0.2658
+tentatively accept the meeting with john	_Interruption	UNKNOWN	0.2563	0.2177
+the meeting with anna i want it to be tentative	_Interruption	ExpectedResponse_AddItem	0.3772	0.2651
+update meeting	_Interruption	UNKNOWN	0.29	0.2087
+update my meeting with elaine	_Interruption	ExpectedResponse_AddItem	0.3323	0.1823
+update the sync on planning for release to start at 9	_Interruption	ExpectedResponse_AddItem	0.3117	0.1923
+what appointments do i have	_Interruption	_Interruption	0.2418	0.6898
+what can i expect first today	_Interruption	_Interruption	0.4366	0.5491
+what do i have this week	_Interruption	_Interruption	0.2715	0.7599
+what do i have tomorrow	_Interruption	_Interruption	0.2886	0.7938
+what do i have wednesday	_Interruption	_Interruption	0.3203	0.7315
+what do i have with elaine this week	_Interruption	_Interruption	0.3382	0.7743
+what do i have with john	_Interruption	_Interruption	0.2291	0.7477
+what does my day look like	_Interruption	_Interruption	0.2884	0.7734
+what is first on my agenda?	_Interruption	_Interruption	0.2272	0.6879
+what is going on next week	_Interruption	_Interruption	0.2609	0.6271
+what is going on today	_Interruption	_Interruption	0.2252	0.6274
+what is my agenda for this weekend?	_Interruption	_Interruption	0.3381	0.6372
+what is my first meeting today?	_Interruption	_Interruption	0.2948	0.6706
+what is my first meeting tomorrow?	_Interruption	_Interruption	0.2824	0.6398
+what is on for today?	_Interruption	_Interruption	0.2101	0.7803
+what is on my calendar tomorrow	_Interruption	_Interruption	0.2467	0.7194
+what is the location of the all hands meeting?	_Interruption	_Interruption	0.2099	0.5079
+what is the location of the sync at noon	_Interruption	_Interruption	0.168	0.4176
+what is up next month?	_Interruption	_Interruption	0.2335	0.596
+what location is included in the meeting at 11	_Interruption	_Interruption	0.2579	0.4883
+what location is there for the sync with lauren	_Interruption	_Interruption	0.1849	0.5619
+what meetings do i have about skills this week	_Interruption	_Interruption	0.2077	0.6431
+what meetings do i have named team meeting this week	_Interruption	_Interruption	0.2102	0.6124
+what meetings do i have on thursday?	_Interruption	_Interruption	0.2693	0.6571
+what meetings do i have this weekend?	_Interruption	_Interruption	0.2639	0.5712
+what meetings do i have today	_Interruption	_Interruption	0.2161	0.6129
+what meetings do i have with robert	_Interruption	_Interruption	0.2371	0.5382
+what time am i available again	_Interruption	UNKNOWN	0.1858	0.2413
+what time am i discussing the fiscal plans	_Interruption	UNKNOWN	0.1271	0.2394
+what time am i meeting with emma?	_Interruption	UNKNOWN	0.1519	0.2411
+what time does my day end?	_Interruption	UNKNOWN	0.1912	0.2569
+what time does my day start?	_Interruption	UNKNOWN	0.1936	0.289
+what time does my last meeting end?	_Interruption	UNKNOWN	0.2282	0.2128
+what time does my next meeting start	_Interruption	_Interruption	0.1716	0.3051
+what time is my team meeting today?	_Interruption	UNKNOWN	0.1849	0.2673
+what time is the sync planned for	_Interruption	UNKNOWN	0.159	0.2651
+what's happening first	_Interruption	_Interruption	0.2177	0.6294
+what's on for today	_Interruption	_Interruption	0.2562	0.6939
+what's on monday	_Interruption	_Interruption	0.3253	0.6804
+what's on my calendar	_Interruption	_Interruption	0.2426	0.7633
+what's on my calendar today?	_Interruption	_Interruption	0.2297	0.6693
+whats on next	_Interruption	_Interruption	0.2569	0.7182
+whats upcoming	_Interruption	_Interruption	0.2383	0.6387
+when am i done	_Interruption	_Interruption	0.2845	0.3967
+when am i done today?	_Interruption	_Interruption	0.2536	0.4259
+when am i finished for today?	_Interruption	_Interruption	0.2579	0.3588
+when am i free	_Interruption	UNKNOWN	0.2508	0.2302
+when am i free on tuesday	_Interruption	UNKNOWN	0.2464	0.2228
+when am i free this week	_Interruption	UNKNOWN	0.2705	0.2272
+when am i meeting henry	_Interruption	UNKNOWN	0.2237	0.2844
+when am i watching england	_Interruption	_Interruption	0.1631	0.3015
+when can i go and prepare dinner	_Interruption	UNKNOWN	0.2158	0.289
+when can i have a drink	_Interruption	UNKNOWN	0.259	0.2031
+when can i quit work and go home	_Interruption	_Interruption	0.1657	0.3052
+when can i take a break?	_Interruption	UNKNOWN	0.184	0.1874
+when do i have a break?	_Interruption	UNKNOWN	0.1911	0.1963
+when do i have exam	_Interruption	UNKNOWN	0.1875	0.2734
+when do i have time between meetings	_Interruption	UNKNOWN	0.208	0.2214
+when do i have time for myself today	_Interruption	_Interruption	0.281	0.3006
+when do i meet with charles	_Interruption	UNKNOWN	0.1943	0.2266
+when does my day finally end	_Interruption	UNKNOWN	0.2359	0.2634
+when is it time for me to stop working	_Interruption	UNKNOWN	0.1867	0.2127
+when is my break?	_Interruption	UNKNOWN	0.2198	0.2668
+when is my day over?	_Interruption	_Interruption	0.2288	0.4133
+when is my first meeting tomorrow?	_Interruption	_Interruption	0.2393	0.3182
+when is my first meeting?	_Interruption	_Interruption	0.2538	0.3488
+when is my meeting with john?	_Interruption	UNKNOWN	0.2426	0.2894
+when is my next gap in meetings?	_Interruption	UNKNOWN	0.2029	0.2843
+when will i be available today	_Interruption	UNKNOWN	0.1542	0.2199
+when will i be released today	_Interruption	UNKNOWN	0.1986	0.171
+when will i chat to lauren	_Interruption	UNKNOWN	0.2033	0.2032
+when will i discuss matters with elaine about our plans	_Interruption	UNKNOWN	0.2272	0.2187
+when will we meet with the design team today	_Interruption	UNKNOWN	0.1883	0.2504
+where am i going for daily sync up?	_Interruption	_Interruption	0.2595	0.5832
+where am i going for team meeting?	_Interruption	_Interruption	0.1641	0.5495
+where is the meeting with anna	_Interruption	_Interruption	0.1053	0.5171
+where is tomorrow ' s 11 am meeting	_Interruption	_Interruption	0.1475	0.6433
+where is tomorrow meeting at 11 am	_Interruption	_Interruption	0.1318	0.5716
+where is tomorrow 's event	_Interruption	_Interruption	0.151	0.6292
+where will the next event take place	_Interruption	_Interruption	0.1693	0.5489
+where's my next meeting	_Interruption	_Interruption	0.1774	0.6993
+who am i meeting at 10 am tomorrow	_Interruption	_Interruption	0.1656	0.3988
+who else is going to the 2pm meeting tomorrow	_Interruption	_Interruption	0.1985	0.3717
+who else is joining the event at 1 pm	_Interruption	UNKNOWN	0.1702	0.2821
+who else will be in banking meeting	_Interruption	UNKNOWN	0.1727	0.2475
+who is attending 2 pm meeting tomorrow	_Interruption	UNKNOWN	0.1943	0.2441
+who is attending the meeting on wednesday	_Interruption	UNKNOWN	0.196	0.2363
+who is coming to the project review tomorrow?	_Interruption	_Interruption	0.1579	0.5232
+who is going to attend the meeting tomorrow at 2 pm	_Interruption	UNKNOWN	0.2024	0.2057
+who is included in the invite in the next meeting	_Interruption	UNKNOWN	0.2227	0.2289
+who will attend the sync about roles	_Interruption	UNKNOWN	0.211	0.2538
+who will be present at 3	_Interruption	_Interruption	0.1869	0.3368
+who will be there at noon	_Interruption	_Interruption	0.1529	0.4259
+add to my to do list pick up clothes	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.9028	0.4493
+create to do that read a book tonight	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6305	0.2844
+add a todo named send report over this weekend	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.7052	0.2366
+create to do to go running in the park	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6842	0.4016
+add write a spec to the list	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.7956	0.3684

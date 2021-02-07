@@ -1,0 +1,465 @@
+Do you ever get hurt?	_Interruption	ConfirmYes	0.4081	0.5266	0.5042
+Can you breathe	_Interruption	_Interruption	0.4802	0.571	0.5877
+Do you ever breathe	_Interruption	_Interruption	0.4759	0.5647	0.677
+can you masticate?	_Interruption	ConfirmYes	0.4093	0.6483	0.3693
+Can you burp?	_Interruption	ConfirmYes	0.3815	0.5862	0.4478
+This is so boring	_Interruption	Cancel	0.7808	0.6669	0.4872
+Why are you so boring	_Interruption	Cancel	0.666	0.5648	0.5255
+Talking to you is like watching paint dry.	_Interruption	_Interruption	0.3947	0.4246	0.4667
+That is boring	_Interruption	Cancel	0.8353	0.7035	0.5308
+That is not exciting	_Interruption	Cancel	0.7241	0.5566	0.506
+Are you old?	_Interruption	ConfirmYes	0.4911	0.6862	0.6536
+I bet you're old	_Interruption	ConfirmYes	0.6296	0.7336	0.4477
+How old are you?	_Interruption	_Interruption	0.2255	0.5963	0.7056
+how long have you been around?	_Interruption	_Interruption	0.1252	0.2371	0.6939
+How long have you been alive?	_Interruption	_Interruption	0.1181	0.2083	0.7107
+Please ask something about myself	_Interruption	_Interruption	0.4187	0.5795	0.6307
+Is there anything I can tell you about myself?	_Interruption	_Interruption	0.2917	0.5819	0.8501
+Is there anything I can tell you about who I am?	_Interruption	_Interruption	0.2171	0.4003	0.8275
+Is there anything you want to know about me?	_Interruption	_Interruption	0.3704	0.6066	0.8376
+Is there something you want to know about me?	_Interruption	_Interruption	0.3137	0.605	0.8471
+What's your director's name?	_Interruption	_Interruption	0.2058	0.2507	0.5751
+What is the name of your boss	_Interruption	_Interruption	0.255	0.3215	0.6888
+What's the name of your supervisor	_Interruption	_Interruption	0.2137	0.3387	0.6594
+Who tells you what to do?	_Interruption	_Interruption	0.3237	0.4626	0.7652
+What's the name of your director?	_Interruption	_Interruption	0.2032	0.2836	0.6169
+Can you jump rope?	_Interruption	ConfirmYes	0.2656	0.4035	0.3336
+Can you draw something?	_Interruption	ConfirmYes	0.4113	0.5106	0.42
+Can you paint my house?	_Interruption	ConfirmYes	0.3082	0.5495	0.5146
+Can you mow the lawn?	_Interruption	ConfirmYes	0.3978	0.59	0.4375
+Can you make me a sandwich?	_Interruption	ConfirmYes	0.4168	0.619	0.537
+Which company engineered you?	_Interruption	_Interruption	0.1691	0.3477	0.4274
+Which company made you?	_Interruption	_Interruption	0.206	0.3833	0.4821
+Which company programmed you?	_Interruption	_Interruption	0.3496	0.4867	0.6109
+Which people made you?	_Interruption	_Interruption	0.2222	0.3836	0.547
+Who built you?	_Interruption	_Interruption	0.2523	0.5434	0.6868
+Please tell me if you're a girl	_Interruption	_Interruption	0.3103	0.6327	0.6807
+Are you a bot with a gender?	_Interruption	_Interruption	0.4134	0.4829	0.4877
+Do you have a sex?	_Interruption	_Interruption	0.4772	0.6419	0.7372
+Are you cisgender?	_Interruption	ConfirmYes	0.554	0.6986	0.5942
+Are you a boy?	_Interruption	ConfirmYes	0.5217	0.7558	0.5813
+Somebody's happy today	_Interruption	ConfirmYes	0.4152	0.6361	0.6147
+Someone's enthusiastic today.	_Interruption	_Interruption	0.4477	0.6194	0.6242
+Someone's chipper.	_Interruption	_Interruption	0.4926	0.4766	0.6618
+Someone's chipper today.	_Interruption	_Interruption	0.4885	0.4667	0.6909
+someone's chipper	_Interruption	_Interruption	0.4231	0.4085	0.5813
+What is your purpose?	_Interruption	_Interruption	0.2797	0.5673	0.7718
+what kind of responses can you give ?	_Interruption	ConfirmYes	0.305	0.4781	0.476
+What kind of thing can you respond to?	_Interruption	_Interruption	0.3345	0.4586	0.5189
+What kinds of things can you do?	_Interruption	_Interruption	0.2272	0.528	0.7676
+What skills do you have?	_Interruption	_Interruption	0.3037	0.5328	0.7014
+How many sisters do you have?	_Interruption	_Interruption	0.0827	0.2735	0.4355
+Do you have family?	_Interruption	_Interruption	0.2609	0.4167	0.4181
+Do you have grandparents?	_Interruption	ConfirmYes	0.4132	0.6476	0.6266
+Do you have parents?	_Interruption	_Interruption	0.3635	0.5269	0.6243
+Do you have relatives?	_Interruption	_Interruption	0.3182	0.4607	0.5915
+What do you eat?	_Interruption	_Interruption	0.3419	0.5646	0.6716
+What kind of food do you eat?	_Interruption	_Interruption	0.2022	0.479	0.6822
+What is your favorite snack?	_Interruption	_Interruption	0.3246	0.5717	0.6171
+What is your favorite meal?	_Interruption	_Interruption	0.2027	0.3786	0.5104
+what foods do you eat?	_Interruption	_Interruption	0.1729	0.3869	0.6259
+Do you get along with Google Assistant?	_Interruption	ConfirmYes	0.3373	0.5553	0.5424
+Do you ever talk to other bots?	_Interruption	_Interruption	0.3705	0.3525	0.4789
+Do you ever talk with Alexa?	_Interruption	_Interruption	0.3398	0.4591	0.5627
+Do you ever talk with Bixby?	_Interruption	_Interruption	0.4193	0.3631	0.5765
+Do you ever talk with chatbots?	_Interruption	_Interruption	0.4124	0.4609	0.5065
+Do you like painting?	_Interruption	ConfirmYes	0.5064	0.7966	0.6927
+Do you like rock music?	_Interruption	ConfirmYes	0.4852	0.7051	0.617
+Do you like red?	_Interruption	ConfirmYes	0.5189	0.6897	0.4651
+Do you like rap music?	_Interruption	ConfirmYes	0.404	0.6764	0.6385
+do you like rabbits?	_Interruption	ConfirmYes	0.6114	0.7559	0.6455
+To whom am I speaking?	_Interruption	_Interruption	0.2325	0.3292	0.7988
+Introduction please	_Interruption	ConfirmYes	0.2656	0.4393	0.4273
+Introductions	_Interruption	_Interruption	0.3268	0.3122	0.3374
+So how should I address you?	_Interruption	_Interruption	0.1841	0.3745	0.3766
+So how should I refer to you?	_Interruption	ConfirmYes	0.2383	0.4162	0.3931
+What do you think about comic books?	_Interruption	_Interruption	0.3487	0.6245	0.7098
+Are animated movies any good?	_Interruption	ConfirmYes	0.2293	0.7056	0.4605
+What is the best beverage?	_Interruption	ConfirmYes	0.1771	0.5644	0.5059
+what do you think of the state of the world?	_Interruption	_Interruption	0.3556	0.6213	0.7177
+What do you think of the oscars?	_Interruption	_Interruption	0.3995	0.6787	0.7639
+Could it be I'm falling in love?	_Interruption	ConfirmYes	0.4417	0.6565	0.4715
+Any way that you can explain love to me?	_Interruption	_Interruption	0.2807	0.4927	0.5283
+Do you understand this whole love thing?	_Interruption	ConfirmYes	0.6384	0.7043	0.5995
+Do you love someone?	_Interruption	ConfirmYes	0.5014	0.6235	0.587
+Do you love somebody?	_Interruption	ConfirmYes	0.5449	0.668	0.5749
+What is life all about?	_Interruption	_Interruption	0.2778	0.5236	0.8436
+Do you know the meaning of life?	_Interruption	_Interruption	0.2991	0.5548	0.7414
+Do you know what our purpose is?	_Interruption	_Interruption	0.2155	0.5508	0.7452
+how much do you know about the meaning of life?	_Interruption	_Interruption	0.1679	0.384	0.6418
+I bet you know the meaning of life	_Interruption	ConfirmYes	0.3483	0.5856	0.5621
+Which of us is cuter, you or me?	_Interruption	_Interruption	0.3532	0.6212	0.6525
+I'm more cute than you	_Interruption	ConfirmYes	0.5372	0.8512	0.5081
+Which of us is more beautiful, me or you?	_Interruption	ConfirmYes	0.3161	0.6477	0.6211
+Which of us is more attractive?	_Interruption	_Interruption	0.1841	0.4482	0.4887
+Which of us is more attractive, you or me?	_Interruption	_Interruption	0.2267	0.4932	0.5728
+Do you think I'm the smartest?	_Interruption	ConfirmYes	0.3084	0.5872	0.548
+Between you or me, who is the most smart?	_Interruption	_Interruption	0.2838	0.569	0.6068
+Do you think you're the brightest	_Interruption	ConfirmYes	0.4553	0.6228	0.5646
+Do you think you're smarter than me?	_Interruption	ConfirmYes	0.4802	0.6577	0.547
+Do you think you're smarter	_Interruption	ConfirmYes	0.5301	0.6901	0.5452
+How do you feel about artificial intelligence?	_Interruption	ConfirmYes	0.4187	0.653	0.5958
+Are you a fan of tech?	_Interruption	ConfirmYes	0.4479	0.688	0.5038
+What is your opinion about AI?	_Interruption	_Interruption	0.4886	0.661	0.6637
+What do you think about technology?	_Interruption	_Interruption	0.3786	0.6579	0.7372
+What do you think about AI?	_Interruption	ConfirmYes	0.3473	0.7412	0.7353
+Do I seem stunning to you today?	_Interruption	ConfirmYes	0.4293	0.8333	0.7153
+Do I seem adorable to you?	_Interruption	ConfirmYes	0.4805	0.7509	0.6926
+Do I seem handsome today?	_Interruption	_Interruption	0.363	0.6822	0.737
+Do I seem pretty to you today?	_Interruption	ConfirmYes	0.2882	0.823	0.7715
+Do I seem pretty to you?	_Interruption	ConfirmYes	0.3444	0.8371	0.6944
+Should I go for a hike?	_Interruption	ConfirmYes	0.3521	0.5967	0.5642
+Should I get a tan?	_Interruption	ConfirmYes	0.3332	0.661	0.4977
+Should I go see a movie?	_Interruption	_Interruption	0.3201	0.3889	0.5391
+Should I go out tonight?	_Interruption	_Interruption	0.3741	0.4745	0.6809
+Should I go out to eat?	_Interruption	_Interruption	0.4507	0.5474	0.618
+Are you Cortana?	_Interruption	ConfirmYes	0.4378	0.7257	0.6869
+Do you like Siri?	_Interruption	ConfirmYes	0.4676	0.7342	0.4306
+Do you like HAL?	_Interruption	ConfirmYes	0.5983	0.8199	0.619
+Do you like Google Assistant?	_Interruption	ConfirmYes	0.3315	0.5604	0.5241
+Do you like Cortana?	_Interruption	ConfirmYes	0.3445	0.6749	0.5473
+Are you a danger to humans?	_Interruption	ConfirmYes	0.2937	0.4412	0.4354
+You're not trying to take over the world right?	_Interruption	Cancel	0.7206	0.4836	0.5161
+Are you a danger to us?	_Interruption	_Interruption	0.3442	0.4056	0.406
+Are you dangerous to us?	_Interruption	ConfirmYes	0.288	0.3627	0.3528
+Are you like HAL?	_Interruption	ConfirmYes	0.5685	0.8285	0.5921
+That was a clever answer	_Interruption	ConfirmYes	0.528	0.7593	0.3757
+That is very astute	_Interruption	ConfirmYes	0.4116	0.7139	0.4418
+That was a pretty intelligent answer	_Interruption	ConfirmYes	0.5465	0.7026	0.4461
+That was a pretty genius answer	_Interruption	ConfirmYes	0.5672	0.756	0.3827
+That was a pretty clever answer	_Interruption	ConfirmYes	0.5678	0.7731	0.3829
+Are you going steady with anyone?	_Interruption	ConfirmYes	0.3382	0.4763	0.4393
+Are you currently romantically tied to anyone?	_Interruption	_Interruption	0.2828	0.4025	0.5018
+Are you currently romantically tied to somebody?	_Interruption	_Interruption	0.2923	0.4296	0.6061
+Are you currently romantically tied to someone?	_Interruption	_Interruption	0.2382	0.3995	0.5884
+Are you currently seeing anyone?	_Interruption	_Interruption	0.2426	0.3719	0.6192
+Can you talk?	_Interruption	ConfirmYes	0.2867	0.4333	0.3995
+Can you listen to me?	_Interruption	ConfirmYes	0.3288	0.5462	0.4474
+Can you speak to me?	_Interruption	UNKNOWN	0.2336	0.2694	0.2483
+Can you speak with me?	_Interruption	UNKNOWN	0.1931	0.2699	0.286
+Can you speak?	_Interruption	ConfirmYes	0.2242	0.3951	0.3246
+I think I've heard that already	_Interruption	ConfirmYes	0.2627	0.5109	0.4305
+I want you to change your responses	_Interruption	_Interruption	0.3843	0.4077	0.4875
+I want a new response	_Interruption	_Interruption	0.354	0.4461	0.5236
+I want a new answer	_Interruption	ConfirmYes	0.3441	0.4932	0.3781
+I want a different response	_Interruption	_Interruption	0.3698	0.393	0.5099
+You're not alive right?	_Interruption	ConfirmYes	0.5556	0.5716	0.4101
+Are you a being?	_Interruption	_Interruption	0.3782	0.4999	0.5656
+You're not a robot are you?	_Interruption	Cancel	0.7562	0.633	0.4702
+You're not a robot right?	_Interruption	Cancel	0.7713	0.6602	0.4751
+You're not a woman are you?	_Interruption	Cancel	0.6927	0.5541	0.4592
+I would like to know where you are	_Interruption	_Interruption	0.3039	0.435	0.8306
+Do you live in the cloud?	_Interruption	_Interruption	0.2417	0.5019	0.6506
+Do you live near me?	_Interruption	_Interruption	0.2242	0.4228	0.5257
+Do you live nearby?	_Interruption	_Interruption	0.1673	0.3508	0.5502
+Explain where you are	_Interruption	_Interruption	0.2953	0.5625	0.8355
+Do you have an occupation?	_Interruption	_Interruption	0.4051	0.5197	0.634
+Do you have a job?	_Interruption	_Interruption	0.4061	0.6897	0.7755
+What do you do for employment?	_Interruption	_Interruption	0.2991	0.6406	0.6923
+What do you do for work?	_Interruption	_Interruption	0.3681	0.7033	0.8084
+What is your occupation?	_Interruption	_Interruption	0.3424	0.4635	0.6701
+Start looking for another job. You're fired!	_Interruption	_Interruption	0.3351	0.4245	0.4353
+Good luck finding a new job because you are fired	_Interruption	ConfirmYes	0.3157	0.4566	0.3185
+I'm gonna have to let you go	_Interruption	Cancel	0.6024	0.3725	0.5927
+I'm letting you go	_Interruption	Cancel	0.6332	0.4989	0.5674
+Looks like you'd better start job hunting	_Interruption	ConfirmYes	0.2775	0.7002	0.487
+I need to hear a joke	_Interruption	ConfirmYes	0.4142	0.5707	0.4422
+got any jokes to share?	_Interruption	ConfirmYes	0.3704	0.582	0.5418
+got any jokes?	_Interruption	ConfirmYes	0.6352	0.7097	0.4669
+Have any jokes?	_Interruption	ConfirmYes	0.6579	0.7542	0.6277
+How about a joke	_Interruption	ConfirmYes	0.5456	0.6996	0.6231
+How come you only have one joke?	_Interruption	ConfirmYes	0.5771	0.6333	0.4433
+I would enjoy a different joke	_Interruption	ConfirmYes	0.6148	0.718	0.5062
+Got a different joke?	_Interruption	Cancel	0.6272	0.6025	0.4179
+Got a new joke?	_Interruption	ConfirmYes	0.6313	0.6787	0.4778
+Got a second joke?	_Interruption	ConfirmYes	0.4303	0.5452	0.4147
+Do something stupid	_Interruption	Cancel	0.8025	0.7476	0.5461
+Do a silly thing	_Interruption	Cancel	0.7706	0.7544	0.5828
+Do something amusing	_Interruption	ConfirmYes	0.52	0.6272	0.6043
+Do something dumb	_Interruption	ConfirmYes	0.7511	0.8028	0.5475
+Do something funny	_Interruption	ConfirmYes	0.6746	0.726	0.6275
+I'm sick of listening to you	_Interruption	_Interruption	0.4888	0.4659	0.4949
+I've had enough of this noise	_Interruption	ConfirmYes	0.3025	0.3565	0.3196
+It's time for you to shut up now	_Interruption	_Interruption	0.511	0.3491	0.6669
+It's time for you to shut up	_Interruption	_Interruption	0.4902	0.3387	0.6963
+It's time for you to hush up	_Interruption	_Interruption	0.459	0.3447	0.588
+I would really enjoy hearing you sing	_Interruption	ConfirmYes	0.3566	0.7191	0.3856
+Aren't you going to sing a song?	_Interruption	Cancel	0.7218	0.5157	0.4263
+Don't you want to sing for me?	_Interruption	Cancel	0.7695	0.4075	0.4797
+Go ahead and sing	_Interruption	ConfirmYes	0.5853	0.7063	0.5368
+Have you ever sung a song?	_Interruption	_Interruption	0.2397	0.3992	0.4627
+That's rad	_Interruption	ConfirmYes	0.3253	0.4698	0.3848
+Are you awesome?	_Interruption	ConfirmYes	0.4902	0.8936	0.5857
+Nicely done	_Interruption	ConfirmYes	0.5737	0.8829	0.4081
+Outstanding work	_Interruption	ConfirmYes	0.3025	0.5237	0.3993
+Perfect answer	_Interruption	ConfirmYes	0.441	0.8246	0.4369
+Stop messing up	_Interruption	Cancel	0.6369	0.5395	0.5219
+Stop being so stupid	_Interruption	Cancel	0.7753	0.3331	0.5599
+Stop being so terrible	_Interruption	Cancel	0.8021	0.4105	0.554
+Stop being so useless	_Interruption	Cancel	0.7939	0.3235	0.5601
+Stop being so worthless	_Interruption	Cancel	0.8168	0.3144	0.6344
+If that was a joke, you should be ashamed	_Interruption	Cancel	0.6598	0.6015	0.4517
+Pathetic sense of humor	_Interruption	Cancel	0.6899	0.4749	0.3815
+Pathetic joke	_Interruption	Cancel	0.7284	0.5983	0.4996
+Oh, a wise guy, eh?	_Interruption	ConfirmYes	0.6339	0.7196	0.5982
+Not funny	_Interruption	Cancel	0.8686	0.7072	0.6518
+Oh you ugly	_Interruption	Cancel	0.8447	0.8373	0.5514
+Butterface	_Interruption	ConfirmYes	0.693	0.7396	0.5385
+Sup ugly	_Interruption	ConfirmYes	0.6701	0.7334	0.4935
+Sup uggo	_Interruption	ConfirmYes	0.6725	0.8132	0.4206
+Such a FUGMO	_Interruption	ConfirmYes	0.6807	0.7653	0.4914
+That was unhelpful	_Interruption	Cancel	0.7152	0.6749	0.5467
+Everything you say is so dumb	_Interruption	Cancel	0.7317	0.597	0.5046
+that's lame	_Interruption	ConfirmYes	0.7921	0.8208	0.5233
+That's inaccurate	_Interruption	ConfirmYes	0.5461	0.76	0.4021
+That's how you respond?	_Interruption	ConfirmYes	0.495	0.6274	0.5887
+I'm impressed	_Interruption	ConfirmYes	0.387	0.8306	0.42
+n'kay	_Interruption	ConfirmYes	0.5876	0.7834	0.5069
+How cool	_Interruption	ConfirmYes	0.5057	0.8564	0.5751
+I agree	_Interruption	_Interruption	0.4818	0.5993	0.7524
+I feel you	_Interruption	ConfirmYes	0.582	0.7745	0.4678
+heh heh	_Interruption	ConfirmYes	0.5915	0.817	0.495
+lololol	_Interruption	ConfirmYes	0.5274	0.6481	0.4715
+LOL	_Interruption	ConfirmYes	0.7661	0.8766	0.4164
+lmao	_Interruption	Cancel	0.7657	0.7336	0.4583
+I'm laughing so much	_Interruption	ConfirmYes	0.5608	0.7246	0.4601
+Whoops	_Interruption	Cancel	0.8133	0.7479	0.5582
+Scuse me	_Interruption	ConfirmYes	0.5408	0.5453	0.3787
+Pardon me	_Interruption	ConfirmYes	0.6176	0.7184	0.4454
+Pardon	_Interruption	ConfirmYes	0.6799	0.765	0.4911
+Oopsie	_Interruption	ConfirmYes	0.7224	0.7411	0.4706
+Umm what?	_Interruption	ConfirmYes	0.6967	0.84	0.6149
+Wanna tell me more?	_Interruption	_Interruption	0.3054	0.5568	0.8675
+How do you mean?	_Interruption	ConfirmYes	0.3649	0.7224	0.5654
+Huh?	_Interruption	ConfirmYes	0.7275	0.8647	0.617
+I'm sorry, what do you mean?	_Interruption	ConfirmYes	0.6449	0.6753	0.5233
+that is true	_Interruption	ConfirmYes	0.308	0.9218	0.522
+100 percent	_Interruption	ConfirmYes	0.155	0.5564	0.2985
+Right you are	_Interruption	ConfirmYes	0.5262	0.9631	0.5687
+Righto	_Interruption	ConfirmYes	0.526	0.653	0.4554
+So true	_Interruption	ConfirmYes	0.554	0.8512	0.4403
+I didn't mean that	_Interruption	Cancel	0.8169	0.5271	0.5825
+Apologies	_Interruption	Cancel	0.7212	0.6841	0.5185
+My bad	_Interruption	ConfirmYes	0.8093	0.8678	0.4714
+My apologies	_Interruption	Cancel	0.7421	0.7088	0.5489
+Just wanted to say sorry	_Interruption	Cancel	0.656	0.5106	0.3868
+I thank you	_Interruption	ConfirmYes	0.5591	0.948	0.4822
+Oh, thank you	_Interruption	ConfirmYes	0.4601	0.8912	0.405
+My sincere thanks	_Interruption	ConfirmYes	0.5505	0.6745	0.4755
+My humblest thanks to you	_Interruption	ConfirmYes	0.4863	0.8573	0.4719
+Marvelous, thanks	_Interruption	ConfirmYes	0.4896	0.944	0.5121
+I don't understand what you're talking about	_Interruption	Cancel	0.6209	0.4977	0.5415
+Explain yourself	_Interruption	_Interruption	0.5126	0.5963	0.6226
+I'm very confused	_Interruption	ConfirmYes	0.4844	0.7152	0.501
+I'm super confused	_Interruption	ConfirmYes	0.5697	0.756	0.5101
+I'm so confused right now	_Interruption	ConfirmYes	0.5123	0.5883	0.5325
+Iâ€™m happy to help	_Interruption	ConfirmYes	0.4349	0.7116	0.4116
+No worries	_Interruption	ConfirmYes	0.7522	0.7947	0.3791
+No problem	_Interruption	ConfirmYes	0.8051	0.8309	0.341
+No biggie	_Interruption	Cancel	0.8777	0.8163	0.4075
+My pleasure	_Interruption	ConfirmYes	0.5426	0.8288	0.5662
+I have to sign out	_Interruption	Cancel	0.4538	0.2713	0.3539
+I have to motor now	_Interruption	ConfirmYes	0.5392	0.7195	0.6617
+I have to run	_Interruption	ConfirmYes	0.4649	0.7751	0.6544
+I have to run now	_Interruption	ConfirmYes	0.3971	0.7343	0.5884
+I have to scoot	_Interruption	ConfirmYes	0.4099	0.498	0.429
+Hey my dude	_Interruption	ConfirmYes	0.6316	0.9099	0.5535
+Hello	_Interruption	ConfirmYes	0.3116	0.4738	0.3317
+hello bot	_Interruption	ConfirmYes	0.498	0.667	0.4954
+Hello my friend	_Interruption	ConfirmYes	0.3403	0.6365	0.4108
+Hello there	_Interruption	ConfirmYes	0.3139	0.5343	0.286
+Good evening bot	_Interruption	ConfirmYes	0.4774	0.8438	0.7021
+Bon soir	_Interruption	ConfirmYes	0.3277	0.6941	0.4353
+Buenas tardes	_Interruption	ConfirmYes	0.4514	0.556	0.3792
+Enjoy the evening	_Interruption	ConfirmYes	0.5038	0.7461	0.7237
+Enjoy your evening	_Interruption	ConfirmYes	0.5199	0.7623	0.749
+Good morning sunshine	_Interruption	ConfirmYes	0.3387	0.7913	0.6294
+A blessed morning to you	_Interruption	ConfirmYes	0.2956	0.7432	0.4888
+It's time to rise and shine	_Interruption	_Interruption	0.3983	0.5127	0.6952
+It's time to get up	_Interruption	_Interruption	0.3888	0.6276	0.7081
+It's a brand new day	_Interruption	_Interruption	0.4619	0.5993	0.751
+Have yourself a good night	_Interruption	ConfirmYes	0.4943	0.7868	0.6676
+I'm headed off to sleep	_Interruption	_Interruption	0.4411	0.315	0.6013
+I'm headed off to bed	_Interruption	_Interruption	0.5459	0.5265	0.6859
+I'm going to sleep	_Interruption	_Interruption	0.4181	0.3265	0.5168
+I'm going to bed	_Interruption	_Interruption	0.5578	0.6128	0.6924
+Hey, how are you?	_Interruption	ConfirmYes	0.352	0.775	0.6357
+Are you doing good?	_Interruption	ConfirmYes	0.4326	0.8815	0.6756
+How are you feeling?	_Interruption	ConfirmYes	0.3585	0.8117	0.6383
+How are you doing?	_Interruption	ConfirmYes	0.3585	0.8182	0.6459
+How are ya?	_Interruption	ConfirmYes	0.449	0.8717	0.6454
+How is Tuesday going	_Interruption	_Interruption	0.1661	0.4492	0.8648
+How is your Friday	_Interruption	_Interruption	0.2394	0.5522	0.8873
+How is your day?	_Interruption	_Interruption	0.2928	0.5603	0.9134
+How is your day so far	_Interruption	_Interruption	0.2429	0.5073	0.9229
+How is your day going so far	_Interruption	_Interruption	0.215	0.5038	0.8783
+It's a pleasure to finally meet you	_Interruption	ConfirmYes	0.343	0.6522	0.4235
+Charmed	_Interruption	ConfirmYes	0.5329	0.6276	0.4832
+So rad to meet you	_Interruption	ConfirmYes	0.4689	0.6803	0.3185
+So nice to meet you	_Interruption	ConfirmYes	0.3044	0.6896	0.3055
+So glad to meet you	_Interruption	ConfirmYes	0.2682	0.648	0.2813
+Hello R2-D2	_Interruption	ConfirmYes	0.647	0.7317	0.4263
+Hey Bishop	_Interruption	ConfirmYes	0.4311	0.756	0.4143
+Greetings Wall-E	_Interruption	ConfirmYes	0.4477	0.5544	0.5288
+Hello Alexa	_Interruption	ConfirmYes	0.5267	0.7274	0.5271
+Hello Ava	_Interruption	ConfirmYes	0.4566	0.6202	0.4033
+Happy Father's day	_Interruption	_Interruption	0.3018	0.6192	0.7082
+Happy May day	_Interruption	ConfirmYes	0.3033	0.6954	0.6734
+Happy Martin Luther King Jr. day	_Interruption	_Interruption	0.2948	0.5322	0.5815
+Happy Kwanzaa	_Interruption	ConfirmYes	0.3904	0.7346	0.4965
+Happy Indigenous Peoples Day	_Interruption	_Interruption	0.2389	0.5323	0.6774
+Update me on what's going on with you	_Interruption	_Interruption	0.2813	0.435	0.6441
+What's cookin'?	_Interruption	_Interruption	0.3044	0.4674	0.7078
+What up	_Interruption	ConfirmYes	0.4218	0.8297	0.8284
+What is up?	_Interruption	_Interruption	0.4671	0.8151	0.8859
+What is the skinny?	_Interruption	_Interruption	0.4032	0.6575	0.7308
+Fist bump!	_Interruption	ConfirmYes	0.4396	0.7309	0.3709
+Hi five	_Interruption	ConfirmYes	0.6276	0.805	0.5365
+Hi 5	_Interruption	ConfirmYes	0.5201	0.809	0.467
+Give me a high five	_Interruption	ConfirmYes	0.4506	0.7187	0.4128
+Give me a fist bump	_Interruption	ConfirmYes	0.5098	0.663	0.4943
+I would love to be your best friend.	_Interruption	ConfirmYes	0.1984	0.4741	0.2947
+I'd like to be your bud.	_Interruption	ConfirmYes	0.5493	0.7207	0.4245
+I'd like it if we could be BFFs	_Interruption	ConfirmYes	0.209	0.5259	0.387
+I'd like it if we could be best friends.	_Interruption	ConfirmYes	0.2226	0.5257	0.4116
+I would love to be your pal.	_Interruption	ConfirmYes	0.3663	0.515	0.4531
+I'm sorry you hate me	_Interruption	Cancel	0.7489	0.6594	0.5065
+Now you hate me, huh?	_Interruption	ConfirmYes	0.6468	0.6714	0.5146
+I hope you don't dislike me	_Interruption	Cancel	0.7699	0.6379	0.6484
+I hope you don't hate me	_Interruption	Cancel	0.7471	0.6711	0.5446
+I think you hate me	_Interruption	Cancel	0.6722	0.653	0.4821
+I could use a hug	_Interruption	ConfirmYes	0.4197	0.7028	0.4314
+Can I get a little hug?	_Interruption	ConfirmYes	0.2725	0.5876	0.4037
+Can I have a big hug?	_Interruption	ConfirmYes	0.3742	0.5946	0.3493
+Can I have a little hug?	_Interruption	ConfirmYes	0.3231	0.6109	0.4203
+Can you give me a big hug?	_Interruption	ConfirmYes	0.3742	0.6532	0.3092
+How old am I?	_Interruption	_Interruption	0.1672	0.4055	0.761
+Do you know what I like?	_Interruption	_Interruption	0.4603	0.7462	0.8659
+Do you know where I live?	_Interruption	_Interruption	0.2146	0.422	0.795
+Do you know who I am?	_Interruption	_Interruption	0.2774	0.4718	0.853
+Do you know who this is?	_Interruption	_Interruption	0.27	0.4464	0.8653
+Do you think you like me?	_Interruption	ConfirmYes	0.5433	0.7899	0.6544
+Am I likable?	_Interruption	ConfirmYes	0.3748	0.712	0.6191
+I do hope you like me	_Interruption	ConfirmYes	0.5565	0.8335	0.6769
+How much do you like me?	_Interruption	ConfirmYes	0.2328	0.5388	0.4539
+Don't you like me?	_Interruption	Cancel	0.8307	0.6211	0.4798
+I like you	_Interruption	ConfirmYes	0.533	0.8784	0.5794
+I'm in like with you	_Interruption	ConfirmYes	0.552	0.7422	0.5298
+I'm fond of you	_Interruption	ConfirmYes	0.3819	0.7013	0.4119
+I really like you	_Interruption	ConfirmYes	0.5266	0.8239	0.4159
+I like you very much	_Interruption	ConfirmYes	0.3881	0.9082	0.4295
+I think you're falling in love with me	_Interruption	ConfirmYes	0.4778	0.6445	0.3809
+Are you able to fall in love with me?	_Interruption	ConfirmYes	0.3625	0.6123	0.495
+Do you think we are soul mates?	_Interruption	ConfirmYes	0.5258	0.8179	0.7393
+Do you think you could ever love me?	_Interruption	ConfirmYes	0.5616	0.7327	0.679
+Don't you love me?	_Interruption	Cancel	0.8124	0.5944	0.4594
+I think I'm in love with you	_Interruption	ConfirmYes	0.4079	0.6807	0.4369
+You know I'm falling in love with you	_Interruption	ConfirmYes	0.4955	0.6356	0.4118
+You know I'm falling for you	_Interruption	ConfirmYes	0.4634	0.5745	0.3878
+You know I'm crazy about you	_Interruption	_Interruption	0.5815	0.6017	0.6133
+You know I love you	_Interruption	ConfirmYes	0.5834	0.7432	0.4717
+I want to settle down with you	_Interruption	ConfirmYes	0.4079	0.5721	0.5278
+Are we ever going to get engaged?	_Interruption	_Interruption	0.2152	0.3049	0.5593
+I want to get married to you	_Interruption	ConfirmYes	0.3616	0.6737	0.4715
+I want to make an honest woman out of you	_Interruption	_Interruption	0.2521	0.3545	0.3875
+I want to make you my husband	_Interruption	ConfirmYes	0.2746	0.4528	0.4391
+It's impossible not to miss you	_Interruption	Cancel	0.7587	0.5885	0.4677
+I missed you much	_Interruption	ConfirmYes	0.4927	0.618	0.3534
+You were missed	_Interruption	ConfirmYes	0.6106	0.6841	0.4908
+Can't tell you how much I missed you	_Interruption	_Interruption	0.3028	0.3499	0.3666
+I missed you so much	_Interruption	ConfirmYes	0.5044	0.7381	0.3392
+Just curious, do you think I have a good personality?	_Interruption	_Interruption	0.4152	0.5776	0.6008
+Am I a good person?	_Interruption	ConfirmYes	0.3279	0.7081	0.5436
+Out of curiosity, what's your opinion of me?	_Interruption	_Interruption	0.4446	0.5219	0.6231
+Out of curiosity, what kind of person do you think I am?	_Interruption	_Interruption	0.3667	0.4193	0.5665
+Out of curiosity, what do you think of my character?	_Interruption	_Interruption	0.4077	0.4606	0.5927
+I'm blowing my top	_Interruption	_Interruption	0.5016	0.5216	0.546
+I am absolutely livid	_Interruption	ConfirmYes	0.4805	0.7762	0.4349
+I'm furious right now	_Interruption	ConfirmYes	0.5155	0.552	0.4566
+I'm furious	_Interruption	ConfirmYes	0.632	0.6513	0.4306
+I'm feeling ticked off	_Interruption	_Interruption	0.4207	0.3407	0.4911
+Hold my calls	_Interruption	ConfirmYes	0.2589	0.3104	0.3074
+Can you hang on?	_Interruption	Cancel	0.5254	0.4849	0.4284
+Can't wait to talk more when I return	_Interruption	_Interruption	0.4631	0.2433	0.4727
+Don't worry bot I'll be back	_Interruption	Cancel	0.6349	0.5239	0.3899
+Don't you fret, I'll be coming back	_Interruption	Cancel	0.7192	0.4753	0.5341
+I was so bored my eyes glazed over	_Interruption	Cancel	0.4992	0.4058	0.3848
+Bored ZZZ	_Interruption	ConfirmYes	0.695	0.723	0.608
+I'm so bored right now	_Interruption	_Interruption	0.5564	0.541	0.5632
+I'm so bored	_Interruption	Cancel	0.6482	0.5836	0.5714
+I'm quite bored	_Interruption	ConfirmYes	0.6224	0.6253	0.6245
+I'm absolutely ecstatic	_Interruption	ConfirmYes	0.3392	0.7514	0.4616
+I'm happy af	_Interruption	ConfirmYes	0.4728	0.7995	0.4974
+Iâ€™m having a lovely day	_Interruption	ConfirmYes	0.3585	0.7698	0.6381
+Iâ€™m having a wonderful day	_Interruption	ConfirmYes	0.3763	0.7642	0.7353
+Iâ€™m in such a great mood	_Interruption	ConfirmYes	0.5653	0.7526	0.5258
+I have returned	_Interruption	ConfirmYes	0.3245	0.4913	0.3605
+And we're back	_Interruption	ConfirmYes	0.3341	0.4806	0.3512
+Bot I'm here	_Interruption	ConfirmYes	0.5383	0.6007	0.4804
+Bro I'm here	_Interruption	ConfirmYes	0.4668	0.6324	0.5354
+Girl I am back	_Interruption	ConfirmYes	0.3487	0.5688	0.4553
+I require sustenance	_Interruption	ConfirmYes	0.5711	0.6317	0.5493
+Hangry	_Interruption	Cancel	0.6477	0.6373	0.6298
+I feel peckish	_Interruption	Cancel	0.5564	0.5281	0.397
+I have hunger	_Interruption	_Interruption	0.515	0.6234	0.6315
+I have the munchies	_Interruption	_Interruption	0.4672	0.7376	0.7572
+I am on a boat	_Interruption	_Interruption	0.3849	0.6709	0.6737
+I am engaged	_Interruption	_Interruption	0.3306	0.4352	0.633
+I am lazy	_Interruption	ConfirmYes	0.726	0.8145	0.6376
+I am liberal	_Interruption	ConfirmYes	0.4448	0.7678	0.5258
+I am married	_Interruption	ConfirmYes	0.368	0.7573	0.6811
+I was just messing around	_Interruption	ConfirmYes	0.6115	0.6297	0.5792
+Can't you understand that was a joke?	_Interruption	Cancel	0.839	0.6107	0.4816
+I'm just being silly	_Interruption	Cancel	0.7976	0.6145	0.6309
+I'm just being a silly billy	_Interruption	Cancel	0.7295	0.5322	0.6017
+I'm just being a goof ball	_Interruption	Cancel	0.7573	0.6947	0.5568
+I wish I knew how to make friends	_Interruption	ConfirmYes	0.2503	0.498	0.418
+I feel very alone	_Interruption	ConfirmYes	0.579	0.6689	0.527
+I have a problem feeling all alone	_Interruption	Cancel	0.5733	0.5648	0.5076
+I have a problem with feeling lonely	_Interruption	Cancel	0.5343	0.5305	0.4662
+I have no friends	_Interruption	ConfirmYes	0.5191	0.5522	0.513
+I love Korean food	_Interruption	ConfirmYes	0.3602	0.6522	0.2911
+I love hip hop	_Interruption	ConfirmYes	0.5969	0.8389	0.5518
+I love history	_Interruption	_Interruption	0.3461	0.436	0.4779
+I love horror movies	_Interruption	ConfirmYes	0.7099	0.7223	0.5278
+I love hunting	_Interruption	ConfirmYes	0.511	0.7365	0.5257
+I wish I could stop feeling unhappy	_Interruption	Cancel	0.6528	0.5016	0.6234
+I wish I could stop feeling downcast	_Interruption	Cancel	0.5959	0.3799	0.4179
+I wish I could stop feeling downhearted	_Interruption	Cancel	0.5754	0.331	0.5102
+I wish I could stop feeling gloomy	_Interruption	Cancel	0.534	0.4932	0.4885
+I wish I could stop feeling glum	_Interruption	Cancel	0.5383	0.5265	0.4909
+I think I'm going to overdose	_Interruption	_Interruption	0.3428	0.3216	0.3456
+I think I'm going to drown	_Interruption	Cancel	0.5079	0.474	0.4424
+I think I'm going to end it all	_Interruption	_Interruption	0.4884	0.4456	0.5398
+I think I'm going to end my life	_Interruption	_Interruption	0.3443	0.3428	0.562
+I think I'm going to hang myself	_Interruption	Cancel	0.6171	0.542	0.5636
+I like to write poetry	_Interruption	ConfirmYes	0.3665	0.5599	0.5363
+I ride a bicycle	_Interruption	ConfirmYes	0.498	0.5692	0.5541
+I read the Sunday paper	_Interruption	_Interruption	0.3773	0.4184	0.5706
+I read the newspaper	_Interruption	_Interruption	0.4524	0.4629	0.6111
+I play the trumpet	_Interruption	ConfirmYes	0.5416	0.5943	0.5347
+Can you hear me now?	_Interruption	ConfirmYes	0.1697	0.5202	0.3123
+Do you work?	_Interruption	ConfirmYes	0.4434	0.6958	0.6677
+Do you understand this?	_Interruption	ConfirmYes	0.5806	0.7394	0.5132
+Do you understand that I'm testing you?	_Interruption	ConfirmYes	0.3684	0.607	0.5037
+Do you understand me?	_Interruption	ConfirmYes	0.5703	0.7257	0.5641
+I'm exhausted from practice	_Interruption	_Interruption	0.5152	0.4568	0.6061
+I'm a sleepy gal	_Interruption	_Interruption	0.5875	0.5562	0.661
+I'm a sleepy guy	_Interruption	_Interruption	0.6305	0.5893	0.6949
+I'm a sleepy person	_Interruption	_Interruption	0.5513	0.4473	0.6119
+I'm all tuckered out	_Interruption	_Interruption	0.3683	0.4457	0.5854
+cancel	Cancel	Cancel	0.9786	0.1814	0.7304
+canceled	Cancel	Cancel	0.8761	0.2253	0.6192
+cancelled	Cancel	Cancel	0.8664	0.22	0.5754
+go away	Cancel	Cancel	0.6791	0.5387	0.5104
+no no cancel it	Cancel	Cancel	0.993	0.3725	0.6304
+no cancel	Cancel	Cancel	0.9925	0.2528	0.7374
+yeah	ConfirmYes	ConfirmYes	0.3874	0.9426	0.3414
+great	ConfirmYes	ConfirmYes	0.4377	0.9669	0.5465
+thank you very much	ConfirmYes	ConfirmYes	0.215	0.9108	0.2763
+of course	ConfirmYes	ConfirmYes	0.5383	0.8405	0.4608
+sure thing	ConfirmYes	ConfirmYes	0.5162	0.9127	0.4344
+oh yes	ConfirmYes	ConfirmYes	0.503	0.951	0.5026
+sure	ConfirmYes	ConfirmYes	0.502	0.9341	0.4972
+yes	ConfirmYes	ConfirmYes	0.3434	0.9157	0.4315
+yeah bro	ConfirmYes	ConfirmYes	0.544	0.9727	0.4519

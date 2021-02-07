@@ -1,0 +1,9792 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css" />
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        td, th {
+            padding-bottom: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 15px !important;
+            margin: 0 !important;
+        }
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            border-top: none;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar {
+            border: none;
+            min-height: 48px;
+        }
+        .navbar-inverse {
+            background-color: #0078D7 !important;
+            color: #fff !important;
+        }
+        .navbar-header {
+            padding-top: 10px;
+        }
+        .navbar-header a {
+            color: #fff;
+        }
+        #orchestratorName {
+            margin-right: 150px;
+        }
+        .nav-pills > li > a {
+            border-radius: 0;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 15px;
+            color: #333;
+        }
+        .nav-pills > li.active > a,
+        .nav-pills > li.active > a:hover,
+        .nav-pills > li.active > a:focus {
+            color: #333;
+            background-color: #fff !important;
+            font-weight: 600 !important;
+            border-bottom-color: #0078D7;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+        }
+        .nav-pills > .active > a > .badge {
+            background-color: #fff !important;
+            font-weight: 600 !important;
+        }
+        .nav-pills > li:hover > a:hover {
+            background-color: #fff !important;
+        }
+    </style>
+</head>
+<body class="ms-Fabric ms-font-m">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header ms-fontSize-l">
+                <span id="orchestratorName"></span>
+                <span id="orchestratorName"></span>
+            </div>
+        </div>
+    </nav>
+    <div style="clear:both"></div>
+    <div class="container body-content" style="margin-top:60px">
+        <span class="ms-fontSize-xl ms-fontWeight-semibold">Orchestrator Evaluation Summary</span>
+        <!--
+        <div>
+            <p>{EVAL_SUMMARY}</p>
+        </div>
+        -->
+        <br />
+        <p>
+        Please reference the <a href="https://github.com/microsoft/botframework-sdk/blob/main/Orchestrator/docs/BFOrchestratorReport.md">Report Interpretation</a> document for details.
+        </p>
+        <br />
+        <ul class="nav nav-pills ms-fontSize-mPlus ms-fontWeight-semibold" id="modelAnalysis" role="tablist" style="padding-bottom:10px">
+            <li class="nav-item active">
+                <a class="nav-link active" id="intent-utterance-statistics-tab" data-toggle="tab" href="#intent-utterance-statistics" role="tab" aria-controls="intent-utterance-statistics" aria-selected="true"><strong>Intent/Utterancce Statistics</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" id="utterance-duplicates-tab" data-toggle="tab" href="#utterance-duplicates" role="tab" aria-controls="utterance-duplicates" aria-selected="true"><strong>Utterance Duplicates</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="ambiguous-tab" data-toggle="tab" href="#ambiguous" role="tab" aria-controls="ambiguous" aria-selected="false"><strong>Ambiguous</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="misclassified-tab" data-toggle="tab" href="#misclassified" role="tab" aria-controls="misclassified" aria-selected="false"><strong>Misclassified</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="lowconfidence-tab" data-toggle="tab" href="#lowconfidence" role="tab" aria-controls="lowconfidence" aria-selected="false"><strong>Low Confidence</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="model-evaluation-tab" data-toggle="tab" href="#model-evaluation" role="tab" aria-controls="model-evaluation" aria-selected="false"><strong>Metrics</strong></a>
+            </li>
+            <!--
+            <li class="nav-item">
+                <a class="nav-link" id="modelevaluationtopposition-tab" data-toggle="tab" href="#modelevaluationtopposition" role="tab" aria-controls="modelevaluationtopposition" aria-selected="false"><strong>Top @Position Metrics</strong></a>
+            </li>
+            -->
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="intent-utterance-statistics" role="tabpanel" aria-labelledby="intent-utterance-statistics-tab">
+                <p>Intent and utterance statistics</p>
+                <p>
+                      <p><strong>Label statistics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Label
+      </th>
+      <th>
+      Label Index
+      </th>
+      <th>
+      Utterance Count
+      </th>
+      <th>
+      Utterance Prevalence
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      0.0119
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      0.0178
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      0.0089
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      23
+      </td>
+      <td>
+      0.0682
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      20
+      </td>
+      <td>
+      0.0593
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      0.0297
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      ContactMeetingAttendees
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      9
+      </td>
+      <td>
+      0.0267
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      7
+      </td>
+      <td>
+      48
+      </td>
+      <td>
+      0.1424
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      DeleteCalendarEntry
+      </td>
+      <td>
+      8
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0.0415
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      9
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      0.0119
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      21
+      </td>
+      <td>
+      0.0623
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      11
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      0.0297
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      FindCalendarWhere
+      </td>
+      <td>
+      12
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      0.0297
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      13
+      </td>
+      <td>
+      12
+      </td>
+      <td>
+      0.0356
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      0.0178
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      15
+      </td>
+      <td>
+      120
+      </td>
+      <td>
+      0.3561
+      </td>
+    </tr>
+    <tr>
+      <td>
+      16
+      </td>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      16
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      0.0178
+      </td>
+    </tr>
+    <tr>
+      <td>
+      17
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      17
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      0.0297
+      </td>
+    </tr>
+    <tr>
+      <td>
+      18
+      </td>
+      <td>
+      UNKNOWN
+      </td>
+      <td>
+      18
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.003
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Total
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      337
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+  </table>  <p><strong>Utterance statistics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      # Multi-Labels
+      </th>
+      <th>
+      Utterance Count
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      Total
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="utterance-duplicates" role="tabpanel" aria-labelledby="utterance-duplicates-tab">
+                <p>Multi-label utterances and duplicate utterance/intent pairs. The utterance/intent pairs in the second table below have been entered more than one times in the source file.
+                   It's not a serious problem as they will be de-duplicated.
+                </p>
+                <p>
+                      <p><strong>Multi-label utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+    <tr>
+  </table>  <p><strong>Duplicate utterance and label pairs</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Label
+      </th>
+    <tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="ambiguous" role="tabpanel" aria-labelledby="ambiguous-tab">
+                <p>Utterance(s) whose intents were correctly predicted (as a subset of the labeled intents), but there are also other intents predicted with high scores</p>
+                <p>
+                      <p><strong>Ambiguous utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+      <th>
+      Predictions
+      </th>
+      <th>
+      Close Predictions
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      attend the lunch meeting at 10:30 am.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+      0.7653
+      </td>
+      <td>
+      accept the meeting with mary and tom held on wednesday
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.7092
+      </td>
+      <td>
+      bob can you attend tonight's meeting at 6
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      can you ask jane to attend the meeting?
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.7289
+      </td>
+      <td>
+      bob can you attend tonight's meeting at 6
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+      0.6226
+      </td>
+      <td>
+      accept the meeting with mary and tom held on wednesday
+      </td>
+    </tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.6472
+      </td>
+      <td>
+      is bruce young attending the meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      invite john malkovich to the meeting.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.9229
+      </td>
+      <td>
+      invite cheryl to the meeting this afternoon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+      0.7797
+      </td>
+      <td>
+      accept the meeting with mary and tom held on wednesday
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      delay the next meeting by 30 minutes
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.7286
+      </td>
+      <td>
+      postpone my four p. m. meeting today until five p. m.
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      DeleteCalendarEntry
+      </td>
+      <td>
+      0.5956
+      </td>
+      <td>
+      cancel that meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      is madison busy
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.534
+      </td>
+      <td>
+      what is anna 's availability next tuesday
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.5258
+      </td>
+      <td>
+      will john be at marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      see if meeting room 3 available tuesday at 11:30 for the meeting.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6535
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.5498
+      </td>
+      <td>
+      find a meeting from deborah about team session
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      tell me if kamino is open at 11:00am.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5218
+      </td>
+      <td>
+      what is anna 's availability next tuesday
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhere
+      </td>
+      <td>
+      0.4554
+      </td>
+      <td>
+      where is my 11 am appointment tomorrow happening
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      can i reserve a room in building 5 for a meeting?
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.8383
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6799
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      i would like to reserve a ground floor conference room in the delta building, is there one available?
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.7538
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6493
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      call into meeting
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.5661
+      </td>
+      <td>
+      join meeting now
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.5159
+      </td>
+      <td>
+      bob can you attend tonight's meeting at 6
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      add office party on march 8th from 6 p to 9 p
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.6624
+      </td>
+      <td>
+      add appt with helen ding for dinner on march 5th at 5 pm at dennys
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.5886
+      </td>
+      <td>
+      move party planning meeting from saturday to friday at 1pm
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      new calendar event
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.6291
+      </td>
+      <td>
+      schedule holiday on the 31st july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.531
+      </td>
+      <td>
+      update calendar
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      add chicago bulls versus washington wizards to my calendar tomorrow at seven pm
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.5075
+      </td>
+      <td>
+      schedule holiday on the 31st july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.4208
+      </td>
+      <td>
+      move party planning meeting from saturday to friday at 1pm
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      schedule a lunch date with mom every tuesday at noon for the next 5 weeks
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.6897
+      </td>
+      <td>
+      schedule holiday on the 31st july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.5556
+      </td>
+      <td>
+      change my dentist appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      book a meeting in guangzhou at 6am on march 5th
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.657
+      </td>
+      <td>
+      add appt with helen ding for dinner on march 5th at 5 pm at dennys
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6504
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      schedule a meeting tomorrow
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.7201
+      </td>
+      <td>
+      schedule holiday on the 31st july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.6144
+      </td>
+      <td>
+      connect to weekly marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      16
+      </td>
+      <td>
+      schedule wanda s graduation for saturday at 11 o clock
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.5118
+      </td>
+      <td>
+      schedule holiday on the 31st july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.4532
+      </td>
+      <td>
+      change my dentist appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      17
+      </td>
+      <td>
+      put doctor s appointment in my calendar for 5 forty next thursday
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.7473
+      </td>
+      <td>
+      create an appointment with doctor lu from 8:30 am to 10:00 am tomorrow morning
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.6106
+      </td>
+      <td>
+      change my dentist appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      18
+      </td>
+      <td>
+      schedule a meeting
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.6656
+      </td>
+      <td>
+      create an appointment with doctor lu from 8:30 am to 10:00 am tomorrow morning
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.5369
+      </td>
+      <td>
+      change my dentist appointment
+      </td>
+    </tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.6211
+      </td>
+      <td>
+      connect to weekly marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      19
+      </td>
+      <td>
+      create a meeting for tomorrow 6pm with lucy chen
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.6727
+      </td>
+      <td>
+      create an appointment with doctor lu from 8:30 am to 10:00 am tomorrow morning
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.5683
+      </td>
+      <td>
+      bob can you attend tonight's meeting at 6
+      </td>
+    </tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.5931
+      </td>
+      <td>
+      join meeting now
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      20
+      </td>
+      <td>
+      tell me about my sunday schedule
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.7354
+      </td>
+      <td>
+      detailed information about the next meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.6516
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      21
+      </td>
+      <td>
+      i need you to provide me the details of the meeting i have scheduled with my colleague amanda
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.8159
+      </td>
+      <td>
+      i need to know about my meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.6898
+      </td>
+      <td>
+      find a meeting from deborah about team session
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      22
+      </td>
+      <td>
+      give me details of the next appointment
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.7732
+      </td>
+      <td>
+      detailed information about the next meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.6226
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      23
+      </td>
+      <td>
+      show me the meeting with paul
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.8399
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.7947
+      </td>
+      <td>
+      find the meetings mary
+      </td>
+    </tr>
+    <tr>
+      <td>
+      FindCalendarWhere
+      </td>
+      <td>
+      0.6785
+      </td>
+      <td>
+      where is meeting tomorrow at 11 am
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      24
+      </td>
+      <td>
+      find a meeting from donna
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.8588
+      </td>
+      <td>
+      find a meeting from deborah about team session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.7852
+      </td>
+      <td>
+      find the meetings mary
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      25
+      </td>
+      <td>
+      show me the meeting about online session
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.8451
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.7183
+      </td>
+      <td>
+      i need to know about my meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      26
+      </td>
+      <td>
+      what are my appointments for this week
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.6967
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.6566
+      </td>
+      <td>
+      i need to know about my meeting
+      </td>
+    </tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.6576
+      </td>
+      <td>
+      when ' s my next doctors appointment
+      </td>
+    </tr>
+    <tr>
+      <td>
+      FindCalendarWhere
+      </td>
+      <td>
+      0.5878
+      </td>
+      <td>
+      where is my first appointment tomorrow
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      27
+      </td>
+      <td>
+      who will attend the meeting at 4
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.8341
+      </td>
+      <td>
+      will john be at marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.7074
+      </td>
+      <td>
+      bob can you attend tonight's meeting at 6
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      28
+      </td>
+      <td>
+      who do i have next
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.5147
+      </td>
+      <td>
+      will john be at marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhere
+      </td>
+      <td>
+      0.471
+      </td>
+      <td>
+      where is my first appointment tomorrow
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      29
+      </td>
+      <td>
+      how long is the movie jurassic world
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.7722
+      </td>
+      <td>
+      how much time do we have for lunch today
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindDuration
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.7484
+      </td>
+      <td>
+      how much time do i have until i have to meet with michael
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      30
+      </td>
+      <td>
+      how long is the event
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.8848
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindDuration
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.8251
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      31
+      </td>
+      <td>
+      how much time will i have to pick up groceries
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.8683
+      </td>
+      <td>
+      how much time do we have for lunch today
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindDuration
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.7808
+      </td>
+      <td>
+      how much time do i have until i have to meet with michael
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      32
+      </td>
+      <td>
+      how much time between schedule thursday meetings next week
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.9167
+      </td>
+      <td>
+      how much time do we have for lunch today
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindDuration
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.9114
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      33
+      </td>
+      <td>
+      is it going to last long
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.6556
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindDuration
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.587
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      34
+      </td>
+      <td>
+      try the floor 23
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4881
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      UNKNOWN
+      </td>
+      <td>
+      0.4097
+      </td>
+      <td>
+      1
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      35
+      </td>
+      <td>
+      reserve the room tattooine between 3 and 5
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7617
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6722
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      36
+      </td>
+      <td>
+      i need to reserve the room 2-a at pensilvania hotel
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7582
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6546
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      37
+      </td>
+      <td>
+      organize a meeting in the gandhi room in the 3rd floor on the greenpark hotel
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6784
+      </td>
+      <td>
+      book conference room in melia hotel
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.5444
+      </td>
+      <td>
+      bob can you attend tonight's meeting at 6
+      </td>
+    </tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.6128
+      </td>
+      <td>
+      join current conference
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      38
+      </td>
+      <td>
+      try room jupyter
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7223
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.5996
+      </td>
+      <td>
+      it's the wrong room
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      39
+      </td>
+      <td>
+      i wish to reserve a room at the second floor, preferable 12 or 13 room since they have a view towards the jp bank
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7056
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6485
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      40
+      </td>
+      <td>
+      reserve room 258 now
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6904
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6162
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      41
+      </td>
+      <td>
+      what meet rooms do i have
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6343
+      </td>
+      <td>
+      book conference room in melia hotel
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6273
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      42
+      </td>
+      <td>
+      we require a room on the fifth floor in the men hotel.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6911
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5699
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      43
+      </td>
+      <td>
+      the room
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7761
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.6286
+      </td>
+      <td>
+      it's the wrong room
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      44
+      </td>
+      <td>
+      i need to reserve the room number 243 at the ritz hotel
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6665
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6156
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      45
+      </td>
+      <td>
+      i hope will go back to steve first floor room
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4449
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.4245
+      </td>
+      <td>
+      it's the wrong room
+      </td>
+    </tr>
+    <tr>
+      <td>
+      UNKNOWN
+      </td>
+      <td>
+      0.4056
+      </td>
+      <td>
+      i want them all
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      46
+      </td>
+      <td>
+      good morning, could you reserve the conf rm zoshou f84 room for three days?
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.5968
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5876
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      47
+      </td>
+      <td>
+      my booking was made for imperial room on top floor
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.397
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.3626
+      </td>
+      <td>
+      is conference room xi free on 10 am?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      48
+      </td>
+      <td>
+      i need room 1001 booked for one week.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7387
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6237
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      49
+      </td>
+      <td>
+      i'd like to reserve a hotel room 677 as i've booked already.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6729
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6021
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      50
+      </td>
+      <td>
+      i need to reserve the room 345 at the tamanaco hotel
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7321
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6582
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      51
+      </td>
+      <td>
+      not this conference room, please change
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.6066
+      </td>
+      <td>
+      it's the wrong room
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      0.5049
+      </td>
+      <td>
+      i don't want to change it anymore
+      </td>
+    </tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.5117
+      </td>
+      <td>
+      book conference room in melia hotel
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      52
+      </td>
+      <td>
+      not him
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.7235
+      </td>
+      <td>
+      no, please don't
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      0.6392
+      </td>
+      <td>
+      i don't want to change it anymore
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      53
+      </td>
+      <td>
+      nope
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.5863
+      </td>
+      <td>
+      no, please don't
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      0.508
+      </td>
+      <td>
+      stop finding it
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      54
+      </td>
+      <td>
+      no
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.6592
+      </td>
+      <td>
+      no, please don't
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      0.5451
+      </td>
+      <td>
+      stop finding it
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      55
+      </td>
+      <td>
+      how much longer do i have before pick up mary from school
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.8856
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.8238
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      56
+      </td>
+      <td>
+      how much time before my next appointment
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.9737
+      </td>
+      <td>
+      how many minutes before my next appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.9084
+      </td>
+      <td>
+      how much time do we have for lunch today
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      57
+      </td>
+      <td>
+      how many hours left till the closing ceremony
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.914
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.8252
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      58
+      </td>
+      <td>
+      how many days till april
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.953
+      </td>
+      <td>
+      how many days until june the fifteenth
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.8114
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      59
+      </td>
+      <td>
+      how much time do i have before my next meeting
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.9519
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.9169
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      60
+      </td>
+      <td>
+      how much longer until my next appointment
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.9713
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.9139
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      61
+      </td>
+      <td>
+      how much longer do i have until pick up john from school
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.9196
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.8288
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      62
+      </td>
+      <td>
+      how much longer until my next meeting
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.964
+      </td>
+      <td>
+      how much time until next scheduled appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.9325
+      </td>
+      <td>
+      how long is my meeting at 4
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      63
+      </td>
+      <td>
+      how much time do i have before my next appointment
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.9695
+      </td>
+      <td>
+      how many minutes before my next appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.92
+      </td>
+      <td>
+      how much time do we have for lunch today
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="misclassified" role="tabpanel" aria-labelledby="misclassified-tab">
+                <p>Utterance(s) yielding predicted intent that is not originally labeled with</p>
+                <p>
+                      <p><strong>Misclassified utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+      <th>
+      Predictions
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      i don't want to join it
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      0.6162
+      </td>
+      <td>
+      i don't want to change it anymore
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.62
+      </td>
+      <td>
+      no, please don't
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      make next meeting to start 1 hour later
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      0.5244
+      </td>
+      <td>
+      move party planning meeting from saturday to friday at 1pm
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.535
+      </td>
+      <td>
+      add appt with helen ding for dinner on march 5th at 5 pm at dennys
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      is rebecca busy thursday at 4
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5045
+      </td>
+      <td>
+      what is anna 's availability next tuesday
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.6209
+      </td>
+      <td>
+      will john be at marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      when does ellen have time to attend the meeting for business review
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.4751
+      </td>
+      <td>
+      what is anna 's availability next tuesday
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.8567
+      </td>
+      <td>
+      when is my next meeting with ms lawrence
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      when am i free
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6633
+      </td>
+      <td>
+      am i free on the 12th of july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.9051
+      </td>
+      <td>
+      when is the wedding tomorrow
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      is gerald busy this weekend
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5081
+      </td>
+      <td>
+      what is anna 's availability next tuesday
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.6684
+      </td>
+      <td>
+      will john be at marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      is debra available on saturday
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5051
+      </td>
+      <td>
+      what is anna 's availability next tuesday
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.5601
+      </td>
+      <td>
+      will john be at marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      call the morning breifing conference number
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.2814
+      </td>
+      <td>
+      connect to weekly marketing meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      UNKNOWN
+      </td>
+      <td>
+      0.0521
+      </td>
+      <td>
+      i want to all of them
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      new location for meeting this afternoon let others attendees know meeting is now in room 100
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ContactMeetingAttendees
+      </td>
+      <td>
+      0.4611
+      </td>
+      <td>
+      notify others that i am going to be late to meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+      0.6327
+      </td>
+      <td>
+      accept today's meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      book a meeting between 2 and 3 tomorrow
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.659
+      </td>
+      <td>
+      put mathematics paper one on tuesday 13
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6818
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      i would like to book a meeting in the hitchcock building on the 23rd floor.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.4612
+      </td>
+      <td>
+      create an appointment with doctor lu from 8:30 am to 10:00 am tomorrow morning
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7472
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      please create a meeting from 2 to 3
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.6493
+      </td>
+      <td>
+      create an appointment with doctor lu from 8:30 am to 10:00 am tomorrow morning
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.6641
+      </td>
+      <td>
+      join meeting now
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      create a meeting with tom34@outlook.com
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.5925
+      </td>
+      <td>
+      create an appointment with doctor lu from 8:30 am to 10:00 am tomorrow morning
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.6755
+      </td>
+      <td>
+      join meeting now
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      on saturday at 7 thirty p m
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.4716
+      </td>
+      <td>
+      schedule holiday on the 31st july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.6191
+      </td>
+      <td>
+      when is the wedding tomorrow
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      book a meeting between 2:30pm and 4:45pm tomorrow
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.6478
+      </td>
+      <td>
+      create an appointment with doctor lu from 8:30 am to 10:00 am tomorrow morning
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7138
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      meeting with morrison sun at 2 pm saturday
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.5226
+      </td>
+      <td>
+      schedule holiday on the 31st july
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.6818
+      </td>
+      <td>
+      bob can you attend tonight's meeting at 6
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      16
+      </td>
+      <td>
+      calendar for today
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.3936
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.6636
+      </td>
+      <td>
+      when ' s my next doctors appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      17
+      </td>
+      <td>
+      what is the schedule before that
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.3091
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.6834
+      </td>
+      <td>
+      when ' s my next doctors appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      18
+      </td>
+      <td>
+      find the meeting around 2 to 6pm
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.7217
+      </td>
+      <td>
+      find a meeting from deborah about team session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.7348
+      </td>
+      <td>
+      find the meetings mary
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      19
+      </td>
+      <td>
+      what ' s my 1st meeting tomorrow
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.6065
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.7837
+      </td>
+      <td>
+      when ' s my next meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      20
+      </td>
+      <td>
+      find the meeting around 5 to 8 pm
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.7173
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhere
+      </td>
+      <td>
+      0.7434
+      </td>
+      <td>
+      where is my 11 am appointment tomorrow happening
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      21
+      </td>
+      <td>
+      what ' s my next appointment
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.5486
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.8167
+      </td>
+      <td>
+      when ' s my next doctors appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      22
+      </td>
+      <td>
+      show me the calendar at night
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.5593
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.6538
+      </td>
+      <td>
+      when ' s my next doctors appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      23
+      </td>
+      <td>
+      what have i got on tomorrow
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.4788
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.5241
+      </td>
+      <td>
+      i need to know about my meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      24
+      </td>
+      <td>
+      what ' s on my schedule today
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.5602
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.7379
+      </td>
+      <td>
+      when ' s my next meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      25
+      </td>
+      <td>
+      what ' s next on my calendar
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.5042
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.7091
+      </td>
+      <td>
+      when ' s my next meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      26
+      </td>
+      <td>
+      what do i have from 2 to 4 on saturday
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.4621
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.5684
+      </td>
+      <td>
+      when ' s my next doctors appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      27
+      </td>
+      <td>
+      what are my meetings at night
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.7094
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.7449
+      </td>
+      <td>
+      find the meetings mary
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      28
+      </td>
+      <td>
+      check my mom's schedule
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.4269
+      </td>
+      <td>
+      show me the meeting about briefing session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.4497
+      </td>
+      <td>
+      did martin come to today's meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      29
+      </td>
+      <td>
+      what is next in calendar
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.5254
+      </td>
+      <td>
+      find a meeting subject daily meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.7565
+      </td>
+      <td>
+      when ' s my next meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      30
+      </td>
+      <td>
+      find me the meetings at 6
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.7807
+      </td>
+      <td>
+      find a meeting from deborah about team session
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.865
+      </td>
+      <td>
+      find the meetings mary
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      31
+      </td>
+      <td>
+      how much time do i have to take back the movie
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      0.7692
+      </td>
+      <td>
+      how much time do we have for lunch today
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.817
+      </td>
+      <td>
+      how much time do i have until i have to meet with michael
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      32
+      </td>
+      <td>
+      reserve enterprise for a meeting
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4477
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5488
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      33
+      </td>
+      <td>
+      reserve the tatooine meeting room on the 2nd floor.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.6953
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.8015
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      34
+      </td>
+      <td>
+      we want to reserve the second floor in the main building for our meeting room
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.551
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6351
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      35
+      </td>
+      <td>
+      please validate reservation of the double cabin and individual cabin for friday
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.1899
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+      0.329
+      </td>
+      <td>
+      accept all meetings for christmas party next week.
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      36
+      </td>
+      <td>
+      a new meeting location find one
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4926
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.6611
+      </td>
+      <td>
+      find a meeting from deborah about team session
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      37
+      </td>
+      <td>
+      is this room busy at 5 pm
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.569
+      </td>
+      <td>
+      book conference room in melia hotel
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.625
+      </td>
+      <td>
+      is conference room xi free on 10 am?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      38
+      </td>
+      <td>
+      is there a room available on building 1
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.405
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5604
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      39
+      </td>
+      <td>
+      please reserve meeting room hoth on floor 10 of the london building for friday afternoon.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.707
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.7967
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      40
+      </td>
+      <td>
+      i would like to reserve meeting room excalibur on the first floor of the alfred building
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.653
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.7605
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      41
+      </td>
+      <td>
+      try floor 2
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.3696
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.4672
+      </td>
+      <td>
+      no way
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      42
+      </td>
+      <td>
+      the bed was durty, i will never take a room on ben
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4582
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.5075
+      </td>
+      <td>
+      it's the wrong room
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      43
+      </td>
+      <td>
+      please reserve a meeting room on the 3rd floor of terman tower.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7464
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.8532
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      44
+      </td>
+      <td>
+      do you have a room available at 3pm in city center
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4796
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.6933
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      45
+      </td>
+      <td>
+      i want to reserve gandhi at 6pm
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.439
+      </td>
+      <td>
+      book the room rose
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5091
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      46
+      </td>
+      <td>
+      i need to reserve the bespin meeting room.
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.7575
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.8165
+      </td>
+      <td>
+      can i reserve the enterprise room on floor 6 of the bob building for a meeting?
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      47
+      </td>
+      <td>
+      must be part of the sentence
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.1419
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      UNKNOWN
+      </td>
+      <td>
+      0.3315
+      </td>
+      <td>
+      i want to all of them
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      48
+      </td>
+      <td>
+      locate another meeting location
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.5036
+      </td>
+      <td>
+      book the conference room in bella center
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.6397
+      </td>
+      <td>
+      find a meeting from deborah about team session
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      49
+      </td>
+      <td>
+      i'm not available next monday afternoon
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.4019
+      </td>
+      <td>
+      it's the wrong room
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      ContactMeetingAttendees
+      </td>
+      <td>
+      0.4374
+      </td>
+      <td>
+      notify diana that i ' ll be late to our meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      50
+      </td>
+      <td>
+      not this time
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.52
+      </td>
+      <td>
+      no, please don't
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      0.5644
+      </td>
+      <td>
+      stop finding it
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      51
+      </td>
+      <td>
+      show time before next appointment
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.7353
+      </td>
+      <td>
+      how many minutes before my next appointment
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.8499
+      </td>
+      <td>
+      when ' s my next meeting
+      </td>
+    </tr>
+  </table>
+      </td>
+    </tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="lowconfidence" role="tabpanel" aria-labelledby="lowconfidence-tab">
+                <p>Utterance(s) whose intents were correctly predicted (as a subset of the labeled intents), but the prediction score is low</p>
+                <p>
+                      <p><strong>Low confidence utterances and their labels</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Utterance
+      </th>
+      <th>
+      Labels
+      </th>
+      <th>
+      Predictions
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      add pay pearl fees on my calendar tomorrow
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.4703
+      </td>
+      <td>
+      add appt with helen ding for dinner on march 5th at 5 pm at dennys
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      try the floor 23
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4881
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      try buillding bjw2
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.3993
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      i hope will go back to steve first floor room
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.4449
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      my booking was made for imperial room on top floor
+      </td>
+      <td>
+        <table class="table">
+    <tr>
+      <th width=30%>
+      Label
+      </th>
+      <th width=10%>
+      Score
+      </th>
+      <th width=60%>
+      Closest Example
+      </th>
+    <tr>
+    <tr>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.397
+      </td>
+      <td>
+      book the room moon
+      </td>
+    </tr>
+  </table>
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+    </tr>
+  </table>
+                </p>
+            </div>
+            <div class="tab-pane" id="model-evaluation" role="tabpanel" aria-labelledby="model-evaluation-tab">
+                <p> In this tab, overall model performance is shown in two sections.
+                    The first section is a series of per-label (intent or entity) binary confusion matrices and
+                    derived metrics, such as precision, recall, F1, and accuracy, etc.
+                    The second section below are a collection of metrics aggregated from the binart confusion matrices.
+                    Detailed descriptions of the aggregated matrics are listed further below.
+                    For building a per-label confusion matrix, the computing process iterates through
+                    each test instance's ground-truth label set and predicted label set.
+                    Bf-orchestrator-cli supports multi-labels and if a label is
+                    1) true-positive if it exists in both the instance's ground-truth and predicted set.
+                    2) false-positive if it exists only in the instance's predicted set.
+                    3) false-negative if it exists only in the instance's ground-truth set.
+                    4) true-negatve if it exists not in the instance's either sets.
+                </p>
+                <!--
+                <p>
+                    {MODEL_EVALUATION_OVERALL}
+                </p>
+                -->
+                <p>
+                      <p><strong>Confusion matrix metrics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Label
+      </th>
+      <th>
+      Precision
+      </th>
+      <th>
+      Recall
+      </th>
+      <th>
+      F1
+      </th>
+      <th>
+      Accuracy
+      </th>
+      <th>
+      #TruePositives
+      </th>
+      <th>
+      #FalsePositives
+      </th>
+      <th>
+      #TrueNegatives
+      </th>
+      <th>
+      #FalseNegatives
+      </th>
+      <th>
+      Support
+      </th>
+      <th>
+      Total
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      AcceptEventEntry
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.8
+      </td>
+      <td>
+      0.9941
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      331
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      AddCalendarEntryAttribute
+      </td>
+      <td>
+      0.8571
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.9231
+      </td>
+      <td>
+      0.997
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      330
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      CancelCalendar
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      0.9941
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      333
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      ChangeCalendarEntry
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.9565
+      </td>
+      <td>
+      0.9778
+      </td>
+      <td>
+      0.997
+      </td>
+      <td>
+      22
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      314
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      23
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      CheckAvailability
+      </td>
+      <td>
+      0.5769
+      </td>
+      <td>
+      0.75
+      </td>
+      <td>
+      0.6522
+      </td>
+      <td>
+      0.9525
+      </td>
+      <td>
+      15
+      </td>
+      <td>
+      11
+      </td>
+      <td>
+      306
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      20
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      ConnectToMeeting
+      </td>
+      <td>
+      0.8182
+      </td>
+      <td>
+      0.9
+      </td>
+      <td>
+      0.8571
+      </td>
+      <td>
+      0.9911
+      </td>
+      <td>
+      9
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      325
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      ContactMeetingAttendees
+      </td>
+      <td>
+      0.8889
+      </td>
+      <td>
+      0.8889
+      </td>
+      <td>
+      0.8889
+      </td>
+      <td>
+      0.9941
+      </td>
+      <td>
+      8
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      327
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      9
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      CreateCalendarEntry
+      </td>
+      <td>
+      0.9762
+      </td>
+      <td>
+      0.8542
+      </td>
+      <td>
+      0.9111
+      </td>
+      <td>
+      0.9763
+      </td>
+      <td>
+      41
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      288
+      </td>
+      <td>
+      7
+      </td>
+      <td>
+      48
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      DeleteCalendarEntry
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      323
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      FindCalendarDetail
+      </td>
+      <td>
+      0.5
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      0.9881
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      329
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      FindCalendarEntry
+      </td>
+      <td>
+      0.75
+      </td>
+      <td>
+      0.2857
+      </td>
+      <td>
+      0.4138
+      </td>
+      <td>
+      0.9496
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      314
+      </td>
+      <td>
+      15
+      </td>
+      <td>
+      21
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      FindCalendarWhen
+      </td>
+      <td>
+      0.4348
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.6061
+      </td>
+      <td>
+      0.9614
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      13
+      </td>
+      <td>
+      314
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      FindCalendarWhere
+      </td>
+      <td>
+      0.9091
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.9524
+      </td>
+      <td>
+      0.997
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      326
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      FindCalendarWho
+      </td>
+      <td>
+      0.75
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.8571
+      </td>
+      <td>
+      0.9881
+      </td>
+      <td>
+      12
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      321
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      12
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      FindDuration
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.8333
+      </td>
+      <td>
+      0.9091
+      </td>
+      <td>
+      0.997
+      </td>
+      <td>
+      5
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      331
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      FindMeetingRoom
+      </td>
+      <td>
+      0.9717
+      </td>
+      <td>
+      0.8583
+      </td>
+      <td>
+      0.9115
+      </td>
+      <td>
+      0.9407
+      </td>
+      <td>
+      103
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      214
+      </td>
+      <td>
+      17
+      </td>
+      <td>
+      120
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      16
+      </td>
+      <td>
+      RejectCalendar
+      </td>
+      <td>
+      0.5714
+      </td>
+      <td>
+      0.6667
+      </td>
+      <td>
+      0.6154
+      </td>
+      <td>
+      0.9852
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      328
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      17
+      </td>
+      <td>
+      TimeRemaining
+      </td>
+      <td>
+      0.9
+      </td>
+      <td>
+      0.9
+      </td>
+      <td>
+      0.9
+      </td>
+      <td>
+      0.9941
+      </td>
+      <td>
+      9
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      326
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      18
+      </td>
+      <td>
+      UNKNOWN
+      </td>
+      <td>
+      0.3333
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.5
+      </td>
+      <td>
+      0.9941
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      334
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+  </table>  <p><strong>Average confusion matrix metrics</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Type
+      </th>
+      <th>
+      Precision
+      </th>
+      <th>
+      Recall
+      </th>
+      <th>
+      F1
+      </th>
+      <th>
+      Accuracy
+      </th>
+      <th>
+      #TruePositives
+      </th>
+      <th>
+      #FalsePositives
+      </th>
+      <th>
+      #TrueNegatives
+      </th>
+      <th>
+      #FalseNegatives
+      </th>
+      <th>
+      Support
+      </th>
+      <th>
+      Total
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      <b>Micro-Average</b>
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      <b>0.8457</b>
+      </td>
+      <td>
+      285
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      52
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      <b>Micro-First-Quartile</b>
+      </td>
+      <td>
+      0.8182
+      </td>
+      <td>
+      0.8542
+      </td>
+      <td>
+      <b>0.8571</b>
+      </td>
+      <td>
+      <b>0.9407</b>
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      214
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      12
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      <b>Micro-Median</b>
+      </td>
+      <td>
+      0.9717
+      </td>
+      <td>
+      0.8583
+      </td>
+      <td>
+      <b>0.9115</b>
+      </td>
+      <td>
+      <b>0.9614</b>
+      </td>
+      <td>
+      22
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      306
+      </td>
+      <td>
+      7
+      </td>
+      <td>
+      23
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      Micro-Third-Quartile
+      </td>
+      <td>
+      0.9762
+      </td>
+      <td>
+      0.9
+      </td>
+      <td>
+      0.9115
+      </td>
+      <td>
+      0.9941
+      </td>
+      <td>
+      103
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      321
+      </td>
+      <td>
+      17
+      </td>
+      <td>
+      120
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      <b>Macro-First-Quartile</b>
+      </td>
+      <td>
+      0.5769
+      </td>
+      <td>
+      0.8333
+      </td>
+      <td>
+      <b>0.6522</b>
+      </td>
+      <td>
+      <b>0.9763</b>
+      </td>
+      <td>
+      4
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      314
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      6
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      <b>Macro-Median</b>
+      </td>
+      <td>
+      0.8182
+      </td>
+      <td>
+      0.9
+      </td>
+      <td>
+      <b>0.8571</b>
+      </td>
+      <td>
+      <b>0.9941</b>
+      </td>
+      <td>
+      9
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      326
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      10
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      Macro-Third-Quartile
+      </td>
+      <td>
+      0.9717
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      0.9115
+      </td>
+      <td>
+      0.997
+      </td>
+      <td>
+      14
+      </td>
+      <td>
+      3
+      </td>
+      <td>
+      330
+      </td>
+      <td>
+      2
+      </td>
+      <td>
+      20
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      <b>Summation Micro-Average</b>
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      <b>0.8457</b>
+      </td>
+      <td>
+      <b>0.9838</b>
+      </td>
+      <td>
+      285
+      </td>
+      <td>
+      52
+      </td>
+      <td>
+      6014
+      </td>
+      <td>
+      52
+      </td>
+      <td>
+      337
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      <b>Macro-Average</b>
+      </td>
+      <td>
+      0.7669
+      </td>
+      <td>
+      0.8716
+      </td>
+      <td>
+      <b>0.7899</b>
+      </td>
+      <td>
+      <b>0.9838</b>
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      Summation Macro-Average
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.9838
+      </td>
+      <td>
+      15
+      </td>
+      <td>
+      2.7368
+      </td>
+      <td>
+      316.5263
+      </td>
+      <td>
+      2.7368
+      </td>
+      <td>
+      17.7368
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      Positive-Support Macro-Average
+      </td>
+      <td>
+      0.7669
+      </td>
+      <td>
+      0.8716
+      </td>
+      <td>
+      0.7899
+      </td>
+      <td>
+      0.9838
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      Positive-Support Summation Macro-Average
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.9838
+      </td>
+      <td>
+      15
+      </td>
+      <td>
+      2.7368
+      </td>
+      <td>
+      316.5263
+      </td>
+      <td>
+      2.7368
+      </td>
+      <td>
+      17.7368
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      Weighted Macro-Average
+      </td>
+      <td>
+      0.8811
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      0.8482
+      </td>
+      <td>
+      0.9664
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      Weighted Summation Macro-Average
+      </td>
+      <td>
+      0.9445
+      </td>
+      <td>
+      0.8496
+      </td>
+      <td>
+      0.8946
+      </td>
+      <td>
+      0.9664
+      </td>
+      <td>
+      48.0148
+      </td>
+      <td>
+      2.819
+      </td>
+      <td>
+      277.6677
+      </td>
+      <td>
+      8.4985
+      </td>
+      <td>
+      56.5134
+      </td>
+      <td>
+      N/A
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      <b>Multi-Label Exact Aggregate</b>
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      <b>0.9164</b>
+      </td>
+      <td>
+      <b>0.8457</b>
+      </td>
+      <td>
+      285
+      </td>
+      <td>
+      52
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      285
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      <b>Multi-Label Subset Aggregate</b>
+      </td>
+      <td>
+      0.8457
+      </td>
+      <td>
+      1
+      </td>
+      <td>
+      <b>0.9164</b>
+      </td>
+      <td>
+      <b>0.8457</b>
+      </td>
+      <td>
+      285
+      </td>
+      <td>
+      52
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      0
+      </td>
+      <td>
+      285
+      </td>
+      <td>
+      337
+      </td>
+    </tr>
+  </table>  <p><strong>Average confusion matrix metric descriptions</strong></p>
+  <table class="table">
+    <tr>
+      <th>
+      No
+      </th>
+      <th>
+      Type
+      </th>
+      <th>
+      Description
+      </th>
+    <tr>
+    <tr>
+      <td>
+      0
+      </td>
+      <td>
+      <b>Micro-Average</b>
+      </td>
+      <td>
+      
+  This metric follows the micro-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process iterates through the per-label binary confusion matrices and
+  calculates the sums of per-label "#TruePositives" and per-label "Support", respectively.
+  The "Support" sum is stored in this row's "Total" field and "#TruePositives" sum in the "#TruePositives" field.
+  This metric is then the ratio of the "#TruePositives" sum over "Total."
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      1
+      </td>
+      <td>
+      <b>Micro-First-Quartile</b>
+      </td>
+      <td>
+      
+  Average (or mean) is not a <a href="https://en.wikipedia.org/wiki/Robust_statistics">robust statistics</a> that
+  average can be easily influenced by outliers. Therefore, we also compute robust quantile-based metrics in this report.
+  For every metric in this row, e.g., precision, the computing process collects the per-label precision
+  metrics from the per-label binary confusion matrices, sorts them, and then expands each per-label precision by the
+  number of label supports. It then finds the first quartile of the metric from the series of metrics.
+  These first-quartiles are the metrics' lower bound
+  for the top 75% test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      2
+      </td>
+      <td>
+      <b>Micro-Median</b>
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on median, another robust statistic.
+  These medians are the metrics' lower bound
+  for the top 50% test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      3
+      </td>
+      <td>
+      Micro-Third-Quartile
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on the third quartile.
+  These third-quartiles are the metrics' lower bound
+  for the top 25% test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      4
+      </td>
+      <td>
+      <b>Macro-First-Quartile</b>
+      </td>
+      <td>
+      
+  Above three quantile metrics are micro, i.e., they are calcuated on the test instance level.
+  Macro quantile metrics are calculated per label.
+  The first quartiles are the metrics' lower bound
+  for the top 75% test labels.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      5
+      </td>
+      <td>
+      <b>Macro-Median</b>
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on median.
+  These medians are the metrics' lower bound
+  for the top 50% test labels.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      6
+      </td>
+      <td>
+      Macro-Third-Quartile
+      </td>
+      <td>
+      
+  Similar to the previous row, but metrics in this row focuses on the third quartile.
+  These third-quartiles are the metrics' lower bound
+  for the top 25% test labels.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      7
+      </td>
+      <td>
+      <b>Summation Micro-Average</b>
+      </td>
+      <td>
+      
+  The metrics in this row are a little bit different from those of <b>Micro-Average</b>.
+  The computng process first sums up per-label "#TruePositives", "#FalsePositives", "#TrueNegatives", and "#FalseNegatives"
+  metrics, respectively, then constructs a binary confusion matrix, and calculates the other metrics, such as
+  Precision, Recall, F1, Accuracy, etc.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      8
+      </td>
+      <td>
+      <b>Macro-Average</b>
+      </td>
+      <td>
+      
+  This metric follows the macro-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process calcuates simple arithmetic means of the per-label Precision, Recall, F1, and Accuracy
+  metrics, repectively.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      9
+      </td>
+      <td>
+      Summation Macro-Average
+      </td>
+      <td>
+      
+  The calculating process for the metrics in this row is a little bit different from <b>Macro-Average</b>.
+  It first calculates the averages of per-label "#TruePositives", "#FalsePositives", "#TrueNegatives", and "#FalseNegatives"
+  metrics, respectively, then constructs a binary confusion matrix, and calculates the other metrics, such as
+  Precision, Recall, F1, Accuracy, etc.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      10
+      </td>
+      <td>
+      Positive-Support Macro-Average
+      </td>
+      <td>
+      
+  The metrics in this row are similar to those of <b>Macro-Average</b>.
+  However, instead of averaging over all train-set labels, metrics in this rows are the averages of test-set labels,
+  i.e., labels with a positive support in the test set.
+  Even though one might expect every label (in the train set) should have some test instances, but
+  sometimes a test set might not have test instances for some train set labels.
+  "Positive-support" metrics put an focus on test-set labels.
+  A test set might even contain instances whose labels are not in the train set. Those labels are renamed UNKNOWN for
+  evaluation purpose.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      11
+      </td>
+      <td>
+      Positive-Support Summation Macro-Average
+      </td>
+      <td>
+      
+  The metrics in this row are similar to those of Summation Macro-Average, but forcus on
+  labels with test instances.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      12
+      </td>
+      <td>
+      Weighted Macro-Average
+      </td>
+      <td>
+      
+  This metric follows the weighted-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process calcuates support/prevalency-weighted means of the per-label Precision, Recall, F1, and Accuracy
+  metrics, repectively.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      13
+      </td>
+      <td>
+      Weighted Summation Macro-Average
+      </td>
+      <td>
+      
+  The calculating process for the metrics in this row is a little bit different from 
+  This metric follows the weighted-average metric defined in
+  <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-Learn Classification Report</a>.
+  The computing process calcuates support/prevalency-weighted means of the per-label Precision, Recall, F1, and Accuracy
+  metrics, repectively.
+  .
+  It first calculates the weighted averages of per-label "#TruePositives", "#FalsePositives", "#TrueNegatives", and "#FalseNegatives"
+  metrics, respectively, then constructs a binary confusion matrix, and calculates the other metrics, such as
+  Precision, Recall, F1, Accuracy, etc.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      14
+      </td>
+      <td>
+      <b>Multi-Label Exact Aggregate</b>
+      </td>
+      <td>
+      
+  This evaluation package supports multi-label instances and predictions.
+  In another word, a test instance can be labeled and predicted with more than
+  one labels. The above metrics so far are calculated "per label," i.e., an instance can contribute to
+  multiple positive predictions on different labels, thus the above metrics can encourage a model to predict more than one labels per test instances
+  that may achieve better evaluation results.
+  To counter such a behavior, metrics in this row are "per instance," i.e., an instance can only contribute to one positive prediction. 
+  The calcuating process does not rely on the per-label binary confusion matrices, but
+  build just one binary confusion matrix in which a true positive prediction is an exact match between the prediction
+  and the ground-truth label sets, otherwise it's a false positive. By the way, there is no negative prediction, so false-nagative
+  and true-negative are both 0.
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      15
+      </td>
+      <td>
+      <b>Multi-Label Subset Aggregate</b>
+      </td>
+      <td>
+      
+  Similar to the previous row, but the metric computing process is less strict. A prediction can be a true positive
+  as long as the predicted label set is a subset of the ground-truth set.
+  This subset rule makes sense as an action taking on a prediction can respond to one of the
+  correctly predicted labels and the action is still proper.
+  Of course, this subset rule can discourage a model from predicting more than one labels (one is the safest strategy),
+  even though a test instance might be labeled with a large ground-truth label set.
+  
+      </td>
+    </tr>
+  </table>
+                </p>
+                <!--
+                <p>
+                    {CROSS_ENTROPY}
+                </p>
+                -->
+            </div>
+            <!--
+            <div class="tab-pane" id="modelevaluationtopposition" role="tabpanel" aria-labelledby="modelevaluationtopposition-tab">
+                <p>Overall top-position multi-class confusion matrix evaluation metrics</p>
+                <p>
+                    {MODELEVALUATIONTopPositionMetrics}
+                </p>
+                <p>
+                    {MODELEVALUATIONTopPositionPerClassMetrics}
+                </p>
+            </div>
+            -->
+        </div>
+        <br /><br />
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+</body>
+</html>

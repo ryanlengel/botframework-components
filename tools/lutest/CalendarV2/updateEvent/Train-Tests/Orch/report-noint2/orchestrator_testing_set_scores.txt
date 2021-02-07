@@ -1,0 +1,67 @@
+how does my day start	UNKNOWN	ConfirmYes	0.1814	0.3129
+what do i have planned for tomorrow?	UNKNOWN	ConfirmYes	0.2168	0.4162
+what is going on today	UNKNOWN	ConfirmYes	0.3301	0.5496
+am i free at 4:30 pm	UNKNOWN	ConfirmYes	0.2129	0.3713
+what time does my day end?	UNKNOWN	UNKNOWN	0.1027	0.2064
+who else is joining the event at 1 pm	UNKNOWN	UNKNOWN	0.1598	0.2334
+when am i free	UNKNOWN	ConfirmYes	0.1294	0.3039
+what's on monday	UNKNOWN	ConfirmYes	0.2771	0.5987
+tell me when i can step away from my computer	UNKNOWN	UNKNOWN	0.2036	0.2555
+kick off my day will you	UNKNOWN	Cancel	0.4337	0.4101
+when will i be available today	UNKNOWN	UNKNOWN	0.0732	0.2072
+what's happening first	UNKNOWN	ConfirmYes	0.3187	0.4998
+what do i have planned for today at noon	UNKNOWN	ConfirmYes	0.1999	0.4259
+cancel this event	UNKNOWN	Cancel	0.8501	0.1663
+i want to create a new event	UNKNOWN	UNKNOWN	0.1444	0.2303
+book a meeting with megan at 10 am about sync meeting	UNKNOWN	UNKNOWN	0.1446	0.2427
+what's on my calendar today?	UNKNOWN	UNKNOWN	0.1343	0.2288
+what meetings do i have with sally on monday	UNKNOWN	UNKNOWN	0.1043	0.2637
+when is my next gap in meetings?	UNKNOWN	UNKNOWN	0.0759	0.1775
+when am i finished for today?	UNKNOWN	ConfirmYes	0.1565	0.4456
+show schedule	UNKNOWN	UNKNOWN	0.1679	0.2979
+i want to accept this meeting	UNKNOWN	ConfirmYes	0.2412	0.3074
+i would like to accept that	UNKNOWN	ConfirmYes	0.2688	0.3748
+accept my 10 pm	UNKNOWN	ConfirmYes	0.3398	0.3917
+how long until i need to join the next event	UNKNOWN	UNKNOWN	0.0833	0.1275
+what time does my day start?	UNKNOWN	UNKNOWN	0.0794	0.1854
+who else is going to the 2pm meeting tomorrow	UNKNOWN	UNKNOWN	0.1635	0.2562
+what do i have with john	UNKNOWN	ConfirmYes	0.326	0.5086
+when do i have time for myself today	UNKNOWN	UNKNOWN	0.1214	0.2795
+when am i free on tuesday	UNKNOWN	UNKNOWN	0.1153	0.2894
+cancel this meeting for me	UNKNOWN	Cancel	0.8196	0.1431
+whats on next	UNKNOWN	ConfirmYes	0.3482	0.603
+where am i going for daily sync up?	UNKNOWN	ConfirmYes	0.1845	0.3722
+accept that meeting	UNKNOWN	UNKNOWN	0.2228	0.2952
+what meetings do i have this weekend?	UNKNOWN	UNKNOWN	0.0857	0.2189
+find meetings with tom tomorrow named pm sync	UNKNOWN	UNKNOWN	0.1393	0.2653
+my calendar for tomorrow	UNKNOWN	ConfirmYes	0.1558	0.353
+how long until my next meeting	UNKNOWN	UNKNOWN	0.0671	0.1398
+what time is the sync planned for	UNKNOWN	UNKNOWN	0.125	0.2842
+who am i meeting at 10 am tomorrow	UNKNOWN	UNKNOWN	0.1328	0.2902
+who else is in my 2pm meeting?	UNKNOWN	UNKNOWN	0.1471	0.2541
+create a meeting	UNKNOWN	UNKNOWN	0.0967	0.2158
+what meetings do i have with robert	UNKNOWN	UNKNOWN	0.1125	0.2199
+who is attending the meeting on wednesday	UNKNOWN	UNKNOWN	0.1384	0.2283
+create new	UNKNOWN	ConfirmYes	0.2259	0.308
+read me my calendar	UNKNOWN	UNKNOWN	0.1649	0.2171
+find meetings about dev sync	UNKNOWN	UNKNOWN	0.1544	0.2895
+accept	UNKNOWN	ConfirmYes	0.302	0.3115
+show my meeting with chris on wednesday	UNKNOWN	UNKNOWN	0.1036	0.2231
+overview of today	UNKNOWN	ConfirmYes	0.239	0.5301
+cancel my meeting with lydia	UNKNOWN	Cancel	0.7817	0.1274
+decline the 1:1 with susan	UNKNOWN	Cancel	0.6174	0.3769
+cancel	Cancel	Cancel	0.9817	0.1859
+canceled	Cancel	Cancel	0.8792	0.2297
+cancelled	Cancel	Cancel	0.8695	0.2244
+go away	Cancel	Cancel	0.6821	0.5432
+no no cancel it	Cancel	Cancel	0.996	0.377
+no cancel	Cancel	Cancel	0.9956	0.2572
+yeah	ConfirmYes	ConfirmYes	0.3905	0.947
+great	ConfirmYes	ConfirmYes	0.4407	0.9713
+thank you very much	ConfirmYes	ConfirmYes	0.218	0.9152
+of course	ConfirmYes	ConfirmYes	0.5414	0.8449
+sure thing	ConfirmYes	ConfirmYes	0.5192	0.9171
+oh yes	ConfirmYes	ConfirmYes	0.506	0.9554
+sure	ConfirmYes	ConfirmYes	0.505	0.9385
+yes	ConfirmYes	ConfirmYes	0.3465	0.9201
+yeah bro	ConfirmYes	ConfirmYes	0.5471	0.9772

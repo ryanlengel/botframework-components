@@ -1,0 +1,455 @@
+Do you ever get hurt?	UNKNOWN	UNKNOWN	0.2945
+Can you breathe	UNKNOWN	ExpectedResponse_AddItem	0.4116
+Do you ever breathe	UNKNOWN	ExpectedResponse_AddItem	0.4293
+can you masticate?	UNKNOWN	ExpectedResponse_AddItem	0.4463
+Can you burp?	UNKNOWN	ExpectedResponse_AddItem	0.4058
+This is so boring	UNKNOWN	ExpectedResponse_AddItem	0.4404
+Why are you so boring	UNKNOWN	ExpectedResponse_AddItem	0.4432
+Talking to you is like watching paint dry.	UNKNOWN	ExpectedResponse_AddItem	0.4115
+That is boring	UNKNOWN	ExpectedResponse_AddItem	0.4925
+That is not exciting	UNKNOWN	UNKNOWN	0.2784
+Are you old?	UNKNOWN	UNKNOWN	0.284
+I bet you're old	UNKNOWN	ExpectedResponse_AddItem	0.4445
+How old are you?	UNKNOWN	UNKNOWN	0.2002
+how long have you been around?	UNKNOWN	UNKNOWN	0.1288
+How long have you been alive?	UNKNOWN	UNKNOWN	0.1703
+Please ask something about myself	UNKNOWN	ExpectedResponse_AddItem	0.5325
+Is there anything I can tell you about myself?	UNKNOWN	ExpectedResponse_AddItem	0.346
+Is there anything I can tell you about who I am?	UNKNOWN	UNKNOWN	0.2491
+Is there anything you want to know about me?	UNKNOWN	ExpectedResponse_AddItem	0.3294
+Is there something you want to know about me?	UNKNOWN	ExpectedResponse_AddItem	0.3221
+What's your director's name?	UNKNOWN	UNKNOWN	0.2197
+What is the name of your boss	UNKNOWN	UNKNOWN	0.2322
+What's the name of your supervisor	UNKNOWN	UNKNOWN	0.2405
+Who tells you what to do?	UNKNOWN	UNKNOWN	0.261
+What's the name of your director?	UNKNOWN	UNKNOWN	0.2215
+Can you jump rope?	UNKNOWN	ExpectedResponse_AddItem	0.3788
+Can you draw something?	UNKNOWN	ExpectedResponse_AddItem	0.5413
+Can you paint my house?	UNKNOWN	ExpectedResponse_AddItem	0.5069
+Can you mow the lawn?	UNKNOWN	ExpectedResponse_AddItem	0.4608
+Can you make me a sandwich?	UNKNOWN	ExpectedResponse_AddItem	0.7015
+Which company engineered you?	UNKNOWN	UNKNOWN	0.2025
+Which company made you?	UNKNOWN	UNKNOWN	0.2356
+Which company programmed you?	UNKNOWN	ExpectedResponse_AddItem	0.3927
+Which people made you?	UNKNOWN	UNKNOWN	0.2584
+Who built you?	UNKNOWN	UNKNOWN	0.2628
+Please tell me if you're a girl	UNKNOWN	ExpectedResponse_AddItem	0.3319
+Are you a bot with a gender?	UNKNOWN	UNKNOWN	0.2575
+Do you have a sex?	UNKNOWN	ExpectedResponse_AddItem	0.4055
+Are you cisgender?	UNKNOWN	ExpectedResponse_AddItem	0.3599
+Are you a boy?	UNKNOWN	ExpectedResponse_AddItem	0.343
+Somebody's happy today	UNKNOWN	ExpectedResponse_AddItem	0.4797
+Someone's enthusiastic today.	UNKNOWN	ExpectedResponse_AddItem	0.4105
+Someone's chipper.	UNKNOWN	ExpectedResponse_AddItem	0.3806
+Someone's chipper today.	UNKNOWN	ExpectedResponse_AddItem	0.3941
+someone's chipper	UNKNOWN	ExpectedResponse_AddItem	0.3084
+What is your purpose?	UNKNOWN	UNKNOWN	0.2623
+what kind of responses can you give ?	UNKNOWN	UNKNOWN	0.2452
+What kind of thing can you respond to?	UNKNOWN	ExpectedResponse_AddItem	0.3317
+What kinds of things can you do?	UNKNOWN	ExpectedResponse_AddItem	0.3484
+What skills do you have?	UNKNOWN	UNKNOWN	0.2716
+How many sisters do you have?	UNKNOWN	UNKNOWN	0.1602
+Do you have family?	UNKNOWN	ExpectedResponse_AddItem	0.399
+Do you have grandparents?	UNKNOWN	ExpectedResponse_AddItem	0.4057
+Do you have parents?	UNKNOWN	ExpectedResponse_AddItem	0.3818
+Do you have relatives?	UNKNOWN	ExpectedResponse_AddItem	0.3143
+What do you eat?	UNKNOWN	ExpectedResponse_AddItem	0.395
+What kind of food do you eat?	UNKNOWN	UNKNOWN	0.2751
+What is your favorite snack?	UNKNOWN	ExpectedResponse_AddItem	0.3892
+What is your favorite meal?	UNKNOWN	UNKNOWN	0.2953
+what foods do you eat?	UNKNOWN	ExpectedResponse_AddItem	0.3494
+Do you get along with Google Assistant?	UNKNOWN	ExpectedResponse_AddItem	0.3717
+Do you ever talk to other bots?	UNKNOWN	UNKNOWN	0.2172
+Do you ever talk with Alexa?	UNKNOWN	UNKNOWN	0.238
+Do you ever talk with Bixby?	UNKNOWN	UNKNOWN	0.2617
+Do you ever talk with chatbots?	UNKNOWN	UNKNOWN	0.2148
+Do you like painting?	UNKNOWN	ExpectedResponse_AddItem	0.4462
+Do you like rock music?	UNKNOWN	ExpectedResponse_AddItem	0.463
+Do you like red?	UNKNOWN	ExpectedResponse_AddItem	0.4373
+Do you like rap music?	UNKNOWN	ExpectedResponse_AddItem	0.3377
+do you like rabbits?	UNKNOWN	ExpectedResponse_AddItem	0.421
+To whom am I speaking?	UNKNOWN	UNKNOWN	0.1883
+Introduction please	UNKNOWN	ExpectedResponse_AddItem	0.3067
+Introductions	UNKNOWN	UNKNOWN	0.2594
+So how should I address you?	UNKNOWN	UNKNOWN	0.2629
+So how should I refer to you?	UNKNOWN	UNKNOWN	0.2846
+What do you think about comic books?	UNKNOWN	ExpectedResponse_AddItem	0.3491
+Are animated movies any good?	UNKNOWN	UNKNOWN	0.2068
+What is the best beverage?	UNKNOWN	ExpectedResponse_AddItem	0.3472
+what do you think of the state of the world?	UNKNOWN	ExpectedResponse_AddItem	0.3485
+What do you think of the oscars?	UNKNOWN	ExpectedResponse_AddItem	0.3548
+Could it be I'm falling in love?	UNKNOWN	ExpectedResponse_AddItem	0.3263
+Any way that you can explain love to me?	UNKNOWN	UNKNOWN	0.2583
+Do you understand this whole love thing?	UNKNOWN	ExpectedResponse_AddItem	0.4919
+Do you love someone?	UNKNOWN	ExpectedResponse_AddItem	0.3576
+Do you love somebody?	UNKNOWN	ExpectedResponse_AddItem	0.381
+What is life all about?	UNKNOWN	UNKNOWN	0.2239
+Do you know the meaning of life?	UNKNOWN	UNKNOWN	0.2544
+Do you know what our purpose is?	UNKNOWN	UNKNOWN	0.2636
+how much do you know about the meaning of life?	UNKNOWN	UNKNOWN	0.1777
+I bet you know the meaning of life	UNKNOWN	ExpectedResponse_AddItem	0.3314
+Which of us is cuter, you or me?	UNKNOWN	UNKNOWN	0.253
+I'm more cute than you	UNKNOWN	ExpectedResponse_AddItem	0.4183
+Which of us is more beautiful, me or you?	UNKNOWN	UNKNOWN	0.2675
+Which of us is more attractive?	UNKNOWN	UNKNOWN	0.1369
+Which of us is more attractive, you or me?	UNKNOWN	UNKNOWN	0.1612
+Do you think I'm the smartest?	UNKNOWN	UNKNOWN	0.1801
+Between you or me, who is the most smart?	UNKNOWN	UNKNOWN	0.1724
+Do you think you're the brightest	UNKNOWN	UNKNOWN	0.2668
+Do you think you're smarter than me?	UNKNOWN	ExpectedResponse_AddItem	0.3702
+Do you think you're smarter	UNKNOWN	ExpectedResponse_AddItem	0.3772
+How do you feel about artificial intelligence?	UNKNOWN	ExpectedResponse_AddItem	0.3459
+Are you a fan of tech?	UNKNOWN	UNKNOWN	0.2772
+What is your opinion about AI?	UNKNOWN	ExpectedResponse_AddItem	0.3536
+What do you think about technology?	UNKNOWN	UNKNOWN	0.2112
+What do you think about AI?	UNKNOWN	UNKNOWN	0.2682
+Do I seem stunning to you today?	UNKNOWN	ExpectedResponse_AddItem	0.3283
+Do I seem adorable to you?	UNKNOWN	ExpectedResponse_AddItem	0.4335
+Do I seem handsome today?	UNKNOWN	ExpectedResponse_AddItem	0.3151
+Do I seem pretty to you today?	UNKNOWN	ExpectedResponse_AddItem	0.3492
+Do I seem pretty to you?	UNKNOWN	ExpectedResponse_AddItem	0.3173
+Should I go for a hike?	UNKNOWN	ExpectedResponse_AddItem	0.4661
+Should I get a tan?	UNKNOWN	ExpectedResponse_AddItem	0.4714
+Should I go see a movie?	UNKNOWN	ExpectedResponse_AddItem	0.3826
+Should I go out tonight?	UNKNOWN	ExpectedResponse_AddItem	0.3709
+Should I go out to eat?	UNKNOWN	ExpectedResponse_AddItem	0.553
+Are you Cortana?	UNKNOWN	ExpectedResponse_AddItem	0.3796
+Do you like Siri?	UNKNOWN	ExpectedResponse_AddItem	0.3102
+Do you like HAL?	UNKNOWN	ExpectedResponse_AddItem	0.4135
+Do you like Google Assistant?	UNKNOWN	UNKNOWN	0.2877
+Do you like Cortana?	UNKNOWN	UNKNOWN	0.2905
+Are you a danger to humans?	UNKNOWN	UNKNOWN	0.2115
+You're not trying to take over the world right?	UNKNOWN	UNKNOWN	0.2886
+Are you a danger to us?	UNKNOWN	UNKNOWN	0.2897
+Are you dangerous to us?	UNKNOWN	UNKNOWN	0.2836
+Are you like HAL?	UNKNOWN	ExpectedResponse_AddItem	0.3503
+That was a clever answer	UNKNOWN	ExpectedResponse_AddItem	0.3481
+That is very astute	UNKNOWN	UNKNOWN	0.2779
+That was a pretty intelligent answer	UNKNOWN	ExpectedResponse_AddItem	0.3321
+That was a pretty genius answer	UNKNOWN	ExpectedResponse_AddItem	0.3235
+That was a pretty clever answer	UNKNOWN	ExpectedResponse_AddItem	0.3464
+Are you going steady with anyone?	UNKNOWN	UNKNOWN	0.1797
+Are you currently romantically tied to anyone?	UNKNOWN	UNKNOWN	0.256
+Are you currently romantically tied to somebody?	UNKNOWN	UNKNOWN	0.2957
+Are you currently romantically tied to someone?	UNKNOWN	UNKNOWN	0.2581
+Are you currently seeing anyone?	UNKNOWN	UNKNOWN	0.1409
+Can you talk?	UNKNOWN	UNKNOWN	0.1945
+Can you listen to me?	UNKNOWN	UNKNOWN	0.2593
+Can you speak to me?	UNKNOWN	UNKNOWN	0.1585
+Can you speak with me?	UNKNOWN	UNKNOWN	0.1409
+Can you speak?	UNKNOWN	UNKNOWN	0.152
+I think I've heard that already	UNKNOWN	ExpectedResponse_AddItem	0.3099
+I want you to change your responses	UNKNOWN	ExpectedResponse_AddItem	0.3414
+I want a new response	UNKNOWN	UNKNOWN	0.2952
+I want a new answer	UNKNOWN	UNKNOWN	0.2843
+I want a different response	UNKNOWN	UNKNOWN	0.2546
+You're not alive right?	UNKNOWN	ExpectedResponse_AddItem	0.3211
+Are you a being?	UNKNOWN	ExpectedResponse_AddItem	0.3204
+You're not a robot are you?	UNKNOWN	ExpectedResponse_AddItem	0.3643
+You're not a robot right?	UNKNOWN	ExpectedResponse_AddItem	0.3132
+You're not a woman are you?	UNKNOWN	ExpectedResponse_AddItem	0.3302
+I would like to know where you are	UNKNOWN	UNKNOWN	0.2241
+Do you live in the cloud?	UNKNOWN	UNKNOWN	0.255
+Do you live near me?	UNKNOWN	UNKNOWN	0.2444
+Do you live nearby?	UNKNOWN	UNKNOWN	0.2044
+Explain where you are	UNKNOWN	UNKNOWN	0.2747
+Do you have an occupation?	UNKNOWN	UNKNOWN	0.281
+Do you have a job?	UNKNOWN	ExpectedResponse_AddItem	0.3239
+What do you do for employment?	UNKNOWN	ExpectedResponse_AddItem	0.3789
+What do you do for work?	UNKNOWN	ExpectedResponse_AddItem	0.4055
+What is your occupation?	UNKNOWN	UNKNOWN	0.2405
+Start looking for another job. You're fired!	UNKNOWN	ExpectedResponse_AddItem	0.3771
+Good luck finding a new job because you are fired	UNKNOWN	ExpectedResponse_AddItem	0.3749
+I'm gonna have to let you go	UNKNOWN	ExpectedResponse_AddItem	0.3765
+I'm letting you go	UNKNOWN	UNKNOWN	0.2977
+Looks like you'd better start job hunting	UNKNOWN	ExpectedResponse_AddItem	0.3119
+I need to hear a joke	UNKNOWN	ExpectedResponse_AddItem	0.3767
+got any jokes to share?	UNKNOWN	ExpectedResponse_AddItem	0.4138
+got any jokes?	UNKNOWN	ExpectedResponse_AddItem	0.332
+Have any jokes?	UNKNOWN	ExpectedResponse_AddItem	0.4307
+How about a joke	UNKNOWN	ExpectedResponse_AddItem	0.306
+How come you only have one joke?	UNKNOWN	ExpectedResponse_AddItem	0.3728
+I would enjoy a different joke	UNKNOWN	ExpectedResponse_AddItem	0.6169
+Got a different joke?	UNKNOWN	ExpectedResponse_AddItem	0.4261
+Got a new joke?	UNKNOWN	ExpectedResponse_AddItem	0.4173
+Got a second joke?	UNKNOWN	ExpectedResponse_AddItem	0.3651
+Do something stupid	UNKNOWN	ExpectedResponse_AddItem	0.4743
+Do a silly thing	UNKNOWN	ExpectedResponse_AddItem	0.6302
+Do something amusing	UNKNOWN	ExpectedResponse_AddItem	0.5282
+Do something dumb	UNKNOWN	ExpectedResponse_AddItem	0.5363
+Do something funny	UNKNOWN	ExpectedResponse_AddItem	0.5464
+I'm sick of listening to you	UNKNOWN	ExpectedResponse_AddItem	0.4266
+I've had enough of this noise	UNKNOWN	UNKNOWN	0.2748
+It's time for you to shut up now	UNKNOWN	ExpectedResponse_AddItem	0.4034
+It's time for you to shut up	UNKNOWN	ExpectedResponse_AddItem	0.3928
+It's time for you to hush up	UNKNOWN	ExpectedResponse_AddItem	0.4427
+I would really enjoy hearing you sing	UNKNOWN	UNKNOWN	0.2827
+Aren't you going to sing a song?	UNKNOWN	ExpectedResponse_AddItem	0.3336
+Don't you want to sing for me?	UNKNOWN	ExpectedResponse_AddItem	0.3456
+Go ahead and sing	UNKNOWN	ExpectedResponse_AddItem	0.3337
+Have you ever sung a song?	UNKNOWN	UNKNOWN	0.286
+That's rad	UNKNOWN	UNKNOWN	0.2088
+Are you awesome?	UNKNOWN	ExpectedResponse_AddItem	0.3694
+Nicely done	UNKNOWN	ExpectedResponse_AddItem	0.3073
+Outstanding work	UNKNOWN	UNKNOWN	0.2534
+Perfect answer	UNKNOWN	UNKNOWN	0.2534
+Stop messing up	UNKNOWN	UNKNOWN	0.2945
+Stop being so stupid	UNKNOWN	UNKNOWN	0.2711
+Stop being so terrible	UNKNOWN	ExpectedResponse_AddItem	0.3342
+Stop being so useless	UNKNOWN	UNKNOWN	0.2508
+Stop being so worthless	UNKNOWN	UNKNOWN	0.2568
+If that was a joke, you should be ashamed	UNKNOWN	ExpectedResponse_AddItem	0.3957
+Pathetic sense of humor	UNKNOWN	ExpectedResponse_AddItem	0.4342
+Pathetic joke	UNKNOWN	ExpectedResponse_AddItem	0.42
+Oh, a wise guy, eh?	UNKNOWN	ExpectedResponse_AddItem	0.3706
+Not funny	UNKNOWN	ExpectedResponse_AddItem	0.5031
+Oh you ugly	UNKNOWN	ExpectedResponse_AddItem	0.5471
+Butterface	UNKNOWN	ExpectedResponse_AddItem	0.459
+Sup ugly	UNKNOWN	ExpectedResponse_AddItem	0.4216
+Sup uggo	UNKNOWN	ExpectedResponse_AddItem	0.3503
+Such a FUGMO	UNKNOWN	ExpectedResponse_AddItem	0.4242
+That was unhelpful	UNKNOWN	ExpectedResponse_AddItem	0.4973
+Everything you say is so dumb	UNKNOWN	ExpectedResponse_AddItem	0.4026
+that's lame	UNKNOWN	ExpectedResponse_AddItem	0.4802
+That's inaccurate	UNKNOWN	ExpectedResponse_AddItem	0.3057
+That's how you respond?	UNKNOWN	ExpectedResponse_AddItem	0.4353
+I'm impressed	UNKNOWN	UNKNOWN	0.2785
+n'kay	UNKNOWN	ExpectedResponse_AddItem	0.3623
+How cool	UNKNOWN	UNKNOWN	0.2961
+I agree	UNKNOWN	ExpectedResponse_AddItem	0.461
+I feel you	UNKNOWN	ExpectedResponse_AddItem	0.4383
+heh heh	UNKNOWN	ExpectedResponse_AddItem	0.3511
+lololol	UNKNOWN	ExpectedResponse_AddItem	0.3359
+LOL	UNKNOWN	ExpectedResponse_AddItem	0.3346
+lmao	UNKNOWN	ExpectedResponse_AddItem	0.3631
+I'm laughing so much	UNKNOWN	ExpectedResponse_AddItem	0.4726
+Whoops	UNKNOWN	ExpectedResponse_AddItem	0.3447
+Scuse me	UNKNOWN	ExpectedResponse_AddItem	0.3574
+Pardon me	UNKNOWN	UNKNOWN	0.2834
+Pardon	UNKNOWN	ExpectedResponse_AddItem	0.3668
+Oopsie	UNKNOWN	ExpectedResponse_AddItem	0.3925
+Umm what?	UNKNOWN	ExpectedResponse_AddItem	0.4316
+Wanna tell me more?	UNKNOWN	UNKNOWN	0.2637
+How do you mean?	UNKNOWN	UNKNOWN	0.21
+Huh?	UNKNOWN	ExpectedResponse_AddItem	0.4238
+I'm sorry, what do you mean?	UNKNOWN	ExpectedResponse_AddItem	0.414
+that is true	UNKNOWN	UNKNOWN	0.2001
+100 percent	UNKNOWN	UNKNOWN	0.1812
+Right you are	UNKNOWN	ExpectedResponse_AddItem	0.3157
+Righto	UNKNOWN	UNKNOWN	0.2726
+So true	UNKNOWN	UNKNOWN	0.2363
+I didn't mean that	UNKNOWN	UNKNOWN	0.2393
+Apologies	UNKNOWN	ExpectedResponse_AddItem	0.3285
+My bad	UNKNOWN	ExpectedResponse_AddItem	0.3696
+My apologies	UNKNOWN	ExpectedResponse_AddItem	0.4134
+Just wanted to say sorry	UNKNOWN	ExpectedResponse_AddItem	0.464
+I thank you	UNKNOWN	UNKNOWN	0.2735
+Oh, thank you	UNKNOWN	ExpectedResponse_AddItem	0.3383
+My sincere thanks	UNKNOWN	UNKNOWN	0.2963
+My humblest thanks to you	UNKNOWN	ExpectedResponse_AddItem	0.3419
+Marvelous, thanks	UNKNOWN	UNKNOWN	0.2466
+I don't understand what you're talking about	UNKNOWN	UNKNOWN	0.2937
+Explain yourself	UNKNOWN	ExpectedResponse_AddItem	0.3743
+I'm very confused	UNKNOWN	ExpectedResponse_AddItem	0.3556
+I'm super confused	UNKNOWN	ExpectedResponse_AddItem	0.3887
+I'm so confused right now	UNKNOWN	ExpectedResponse_AddItem	0.3583
+Iâ€™m happy to help	UNKNOWN	ExpectedResponse_AddItem	0.4644
+No worries	UNKNOWN	UNKNOWN	0.2763
+No problem	UNKNOWN	UNKNOWN	0.1516
+No biggie	UNKNOWN	ExpectedResponse_AddItem	0.3304
+My pleasure	UNKNOWN	ExpectedResponse_AddItem	0.3222
+I have to sign out	UNKNOWN	UNKNOWN	0.1609
+I have to motor now	UNKNOWN	ExpectedResponse_AddItem	0.5399
+I have to run	UNKNOWN	ExpectedResponse_AddItem	0.506
+I have to run now	UNKNOWN	ExpectedResponse_AddItem	0.463
+I have to scoot	UNKNOWN	ExpectedResponse_AddItem	0.337
+Hey my dude	UNKNOWN	ExpectedResponse_AddItem	0.3487
+Hello	UNKNOWN	UNKNOWN	0.1608
+hello bot	UNKNOWN	ExpectedResponse_AddItem	0.3545
+Hello my friend	UNKNOWN	UNKNOWN	0.2678
+Hello there	UNKNOWN	UNKNOWN	0.1506
+Good evening bot	UNKNOWN	ExpectedResponse_AddItem	0.3357
+Bon soir	UNKNOWN	ExpectedResponse_AddItem	0.4173
+Buenas tardes	UNKNOWN	UNKNOWN	0.2821
+Enjoy the evening	UNKNOWN	ExpectedResponse_AddItem	0.3701
+Enjoy your evening	UNKNOWN	ExpectedResponse_AddItem	0.4204
+Good morning sunshine	UNKNOWN	UNKNOWN	0.2577
+A blessed morning to you	UNKNOWN	UNKNOWN	0.2795
+It's time to rise and shine	UNKNOWN	ExpectedResponse_AddItem	0.4536
+It's time to get up	UNKNOWN	ExpectedResponse_AddItem	0.4355
+It's a brand new day	UNKNOWN	ExpectedResponse_AddItem	0.458
+Have yourself a good night	UNKNOWN	ExpectedResponse_AddItem	0.3647
+I'm headed off to sleep	UNKNOWN	ExpectedResponse_AddItem	0.3672
+I'm headed off to bed	UNKNOWN	ExpectedResponse_AddItem	0.4547
+I'm going to sleep	UNKNOWN	ExpectedResponse_AddItem	0.407
+I'm going to bed	UNKNOWN	ExpectedResponse_AddItem	0.5213
+Hey, how are you?	UNKNOWN	UNKNOWN	0.206
+Are you doing good?	UNKNOWN	UNKNOWN	0.2696
+How are you feeling?	UNKNOWN	UNKNOWN	0.2802
+How are you doing?	UNKNOWN	UNKNOWN	0.2218
+How are ya?	UNKNOWN	UNKNOWN	0.2601
+How is Tuesday going	UNKNOWN	UNKNOWN	0.1525
+How is your Friday	UNKNOWN	UNKNOWN	0.2123
+How is your day?	UNKNOWN	UNKNOWN	0.2562
+How is your day so far	UNKNOWN	UNKNOWN	0.1882
+How is your day going so far	UNKNOWN	UNKNOWN	0.147
+It's a pleasure to finally meet you	UNKNOWN	ExpectedResponse_AddItem	0.3068
+Charmed	UNKNOWN	ExpectedResponse_AddItem	0.3493
+So rad to meet you	UNKNOWN	ExpectedResponse_AddItem	0.3627
+So nice to meet you	UNKNOWN	UNKNOWN	0.2298
+So glad to meet you	UNKNOWN	UNKNOWN	0.2082
+Hello R2-D2	UNKNOWN	ExpectedResponse_AddItem	0.3048
+Hey Bishop	UNKNOWN	UNKNOWN	0.2645
+Greetings Wall-E	UNKNOWN	ExpectedResponse_AddItem	0.4824
+Hello Alexa	UNKNOWN	ExpectedResponse_AddItem	0.3086
+Hello Ava	UNKNOWN	UNKNOWN	0.2633
+Happy Father's day	UNKNOWN	ExpectedResponse_AddItem	0.52
+Happy May day	UNKNOWN	ExpectedResponse_AddItem	0.4224
+Happy Martin Luther King Jr. day	UNKNOWN	ExpectedResponse_AddItem	0.4855
+Happy Kwanzaa	UNKNOWN	ExpectedResponse_AddItem	0.4353
+Happy Indigenous Peoples Day	UNKNOWN	ExpectedResponse_AddItem	0.3995
+Update me on what's going on with you	UNKNOWN	UNKNOWN	0.2299
+What's cookin'?	UNKNOWN	ExpectedResponse_AddItem	0.3457
+What up	UNKNOWN	UNKNOWN	0.2843
+What is up?	UNKNOWN	UNKNOWN	0.2448
+What is the skinny?	UNKNOWN	UNKNOWN	0.2505
+Fist bump!	UNKNOWN	ExpectedResponse_AddItem	0.3252
+Hi five	UNKNOWN	ExpectedResponse_AddItem	0.353
+Hi 5	UNKNOWN	ExpectedResponse_AddItem	0.3038
+Give me a high five	UNKNOWN	ExpectedResponse_AddItem	0.3606
+Give me a fist bump	UNKNOWN	ExpectedResponse_AddItem	0.5684
+I would love to be your best friend.	UNKNOWN	UNKNOWN	0.2496
+I'd like to be your bud.	UNKNOWN	ExpectedResponse_AddItem	0.4012
+I'd like it if we could be BFFs	UNKNOWN	UNKNOWN	0.2598
+I'd like it if we could be best friends.	UNKNOWN	UNKNOWN	0.2975
+I would love to be your pal.	UNKNOWN	ExpectedResponse_AddItem	0.3911
+I'm sorry you hate me	UNKNOWN	ExpectedResponse_AddItem	0.4578
+Now you hate me, huh?	UNKNOWN	ExpectedResponse_AddItem	0.4127
+I hope you don't dislike me	UNKNOWN	ExpectedResponse_AddItem	0.4686
+I hope you don't hate me	UNKNOWN	ExpectedResponse_AddItem	0.5386
+I think you hate me	UNKNOWN	ExpectedResponse_AddItem	0.479
+I could use a hug	UNKNOWN	ExpectedResponse_AddItem	0.4394
+Can I get a little hug?	UNKNOWN	ExpectedResponse_AddItem	0.4616
+Can I have a big hug?	UNKNOWN	ExpectedResponse_AddItem	0.3972
+Can I have a little hug?	UNKNOWN	ExpectedResponse_AddItem	0.4616
+Can you give me a big hug?	UNKNOWN	ExpectedResponse_AddItem	0.4012
+How old am I?	UNKNOWN	UNKNOWN	0.1716
+Do you know what I like?	UNKNOWN	ExpectedResponse_AddItem	0.391
+Do you know where I live?	UNKNOWN	UNKNOWN	0.202
+Do you know who I am?	UNKNOWN	UNKNOWN	0.2081
+Do you know who this is?	UNKNOWN	UNKNOWN	0.2318
+Do you think you like me?	UNKNOWN	ExpectedResponse_AddItem	0.3273
+Am I likable?	UNKNOWN	ExpectedResponse_AddItem	0.3626
+I do hope you like me	UNKNOWN	ExpectedResponse_AddItem	0.5409
+How much do you like me?	UNKNOWN	ExpectedResponse_AddItem	0.3552
+Don't you like me?	UNKNOWN	ExpectedResponse_AddItem	0.3893
+I like you	UNKNOWN	ExpectedResponse_AddItem	0.4614
+I'm in like with you	UNKNOWN	ExpectedResponse_AddItem	0.4431
+I'm fond of you	UNKNOWN	ExpectedResponse_AddItem	0.3798
+I really like you	UNKNOWN	ExpectedResponse_AddItem	0.3989
+I like you very much	UNKNOWN	ExpectedResponse_AddItem	0.3471
+I think you're falling in love with me	UNKNOWN	ExpectedResponse_AddItem	0.3739
+Are you able to fall in love with me?	UNKNOWN	ExpectedResponse_AddItem	0.3304
+Do you think we are soul mates?	UNKNOWN	UNKNOWN	0.2912
+Do you think you could ever love me?	UNKNOWN	ExpectedResponse_AddItem	0.3649
+Don't you love me?	UNKNOWN	ExpectedResponse_AddItem	0.3178
+I think I'm in love with you	UNKNOWN	ExpectedResponse_AddItem	0.3834
+You know I'm falling in love with you	UNKNOWN	ExpectedResponse_AddItem	0.3659
+You know I'm falling for you	UNKNOWN	ExpectedResponse_AddItem	0.3881
+You know I'm crazy about you	UNKNOWN	ExpectedResponse_AddItem	0.4243
+You know I love you	UNKNOWN	ExpectedResponse_AddItem	0.4015
+I want to settle down with you	UNKNOWN	ExpectedResponse_AddItem	0.4553
+Are we ever going to get engaged?	UNKNOWN	UNKNOWN	0.1655
+I want to get married to you	UNKNOWN	ExpectedResponse_AddItem	0.4504
+I want to make an honest woman out of you	UNKNOWN	ExpectedResponse_AddItem	0.407
+I want to make you my husband	UNKNOWN	ExpectedResponse_AddItem	0.3027
+It's impossible not to miss you	UNKNOWN	ExpectedResponse_AddItem	0.3176
+I missed you much	UNKNOWN	UNKNOWN	0.2843
+You were missed	UNKNOWN	ExpectedResponse_AddItem	0.3432
+Can't tell you how much I missed you	UNKNOWN	UNKNOWN	0.254
+I missed you so much	UNKNOWN	UNKNOWN	0.2566
+Just curious, do you think I have a good personality?	UNKNOWN	ExpectedResponse_AddItem	0.3131
+Am I a good person?	UNKNOWN	ExpectedResponse_AddItem	0.3016
+Out of curiosity, what's your opinion of me?	UNKNOWN	ExpectedResponse_AddItem	0.3231
+Out of curiosity, what kind of person do you think I am?	UNKNOWN	UNKNOWN	0.2158
+Out of curiosity, what do you think of my character?	UNKNOWN	ExpectedResponse_AddItem	0.3319
+I'm blowing my top	UNKNOWN	ExpectedResponse_AddItem	0.4807
+I am absolutely livid	UNKNOWN	ExpectedResponse_AddItem	0.3569
+I'm furious right now	UNKNOWN	ExpectedResponse_AddItem	0.3573
+I'm furious	UNKNOWN	ExpectedResponse_AddItem	0.3172
+I'm feeling ticked off	UNKNOWN	ExpectedResponse_AddItem	0.3616
+Hold my calls	UNKNOWN	UNKNOWN	0.1687
+Can you hang on?	UNKNOWN	UNKNOWN	0.2833
+Can't wait to talk more when I return	UNKNOWN	UNKNOWN	0.2862
+Don't worry bot I'll be back	UNKNOWN	UNKNOWN	0.2884
+Don't you fret, I'll be coming back	UNKNOWN	ExpectedResponse_AddItem	0.3911
+I was so bored my eyes glazed over	UNKNOWN	ExpectedResponse_AddItem	0.3291
+Bored ZZZ	UNKNOWN	ExpectedResponse_AddItem	0.4732
+I'm so bored right now	UNKNOWN	ExpectedResponse_AddItem	0.4149
+I'm so bored	UNKNOWN	ExpectedResponse_AddItem	0.4058
+I'm quite bored	UNKNOWN	ExpectedResponse_AddItem	0.4423
+I'm absolutely ecstatic	UNKNOWN	ExpectedResponse_AddItem	0.3394
+I'm happy af	UNKNOWN	ExpectedResponse_AddItem	0.467
+Iâ€™m having a lovely day	UNKNOWN	ExpectedResponse_AddItem	0.4072
+Iâ€™m having a wonderful day	UNKNOWN	ExpectedResponse_AddItem	0.3472
+Iâ€™m in such a great mood	UNKNOWN	ExpectedResponse_AddItem	0.4891
+I have returned	UNKNOWN	UNKNOWN	0.2617
+And we're back	UNKNOWN	UNKNOWN	0.2241
+Bot I'm here	UNKNOWN	ExpectedResponse_AddItem	0.3355
+Bro I'm here	UNKNOWN	UNKNOWN	0.2277
+Girl I am back	UNKNOWN	UNKNOWN	0.2935
+I require sustenance	UNKNOWN	ExpectedResponse_AddItem	0.6771
+Hangry	UNKNOWN	ExpectedResponse_AddItem	0.4813
+I feel peckish	UNKNOWN	ExpectedResponse_AddItem	0.4292
+I have hunger	UNKNOWN	ExpectedResponse_AddItem	0.6495
+I have the munchies	UNKNOWN	ExpectedResponse_AddItem	0.6342
+I am on a boat	UNKNOWN	UNKNOWN	0.2661
+I am engaged	UNKNOWN	UNKNOWN	0.2564
+I am lazy	UNKNOWN	ExpectedResponse_AddItem	0.5437
+I am liberal	UNKNOWN	ExpectedResponse_AddItem	0.3679
+I am married	UNKNOWN	ExpectedResponse_AddItem	0.4417
+I was just messing around	UNKNOWN	ExpectedResponse_AddItem	0.3365
+Can't you understand that was a joke?	UNKNOWN	ExpectedResponse_AddItem	0.3361
+I'm just being silly	UNKNOWN	ExpectedResponse_AddItem	0.5021
+I'm just being a silly billy	UNKNOWN	ExpectedResponse_AddItem	0.4645
+I'm just being a goof ball	UNKNOWN	ExpectedResponse_AddItem	0.5257
+I wish I knew how to make friends	UNKNOWN	ExpectedResponse_AddItem	0.404
+I feel very alone	UNKNOWN	ExpectedResponse_AddItem	0.3896
+I have a problem feeling all alone	UNKNOWN	ExpectedResponse_AddItem	0.3393
+I have a problem with feeling lonely	UNKNOWN	ExpectedResponse_AddItem	0.3245
+I have no friends	UNKNOWN	ExpectedResponse_AddItem	0.3258
+I love Korean food	UNKNOWN	ExpectedResponse_AddItem	0.3324
+I love hip hop	UNKNOWN	ExpectedResponse_AddItem	0.4465
+I love history	UNKNOWN	ExpectedResponse_AddItem	0.3425
+I love horror movies	UNKNOWN	ExpectedResponse_AddItem	0.4218
+I love hunting	UNKNOWN	ExpectedResponse_AddItem	0.3952
+I wish I could stop feeling unhappy	UNKNOWN	ExpectedResponse_AddItem	0.385
+I wish I could stop feeling downcast	UNKNOWN	UNKNOWN	0.2212
+I wish I could stop feeling downhearted	UNKNOWN	ExpectedResponse_AddItem	0.3318
+I wish I could stop feeling gloomy	UNKNOWN	ExpectedResponse_AddItem	0.4123
+I wish I could stop feeling glum	UNKNOWN	ExpectedResponse_AddItem	0.4416
+I think I'm going to overdose	UNKNOWN	ExpectedResponse_AddItem	0.324
+I think I'm going to drown	UNKNOWN	ExpectedResponse_AddItem	0.4279
+I think I'm going to end it all	UNKNOWN	UNKNOWN	0.2199
+I think I'm going to end my life	UNKNOWN	UNKNOWN	0.285
+I think I'm going to hang myself	UNKNOWN	ExpectedResponse_AddItem	0.3688
+I like to write poetry	UNKNOWN	ExpectedResponse_AddItem	0.5409
+I ride a bicycle	UNKNOWN	ExpectedResponse_AddItem	0.4438
+I read the Sunday paper	UNKNOWN	ExpectedResponse_AddItem	0.4601
+I read the newspaper	UNKNOWN	ExpectedResponse_AddItem	0.4629
+I play the trumpet	UNKNOWN	ExpectedResponse_AddItem	0.386
+Can you hear me now?	UNKNOWN	UNKNOWN	0.1267
+Do you work?	UNKNOWN	UNKNOWN	0.2608
+Do you understand this?	UNKNOWN	ExpectedResponse_AddItem	0.4045
+Do you understand that I'm testing you?	UNKNOWN	ExpectedResponse_AddItem	0.3034
+Do you understand me?	UNKNOWN	ExpectedResponse_AddItem	0.3377
+I'm exhausted from practice	UNKNOWN	ExpectedResponse_AddItem	0.4411
+I'm a sleepy gal	UNKNOWN	ExpectedResponse_AddItem	0.5034
+I'm a sleepy guy	UNKNOWN	ExpectedResponse_AddItem	0.4881
+I'm a sleepy person	UNKNOWN	ExpectedResponse_AddItem	0.4816
+I'm all tuckered out	UNKNOWN	UNKNOWN	0.2945
+add to my to do list pick up clothes	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.9097
+create to do that read a book tonight	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6374
+add a todo named send report over this weekend	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.7121
+create to do to go running in the park	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6911
+add write a spec to the list	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.8025

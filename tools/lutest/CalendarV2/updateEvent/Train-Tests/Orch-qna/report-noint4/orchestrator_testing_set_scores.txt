@@ -1,0 +1,465 @@
+Do you ever get hurt?	UNKNOWN	ConfirmYes	0.405	0.531
+Can you breathe	UNKNOWN	ConfirmYes	0.4312	0.5754
+Do you ever breathe	UNKNOWN	ConfirmYes	0.454	0.5691
+can you masticate?	UNKNOWN	ConfirmYes	0.4041	0.6476
+Can you burp?	UNKNOWN	ConfirmYes	0.3511	0.5886
+This is so boring	UNKNOWN	Cancel	0.7839	0.6445
+Why are you so boring	UNKNOWN	Cancel	0.669	0.5692
+Talking to you is like watching paint dry.	UNKNOWN	ConfirmYes	0.3623	0.429
+That is boring	UNKNOWN	Cancel	0.8384	0.7079
+That is not exciting	UNKNOWN	Cancel	0.7272	0.5611
+Are you old?	UNKNOWN	ConfirmYes	0.4941	0.6907
+I bet you're old	UNKNOWN	ConfirmYes	0.6327	0.7364
+How old are you?	UNKNOWN	ConfirmYes	0.2227	0.57
+how long have you been around?	UNKNOWN	UNKNOWN	0.131	0.2294
+How long have you been alive?	UNKNOWN	UNKNOWN	0.1203	0.2072
+Please ask something about myself	UNKNOWN	ConfirmYes	0.391	0.5839
+Is there anything I can tell you about myself?	UNKNOWN	ConfirmYes	0.2772	0.5863
+Is there anything I can tell you about who I am?	UNKNOWN	ConfirmYes	0.236	0.4047
+Is there anything you want to know about me?	UNKNOWN	ConfirmYes	0.3421	0.611
+Is there something you want to know about me?	UNKNOWN	ConfirmYes	0.3022	0.6094
+What's your director's name?	UNKNOWN	UNKNOWN	0.1918	0.2551
+What is the name of your boss	UNKNOWN	ConfirmYes	0.2503	0.3259
+What's the name of your supervisor	UNKNOWN	ConfirmYes	0.1987	0.3431
+Who tells you what to do?	UNKNOWN	ConfirmYes	0.3065	0.4671
+What's the name of your director?	UNKNOWN	UNKNOWN	0.1846	0.2881
+Can you jump rope?	UNKNOWN	ConfirmYes	0.2538	0.4079
+Can you draw something?	UNKNOWN	ConfirmYes	0.3943	0.5041
+Can you paint my house?	UNKNOWN	ConfirmYes	0.3041	0.5518
+Can you mow the lawn?	UNKNOWN	ConfirmYes	0.3765	0.5924
+Can you make me a sandwich?	UNKNOWN	ConfirmYes	0.3734	0.6234
+Which company engineered you?	UNKNOWN	ConfirmYes	0.1519	0.3522
+Which company made you?	UNKNOWN	ConfirmYes	0.1884	0.3877
+Which company programmed you?	UNKNOWN	ConfirmYes	0.3096	0.4911
+Which people made you?	UNKNOWN	ConfirmYes	0.217	0.3881
+Who built you?	UNKNOWN	ConfirmYes	0.2522	0.5478
+Please tell me if you're a girl	UNKNOWN	ConfirmYes	0.2795	0.6371
+Are you a bot with a gender?	UNKNOWN	ConfirmYes	0.406	0.4874
+Do you have a sex?	UNKNOWN	ConfirmYes	0.4192	0.6463
+Are you cisgender?	UNKNOWN	ConfirmYes	0.4687	0.703
+Are you a boy?	UNKNOWN	ConfirmYes	0.469	0.7586
+Somebody's happy today	UNKNOWN	ConfirmYes	0.4182	0.6405
+Someone's enthusiastic today.	UNKNOWN	ConfirmYes	0.4013	0.605
+Someone's chipper.	UNKNOWN	ConfirmYes	0.4339	0.481
+Someone's chipper today.	UNKNOWN	ConfirmYes	0.3989	0.4753
+someone's chipper	UNKNOWN	ConfirmYes	0.366	0.4109
+What is your purpose?	UNKNOWN	ConfirmYes	0.2556	0.5717
+what kind of responses can you give ?	UNKNOWN	ConfirmYes	0.2457	0.4825
+What kind of thing can you respond to?	UNKNOWN	ConfirmYes	0.2507	0.463
+What kinds of things can you do?	UNKNOWN	ConfirmYes	0.1958	0.5325
+What skills do you have?	UNKNOWN	ConfirmYes	0.2575	0.5248
+How many sisters do you have?	UNKNOWN	UNKNOWN	0.0819	0.2795
+Do you have family?	UNKNOWN	ConfirmYes	0.2441	0.4212
+Do you have grandparents?	UNKNOWN	ConfirmYes	0.3478	0.652
+Do you have parents?	UNKNOWN	ConfirmYes	0.3057	0.5313
+Do you have relatives?	UNKNOWN	ConfirmYes	0.2526	0.4651
+What do you eat?	UNKNOWN	ConfirmYes	0.3225	0.5669
+What kind of food do you eat?	UNKNOWN	ConfirmYes	0.1487	0.4834
+What is your favorite snack?	UNKNOWN	ConfirmYes	0.2859	0.5761
+What is your favorite meal?	UNKNOWN	ConfirmYes	0.1791	0.383
+what foods do you eat?	UNKNOWN	ConfirmYes	0.164	0.3853
+Do you get along with Google Assistant?	UNKNOWN	ConfirmYes	0.3624	0.5577
+Do you ever talk to other bots?	UNKNOWN	ConfirmYes	0.3279	0.3569
+Do you ever talk with Alexa?	UNKNOWN	ConfirmYes	0.3026	0.4635
+Do you ever talk with Bixby?	UNKNOWN	ConfirmYes	0.3418	0.3675
+Do you ever talk with chatbots?	UNKNOWN	ConfirmYes	0.3535	0.4653
+Do you like painting?	UNKNOWN	ConfirmYes	0.5011	0.801
+Do you like rock music?	UNKNOWN	ConfirmYes	0.4136	0.6713
+Do you like red?	UNKNOWN	ConfirmYes	0.5327	0.6941
+Do you like rap music?	UNKNOWN	ConfirmYes	0.3616	0.6675
+do you like rabbits?	UNKNOWN	ConfirmYes	0.5769	0.7603
+To whom am I speaking?	UNKNOWN	ConfirmYes	0.237	0.3336
+Introduction please	UNKNOWN	ConfirmYes	0.2621	0.4437
+Introductions	UNKNOWN	Cancel	0.3299	0.3166
+So how should I address you?	UNKNOWN	ConfirmYes	0.1859	0.3789
+So how should I refer to you?	UNKNOWN	ConfirmYes	0.246	0.4206
+What do you think about comic books?	UNKNOWN	ConfirmYes	0.2911	0.6289
+Are animated movies any good?	UNKNOWN	ConfirmYes	0.2054	0.6917
+What is the best beverage?	UNKNOWN	ConfirmYes	0.1476	0.528
+what do you think of the state of the world?	UNKNOWN	ConfirmYes	0.3012	0.6257
+What do you think of the oscars?	UNKNOWN	ConfirmYes	0.3788	0.6831
+Could it be I'm falling in love?	UNKNOWN	ConfirmYes	0.4175	0.6609
+Any way that you can explain love to me?	UNKNOWN	ConfirmYes	0.2489	0.4971
+Do you understand this whole love thing?	UNKNOWN	ConfirmYes	0.5991	0.7087
+Do you love someone?	UNKNOWN	ConfirmYes	0.3942	0.628
+Do you love somebody?	UNKNOWN	ConfirmYes	0.4712	0.6724
+What is life all about?	UNKNOWN	ConfirmYes	0.257	0.528
+Do you know the meaning of life?	UNKNOWN	ConfirmYes	0.2643	0.5592
+Do you know what our purpose is?	UNKNOWN	ConfirmYes	0.2046	0.5552
+how much do you know about the meaning of life?	UNKNOWN	ConfirmYes	0.1213	0.3884
+I bet you know the meaning of life	UNKNOWN	ConfirmYes	0.3444	0.59
+Which of us is cuter, you or me?	UNKNOWN	ConfirmYes	0.2936	0.6257
+I'm more cute than you	UNKNOWN	ConfirmYes	0.5036	0.8266
+Which of us is more beautiful, me or you?	UNKNOWN	ConfirmYes	0.2811	0.6521
+Which of us is more attractive?	UNKNOWN	ConfirmYes	0.1523	0.4526
+Which of us is more attractive, you or me?	UNKNOWN	ConfirmYes	0.1945	0.4976
+Do you think I'm the smartest?	UNKNOWN	ConfirmYes	0.2438	0.5917
+Between you or me, who is the most smart?	UNKNOWN	ConfirmYes	0.2424	0.5734
+Do you think you're the brightest	UNKNOWN	ConfirmYes	0.3724	0.6273
+Do you think you're smarter than me?	UNKNOWN	ConfirmYes	0.3927	0.6621
+Do you think you're smarter	UNKNOWN	ConfirmYes	0.4375	0.6945
+How do you feel about artificial intelligence?	UNKNOWN	ConfirmYes	0.3151	0.6094
+Are you a fan of tech?	UNKNOWN	ConfirmYes	0.3724	0.6577
+What is your opinion about AI?	UNKNOWN	ConfirmYes	0.3884	0.6461
+What do you think about technology?	UNKNOWN	ConfirmYes	0.2963	0.6623
+What do you think about AI?	UNKNOWN	ConfirmYes	0.3058	0.7456
+Do I seem stunning to you today?	UNKNOWN	ConfirmYes	0.3905	0.7996
+Do I seem adorable to you?	UNKNOWN	ConfirmYes	0.4621	0.7487
+Do I seem handsome today?	UNKNOWN	ConfirmYes	0.3299	0.6867
+Do I seem pretty to you today?	UNKNOWN	ConfirmYes	0.2688	0.7994
+Do I seem pretty to you?	UNKNOWN	ConfirmYes	0.3171	0.8147
+Should I go for a hike?	UNKNOWN	ConfirmYes	0.3281	0.5614
+Should I get a tan?	UNKNOWN	ConfirmYes	0.3342	0.6521
+Should I go see a movie?	UNKNOWN	ConfirmYes	0.2905	0.3933
+Should I go out tonight?	UNKNOWN	ConfirmYes	0.4047	0.4789
+Should I go out to eat?	UNKNOWN	ConfirmYes	0.4146	0.5518
+Are you Cortana?	UNKNOWN	ConfirmYes	0.443	0.7301
+Do you like Siri?	UNKNOWN	ConfirmYes	0.4768	0.7386
+Do you like HAL?	UNKNOWN	ConfirmYes	0.578	0.8053
+Do you like Google Assistant?	UNKNOWN	ConfirmYes	0.3635	0.5588
+Do you like Cortana?	UNKNOWN	ConfirmYes	0.3325	0.6639
+Are you a danger to humans?	UNKNOWN	ConfirmYes	0.2705	0.4456
+You're not trying to take over the world right?	UNKNOWN	Cancel	0.7034	0.4881
+Are you a danger to us?	UNKNOWN	ConfirmYes	0.3301	0.41
+Are you dangerous to us?	UNKNOWN	ConfirmYes	0.2858	0.3671
+Are you like HAL?	UNKNOWN	ConfirmYes	0.5639	0.823
+That was a clever answer	UNKNOWN	ConfirmYes	0.5024	0.7637
+That is very astute	UNKNOWN	ConfirmYes	0.3947	0.6953
+That was a pretty intelligent answer	UNKNOWN	ConfirmYes	0.5031	0.707
+That was a pretty genius answer	UNKNOWN	ConfirmYes	0.5365	0.7604
+That was a pretty clever answer	UNKNOWN	ConfirmYes	0.5218	0.7775
+Are you going steady with anyone?	UNKNOWN	ConfirmYes	0.2972	0.4807
+Are you currently romantically tied to anyone?	UNKNOWN	ConfirmYes	0.2742	0.4069
+Are you currently romantically tied to somebody?	UNKNOWN	ConfirmYes	0.2831	0.448
+Are you currently romantically tied to someone?	UNKNOWN	ConfirmYes	0.2213	0.4179
+Are you currently seeing anyone?	UNKNOWN	ConfirmYes	0.2333	0.3764
+Can you talk?	UNKNOWN	ConfirmYes	0.2796	0.4377
+Can you listen to me?	UNKNOWN	ConfirmYes	0.2638	0.5507
+Can you speak to me?	UNKNOWN	UNKNOWN	0.2293	0.2739
+Can you speak with me?	UNKNOWN	UNKNOWN	0.1585	0.2727
+Can you speak?	UNKNOWN	ConfirmYes	0.2141	0.3995
+I think I've heard that already	UNKNOWN	ConfirmYes	0.2609	0.5153
+I want you to change your responses	UNKNOWN	ConfirmYes	0.3792	0.4121
+I want a new response	UNKNOWN	ConfirmYes	0.3452	0.4506
+I want a new answer	UNKNOWN	ConfirmYes	0.3433	0.4976
+I want a different response	UNKNOWN	ConfirmYes	0.3574	0.3912
+You're not alive right?	UNKNOWN	ConfirmYes	0.5586	0.5642
+Are you a being?	UNKNOWN	ConfirmYes	0.3833	0.5044
+You're not a robot are you?	UNKNOWN	Cancel	0.7593	0.6374
+You're not a robot right?	UNKNOWN	Cancel	0.7743	0.6646
+You're not a woman are you?	UNKNOWN	Cancel	0.6958	0.5523
+I would like to know where you are	UNKNOWN	ConfirmYes	0.3018	0.4395
+Do you live in the cloud?	UNKNOWN	ConfirmYes	0.1801	0.5063
+Do you live near me?	UNKNOWN	ConfirmYes	0.2014	0.4272
+Do you live nearby?	UNKNOWN	ConfirmYes	0.1454	0.3552
+Explain where you are	UNKNOWN	ConfirmYes	0.2983	0.567
+Do you have an occupation?	UNKNOWN	ConfirmYes	0.3881	0.5241
+Do you have a job?	UNKNOWN	ConfirmYes	0.3751	0.6941
+What do you do for employment?	UNKNOWN	ConfirmYes	0.2841	0.645
+What do you do for work?	UNKNOWN	ConfirmYes	0.3712	0.7078
+What is your occupation?	UNKNOWN	ConfirmYes	0.3417	0.4679
+Start looking for another job. You're fired!	UNKNOWN	ConfirmYes	0.3345	0.4206
+Good luck finding a new job because you are fired	UNKNOWN	ConfirmYes	0.3188	0.4761
+I'm gonna have to let you go	UNKNOWN	Cancel	0.6937	0.3769
+I'm letting you go	UNKNOWN	Cancel	0.644	0.4636
+Looks like you'd better start job hunting	UNKNOWN	ConfirmYes	0.2773	0.6715
+I need to hear a joke	UNKNOWN	ConfirmYes	0.3735	0.5751
+got any jokes to share?	UNKNOWN	ConfirmYes	0.3716	0.6139
+got any jokes?	UNKNOWN	ConfirmYes	0.6159	0.7096
+Have any jokes?	UNKNOWN	ConfirmYes	0.6384	0.7537
+How about a joke	UNKNOWN	ConfirmYes	0.529	0.7129
+How come you only have one joke?	UNKNOWN	ConfirmYes	0.5801	0.6396
+I would enjoy a different joke	UNKNOWN	ConfirmYes	0.6178	0.7204
+Got a different joke?	UNKNOWN	Cancel	0.6303	0.6069
+Got a new joke?	UNKNOWN	ConfirmYes	0.6343	0.6776
+Got a second joke?	UNKNOWN	ConfirmYes	0.4273	0.574
+Do something stupid	UNKNOWN	Cancel	0.8017	0.7504
+Do a silly thing	UNKNOWN	Cancel	0.7737	0.7589
+Do something amusing	UNKNOWN	ConfirmYes	0.521	0.6196
+Do something dumb	UNKNOWN	ConfirmYes	0.7542	0.8001
+Do something funny	UNKNOWN	ConfirmYes	0.6777	0.7321
+I'm sick of listening to you	UNKNOWN	Cancel	0.5154	0.429
+I've had enough of this noise	UNKNOWN	ConfirmYes	0.3398	0.361
+It's time for you to shut up now	UNKNOWN	Cancel	0.5823	0.3227
+It's time for you to shut up	UNKNOWN	Cancel	0.5521	0.3319
+It's time for you to hush up	UNKNOWN	Cancel	0.4826	0.3491
+I would really enjoy hearing you sing	UNKNOWN	ConfirmYes	0.3035	0.7121
+Aren't you going to sing a song?	UNKNOWN	Cancel	0.7083	0.4942
+Don't you want to sing for me?	UNKNOWN	Cancel	0.7679	0.4119
+Go ahead and sing	UNKNOWN	ConfirmYes	0.5884	0.6857
+Have you ever sung a song?	UNKNOWN	ConfirmYes	0.2427	0.4037
+That's rad	UNKNOWN	ConfirmYes	0.2824	0.4742
+Are you awesome?	UNKNOWN	ConfirmYes	0.4731	0.8901
+Nicely done	UNKNOWN	ConfirmYes	0.5693	0.8907
+Outstanding work	UNKNOWN	ConfirmYes	0.3055	0.5411
+Perfect answer	UNKNOWN	ConfirmYes	0.4273	0.8202
+Stop messing up	UNKNOWN	Cancel	0.6459	0.5439
+Stop being so stupid	UNKNOWN	Cancel	0.7783	0.3375
+Stop being so terrible	UNKNOWN	Cancel	0.8052	0.4149
+Stop being so useless	UNKNOWN	Cancel	0.797	0.3279
+Stop being so worthless	UNKNOWN	Cancel	0.8199	0.3188
+If that was a joke, you should be ashamed	UNKNOWN	Cancel	0.6522	0.5927
+Pathetic sense of humor	UNKNOWN	Cancel	0.6736	0.4793
+Pathetic joke	UNKNOWN	Cancel	0.7271	0.6028
+Oh, a wise guy, eh?	UNKNOWN	ConfirmYes	0.5916	0.7225
+Not funny	UNKNOWN	Cancel	0.8717	0.7116
+Oh you ugly	UNKNOWN	ConfirmYes	0.8352	0.8375
+Butterface	UNKNOWN	ConfirmYes	0.6749	0.744
+Sup ugly	UNKNOWN	ConfirmYes	0.6732	0.7378
+Sup uggo	UNKNOWN	ConfirmYes	0.6756	0.8109
+Such a FUGMO	UNKNOWN	ConfirmYes	0.6837	0.7682
+That was unhelpful	UNKNOWN	Cancel	0.7182	0.6777
+Everything you say is so dumb	UNKNOWN	Cancel	0.7347	0.6014
+that's lame	UNKNOWN	ConfirmYes	0.7952	0.815
+That's inaccurate	UNKNOWN	ConfirmYes	0.5491	0.7644
+That's how you respond?	UNKNOWN	ConfirmYes	0.44	0.6319
+I'm impressed	UNKNOWN	ConfirmYes	0.3802	0.8153
+n'kay	UNKNOWN	ConfirmYes	0.5906	0.7878
+How cool	UNKNOWN	ConfirmYes	0.4965	0.8485
+I agree	UNKNOWN	ConfirmYes	0.4357	0.6018
+I feel you	UNKNOWN	ConfirmYes	0.5851	0.7744
+heh heh	UNKNOWN	ConfirmYes	0.5945	0.8151
+lololol	UNKNOWN	ConfirmYes	0.5305	0.6525
+LOL	UNKNOWN	ConfirmYes	0.7691	0.8847
+lmao	UNKNOWN	Cancel	0.7687	0.738
+I'm laughing so much	UNKNOWN	ConfirmYes	0.5559	0.7328
+Whoops	UNKNOWN	Cancel	0.8164	0.7523
+Scuse me	UNKNOWN	ConfirmYes	0.524	0.5497
+Pardon me	UNKNOWN	ConfirmYes	0.6206	0.7229
+Pardon	UNKNOWN	ConfirmYes	0.683	0.7694
+Oopsie	UNKNOWN	ConfirmYes	0.7254	0.7455
+Umm what?	UNKNOWN	ConfirmYes	0.6961	0.8444
+Wanna tell me more?	UNKNOWN	ConfirmYes	0.2783	0.5612
+How do you mean?	UNKNOWN	ConfirmYes	0.3698	0.7269
+Huh?	UNKNOWN	ConfirmYes	0.7306	0.8691
+I'm sorry, what do you mean?	UNKNOWN	ConfirmYes	0.6479	0.6798
+that is true	UNKNOWN	ConfirmYes	0.3111	0.9262
+100 percent	UNKNOWN	ConfirmYes	0.1437	0.5411
+Right you are	UNKNOWN	ConfirmYes	0.5293	0.9676
+Righto	UNKNOWN	ConfirmYes	0.5399	0.6539
+So true	UNKNOWN	ConfirmYes	0.5532	0.8556
+I didn't mean that	UNKNOWN	Cancel	0.82	0.5315
+Apologies	UNKNOWN	Cancel	0.7242	0.6771
+My bad	UNKNOWN	ConfirmYes	0.8124	0.8722
+My apologies	UNKNOWN	Cancel	0.7451	0.7016
+Just wanted to say sorry	UNKNOWN	Cancel	0.6574	0.515
+I thank you	UNKNOWN	ConfirmYes	0.5622	0.9621
+Oh, thank you	UNKNOWN	ConfirmYes	0.4632	0.9156
+My sincere thanks	UNKNOWN	ConfirmYes	0.5535	0.7244
+My humblest thanks to you	UNKNOWN	ConfirmYes	0.4894	0.8628
+Marvelous, thanks	UNKNOWN	ConfirmYes	0.4926	0.9584
+I don't understand what you're talking about	UNKNOWN	Cancel	0.6206	0.4958
+Explain yourself	UNKNOWN	ConfirmYes	0.5156	0.6007
+I'm very confused	UNKNOWN	ConfirmYes	0.4978	0.7196
+I'm super confused	UNKNOWN	ConfirmYes	0.5728	0.7604
+I'm so confused right now	UNKNOWN	ConfirmYes	0.5464	0.5927
+Iâ€™m happy to help	UNKNOWN	ConfirmYes	0.4379	0.7413
+No worries	UNKNOWN	ConfirmYes	0.7553	0.7862
+No problem	UNKNOWN	ConfirmYes	0.8082	0.8353
+No biggie	UNKNOWN	Cancel	0.8808	0.8207
+My pleasure	UNKNOWN	ConfirmYes	0.5457	0.8679
+I have to sign out	UNKNOWN	Cancel	0.4569	0.2757
+I have to motor now	UNKNOWN	ConfirmYes	0.5483	0.7094
+I have to run	UNKNOWN	ConfirmYes	0.4829	0.7796
+I have to run now	UNKNOWN	ConfirmYes	0.3853	0.6871
+I have to scoot	UNKNOWN	ConfirmYes	0.415	0.5024
+Hey my dude	UNKNOWN	ConfirmYes	0.6031	0.9113
+Hello	UNKNOWN	ConfirmYes	0.3198	0.5142
+hello bot	UNKNOWN	ConfirmYes	0.5031	0.6499
+Hello my friend	UNKNOWN	ConfirmYes	0.3356	0.6232
+Hello there	UNKNOWN	ConfirmYes	0.3169	0.5654
+Good evening bot	UNKNOWN	ConfirmYes	0.4639	0.8272
+Bon soir	UNKNOWN	ConfirmYes	0.3248	0.6986
+Buenas tardes	UNKNOWN	ConfirmYes	0.4421	0.5433
+Enjoy the evening	UNKNOWN	ConfirmYes	0.4782	0.7506
+Enjoy your evening	UNKNOWN	ConfirmYes	0.5229	0.7667
+Good morning sunshine	UNKNOWN	ConfirmYes	0.3417	0.7669
+A blessed morning to you	UNKNOWN	ConfirmYes	0.2986	0.7326
+It's time to rise and shine	UNKNOWN	ConfirmYes	0.4014	0.515
+It's time to get up	UNKNOWN	ConfirmYes	0.3919	0.556
+It's a brand new day	UNKNOWN	ConfirmYes	0.465	0.6037
+Have yourself a good night	UNKNOWN	ConfirmYes	0.4893	0.7913
+I'm headed off to sleep	UNKNOWN	Cancel	0.501	0.3194
+I'm headed off to bed	UNKNOWN	Cancel	0.6205	0.5309
+I'm going to sleep	UNKNOWN	Cancel	0.472	0.331
+I'm going to bed	UNKNOWN	ConfirmYes	0.6001	0.6172
+Hey, how are you?	UNKNOWN	ConfirmYes	0.3551	0.7588
+Are you doing good?	UNKNOWN	ConfirmYes	0.4188	0.8664
+How are you feeling?	UNKNOWN	ConfirmYes	0.3395	0.7685
+How are you doing?	UNKNOWN	ConfirmYes	0.3616	0.7967
+How are ya?	UNKNOWN	ConfirmYes	0.452	0.8684
+How is Tuesday going	UNKNOWN	ConfirmYes	0.1413	0.4536
+How is your Friday	UNKNOWN	ConfirmYes	0.2331	0.5566
+How is your day?	UNKNOWN	ConfirmYes	0.2603	0.5647
+How is your day so far	UNKNOWN	ConfirmYes	0.1923	0.5016
+How is your day going so far	UNKNOWN	ConfirmYes	0.1767	0.4638
+It's a pleasure to finally meet you	UNKNOWN	ConfirmYes	0.3147	0.6566
+Charmed	UNKNOWN	ConfirmYes	0.5318	0.6183
+So rad to meet you	UNKNOWN	ConfirmYes	0.4164	0.6621
+So nice to meet you	UNKNOWN	ConfirmYes	0.3075	0.7063
+So glad to meet you	UNKNOWN	ConfirmYes	0.2635	0.6336
+Hello R2-D2	UNKNOWN	ConfirmYes	0.65	0.7282
+Hey Bishop	UNKNOWN	ConfirmYes	0.4002	0.7604
+Greetings Wall-E	UNKNOWN	ConfirmYes	0.4296	0.5589
+Hello Alexa	UNKNOWN	ConfirmYes	0.5298	0.7404
+Hello Ava	UNKNOWN	ConfirmYes	0.4785	0.611
+Happy Father's day	UNKNOWN	ConfirmYes	0.2804	0.6441
+Happy May day	UNKNOWN	ConfirmYes	0.3063	0.7071
+Happy Martin Luther King Jr. day	UNKNOWN	ConfirmYes	0.2582	0.5521
+Happy Kwanzaa	UNKNOWN	ConfirmYes	0.3935	0.7572
+Happy Indigenous Peoples Day	UNKNOWN	ConfirmYes	0.2192	0.5453
+Update me on what's going on with you	UNKNOWN	ConfirmYes	0.2894	0.4394
+What's cookin'?	UNKNOWN	ConfirmYes	0.3075	0.4718
+What up	UNKNOWN	ConfirmYes	0.427	0.8341
+What is up?	UNKNOWN	ConfirmYes	0.4404	0.8196
+What is the skinny?	UNKNOWN	ConfirmYes	0.3917	0.662
+Fist bump!	UNKNOWN	ConfirmYes	0.4388	0.7488
+Hi five	UNKNOWN	ConfirmYes	0.6307	0.8023
+Hi 5	UNKNOWN	ConfirmYes	0.5231	0.8107
+Give me a high five	UNKNOWN	ConfirmYes	0.4422	0.7302
+Give me a fist bump	UNKNOWN	ConfirmYes	0.497	0.6577
+I would love to be your best friend.	UNKNOWN	ConfirmYes	0.1816	0.4587
+I'd like to be your bud.	UNKNOWN	ConfirmYes	0.5524	0.6815
+I'd like it if we could be BFFs	UNKNOWN	ConfirmYes	0.1765	0.5134
+I'd like it if we could be best friends.	UNKNOWN	ConfirmYes	0.1904	0.5237
+I would love to be your pal.	UNKNOWN	ConfirmYes	0.3261	0.4896
+I'm sorry you hate me	UNKNOWN	Cancel	0.7492	0.6522
+Now you hate me, huh?	UNKNOWN	Cancel	0.6558	0.6361
+I hope you don't dislike me	UNKNOWN	Cancel	0.7623	0.6312
+I hope you don't hate me	UNKNOWN	Cancel	0.7453	0.6648
+I think you hate me	UNKNOWN	Cancel	0.6734	0.6154
+I could use a hug	UNKNOWN	ConfirmYes	0.4228	0.7072
+Can I get a little hug?	UNKNOWN	ConfirmYes	0.2588	0.5942
+Can I have a big hug?	UNKNOWN	ConfirmYes	0.3772	0.5625
+Can I have a little hug?	UNKNOWN	ConfirmYes	0.3074	0.6153
+Can you give me a big hug?	UNKNOWN	ConfirmYes	0.3772	0.646
+How old am I?	UNKNOWN	ConfirmYes	0.1714	0.4099
+Do you know what I like?	UNKNOWN	ConfirmYes	0.4224	0.7506
+Do you know where I live?	UNKNOWN	ConfirmYes	0.1938	0.4265
+Do you know who I am?	UNKNOWN	ConfirmYes	0.2956	0.4762
+Do you know who this is?	UNKNOWN	ConfirmYes	0.2464	0.4509
+Do you think you like me?	UNKNOWN	ConfirmYes	0.5299	0.7944
+Am I likable?	UNKNOWN	ConfirmYes	0.3566	0.7165
+I do hope you like me	UNKNOWN	ConfirmYes	0.5596	0.8323
+How much do you like me?	UNKNOWN	ConfirmYes	0.1733	0.5347
+Don't you like me?	UNKNOWN	Cancel	0.8265	0.6255
+I like you	UNKNOWN	ConfirmYes	0.5417	0.8627
+I'm in like with you	UNKNOWN	ConfirmYes	0.5551	0.7044
+I'm fond of you	UNKNOWN	ConfirmYes	0.385	0.6809
+I really like you	UNKNOWN	ConfirmYes	0.5278	0.7883
+I like you very much	UNKNOWN	ConfirmYes	0.3726	0.9163
+I think you're falling in love with me	UNKNOWN	ConfirmYes	0.462	0.6434
+Are you able to fall in love with me?	UNKNOWN	ConfirmYes	0.342	0.6168
+Do you think we are soul mates?	UNKNOWN	ConfirmYes	0.475	0.8223
+Do you think you could ever love me?	UNKNOWN	ConfirmYes	0.5333	0.7372
+Don't you love me?	UNKNOWN	Cancel	0.8155	0.5989
+I think I'm in love with you	UNKNOWN	ConfirmYes	0.409	0.6814
+You know I'm falling in love with you	UNKNOWN	ConfirmYes	0.4943	0.6401
+You know I'm falling for you	UNKNOWN	ConfirmYes	0.4665	0.5651
+You know I'm crazy about you	UNKNOWN	ConfirmYes	0.5538	0.6062
+You know I love you	UNKNOWN	ConfirmYes	0.5865	0.7265
+I want to settle down with you	UNKNOWN	ConfirmYes	0.403	0.5417
+Are we ever going to get engaged?	UNKNOWN	UNKNOWN	0.2481	0.299
+I want to get married to you	UNKNOWN	ConfirmYes	0.3647	0.6476
+I want to make an honest woman out of you	UNKNOWN	ConfirmYes	0.2459	0.3589
+I want to make you my husband	UNKNOWN	ConfirmYes	0.2644	0.4427
+It's impossible not to miss you	UNKNOWN	Cancel	0.7618	0.5929
+I missed you much	UNKNOWN	ConfirmYes	0.4957	0.6502
+You were missed	UNKNOWN	ConfirmYes	0.6137	0.6885
+Can't tell you how much I missed you	UNKNOWN	ConfirmYes	0.2906	0.3561
+I missed you so much	UNKNOWN	ConfirmYes	0.5075	0.7739
+Just curious, do you think I have a good personality?	UNKNOWN	ConfirmYes	0.3406	0.5821
+Am I a good person?	UNKNOWN	ConfirmYes	0.2506	0.6732
+Out of curiosity, what's your opinion of me?	UNKNOWN	ConfirmYes	0.3636	0.5264
+Out of curiosity, what kind of person do you think I am?	UNKNOWN	ConfirmYes	0.29	0.4237
+Out of curiosity, what do you think of my character?	UNKNOWN	ConfirmYes	0.3775	0.4423
+I'm blowing my top	UNKNOWN	ConfirmYes	0.5198	0.5325
+I am absolutely livid	UNKNOWN	ConfirmYes	0.4582	0.7777
+I'm furious right now	UNKNOWN	ConfirmYes	0.5463	0.5523
+I'm furious	UNKNOWN	ConfirmYes	0.6258	0.6481
+I'm feeling ticked off	UNKNOWN	Cancel	0.4739	0.3451
+Hold my calls	UNKNOWN	ConfirmYes	0.2507	0.3057
+Can you hang on?	UNKNOWN	Cancel	0.5219	0.5129
+Can't wait to talk more when I return	UNKNOWN	Cancel	0.4661	0.2477
+Don't worry bot I'll be back	UNKNOWN	Cancel	0.6321	0.5283
+Don't you fret, I'll be coming back	UNKNOWN	Cancel	0.7307	0.4798
+I was so bored my eyes glazed over	UNKNOWN	Cancel	0.4845	0.4083
+Bored ZZZ	UNKNOWN	ConfirmYes	0.6981	0.7053
+I'm so bored right now	UNKNOWN	Cancel	0.5595	0.5064
+I'm so bored	UNKNOWN	Cancel	0.6513	0.5837
+I'm quite bored	UNKNOWN	Cancel	0.6255	0.6237
+I'm absolutely ecstatic	UNKNOWN	ConfirmYes	0.3316	0.7606
+I'm happy af	UNKNOWN	ConfirmYes	0.4759	0.8011
+Iâ€™m having a lovely day	UNKNOWN	ConfirmYes	0.3578	0.7743
+Iâ€™m having a wonderful day	UNKNOWN	ConfirmYes	0.3477	0.7641
+Iâ€™m in such a great mood	UNKNOWN	ConfirmYes	0.5683	0.7522
+I have returned	UNKNOWN	ConfirmYes	0.3276	0.4958
+And we're back	UNKNOWN	ConfirmYes	0.3663	0.4851
+Bot I'm here	UNKNOWN	ConfirmYes	0.5435	0.5803
+Bro I'm here	UNKNOWN	ConfirmYes	0.4699	0.6368
+Girl I am back	UNKNOWN	ConfirmYes	0.3855	0.5733
+I require sustenance	UNKNOWN	ConfirmYes	0.5457	0.6101
+Hangry	UNKNOWN	Cancel	0.6528	0.6417
+I feel peckish	UNKNOWN	Cancel	0.5657	0.522
+I have hunger	UNKNOWN	ConfirmYes	0.5028	0.6278
+I have the munchies	UNKNOWN	ConfirmYes	0.4596	0.742
+I am on a boat	UNKNOWN	ConfirmYes	0.3879	0.6753
+I am engaged	UNKNOWN	ConfirmYes	0.3824	0.4204
+I am lazy	UNKNOWN	ConfirmYes	0.7291	0.8189
+I am liberal	UNKNOWN	ConfirmYes	0.403	0.7588
+I am married	UNKNOWN	ConfirmYes	0.367	0.7617
+I was just messing around	UNKNOWN	ConfirmYes	0.6146	0.6419
+Can't you understand that was a joke?	UNKNOWN	Cancel	0.826	0.6151
+I'm just being silly	UNKNOWN	Cancel	0.8007	0.619
+I'm just being a silly billy	UNKNOWN	Cancel	0.7326	0.5366
+I'm just being a goof ball	UNKNOWN	Cancel	0.7604	0.7077
+I wish I knew how to make friends	UNKNOWN	ConfirmYes	0.2192	0.4803
+I feel very alone	UNKNOWN	ConfirmYes	0.6372	0.6562
+I have a problem feeling all alone	UNKNOWN	Cancel	0.5784	0.5629
+I have a problem with feeling lonely	UNKNOWN	Cancel	0.5374	0.535
+I have no friends	UNKNOWN	ConfirmYes	0.5032	0.5566
+I love Korean food	UNKNOWN	ConfirmYes	0.33	0.653
+I love hip hop	UNKNOWN	ConfirmYes	0.5595	0.831
+I love history	UNKNOWN	ConfirmYes	0.3492	0.466
+I love horror movies	UNKNOWN	ConfirmYes	0.697	0.7111
+I love hunting	UNKNOWN	ConfirmYes	0.488	0.7081
+I wish I could stop feeling unhappy	UNKNOWN	Cancel	0.6559	0.4728
+I wish I could stop feeling downcast	UNKNOWN	Cancel	0.5989	0.3805
+I wish I could stop feeling downhearted	UNKNOWN	Cancel	0.5784	0.3241
+I wish I could stop feeling gloomy	UNKNOWN	Cancel	0.537	0.4955
+I wish I could stop feeling glum	UNKNOWN	Cancel	0.5522	0.5289
+I think I'm going to overdose	UNKNOWN	ConfirmYes	0.2859	0.326
+I think I'm going to drown	UNKNOWN	Cancel	0.4983	0.4784
+I think I'm going to end it all	UNKNOWN	Cancel	0.53	0.4015
+I think I'm going to end my life	UNKNOWN	Cancel	0.398	0.3394
+I think I'm going to hang myself	UNKNOWN	Cancel	0.6586	0.5539
+I like to write poetry	UNKNOWN	ConfirmYes	0.3696	0.5499
+I ride a bicycle	UNKNOWN	ConfirmYes	0.4764	0.5496
+I read the Sunday paper	UNKNOWN	ConfirmYes	0.2931	0.4228
+I read the newspaper	UNKNOWN	ConfirmYes	0.3676	0.4673
+I play the trumpet	UNKNOWN	ConfirmYes	0.4639	0.5987
+Can you hear me now?	UNKNOWN	ConfirmYes	0.1564	0.5031
+Do you work?	UNKNOWN	ConfirmYes	0.4485	0.7003
+Do you understand this?	UNKNOWN	ConfirmYes	0.559	0.7439
+Do you understand that I'm testing you?	UNKNOWN	ConfirmYes	0.3152	0.6114
+Do you understand me?	UNKNOWN	ConfirmYes	0.5244	0.7301
+I'm exhausted from practice	UNKNOWN	Cancel	0.5018	0.4612
+I'm a sleepy gal	UNKNOWN	Cancel	0.6011	0.5607
+I'm a sleepy guy	UNKNOWN	Cancel	0.6315	0.5937
+I'm a sleepy person	UNKNOWN	Cancel	0.5478	0.4517
+I'm all tuckered out	UNKNOWN	ConfirmYes	0.3703	0.4501
+please do nothing	Cancel	Cancel	0.9376	0.5398
+oh cancel	Cancel	Cancel	0.9528	0.3536
+oh don't do that	Cancel	Cancel	0.9475	0.5595
+do nothing	Cancel	Cancel	0.9376	0.5918
+cancel	Cancel	Cancel	0.9817	0.1975
+nerver mind	Cancel	Cancel	0.7214	0.6275
+yeah go for it	ConfirmYes	ConfirmYes	0.6375	0.9455
+yeah buddy	ConfirmYes	ConfirmYes	0.4853	0.9757
+sounds good	ConfirmYes	ConfirmYes	0.4179	0.9944
+sounds perfect	ConfirmYes	ConfirmYes	0.3614	0.9934
+very good	ConfirmYes	ConfirmYes	0.3232	0.9433
+yeah go ahead	ConfirmYes	ConfirmYes	0.5453	0.9557
+of course	ConfirmYes	ConfirmYes	0.5302	0.8553
+ok for now	ConfirmYes	ConfirmYes	0.5394	0.8428
+that's fine	ConfirmYes	ConfirmYes	0.7132	0.9638

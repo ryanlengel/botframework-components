@@ -1,0 +1,19 @@
+view my todos	_Interruption	_Interruption	0.3433	0.7955
+delete off pancake mix on the shopping list	_Interruption	_Interruption	0.1659	0.8468
+delete task go to cinema tonight	_Interruption	_Interruption	0.1277	0.949
+i need to see my todo list	_Interruption	_Interruption	0.3944	0.9141
+delete to do that go hiking tomorrow	_Interruption	_Interruption	0.1648	0.8861
+can you please show my todos?	_Interruption	_Interruption	0.3954	0.8263
+delete shampoo from shopping list	_Interruption	_Interruption	0.1604	0.9126
+delete the item buy socks from my todo list	_Interruption	_Interruption	0.3838	0.8716
+remove another one	_Interruption	_Interruption	0.1309	0.6263
+erase bananas from shopping list	_Interruption	_Interruption	0.1526	0.903
+remove class from todo list	_Interruption	_Interruption	0.2602	0.8863
+remove black shoes from shopping list	_Interruption	_Interruption	0.2091	0.8867
+flag first one as done	_Interruption	_Interruption	0.2102	0.4318
+erase peanuts on the shopping list	_Interruption	_Interruption	0.1723	0.8805
+please remind me to buy milk	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.3899	0.3402
+add due date august to peanut butter jelly bread milk on todos list	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.4479	0.1703
+please remember that i need to buy milk	ExpectedResponse_AddItem	_Interruption	0.4333	0.4595
+add an task of chores to do around the house	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6232	0.2913
+add reading to my to do list	ExpectedResponse_AddItem	ExpectedResponse_AddItem	0.6302	0.3459

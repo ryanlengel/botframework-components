@@ -1,0 +1,2361 @@
+[
+    {
+        "text": "accept my meeting at 7pm today",
+        "intents": [
+            "AcceptEventEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "attend the lunch meeting at 10:30 am.",
+        "intents": [
+            "AcceptEventEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "accept the appointment sent by lucas",
+        "intents": [
+            "AcceptEventEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "accept the event",
+        "intents": [
+            "AcceptEventEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add mohamed to the meeting",
+        "intents": [
+            "AddCalendarEntryAttribute"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please add eileen to the meeting invite.",
+        "intents": [
+            "AddCalendarEntryAttribute"
+        ],
+        "entities": []
+    },
+    {
+        "text": "can you ask jane to attend the meeting?",
+        "intents": [
+            "AddCalendarEntryAttribute"
+        ],
+        "entities": []
+    },
+    {
+        "text": "patrick, i wish to invite you to the next meeting.",
+        "intents": [
+            "AddCalendarEntryAttribute"
+        ],
+        "entities": []
+    },
+    {
+        "text": "invite john malkovich to the meeting.",
+        "intents": [
+            "AddCalendarEntryAttribute"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add lisa",
+        "intents": [
+            "AddCalendarEntryAttribute"
+        ],
+        "entities": []
+    },
+    {
+        "text": "stop checking it",
+        "intents": [
+            "CancelCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i don't want to join it",
+        "intents": [
+            "CancelCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "quit the changing",
+        "intents": [
+            "CancelCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change an appointment",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change time",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change 4pm lunch appointment",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change developmental agenda for lunch tomorrow",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change lunch appt to 2",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change recital to start half an hour earlier",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change my 3pm event to 4pm",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change marathon training from 8:00am to 1:00pm",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "move my 10pm meeting to 9pm",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "move my 9pm meeting to 8pm",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change my vacation from ending on friday to monday",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change meeting from 2-3pm to 4-5pm today",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "move my meeting to 6pm from 7pm",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "update my next appointment",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change my schedule",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "reschedule my interview on monday to 1 pm",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change my 8 till 9 appointment to 11 till 12",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change the title of my 11am appointment to soccer practice",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change meeting from 2pm-3pm to 4pm-5pm today",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delay the next meeting by 30 minutes",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "change the time",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "make next meeting to start 1 hour later",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "update my calendar from 2 pm to 4 pm today",
+        "intents": [
+            "ChangeCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is room 63 available tomorrow 4pm",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "can i reserve the meeting room that's free on the 21st floor?",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is rebecca busy thursday at 4",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is madison busy",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is russell free on friday at 4pm",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "see if meeting room 3 available tuesday at 11:30 for the meeting.",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when does ellen have time to attend the meeting for business review",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i was wondering if you have a meeting room available in your atlantic building for the 4th of december?",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "tell me if kamino is open at 11:00am.",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "am i free on monday at 9 pm",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please check and see if meeting room 2 is available at 12 tomorrow.",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is there a meeting room on the 5th floor currently available to reserve?",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when am i free",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "can i reserve a room in building 5 for a meeting?",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is saturday free",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "am i free",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is gerald busy this weekend",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is debra available on saturday",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is raymond free on monday evening",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i would like to reserve a ground floor conference room in the delta building, is there one available?",
+        "intents": [
+            "CheckAvailability"
+        ],
+        "entities": []
+    },
+    {
+        "text": "connect me to marketing meeting",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "call into meeting",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "join next meeting on link",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "join current budget conf call",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "call the morning breifing conference number",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "join the budget meeting conference call",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "join budget conference call",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "get me on the conference call",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "call conference call",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "call the weekly marketing meeting",
+        "intents": [
+            "ConnectToMeeting"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please remind the attendee that i am running late",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please alert those attending the meeting that i am running a few minutes late",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "remind all attendees of tomorrow ' s lunch that we have changed the venue",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please notify george that i will be late for the meeting",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "notify people of meeting on tue that it will begin 15-30 min later",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please inform joshua that i will be late for our meeting today",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please alert 3 o ' clock meeting attendees",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "notify friday's 2 pm that we are cancelling the meeting",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "new location for meeting this afternoon let others attendees know meeting is now in room 100",
+        "intents": [
+            "ContactMeetingAttendees"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book a meeting between 2 and 3 tomorrow",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add office party on march 8th from 6 p to 9 p",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "new calendar event",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add chicago bulls versus washington wizards to my calendar tomorrow at seven pm",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule an appointment with mom",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add dinner to personal calendar",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a buisness lunch for my department at campus restaurant on wednesday at 11 30 am",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add pay pearl fees on my calendar tomorrow",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule an event on the calendar",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i would like to book a meeting in the hitchcock building on the 23rd floor.",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please create a meeting from 2 to 3",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "put dance on my calendar from 6 to 7",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule an appointment for my mom",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "create a meeting with tom34@outlook.com",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a lunch date with mom every tuesday at noon for the next 5 weeks",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "put swimming tomorrow",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a doctor s office appointment for march 12th",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule an appointment on october 31st",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book a meeting in guangzhou at 6am on march 5th",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add choreography to my family calendar",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a meeting for this friday 11 am",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule an appointment on my calendar",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule an appointment from june 18th to june 20th",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a meeting tomorrow",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule appointment yearly check up friday march one 10 am one hour",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "make me an appointment for next weekend",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add doctors appointment on march 13 at 2 pm at the original health clinic",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add doctors appointment on march 13 at 2 pm at the tiptop virginia beach clinic",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule holiday for the thirty first of july",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "put captains in my calendar for saturday evening",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a dental appointment tomorrow afternoon at five thirty pm",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule mechanics exam at 12 pm on friday",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a dinner for tonight at 8 pm",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "new appointment tomorrow at 3 pm at sunken",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add vacation to my calendar from july 4th until july 29th",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule wanda s graduation for saturday at 11 o clock",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "put doctor s appointment in my calendar for 5 forty next thursday",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a meeting",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "create a meeting for tomorrow 6pm with lucy chen",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "on saturday at 7 thirty p m",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "new appointment for tomorrow",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "add work to calendar thursday 8 30 am",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book a meeting between 2:30pm and 4:45pm tomorrow",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "meeting with morrison sun at 2 pm saturday",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule an appointment for me tomorrow at 3 am",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "put work on my calendar tomorrow from 8 30 to 5 30",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "set up an appointment with tom",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "schedule a soccer game for next friday",
+        "intents": [
+            "CreateCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete my schedule",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "delete the appointment with jeffrey",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel all events",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel appointment",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "clear all the appointments from my calendar for today",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel event",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel meeting with bob marlon 3pm today",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel appointment today",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "clear my schedule today",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel today ' s appointment",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel the event",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel that appointment",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "clear all my appointments",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "cancel appointments",
+        "intents": [
+            "DeleteCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "tell me about my sunday schedule",
+        "intents": [
+            "FindCalendarDetail"
+        ],
+        "entities": []
+    },
+    {
+        "text": "detail about tomorrow's meeting",
+        "intents": [
+            "FindCalendarDetail"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need you to provide me the details of the meeting i have scheduled with my colleague amanda",
+        "intents": [
+            "FindCalendarDetail"
+        ],
+        "entities": []
+    },
+    {
+        "text": "give me details of the next appointment",
+        "intents": [
+            "FindCalendarDetail"
+        ],
+        "entities": []
+    },
+    {
+        "text": "calendar for today",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what is the schedule before that",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "find the meeting around 2 to 6pm",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what ' s my 1st meeting tomorrow",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "find the meeting around 5 to 8 pm",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "show me the meeting with paul",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what ' s my next appointment",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "find a meeting with title sharing from steven",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "show me the calendar at night",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what have i got on tomorrow",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what ' s on my schedule today",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what ' s next on my calendar",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "find a meeting from donna",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "show me the meeting about online session",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what do i have from 2 to 4 on saturday",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what are my meetings at night",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "check my mom's schedule",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "search the meeting with title employee orientation",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what is next in calendar",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what are my appointments for this week",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "find me the meetings at 6",
+        "intents": [
+            "FindCalendarEntry"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what time is my mobile devices exam tomorrow",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when ' s my 1st appointment tomorrow",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when is sports day for the girls",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when is my next trip to new york",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when is my 1st meeting tomorrow",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when is my physio",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when do i meet with charles",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "when am i watching england",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what time is my meeting today",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what time is my first meeting tomorrow",
+        "intents": [
+            "FindCalendarWhen"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what the place of the weekly meeting",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "where is my next appointment",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "where am i going tonight",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what is the location of next meeting",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "where is my dentist appointment",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "show me the place of the work smart training",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "where is meeting with shirley",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "where does my meeting take place",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "where is my eleven o'clock meeting",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "where ' s my meeting",
+        "intents": [
+            "FindCalendarWhere"
+        ],
+        "entities": []
+    },
+    {
+        "text": "who will attend the meeting at 4",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "will nicholas be attending the management meeting",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "who is participating tomorrow at 2 pm meeting",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "who do i have next",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is victoria participating next meeting",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "2 pm meeting tomorrow - who else is going",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "who is going to tomorrow ' s meeting",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "who all will be present at the next 5 meetings",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "will nancy be at the morning briefing meeting",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "will george be in the hr meeting at 1 o' clock",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is joe going to be at the next meeting",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "who is my morning meeting with",
+        "intents": [
+            "FindCalendarWho"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how long is the movie jurassic world",
+        "intents": [
+            "FindDuration"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how long is the event",
+        "intents": [
+            "FindDuration"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much time will i have to pick up groceries",
+        "intents": [
+            "FindDuration"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much time between schedule thursday meetings next week",
+        "intents": [
+            "FindDuration"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is it going to last long",
+        "intents": [
+            "FindDuration"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much time do i have to take back the movie",
+        "intents": [
+            "FindDuration"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i want book a room at the second floor",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "booking all room on forth floor for annual meeting",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "reserve enterprise for a meeting",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the comfort room 569",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "try the floor 23",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "reserve the room tattooine between 3 and 5",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need to reserve the room 2-a at pensilvania hotel",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "the room book 21",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room 210 at the southern ocean lodge",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book a room hotel sun sai 103 for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "reserve the tatooine meeting room on the 2nd floor.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room waldorf ha/b5",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "can i send to reserve the big room 4?",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "organize a meeting in the gandhi room in the 3rd floor on the greenpark hotel",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "we want to reserve the second floor in the main building for our meeting room",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book senior room juldertu town for tonight",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the auditorium #2042 for tomorrow morning",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room redmond town f4/432 this morning",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the valencia town, p8/8566",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please validate reservation of the double cabin and individual cabin for friday",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "try buillding bjw2",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room redmond town b2/2240",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "a new meeting location find one",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room ocean breeze 2/222 at san felice hotel, please.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i wish to book a meeting room at the london building for january the 9th at 1pm",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room hellena b7/2234 this afternoon",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please book room 2345 on the top floor of the hotel.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "try room jupyter",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room turne f20",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book for me for tomorrow the room number 25",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i want to book conference room 2.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book presidential room",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf room bs8 this afternoon",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i wish to reserve a room at the second floor, preferable 12 or 13 room since they have a view towards the jp bank",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i want to book a room with a view",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the confirm bjw 3/65 for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "reserve room 258 now",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room this",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book this room",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room florida town b5/1388",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the confirm room in hotal mayuri 2nd floor for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "what meet rooms do i have",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need to book a meeting room on the 2nd floor with a projector in it",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room 6b with two beds",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please book room gemini at 2 pm",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room number sixty one of rearches hotel please",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "we require a room on the fifth floor in the men hotel.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf room city madrid g67 for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how about room 2213",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i want to book a room in hotel pacific 102 for 1 hour.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room 2164 for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf room suzhou a28 please",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room 3, red suite for tomorrow",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "the room",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf rm mariner/233",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please book lotus room 101 for tonight.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is this room busy at 5 pm",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i want to book room 3",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "is there a room available on building 1",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book conf room city center/2228 (6) for claudio reinosa",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room in the mastranto place 21 in the morning",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room redmond town a2/1223",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please reserve meeting room hoth on floor 10 of the london building for friday afternoon.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need to reserve the room number 243 at the ritz hotel",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i have a meeting. please book a room in the aladdin hotel",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i'd like to book room 45, instead of room 66.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i want to book room 2",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "help me to book meeting room at 3rd floor",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf rm cjp 3-9 will you",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room 3",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book one family room for monday next week",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i would like to reserve meeting room excalibur on the first floor of the alfred building",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "try floor 2",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room 88 for honeymoon",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book kamino tomorrow",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i'm looking for a conference room",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book presidential room this night",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please book pars room 178 for me.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i hope will go back to steve first floor room",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conference room city start 123 this noon",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book a room for all the next week in the zeus hotel",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "the bed was durty, i will never take a room on ben",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf rm bjw 2/88 for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room 2 for this afternoon",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book conf room sunzing p33 now",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "good morning, could you reserve the conf rm zoshou f84 room for three days?",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the lecta(12) room for this monday",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book to the write room 43",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room 2",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "please reserve a meeting room on the 3rd floor of terman tower.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "my booking was made for imperial room on top floor",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf rm chels x3233",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book for me suit room for 4 persons",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "do you have a room available at 3pm in city center",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the confirm room royal centre 8/421 for us",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the conf rm tom 4 for my yak",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the presidential room 789 for today",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room 14b in first flooor",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room 17 now",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need room 1001 booked for one week.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room g4/445",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need a double room number 44 or 46 in radisson on the 3d floor.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i'd like to reserve a hotel room 677 as i've booked already.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "am goin to work tomorrow on another state, i need to book a room in johan street",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room luna a1/04",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need to reserve the room 345 at the tamanaco hotel",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book room b10 at le bristol",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book a room in the building 8 b23",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i want to reserve gandhi at 6pm",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book this book room room",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need to book a room in the euro building c3 at night",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book excalibur please",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i need to reserve the bespin meeting room.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "must be part of the sentence",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "locate another meeting location",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the mting rm/mt1 for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book conference hall for board meeting",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the wedding room 125 now",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room plaza 789 next weak.",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "book the room 2456 for me",
+        "intents": [
+            "FindMeetingRoom"
+        ],
+        "entities": []
+    },
+    {
+        "text": "2",
+        "intents": [
+            "UNKNOWN"
+        ],
+        "entities": []
+    },
+    {
+        "text": "not this conference room, please change",
+        "intents": [
+            "RejectCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "i'm not available next monday afternoon",
+        "intents": [
+            "RejectCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "not him",
+        "intents": [
+            "RejectCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "nope",
+        "intents": [
+            "RejectCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "not this time",
+        "intents": [
+            "RejectCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "no",
+        "intents": [
+            "RejectCalendar"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much longer do i have before pick up mary from school",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "show time before next appointment",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much time before my next appointment",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how many hours left till the closing ceremony",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how many days till april",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much time do i have before my next meeting",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much longer until my next appointment",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much longer do i have until pick up john from school",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much longer until my next meeting",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    },
+    {
+        "text": "how much time do i have before my next appointment",
+        "intents": [
+            "TimeRemaining"
+        ],
+        "entities": []
+    }
+]
