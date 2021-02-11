@@ -4,11 +4,11 @@ steps:
 - task: CopyFiles@2
   displayName: 'Copy packages to Signing'
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)'
+    SourceFolder: '$(Build.StagingDirectory)'
     Contents: |
-     \outputpackages\*.nupkg
-     \outputpackages\*.snupkg
-     !\outputpackages\*.symbols.nupkg
+     outputpackages\*.nupkg
+     outputpackages\*.snupkg
+     !outputpackages\*.symbols.nupkg
     TargetFolder: '$(Build.ArtifactStagingDirectory)\Signing'
     flattenFolders: true
 
