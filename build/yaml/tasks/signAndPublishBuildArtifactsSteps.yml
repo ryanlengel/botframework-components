@@ -1,0 +1,32 @@
+# Move files to signing directory, sign, and push to build artifacts
+
+steps:
+- task: CopyFiles@2
+  displayName: 'Copy packages to Signing'
+  inputs:
+    SourceFolder: '$(build.sourcesdirectory)'
+    Contents: |
+     outputpackages\*.nupkg
+     outputpackages\*.snupkg
+     !outputpackages\*.symbols.nupkg
+    TargetFolder: '$(Build.ArtifactStagingDirectory)\Signing'
+    flattenFolders: true
+
+- task: PowerShell@2
+  displayName: 'Unpack .nuget packages'
+  inputs:
+    targetType: filePath
+    filePath: ./build/ExtractCompressNuGet.ps1
+    arguments: '$(Build.ArtifactStagingDirectory)\Signing  -Extract'
+
+- script: |
+   cd ..
+   dir 
+  displayName: 'Dir workspace'
+
+- task: PowerShell@2
+  displayName: 'Repack .nuget packages'
+  inputs:
+    targetType: filePath
+    filePath: ./build/ExtractCompressNuGet.ps1
+    arguments: '$(Build.ArtifactStagingDirectory)\Signing -Compress'
