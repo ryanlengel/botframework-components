@@ -19,11 +19,6 @@ steps:
     filePath: ./build/ExtractCompressNuGet.ps1
     arguments: '$(Build.ArtifactStagingDirectory)\Signing  -Extract'
 
-- script: |
-   cd ..
-   dir -s
-  displayName: 'Dir workspace'
-
 - task: PowerShell@2
   displayName: 'Repack .nuget packages'
   inputs:
