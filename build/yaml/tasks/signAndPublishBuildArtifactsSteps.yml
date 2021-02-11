@@ -21,7 +21,7 @@ steps:
 
 - script: |
    cd ..
-   dir 
+   dir -s
   displayName: 'Dir workspace'
 
 - task: PowerShell@2
