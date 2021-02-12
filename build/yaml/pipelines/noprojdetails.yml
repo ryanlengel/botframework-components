@@ -1,0 +1,24 @@
+name: $(Build.DefinitionName)-$(SourceBranchName)-$(Date:yyyyMMdd)$(Rev:.r)
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - bug/*
+      - main
+      - preview/*
+  paths:
+    include:
+      - packages/NoProjDetails
+
+pool: 
+  vmImage: 'windows-2019'
+  
+extends:
+  template: ../templates/component-template.yml
+  parameters:
+      componentType: codeExtension
+
+variables:
+  WorkingDirectory: 'packages/NoProjDetails'
+  BuildConfiguration: 'Release'
