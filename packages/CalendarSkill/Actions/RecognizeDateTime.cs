@@ -1,16 +1,13 @@
 ﻿using AdaptiveExpressions.Properties;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.TraceExtensions;
-using Microsoft.Recognizers.Text.DataTypes.TimexExpression;
+using Microsoft.Bot.Component.MsGraph;
 using Microsoft.Recognizers.Text.DateTime;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using TimeZoneConverter;
 
 namespace Microsoft.Bot.Component.CalendarSkill.Actions
 {
@@ -45,8 +42,9 @@ namespace Microsoft.Bot.Component.CalendarSkill.Actions
             var dcState = dc.State;
             var queryProperty = QueryProperty.GetValue(dcState);
             var timeZoneProperty = TimeZoneProperty.GetValue(dcState);
+            var timeZone = MsGraphUtils.ConvertTimeZoneFormat(timeZoneProperty);
             var culture = GetCulture(dc);
-            var timeZoneNow = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TZConvert.GetTimeZoneInfo(timeZoneProperty));
+            var timeZoneNow = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, timeZone);
 
             var results = DateTimeRecognizer.RecognizeDateTime(queryProperty, culture, refTime: timeZoneNow);
 
