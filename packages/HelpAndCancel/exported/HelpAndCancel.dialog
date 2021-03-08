@@ -19,11 +19,12 @@
       "intent": "Help",
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "htpWFB"
+            "id": "ikac0U"
           },
-          "activity": "${SendActivity_htpWFB()}"
+          "activityProcessed": true,
+          "dialog": "Help"
         }
       ]
     },
@@ -36,18 +37,12 @@
       "intent": "Cancel",
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "JybSbg"
+            "id": "v08Uj7"
           },
-          "activity": "${SendActivity_JybSbg()}"
-        },
-        {
-          "$kind": "Microsoft.CancelAllDialogs",
-          "$designer": {
-            "id": "95G5c6"
-          },
-          "activityProcessed": true
+          "activityProcessed": true,
+          "dialog": "Cancel"
         }
       ]
     }
