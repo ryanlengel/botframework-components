@@ -2,9 +2,9 @@
 // Licensed under the MIT License.
 
 'use strict';
-const Generator = require('yeoman-generator');
+const BotGenerator = require('@microsoft/generator-microsoft-bot-adaptive/generators/app/botGenerator');
 
-module.exports = class extends Generator {
+module.exports = class extends BotGenerator {
   constructor(args, opts) {
     super(args, opts);
 
@@ -23,6 +23,9 @@ module.exports = class extends Generator {
   }
   
   writing() {
+    const filePaths = this.selectTemplateFilePaths('**', '*');
+    this.log('File Paths: ' + filePaths.join(', '));
+
     this.fs.copyTpl(
       this.templatePath(),
       this.destinationPath(this.options.botName),

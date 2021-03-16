@@ -1,7 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-const Generator = require('yeoman-generator');
+'use strict';
+const BotGenerator = require('./botGenerator.js');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const xml2js = require('xml2js');
@@ -17,7 +18,7 @@ const PLATFORM_PYTHON = 'python';
 const PROJECT_TYPEID_WEBAPP = '9A19103F-16F7-4668-BE54-9A1E7A4F7556';
 const PROJECT_TYPEID_FUNCTION = 'FAE04EC0-301F-11D3-BF4B-00C04F79EFBC';
 
-module.exports = class extends Generator {
+module.exports = class extends BotGenerator {
     constructor(args, opts) {
         super(args, opts);
 
