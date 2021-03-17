@@ -1,10 +1,22 @@
-# SendActivity_wStAtd()
+[import](common.lg)
+
+# SendActivity_crw0fF()
+[Activity
+    Text = ${SendActivity_crw0fF_text()}
+]
+
+# SendActivity_crw0fF_text()
 - Welcome back! How can I help you today?
 - Hello again! What can I help with?
 - Good to see you again. What do you want to do today?
 - Hey, there! Let's get started.
 - Hello again! How can I help?
-# SendActivity_S1JyrT()
+# SendActivity_il4Gfl()
+[Activity
+    Text = ${SendActivity_il4Gfl_text()}
+]
+
+# SendActivity_il4Gfl_text()
 - Hi there! I'm here to help you out.
 - Hi, I can help you out today.
 - Hello! I'm ready to help you out today.

@@ -10,7 +10,7 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <projectUrl>https://github.com/Microsoft/botframework-components</projectUrl>
         <releaseNotes>First version of welcome package</releaseNotes>
-        <description>Dialogs to provide a Welcome experience for new and returning users</description>
+        <description>Dialog to provide a Welcome experience for new and returning users</description>
         <tags>bf-component conversationalcore welcome preview</tags>
         <dependencies>
             <dependency id="Microsoft.Bot.Builder.Integration.Runtime" version="4.12.1-preview" />
