@@ -17,16 +17,68 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.BeginDialog",
+          "$kind": "Microsoft.IfCondition",
           "$designer": {
-            "id": "17pomb"
+            "id": "d0TydA"
           },
-          "activityProcessed": true,
-          "dialog": "FindPersonDialog",
-          "options": {
-            "nameEntity": "=$nameEntity"
+          "condition": "=not(exists($UserFound))",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.TraceActivity",
+              "$designer": {
+                "id": "FTKDFL"
+              },
+              "name": "UserFound",
+              "label": "UserId",
+              "valueType": "string",
+              "value": "=$UserFound"
+            },
+            {
+              "$kind": "Microsoft.Graph.User.GetUserProfile",
+              "$designer": {
+                "id": "51g002"
+              },
+              "resultProperty": "$UserFound",
+              "token": "=user.token.token",
+              "userId": "=$UserFound"
+            }
+          ],
+          "actions": [
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "ZPh1Ww"
+              },
+              "activityProcessed": true,
+              "dialog": "FindPersonDialog",
+              "options": {
+                "nameEntity": "=$nameEntity"
+              },
+              "resultProperty": "$UserFound"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "0vENgn"
           },
-          "resultProperty": "$UserToSearchFor"
+          "condition": "=exists($UserFound)",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "P6fqO4"
+              },
+              "activity": "${SendActivity_P6fqO4()}"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "xcr8th"
+              }
+            }
+          ]
         },
         {
           "$kind": "Microsoft.TraceActivity",
@@ -45,7 +97,7 @@
           },
           "resultProperty": "$Result",
           "token": "=user.token.token",
-          "userId": "=$UserToSearchFor.Id",
+          "userId": "=$UserFound.Id",
           "maxCount": 15
         },
         {
@@ -57,7 +109,7 @@
           "dialog": "UserListDialog",
           "options": {
             "UserList": "=$Result",
-            "User": "=$UserToSearchFor",
+            "User": "=$UserFound",
             "Scenario": "DirectReports",
             "AutoChooseFirst": "false"
           },

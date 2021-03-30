@@ -2,34 +2,37 @@
 // Licensed under the MIT License.
 
 'use strict';
-const Generator = require('yeoman-generator');
 
-module.exports = class extends Generator {
-  constructor(args, opts) {
-    super(args, opts);
+const {
+  BaseGenerator,
+  platforms,
+} = require('@microsoft/generator-bot-adaptive');
 
-    this.argument('botName', { type: String, required: true });
-  }
+const packageReferences = {
+  [platforms.dotnet]: [
+    {
+      name: 'Microsoft.Bot.Components.HelpAndCancel',
+      version: '1.0.0-preview.20210324.6dfb4a1',
+    },
+  ],
+  [platforms.js]: [
+    { name: '@microsoft/bot-components-helpandcancel', version: 'latest' },
+  ],
+};
 
+module.exports = class extends BaseGenerator {
   initializing() {
     this.composeWith(
-      require.resolve('@microsoft/generator-microsoft-bot-adaptive/generators/app'),
-      {
+      require.resolve('@microsoft/generator-bot-adaptive/generators/app'),
+      Object.assign(this.options, {
         arguments: this.args,
-        packageReferences: [],
         applicationSettingsDirectory: 'settings',
-        includeApplicationSettings: false   
-      }
+        packageReferences: packageReferences[this.options.platform],
+      })
     );
   }
-  
+
   writing() {
-    this.fs.copyTpl(
-      this.templatePath(),
-      this.destinationPath(this.options.botName),
-      {
-          botName: this.options.botName
-      }
-    );
+    this._copyBotTemplateFiles();
   }
 };

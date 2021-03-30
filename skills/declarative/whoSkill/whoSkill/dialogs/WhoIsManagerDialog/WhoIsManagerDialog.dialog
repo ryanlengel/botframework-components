@@ -46,8 +46,39 @@
               "label": "UserId",
               "valueType": "String",
               "value": "=$UserFound"
+            },
+            {
+              "$kind": "Microsoft.Graph.User.GetUserProfile",
+              "$designer": {
+                "id": "x2KpKw"
+              },
+              "resultProperty": "$UserFound",
+              "token": "=user.token.token",
+              "userId": "=$UserFound"
             }
           ]
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "cxCimf"
+          },
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "PbEMRW"
+              },
+              "activity": "${SendActivity_PbEMRW()}"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "5XsnT5"
+              }
+            }
+          ],
+          "condition": "=exists($UserFound)"
         },
         {
           "$kind": "Microsoft.TraceActivity",

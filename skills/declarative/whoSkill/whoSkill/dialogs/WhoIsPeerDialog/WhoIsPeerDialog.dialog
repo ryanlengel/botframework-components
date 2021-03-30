@@ -30,6 +30,15 @@
               },
               "name": "UserAlreadyProvided",
               "value": "=$UserFound"
+            },
+            {
+              "$kind": "Microsoft.Graph.User.GetUserProfile",
+              "$designer": {
+                "id": "1kYUiQ"
+              },
+              "resultProperty": "$UserFound",
+              "token": "=user.token.token",
+              "userId": "=$UserFound"
             }
           ],
           "actions": [
@@ -43,6 +52,28 @@
               "resultProperty": "$UserFound",
               "options": {
                 "nameEntity": "=$nameEntity"
+              }
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "qBDQhh"
+          },
+          "condition": "=exists($UserFound)",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "9JCLK1"
+              },
+              "activity": "${SendActivity_9JCLK1()}"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "rnko0k"
               }
             }
           ]
