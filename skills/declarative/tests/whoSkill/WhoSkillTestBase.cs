@@ -6,14 +6,11 @@ namespace Microsoft.Bot.Dialogs.Tests.WhoSkill
     using Microsoft.Bot.Builder;
     using Microsoft.Bot.Components.Graph;
     using Microsoft.Bot.Dialogs.Tests.Common;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Graph;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
     using System;
     using System.Collections.Generic;
-    using System.IO;
     using System.Linq;
     using System.Net.Http;
     using System.Threading;
