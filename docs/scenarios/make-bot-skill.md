@@ -17,5 +17,6 @@
 - keep same LG keywords
 - Go to bot settings
 - make sure the skills -> allowedCallers's value is ["*"]
+- add App id & PW to parent
 - start parent
 - send parent the message to connect to the skill
