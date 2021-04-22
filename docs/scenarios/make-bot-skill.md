@@ -15,5 +15,7 @@
 - from design view click add -> connect to a remote skill
 - enter manifest url saved earlier
 - keep same LG keywords
+- Go to bot settings
+- make sure the skills -> allowedCallers's value is ["*"]
 - start parent
 - send parent the message to connect to the skill
