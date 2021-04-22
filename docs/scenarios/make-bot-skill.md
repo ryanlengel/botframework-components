@@ -8,6 +8,7 @@
 
 ## Scenario 2: I have a local bot and I want to use a remote skill
 - Create, provision, and deploy a bot
+- Make sure the skill also has the skill endpoint configured after deployment
 - In the design window click the 3 dots -> share as skill
 - Fill out forms
 - go back to the publish window and click the "copy skill manifest url" -> save this for later
