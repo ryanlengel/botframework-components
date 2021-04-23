@@ -8,7 +8,7 @@
 - Test and should work
 
 
-## Scenario 1: I want to use skills locally via intent recognition 
+## Scenario 2: I want to use skills locally via intent recognition 
 - Make 2 bots via the templates
 - In the parent, in the designer -> add -> open existing skill
 - Add app IDs & Passwords to parent and skill
@@ -16,7 +16,7 @@
 - Start bots
 - Test and should work
 
-## Scenario 2: I have a local bot and I want to use a remote skill
+## Scenario 3: I have a local bot and I want to use a remote skill
 - Create, provision, and deploy a bot
 - Make sure the skill also has the skill endpoint configured after deployment
 - In the design window click the 3 dots -> share as skill
