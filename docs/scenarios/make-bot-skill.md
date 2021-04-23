@@ -1,4 +1,14 @@
-## Scenario 1: I want to use skills locally
+## Scenario 1: I want to use skills locally and force the connection to the skill
+- Make 2 bots via the templates
+- In the parent, in the designer -> add -> open existing skill
+- Add app IDs & Passwords to parent and skill
+- Update parent manifest to allow all callers
+- Have the parent manually connect to the skill
+- Start bots
+- Test and should work
+
+
+## Scenario 1: I want to use skills locally via intent recognition 
 - Make 2 bots via the templates
 - In the parent, in the designer -> add -> open existing skill
 - Add app IDs & Passwords to parent and skill
