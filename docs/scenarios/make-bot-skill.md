@@ -1,4 +1,4 @@
-## Scenario 1: I want to use skills locally and force the connection to the skill
+## Scenario 1: I want a local bot and I want to connect to a local skill via manual connection to the skill
 - Make 2 bots via the templates
 - In the parent, in the designer -> add -> open existing skill
 - Add app IDs & Passwords to parent and skill
@@ -8,7 +8,7 @@
 - Test and should work
 
 
-## Scenario 2: I want to use skills locally via intent recognition 
+## Scenario 2: I want a local bot and I want to connect to a local skill via intent recognition wiring
 - Make 2 bots via the templates
 - In the parent, in the designer -> add -> open existing skill
 - Add app IDs & Passwords to parent and skill
@@ -16,7 +16,7 @@
 - Start bots
 - Test and should work
 
-## Scenario 3: I have a local bot and I want to use a remote skill
+## Scenario 3: I want a local bot and I want to connect to a remote skill via manual connection to the skill
 - Create, provision, and deploy a bot
 - Make sure the skill also has the skill endpoint configured after deployment
 - In the design window click the 3 dots -> share as skill
@@ -31,3 +31,9 @@
 - add App id & PW to parent
 - start parent
 - send parent the message to connect to the skill
+
+## Scenario 4: I want a local bot and I want to connect to a remote skill via intent recognition
+
+## Scenario 5: I want a deployed bot and I want to connect to a remote skill via manual wiring
+
+## Scenario 6: I want a deployed bot and I want to connect to a remote skill via intent recognition
