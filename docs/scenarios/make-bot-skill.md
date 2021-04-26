@@ -22,6 +22,7 @@
 
 | Date | Test Result| Issues|
 |:-----|:-----------|:------|
+|4/26 | Pass |  |
 
 ## Scenario 3: I want a local bot and I want to connect to a remote skill via manual connection to the skill
 - Create, provision, and deploy a bot
