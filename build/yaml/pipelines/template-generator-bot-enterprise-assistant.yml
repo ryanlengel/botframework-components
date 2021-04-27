@@ -39,7 +39,7 @@ stages:
           displayName: 'Run test script'
           inputs:
             targetType: 'filePath'
-            filePath: '.\BotGeneratorTests.ps1'
+            filePath: 'BotGeneratorTests.ps1'
             arguments: '-RepoRootPath "$(Build.SourcesDirectory)"'
             workingDirectory: '$(Build.SourcesDirectory)\build'
 
