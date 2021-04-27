@@ -43,6 +43,7 @@ stages:
             npm install globby
             npm install normalize-path
             npm install uuid
+            npm install rimraf
 
             yo $(Build.SourcesDirectory)\$(WorkingDirectory) $(TemplateName) --platform $scenario.Platform --integration $scenario.Integration 
           displayName: 'Build template'
