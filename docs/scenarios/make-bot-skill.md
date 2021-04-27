@@ -168,7 +168,7 @@
 
 | Date | Test Result| Issues|
 |:-----|:-----------|:------|
-|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) | 
+|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) [2](https://github.com/microsoft/BotFramework-Composer/issues/7433)| 
 
 
 ## Scenario 2: I want a function local bot and I want to connect to a local function skill via intent recognition wiring
@@ -176,7 +176,7 @@
 
 | Date | Test Result| Issues|
 |:-----|:-----------|:------|
-|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) | 
+|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) [2](https://github.com/microsoft/BotFramework-Composer/issues/7433)| 
 
 
 ## Scenario 3: I want a function app bot and I want to connect to a remote function skill via intent recognition
@@ -184,13 +184,13 @@
 
 | Date | Test Result| Issues|
 |:-----|:-----------|:------|
-|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) | 
+|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) [2](https://github.com/microsoft/BotFramework-Composer/issues/7433)| 
 
 ## Scenario 5: I want a deployed function  bot and I want to connect to a remote function  skill via intent recognition
 
 | Date | Test Result| Issues|
 |:-----|:-----------|:------|
-|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) | 
+|4/27| **Blocked** | [1](https://github.com/microsoft/BotFramework-Composer/issues/7343) [2](https://github.com/microsoft/BotFramework-Composer/issues/7433)| 
 
 ## Scenario 6: I want a deployed function bot and I want to connect to a remote skill chaining with function via intent recognition 
 | Date | Test Result| Issues|
