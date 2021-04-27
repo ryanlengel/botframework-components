@@ -35,8 +35,9 @@ stages:
             version: 3.1.x
 
         # Run the script to see what is going on
-        - powershell: |
-            .\BotGeneratorTests.ps1 -RepoRootPath "$(Build.SourcesDirectory)"
+        - powershell:
+          targetType: filePath
+          filePath: .\BotGeneratorTests.ps1 -RepoRootPath "$(Build.SourcesDirectory)"
           displayName: 'Run test script'
           workingDirectory: '$(Build.SourcesDirectory)\build'
 
