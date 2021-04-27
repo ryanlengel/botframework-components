@@ -18,6 +18,7 @@
 - Add app IDs & Passwords to parent and skill
 - Update parent manifest to allow all callers
 - Start bots
+- Will need ngrok for skill host endpoint
 - Test and should work
 
 | Date | Test Result| Issues|
