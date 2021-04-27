@@ -1,0 +1,39 @@
+name: $(Build.BuildId)
+trigger: none  # ci trigger is set in ADO
+pr: none # pr trigger is set in ADO
+
+pool: 
+  vmImage: $[ coalesce( variables['VMImage'], 'windows-2019' ) ] # or 'windows-latest' or 'vs2017-win2016'
+
+
+stages:
+  - stage: stage_build_node
+    displayName: 'Node: Build'
+    jobs:
+      - job: job_build_npm
+        displayName: Build Node project
+        steps:
+        - task: NodeTool@0
+          displayName: 'Install Node 14.x'
+          inputs:
+            versionSpec: '14.x'
+
+        - script: |
+            yarn --immutable
+          displayName: 'Install dependencies'
+          workingDirectory: '$(WorkingDirectory)'
+
+        - script: |
+            cd ..
+            dir *.* /s
+            displayName: 'Dir workspace'
+            continueOnError: true
+            condition: succeededOrFailed()
+
+variables:
+  ComponentType: generator
+  DeploymentRing: preview
+  # DeploymentRingOverride: # set in ADO
+  # PublishPackageArtifacts: # set in ADO
+  # ReleaseCandidateNumber: # set in ADO
+  WorkingDirectory: generators/generator-bot-enterprise-calendar
