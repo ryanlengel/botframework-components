@@ -61,31 +61,31 @@ function TestGenerator
 			$targetPath = Join-Path $TestCase.Name $scenario.Platform $scenario.Integration
 			if (-not (Test-Path -Path $targetPath))
 			{
-				New-Item -ItemType Directory -Force -Path $targetPath 1> $null
+				New-Item -ItemType Directory -Force -Path $targetPath 
 			}
 			
 			$children = Get-ChildItem -Path $targetPath -Include *.* -File -Recurse
 			foreach ($child in $children)
 			{
-				$child.Delete() 1> $null
+				$child.Delete() 
 			}
 			
 			Set-Location -Path $targetPath
 			
-			yo $generatorPath $TestCase.Name --platform $scenario.Platform --integration $scenario.Integration *> $null
+			yo $generatorPath $TestCase.Name --platform $scenario.Platform --integration $scenario.Integration 
 			
 			switch ($scenario.Platform)
 			{
 				"dotnet"
 				{
-					dotnet build 1> $null
+					dotnet build 
 					break
 				}
 				
 				"js"
 				{
 					Set-Location -Path $TestCase.Name
-					npm install 1> $null
+					npm install 
 					break
 				}
 			}
