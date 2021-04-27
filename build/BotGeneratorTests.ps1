@@ -33,6 +33,8 @@ function TestGenerator
 	$Integrations
 )
 {	
+	Write-Host "RootPath $(RepoRootPath)"
+
 	$originalPath = (Get-Location).Path
 	$generatorPath = Join-Path $RepoRootPath $TestCase.Path "generators\app"
 	
@@ -53,9 +55,6 @@ function TestGenerator
 		try
 		{
 			$targetPath = Join-Path $TestCase.Name $scenario.Platform $scenario.Integration
-			
-			Write-Host $targetPath
-
 			if (-not (Test-Path -Path $targetPath))
 			{
 				New-Item -ItemType Directory -Force -Path $targetPath 1> $null
@@ -69,22 +68,20 @@ function TestGenerator
 			
 			Set-Location -Path $targetPath
 			
-			Write-host "yo $generatorPath $($TestCase.Name) --platform $($scenario.Platform) --integration $($scenario.Integration)"
-
-			yo $generatorPath $TestCase.Name --platform $scenario.Platform --integration $scenario.Integration #*> $null
+			yo $generatorPath $TestCase.Name --platform $scenario.Platform --integration $scenario.Integration *> $null
 			
 			switch ($scenario.Platform)
 			{
 				"dotnet"
 				{
-					dotnet build 
+					dotnet build 1> $null
 					break
 				}
 				
 				"js"
 				{
 					Set-Location -Path $TestCase.Name
-					npm install 
+					npm install 1> $null
 					break
 				}
 			}
