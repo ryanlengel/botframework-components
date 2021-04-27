@@ -36,7 +36,7 @@ stages:
 
         # Run the script to see what is going on
         - powershell: |
-            ./build/BotGeneratorTests.ps1 -RepoRootPath ./
+            ./build/BotGeneratorTests.ps1 -RepoRootPath "$(Build.SourcesDirectory)"
           displayName: 'Run test script'
 
         # Perhaps debugging output for the workspace?
