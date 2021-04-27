@@ -37,7 +37,10 @@ function TestGenerator
 	Write-Host "TestCasePath $($TestCase.Path)"
 
 	$originalPath = (Get-Location).Path
-	$generatorPath = Join-Path $RepoRootPath $TestCase.Path "generators\app"
+
+	# PS7 isn't on ADO yet it seems
+	$generatorPath = Join-Path $RepoRootPath $TestCase.Path 
+	$generatorPath = Join-Path $generatorPath "generators\app"
 	
 	foreach ($scenario in $TestCase.scenarios)
 	{
