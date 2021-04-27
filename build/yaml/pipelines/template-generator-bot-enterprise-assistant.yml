@@ -35,13 +35,9 @@ stages:
             version: 3.1.x
 
         # Run the script to see what is going on
-        - task: PowerShell@2
-          displayName: 'Run test script'
-          inputs:
-            targetType: 'filePath'
-            filePath: 'build\BotGeneratorTests.ps1'
-            arguments: '-RepoRootPath "$(Build.SourcesDirectory)"'
-            workingDirectory: '$(Build.SourcesDirectory)\build'
+        - script: |
+            yo $(Build.SourcesDirectory)\$(WorkingDirectory) $(TemplateName) --platform $scenario.Platform --integration $scenario.Integration 
+          displayName: 'Build template'
 
         # Perhaps debugging output for the workspace?
         - script: |
@@ -58,3 +54,4 @@ variables:
   # PublishPackageArtifacts: # set in ADO
   # ReleaseCandidateNumber: # set in ADO
   WorkingDirectory: generators/generator-bot-enterprise-calendar
+  TemplateName: Calendar
