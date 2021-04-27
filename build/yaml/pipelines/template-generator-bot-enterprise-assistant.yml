@@ -45,6 +45,8 @@ stages:
             npm install uuid
             npm install rimraf
 
+            cd $(TemplateName)\$(Platform)\$(Integration)
+
             yo $(Build.SourcesDirectory)\$(WorkingDirectory) $(TemplateName) --platform $scenario.Platform --integration $scenario.Integration 
           displayName: 'Build template'
 
@@ -64,3 +66,5 @@ variables:
   # ReleaseCandidateNumber: # set in ADO
   WorkingDirectory: generators/generator-bot-enterprise-calendar
   TemplateName: Calendar
+  Platform: dotnet
+  Integration: webapp
