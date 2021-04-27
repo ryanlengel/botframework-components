@@ -24,18 +24,26 @@ stages:
           workingDirectory: '$(WorkingDirectory)'
 
         # Install .NET Core
-        - task: UseDotNet@2
-          displayName: 'Use .Net Core sdk 2.1.x'
-          inputs:
-            version: 2.1.x
+        #- task: UseDotNet@2
+        #  displayName: 'Use .Net Core sdk 2.1.x'
+        #  inputs:
+        #    version: 2.1.x
 
-        - task: UseDotNet@2
-          displayName: 'Use .Net Core sdk 3.1.x'
-          inputs:
-            version: 3.1.x
+        #- task: UseDotNet@2
+        #  displayName: 'Use .Net Core sdk 3.1.x'
+        #  inputs:
+        #    version: 3.1.x
 
         # Run the script to see what is going on
         - script: |
+            npm install yo
+            npm install runtypes
+            npm install xml2js
+            npm install yeoman-generator
+            npm install globby
+            npm install normalize-path
+            npm install uuid
+
             yo $(Build.SourcesDirectory)\$(WorkingDirectory) $(TemplateName) --platform $scenario.Platform --integration $scenario.Integration 
           displayName: 'Build template'
 
