@@ -34,6 +34,7 @@ function TestGenerator
 )
 {	
 	Write-Host "RootPath $($RepoRootPath)"
+	Write-Host "TestCasePath $($TestCase.Path)"
 
 	$originalPath = (Get-Location).Path
 	$generatorPath = Join-Path $RepoRootPath $TestCase.Path "generators\app"
