@@ -26,9 +26,9 @@ stages:
         - script: |
             cd ..
             dir *.* /s
-            displayName: 'Dir workspace'
-            continueOnError: true
-            condition: succeededOrFailed()
+          displayName: 'Dir workspace'
+          continueOnError: true
+          condition: succeededOrFailed()
 
 variables:
   ComponentType: generator
