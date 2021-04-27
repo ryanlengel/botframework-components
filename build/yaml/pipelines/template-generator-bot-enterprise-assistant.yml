@@ -38,7 +38,7 @@ stages:
         - task: PowerShell@2
           displayName: 'Run test script'
           inputs:
-            targetType: 'fileType'
+            targetType: 'filePath'
             filePath: '.\BotGeneratorTests.ps1'
             arguments: '-RepoRootPath "$(Build.SourcesDirectory)"'
             workingDirectory: '$(Build.SourcesDirectory)\build'
