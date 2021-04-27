@@ -35,9 +35,9 @@ stages:
             version: 3.1.x
 
         # Run the script to see what is going on
-        - task: RunTestScript@0
         - powershell: |
             ./build/BotGeneratorTests.ps1 -RepoRootPath ./
+          displayName: 'Run test script'
 
         # Perhaps debugging output for the workspace?
         - script: |
