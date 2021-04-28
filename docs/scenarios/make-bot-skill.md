@@ -88,7 +88,7 @@
 
 | Date | Test Result| Issues|
 |:-----|:-----------|:------|
-
+|4/27|Fail|[1](https://github.com/microsoft/BotFramework-Composer/issues/7439)|
 
 # Node Webapp scenarios
 ## Scenario 1: I want a local web app bot and I want to connect to a local web app  skill via manual connection to the skill
