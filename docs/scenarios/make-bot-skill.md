@@ -1,8 +1,3 @@
-# Miscellanous Bugs
-| Date | Test Result|
-|:-----|:-----------|
-|4/28|[1](https://github.com/microsoft/BotFramework-Composer/issues/7456)|
-
 # Dotnet Webapp scenarios
 ## Scenario 1: I want a local web app bot and I want to connect to a local web app skill
 
